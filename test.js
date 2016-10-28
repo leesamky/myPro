@@ -371,7 +371,7 @@ function sendData(){
 
 }
 
-
+//hahanew
 
 
 casper.run(getData)
