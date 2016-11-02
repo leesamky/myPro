@@ -3,10 +3,10 @@ var app=express()
 var teamInfo=require('server/db/model').teamInfo
 var _=require('lodash')
 var links=[]
-for(let i=1;i<=100;i++){
+for(let i=1;i<=1000;i++){
     links.push(i)
 }
-links=_.chunk(links,10)
+links=_.chunk(links,50)
 
 app.get('/teamList',function(req,res){
     "use strict";
