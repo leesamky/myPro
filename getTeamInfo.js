@@ -119,9 +119,26 @@ function getData(){
         this.run(getData)
 
     }else{
-        this.echo('All Done')
-        this.exit()
+        this.echo('The list is Empty.')
+        getList.call(this)
+
     }
+}
+
+function getList(){
+    "use strict";
+    this.then(function(){
+        console.log('now getting list from server.')
+        teamIds['list']=this.evaluate(function(server_list){
+            return JSON.parse(__utils__.sendAJAX(server_list,'GET',null,false))
+        },server_list)
+        if(_.isEmpty(teamIds['list'])){
+            this.echo('No list on the server, now quit the thread')
+            this.exit(0)
+        }else{
+            console.log('Totally: '+teamIds['list'].length)
+        }
+    })
 }
 
 var server_list='http://localhost:8080/teamInfo/teamList'
@@ -137,13 +154,8 @@ casper.then(function(){
     "use strict";
     if(_.isEmpty(teamIds['list'])){
 
-        console.log('no list on the server')
-        for (var i=1;i<=9385;i++){
-            teamIds['list'].push(i)
-        }
-        console.log(teamIds['list'])
-    }else{
-        console.log('get list from server. Totally '+teamIds['list'].length)
+        console.log('no list on the server,now quit the thread at startup')
+        this.exit(0)
     }
 })
 //hahanew
