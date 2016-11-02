@@ -90,7 +90,6 @@ function sendData(teamId){
         }else{
             data['teamId']=teamId
         }
-        data['Ids']=teamIds['list']
         this.evaluate(function(server,data){
             // data=JSON.parse(data)
             return JSON.parse(__utils__.sendAJAX(server,'POST',data,false,{
@@ -108,7 +107,7 @@ function getData(){
 
     "use strict";
 
-    // console.log('page cost:'+(Date.now()-t).toString())
+    console.log('page cost:'+(Date.now()-t).toString())
     t=Date.now()
     data={}
 
@@ -121,6 +120,7 @@ function getData(){
     }else{
         this.echo('The list is Empty.')
         getList.call(this)
+        this.run(getData)
 
     }
 }
@@ -136,7 +136,7 @@ function getList(){
             this.echo('No list on the server, now quit the thread')
             this.exit(0)
         }else{
-            console.log('Totally: '+teamIds['list'].length)
+            console.log('Get new data,Totally: '+teamIds['list'].length)
         }
     })
 }
