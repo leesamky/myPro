@@ -97,7 +97,7 @@ function BypassMain(casper,requestData,request){
 
 
 var today={'matches':[]}
-var server='http://localhost:8080/todo'
+var server='http://localhost:8080/todayMatch'
 casper.start().then(function(){
     "use strict";
     this.echo('starting')
@@ -175,8 +175,8 @@ function getData(){
         getMatchInfo.apply(this,[url[2],2])
 
         bothMatches.call(this,url[3])
-        outputData.call(this)
-        // sendData.call(this)
+        // outputData.call(this)
+        sendData.call(this)
         this.run(getData)
     }else{
         this.echo('All Done')
@@ -235,14 +235,14 @@ function getMatchInfo(link,num){
 
                 temp['date'] = $(this).find('td.td_time').text()
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
-                temp['homeTeam']=homeTeam[4]
+                temp['homeId']=homeTeam[4]
                 var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
-                temp['awayTeam']=awayTeam[4]
+                temp['awayId']=awayTeam[4]
                 var score = _.map(_.words($(this).find('td').eq(3).text()),_.parseInt)
-                temp['homeTeamFullTime']=score[0]
-                temp['awayTeamFullTime']=score[1]
-                temp['homeTeamHalfTime']=score[2]
-                temp['awayTeamHalfTime']=score[3]
+                temp['homeFullTime']=score[0]
+                temp['awayFullTime']=score[1]
+                temp['homeFirstHalf']=score[2]
+                temp['awayFirstHalf']=score[3]
 
                 data[past].push(temp)
             });
@@ -258,9 +258,9 @@ function getMatchInfo(link,num){
 
                 temp['date'] = $(this).find('td.td_time').text()
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
-                temp['homeTeam']=homeTeam[4]
+                temp['home']=homeTeam[4]
                 var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
-                temp['awayTeam']=awayTeam[4]
+                temp['away']=awayTeam[4]
 
                 data[future].push(temp)
             })
@@ -311,17 +311,17 @@ function bothMatches(url){
                 var str=_.words($(this).find('td').eq(2).text())
 
                 if(str.length===6){
-                    temp['homeTeamRank']=str[0]
-                    temp['homeTeam']=str[1]
-                    temp['homeTeamFullTime']=str[2]
-                    temp['awayTeamFullTime']=str[3]
-                    temp['awayTeam']=str[4]
-                    temp['awayTeamRank']=str[5]
+                    temp['homeRank']=str[0]
+                    temp['home']=str[1]
+                    temp['homeFullTime']=str[2]
+                    temp['awayFullTime']=str[3]
+                    temp['away']=str[4]
+                    temp['awayRank']=str[5]
                 }else{
-                    temp['homeTeam']=str[0]
-                    temp['homeTeamFullTime']=str[1]
-                    temp['awayTeamFullTime']=str[2]
-                    temp['awayTeam']=str[3]
+                    temp['home']=str[0]
+                    temp['homeFullTime']=str[1]
+                    temp['awayFullTime']=str[2]
+                    temp['away']=str[3]
                 }
                 data['bothMatches'].push(temp)
             })

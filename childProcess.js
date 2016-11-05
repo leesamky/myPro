@@ -2,7 +2,7 @@
 
 console.log('start')
 
-for (let i=0;i<20;i++){
+for (let i=0;i<6;i++){
     getData()
 }
 
