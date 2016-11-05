@@ -198,7 +198,7 @@ function getTeamInfo(link,num){
 
         var team=link.split('/')
 
-        data[name]['teamId']=team[team.length-2]
+        data[name]['teamId']=parseInt(team[team.length-2])
         data = this.evaluate(function(data,name) {
             var temp={}
             data=JSON.parse(data)
@@ -231,13 +231,13 @@ function getMatchInfo(link,num){
                 }
                 temp['match'] = $(this).find('td').eq(0).find('a').text()
 
-                temp['matchId'] = $(this).attr('id')
+                temp['matchId'] = parseInt($(this).attr('id'))
 
                 temp['date'] = $(this).find('td.td_time').text()
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
-                temp['homeId']=homeTeam[4]
+                temp['homeId']=parseInt(homeTeam[4])
                 var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
-                temp['awayId']=awayTeam[4]
+                temp['awayId']=parseInt(awayTeam[4])
                 var score = _.map(_.words($(this).find('td').eq(3).text()),_.parseInt)
                 temp['homeFullTime']=score[0]
                 temp['awayFullTime']=score[1]
@@ -254,7 +254,7 @@ function getMatchInfo(link,num){
                 if(_.isEmpty(temp['match'])){
                     return
                 }
-                temp['matchId'] = $(this).attr('id')
+                temp['matchId'] = parseInt($(this).attr('id'))
 
                 temp['date'] = $(this).find('td.td_time').text()
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
