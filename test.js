@@ -258,9 +258,9 @@ function getMatchInfo(link,num){
 
                 temp['date'] = $(this).find('td.td_time').text()
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
-                temp['home']=homeTeam[4]
+                temp['home']=parseInt(homeTeam[4])
                 var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
-                temp['away']=awayTeam[4]
+                temp['away']=parseInt(awayTeam[4])
 
                 data[future].push(temp)
             })
@@ -278,7 +278,7 @@ function bothMatches(url){
     "use strict";
 
     this.thenOpen(url).then(function(){
-        this.capture('temp.png')
+
         data = this.evaluate(function(data) {
             data=JSON.parse(data)
 

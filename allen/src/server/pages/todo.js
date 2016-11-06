@@ -3,11 +3,15 @@ var app=express()
 var teamInfo=require('server/db/model').teamInfo
 var _=require('lodash')
 var links=[]
-for(let i=1;i<=9999;i++){
-    links.push(i)
-}
 
-links=_.chunk(links,100)
+var name
+teamInfo.find({'teamId':1})
+    .exec(function(error,results){
+        "use strict";
+        if(error){console.log(error)}
+        else{name=results}
+    })
+
 
 app.get('/teamList',function(req,res){
     "use strict";
@@ -21,11 +25,12 @@ app.get('/teamList',function(req,res){
 
 app.get('/',function(req,res){
     "use strict";
-    teamInfo.find()
-        .exec(function(error,results){
-            if(error){console.log(error)}
-            else{res.send(results)}
-        })
+    // teamInfo.find()
+    //     .exec(function(error,results){
+    //         if(error){console.log(error)}
+    //         else{res.send(results)}
+    //     })
+    res.send(name)
 })
 
 app.post('/',function(req,res){

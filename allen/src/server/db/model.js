@@ -1,7 +1,7 @@
 var mongoose=require('mongoose')
 var Schema=mongoose.Schema
 
-mongoose.connect('mongodb://localhost/temp')
+mongoose.connect('mongodb://localhost/teamInfo')
 
 var teamInfoSchema=Schema({
     en_name:String,

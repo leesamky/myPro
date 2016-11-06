@@ -2,9 +2,7 @@ var express=require('express')
 var app=express()
 var teamInfo=require('server/db/model').teamInfo
 var _=require('lodash')
-var links=[]
-
-
+var dataToStore=require('server/data/dataToStore.js')
 
 //
 // app.get('/teamList',function(req,res){
@@ -27,12 +25,14 @@ app.get('/',function(req,res){
     res.send([])
 })
 
+
+
 app.post('/',function(req,res){
     "use strict";
 
     res.send('success')
-    var data=req.body
-    console.log(JSON.stringify(data))
+    var data=req.body['awayPastMatches'][0]
+    dataToStore(data)
     // teamInfo.create(data,function(error,results){
     //     if(error){console.log(error)}
     //     else{console.log(results)}
