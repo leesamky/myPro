@@ -3,7 +3,7 @@ var app=express()
 var teamInfo=require('server/db/model').teamInfo
 var _=require('lodash')
 var dataToStore=require('server/data/dataToStore.js')
-
+var match=require('server/data/matchInfo.js')
 //
 // app.get('/teamList',function(req,res){
 //     "use strict";
@@ -31,8 +31,17 @@ app.post('/',function(req,res){
     "use strict";
 
     res.send('success')
-    var data=req.body['awayPastMatches'][0]
-    dataToStore(data)
+
+    _.forEach(req.body['awayPastMatches'],function(match){
+        dataToStore(match)
+    })
+
+    _.forEach(req.body['homePastMatches'],function(match){
+        dataToStore(match)
+    })
+
+    // var d2=new match(d1,d1.awayId)
+    // console.log(JSON.stringify(d2))
     // teamInfo.create(data,function(error,results){
     //     if(error){console.log(error)}
     //     else{console.log(results)}

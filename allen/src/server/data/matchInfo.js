@@ -1,19 +1,29 @@
-function Match(obj){
+var _=require('lodash')
+function Match(obj,id){
     "use strict";
+
     this.homeTeam=obj.home;
     this.awayTeam=obj.away;
+    var omit,team
+    if(id===obj.homeId){
+        omit=this.awayTeam
+        team=this.homeTeam
+    }else{
+        omit=this.homeTeam
+        team=this.awayTeam
+    }
 
-    this[this.homeTeam+'FullTime']=obj.homeFulltime
-    this[this.awayTeam+'FullTime']=obj.awayFulltime
+
+    this[this.homeTeam+'FullTime']=obj.homeFullTime
+    this[this.awayTeam+'FullTime']=obj.awayFullTime
     this[this.homeTeam+'FirstHalf']=obj.homeFirstHalf
     this[this.awayTeam+'FirstHalf']=obj.awayFirstHalf
     this[this.homeTeam+'SecondHalf']=obj.homeSecondHalf
     this[this.awayTeam+'SecondHalf']=obj.awaySecondHalf
-
-    if(obj.homeFulltime>obj.awayFulltime){                                               //match result
+    if(obj.homeFullTime>obj.awayFullTime){                                               //match result
         this[this.homeTeam+'WinsTheMatch']=true
         this[this.awayTeam+'LosesTheMatch']=true
-    }else if(obj.homeFulltime===obj.awayFulltime){
+    }else if(obj.homeFullTime===obj.awayFullTime){
         this[this.homeTeam+'TiesTheMatch']=true
         this[this.awayTeam+'TiesTheMatch']=true
     }else{
@@ -32,12 +42,12 @@ function Match(obj){
         this[this.awayTeam+'WinsFirstHalf']=true
     }
 
-    if(obj.homeFulltime>obj.awayFulltime){                                           //Full Time Double Chance
+    if(obj.homeFullTime>obj.awayFullTime){                                           //Full Time Double Chance
         this[this.homeTeam+'WinsOrTiesTheMatch']=true
         this[this.homeTeam+'WinsOrLosesTheMatch']=true
         this[this.awayTeam+'TiesOrLosesTheMatch']=true
         this[this.awayTeam+'WinsOrLosesTheMatch']=true
-    }else if(obj.homeFulltime===obj.awayFulltime){
+    }else if(obj.homeFullTime===obj.awayFullTime){
         this[this.homeTeam+'WinsOrTiesTheMatch']=true
         this[this.homeTeam+'TiesOrLosesTheMatch']=true
         this[this.awayTeam+'TiesOrLosesTheMatch']=true
@@ -123,20 +133,20 @@ function Match(obj){
     }
 
                                                                                            //keeps clean sheet
-    if(obj.awayFulltime===0){
+    if(obj.awayFullTime===0){
         this[this.homeTeam+'KeepsCleanSheet']=true
     }
 
-    if(obj.homeFulltime===0){
+    if(obj.homeFullTime===0){
         this[this.awayTeam+'KeepsCleanSheet']=true
     }
 
     //win to Nil
-    if(obj.awayFulltime===0 && obj.homeFulltime>0){
+    if(obj.awayFullTime===0 && obj.homeFullTime>0){
         this[this.homeTeam+'WinsToNil']=true
     }
 
-    if(obj.homeFulltime===0 && obj.awayFulltime>0){
+    if(obj.homeFullTime===0 && obj.awayFullTime>0){
         this[this.awayTeam+'WinToNil']=true
     }
 
@@ -149,50 +159,50 @@ function Match(obj){
         this[this.awayTeam+'ScoresInBothHalves']=true
     }
 
-    if(obj.homeFulltime+0.5>obj.awayFulltime){                                   //FullTime asia handicap
+    if(obj.homeFullTime+0.5>obj.awayFullTime){                                   //FullTime asia handicap
         this[this.homeTeam+'+0.5']=true
     }else{
         this[this.awayTeam+'-0.5']=true
     }
 
-    if(obj.homeFulltime+1.5>obj.awayFulltime){
+    if(obj.homeFullTime+1.5>obj.awayFullTime){
         this[this.homeTeam+'+1.5']=true
     }else{
         this[this.awayTeam+'-1.5']=true
     }
 
-    if(obj.homeFulltime+2.5>obj.awayFulltime){
+    if(obj.homeFullTime+2.5>obj.awayFullTime){
         this[this.homeTeam+'+2.5']=true
     }else{
         this[this.awayTeam+'-2.5']=true
     }
 
-    if(obj.homeFulltime+3.5>obj.awayFulltime){
+    if(obj.homeFullTime+3.5>obj.awayFullTime){
         this[this.homeTeam+'+3.5']=true
     }else{
         this[this.awayTeam+'-3.5']=true
     }
 
 
-    if(obj.homeFulltime-0.5>obj.awayFulltime){
+    if(obj.homeFullTime-0.5>obj.awayFullTime){
         this[this.homeTeam+'-0.5']=true
     }else{
         this[this.awayTeam+'+0.5']=true
     }
 
-    if(obj.homeFulltime-1.5>obj.awayFulltime){
+    if(obj.homeFullTime-1.5>obj.awayFullTime){
         this[this.homeTeam+'-1.5']=true
     }else{
         this[this.awayTeam+'+1.5']=true
     }
 
-    if(obj.homeFulltime-2.5>obj.awayFulltime){
+    if(obj.homeFullTime-2.5>obj.awayFullTime){
         this[this.homeTeam+'-2.5']=true
     }else{
         this[this.awayTeam+'+2.5']=true
     }
 
-    if(obj.homeFulltime-3.5>obj.awayFulltime){
+    if(obj.homeFullTime-3.5>obj.awayFullTime){
         this[this.homeTeam+'-3.5']=true
     }else{
         this[this.awayTeam+'+3.5']=true
@@ -298,23 +308,23 @@ function Match(obj){
         this[this.awayTeam+'SecondHalf+3.5']=true
     }
 
-    if(obj.homeFulltime-0.5>0){                                             //hometeam match goals
+    if(obj.homeFullTime-0.5>0){                                             //hometeam match goals
         this[this.homeTeam+'MatchGoalsOver0.5']=true
     }
 
-    if(obj.homeFulltime-1.5>0){
+    if(obj.homeFullTime-1.5>0){
         this[this.homeTeam+'MatchGoalsOver1.5']=true
     }
 
-    if(obj.homeFulltime-2.5>0){
+    if(obj.homeFullTime-2.5>0){
         this[this.homeTeam+'MatchGoalsOver2.5']=true
     }
 
-    if(obj.homeFulltime-3.5>0){
+    if(obj.homeFullTime-3.5>0){
         this[this.homeTeam+'MatchGoalsOver3.5']=true
     }
 
-    if(obj.homeFulltime-4.5>0){
+    if(obj.homeFullTime-4.5>0){
         this[this.homeTeam+'MatchGoalsOver4.5']=true
     }
 
@@ -358,23 +368,23 @@ function Match(obj){
         this[this.homeTeam+'SecondHalfGoalsOver4.5']=true
     }
 
-    if(obj.awayFulltime-0.5>0){                                          //awayteam match goals
+    if(obj.awayFullTime-0.5>0){                                          //awayteam match goals
         this[this.awayTeam+'MatchGoalsOver0.5']=true
     }
 
-    if(obj.awayFulltime-1.5>0){
+    if(obj.awayFullTime-1.5>0){
         this[this.awayTeam+'MatchGoalsOver1.5']=true
     }
 
-    if(obj.awayFulltime-2.5>0){
+    if(obj.awayFullTime-2.5>0){
         this[this.awayTeam+'MatchGoalsOver2.5']=true
     }
 
-    if(obj.awayFulltime-3.5>0){
+    if(obj.awayFullTime-3.5>0){
         this[this.awayTeam+'MatchGoalsOver3.5']=true
     }
 
-    if(obj.awayFulltime-4.5>0){
+    if(obj.awayFullTime-4.5>0){
         this[this.awayTeam+'MatchGoalsOver4.5']=true
     }
 
@@ -586,56 +596,281 @@ function Match(obj){
         this['secondHalfGoalsUnder6.5']=true
     }
 
-    if(obj.homeFulltime>0&&obj.awayFulltime>0){                                 //Full Time both team to score
-        this['bothTeamToScoreInTheMatch']=true
+    if(obj.homeFullTime>0&&obj.awayFullTime>0){                                 //Full Time both team to score
+        this['bothTeamsToScoreInTheMatch']=true
     }else{
-        this['notBothTeamToScoreInTheMatch']=true
+        this['notbothTeamsToScoreInTheMatch']=true
     }
 
     if(obj.homeFirstHalf>0&&obj.awayFirstHalf>0){                               //Full Time both team to score
-        this['bothTeamToScoreInFirstHalf']=true
+        this['bothTeamsToScoreInFirstHalf']=true
     }else{
-        this['notBothTeamToScoreInFirstHalf']=true
+        this['notbothTeamsToScoreInFirstHalf']=true
     }
 
     if(obj.homeSecondHalf>0&&obj.awaySecondHalf>0){                              //Full Time both team to score
-        this['bothTeamToScoreInSecondHalf']=true
+        this['bothTeamsToScoreInSecondHalf']=true
     }else{
-        this['notBothTeamToScoreInSecondHalf']=true
+        this['notbothTeamsToScoreInSecondHalf']=true
     }
 
-    if(obj.homeFirstHalf>obj.awayFirstHalf){                                          //First half/Full Time
-        this['halfTime/fullTime']=this.homeTeam
-    }else if(obj.homeFirstHalf===obj.awayFirstHalf){
-        this['halfTime/fullTime']='tie'
+
+    _.forOwn(this,function(value,key,object){                                       // delete omit team
+        if(_.startsWith(key,omit)){
+            delete object[key]
+        }
+    })
+
+
+    if(team===this.homeTeam){                                                       //first Half/Full Time
+
+        if(obj.homeFirstHalf>obj.awayFirstHalf){
+
+            this['halfTime/fullTime']='win/'
+        }else if(obj.homeFirstHalf===obj.awayFirstHalf){
+            this['halfTime/fullTime']='tie/'
+        }else{
+            this['halfTime/fullTime']='lose/'
+        }
+        
+        if(obj.homeFullTime>obj.awayFullTime){
+
+            this['halfTime/fullTime']+='win'
+        }else if(obj['homeFullTime']==obj['awayFullTime']){
+
+
+            this['halfTime/fullTime']+='tie'
+        }else{
+            this['halfTime/fullTime']+='lose'
+        }
     }else{
-        this['halfTime/fullTime']=this.awayTeam
+        if(obj.awayFirstHalf>obj.homeFirstHalf){
+            this['halfTime/fullTime']='win/'
+        }else if(obj.awayFirstHalf===obj.homeFirstHalf){
+            this['halfTime/fullTime']='tie/'
+        }else{
+            this['halfTime/fullTime']='lose/'
+        }
+
+        if(obj.awayFullTime>obj.homeFullTime){
+            this['halfTime/fullTime']+='win'
+        }else if(obj.awayFullTime===obj.homeFullTime){
+
+            this['halfTime/fullTime']+='tie'
+        }else{
+            this['halfTime/fullTime']+='lose'
+        }
     }
 
-    if(obj.homeFulltime>obj.awayFulltime){
-        this['halfTime/fullTime']+=('/'+this.homeTeam)
-    }else if(obj.homeFulltime===obj.awayFulltime){
-        this['halfTime/fullTime']+=('/'+'tie')
+    if(team===this.homeTeam){                                                       //match result and both team to score
+
+
+        if(obj.homeFullTime>obj.awayFullTime){
+
+            this['matchResult/bothTeamsToScore']='win/'
+        }else if(obj['homeFullTime']==obj['awayFullTime']){
+
+
+            this['matchResult/bothTeamsToScore']='tie/'
+        }else{
+            this['matchResult/bothTeamsToScore']='lose/'
+        }
+
+        if(obj.homeFullTime>0&&obj.awayFullTime>0){
+            this['matchResult/bothTeamsToScore']+='yes'
+        }else{
+            this['matchResult/bothTeamsToScore']+='no'
+        }
     }else{
-        this['halfTime/fullTime']+=('/'+this.awayTeam)
+
+
+        if(obj.awayFullTime>obj.homeFullTime){
+            this['matchResult/bothTeamsToScore']='win/'
+        }else if(obj.awayFullTime===obj.homeFullTime){
+
+            this['matchResult/bothTeamsToScore']='tie/'
+        }else{
+            this['matchResult/bothTeamsToScore']='lose/'
+        }
+
+        if(obj.awayFullTime>0&&obj.homeFullTime>0){
+            this['matchResult/bothTeamsToScore']+='yes'
+        }else{
+            this['matchResult/bothTeamsToScore']+='no'
+        }
     }
+
+    if(team===this.homeTeam){                                                   //full time correct score
+        this['correct score']=[obj.homeFullTime,obj.awayFullTime]
+    }else{
+        this['correct score']=[obj.awayFullTime,obj.homeFullTime]
+    }
+
+
+    if(team===this.homeTeam){                                                       //match result and total goals
+
+
+        if(obj.homeFullTime>obj.awayFullTime){
+
+            this['matchResult/totalGoalsAbove2.5']='win/'
+        }else if(obj['homeFullTime']==obj['awayFullTime']){
+
+
+            this['matchResult/totalGoalsAbove2.5']='tie/'
+        }else{
+            this['matchResult/totalGoalsAbove2.5']='lose/'
+        }
+
+        if(obj.matchGoals>2.5){
+            this['matchResult/totalGoalsAbove2.5']+='yes'
+        }else{
+            this['matchResult/totalGoalsAbove2.5']+='no'
+        }
+    }else{
+
+
+        if(obj.awayFullTime>obj.homeFullTime){
+            this['matchResult/totalGoalsAbove2.5']='win/'
+        }else if(obj.awayFullTime===obj.homeFullTime){
+
+            this['matchResult/totalGoalsAbove2.5']='tie/'
+        }else{
+            this['matchResult/totalGoalsAbove2.5']='lose/'
+        }
+
+        if(obj.matchGoals>2.5){
+            this['matchResult/totalGoalsAbove2.5']+='yes'
+        }else{
+            this['matchResult/totalGoalsAbove2.5']+='no'
+        }
+    }
+
+    if(obj.matchGoals>2.5){                                                         //totalGoalsAbove2.5/bothTeamToScore
+        this['totalGoalsAbove2.5/bothTeamToScore']='yes/'
+    }else{
+        this['totalGoalsAbove2.5/bothTeamToScore']='no/'
+    }
+
+    if(obj.homeFullTime>0&&obj.awayFullTime>0){
+        this['totalGoalsAbove2.5/bothTeamToScore']+='yes'
+    }else{
+        this['totalGoalsAbove2.5/bothTeamToScore']+='no'
+    }
+
+    if(obj.matchGoals<2){
+        this['under2Goals']=true
+    }else if(obj.matchGoals<4){
+        this['2or3Goals']=true
+    }else{
+        this['over3Goals']=true
+    }
+
+    if(obj.homeFirstHalf>0&&obj.awayFirstHalf>0){                                       //bothTeamsToScoreInBothHalves
+        this['bothTeamsToScoreInBothHalves']='yes/'
+    }else{
+        this['bothTeamsToScoreInBothHalves']='no/'
+    }
+
+    if(obj.homeSecondHalf>0&&obj.awaySecondHalf>0){
+        this['bothTeamsToScoreInBothHalves']+='yes'
+    }else{
+        this['bothTeamsToScoreInBothHalves']+='no'
+    }
+
+    if(obj.firstHalfGoals>obj.secondHalfGoals){                                     //halfWithMostGoals
+        this['halfWithMostGoals']='first'
+    }else if(obj.firstHalfGoals===obj.secondHalfGoals){
+        this['halfWithMostGoals']='tie'
+    }else{
+        this['halfWithMostGoals']='second'
+    }
+
+    if(team===this.homeTeam){                                                   //highest score half
+        if(obj.homeFirstHalf>obj.homeSecondHalf){
+            this[team+'HighestScoreHalf']='first'
+        }else if(obj.homeFirstHalf===obj.homeSecondHalf){
+            this[team+'HighestScoreHalf']='tie'
+        }else{
+            this[team+'HighestScoreHalf']='second'
+        }
+    }else{
+        if(obj.awayFirstHalf>obj.awaySecondHalf){
+            this[team+'HighestScoreHalf']='first'
+        }else if(obj.awayFirstHalf===obj.awaySecondHalf){
+            this[team+'HighestScoreHalf']='tie'
+        }else{
+            this[team+'HighestScoreHalf']='second'
+        }
+    }
+
+    if(team===this.homeTeam){                                                       //team odd/even
+        if(obj.homeFullTime%2){
+            this[team+'Odd/EvenGoals']='odd'
+        }else{
+            this[team+'Odd/EvenGoals']='even'
+        }
+    }else{
+        if(obj.awayFullTime%2){
+            this[team+'Odd/EvenGoals']='odd'
+        }else{
+            this[team+'Odd/EvenGoals']='even'
+        }
+    }
+
+    if(team===this.homeTeam){                                                       //team first Half odd/even
+        if(obj.homeFirstHalf%2){
+            this[team+'FirstHalfOdd/EvenGoals']='odd'
+        }else{
+            this[team+'FirstHalfOdd/EvenGoals']='even'
+        }
+    }else{
+        if(obj.awayFirstHalf%2){
+            this[team+'FirstHalfOdd/EvenGoals']='odd'
+        }else{
+            this[team+'FirstHalfOdd/EvenGoals']='even'
+        }
+    }
+
+    if(team===this.homeTeam){                                                       //team Second Half odd/even
+        if(obj.homeSecondHalf%2){
+            this[team+'SecondHalfOdd/EvenGoals']='odd'
+        }else{
+            this[team+'SecondHalfOdd/EvenGoals']='even'
+        }
+    }else{
+        if(obj.awaySecondHalf%2){
+            this[team+'SecondHalfOdd/EvenGoals']='odd'
+        }else{
+            this[team+'SecondHalfOdd/EvenGoals']='even'
+        }
+    }
+
+    if(obj.matchGoals%2){                                                       //match Goals odd/even
+        this['matchGoalsOdd/Even']='odd'
+    }else{
+        this['matchGoalsOdd/Even']='even'
+    }
+
+    if(obj.firstHalfGoals%2){                                                       //firstHalf Goals odd/even
+        this['firstHalfGoalsOdd/Even']='odd'
+    }else{
+        this['firstHalfGoalsOdd/Even']='even'
+    }
+
+    if(obj.secondHalfGoals%2){                                                       //secondHalf Goals odd/even
+        this['secondHalfGoalsOdd/Even']='odd'
+    }else{
+        this['secondHalfGoalsOdd/Even']='even'
+    }
+
+
+
+
 
     //match result/both team to score to be recalculated in object by put fulltime result and both team to score
 }
 
-var m={
-    away:'Man Unit',
-    home:'Liver Pool',
-    awayFulltime:2,
-    homeFulltime:2,
-    awayFirstHalf:1,
-    homeFirstHalf:0,
-    awaySecondHalf:6,
-    homeSecondHalf:6,
-    matchGoals:5,
-    firstHalfGoals:1,
-    secondHalfGoals:2
-}
 
-var match1=new Match(m)
-console.log(JSON.stringify(match1,2))
+
+
+module.exports=Match

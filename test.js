@@ -11,8 +11,8 @@ var casper=require('casper').create({
     },
     verbose:true,
     timeout:0,
-    stepTimeout:30000,
-    waitTimeout:30000
+    stepTimeout:60000,
+    waitTimeout:60000
 })
 
 
@@ -110,8 +110,10 @@ casper.start().then(function(){
 casper.then(function(){
     "use strict";
     if(_.isEmpty(today['matches'])){
+        console.log('no data on server')
         var url="http://live.500.com/2h1.php"
         casper.thenOpen(url,function(){
+            //casper.capture('page.png')
             today = this.evaluate(function(today) {
                 today=JSON.parse(today)
                 $('td.p_lr01').parent().each(function(){
@@ -125,6 +127,7 @@ casper.then(function(){
                     today['matches'].push(temp)
 
                 })
+
                 return today;
             },JSON.stringify(today));
         })
@@ -141,7 +144,8 @@ function getData(){
 
     "use strict";
     // casper.capture('temp.png')
-    console.log("today is totally"+today['matches'].length)
+    console.log(today['matches'])
+    console.log("today is totally "+today['matches'].length)
     console.log('page cost:'+(Date.now()-t).toString())
     t=Date.now()
     data={
