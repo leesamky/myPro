@@ -101,7 +101,7 @@ var server='http://localhost:8080/todayMatch'
 casper.start().then(function(){
     "use strict";
     this.echo('starting')
-    today['matches']=casper.evaluate(function(server){
+    today=casper.evaluate(function(server){
         return JSON.parse(__utils__.sendAJAX(server,'GET',null,false))
     },server)
 
@@ -179,8 +179,8 @@ function getData(){
         getMatchInfo.apply(this,[url[2],2])
 
         bothMatches.call(this,url[3])
-        // outputData.call(this)
-        sendData.call(this)
+        outputData.call(this)
+        // sendData.call(this)
         this.run(getData)
     }else{
         this.echo('All Done')

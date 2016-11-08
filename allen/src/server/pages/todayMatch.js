@@ -4,16 +4,17 @@ var teamInfo=require('server/db/model').teamInfo
 var _=require('lodash')
 var dataToStore=require('server/data/dataToStore.js')
 var match=require('server/data/matchInfo.js')
+var todayMatch=[]
 //
-// app.get('/teamList',function(req,res){
-//     "use strict";
-//     console.log(links.length)
-//     if(_.isEmpty(links)){
-//         res.send([])
-//     }
-//     res.send(links.pop())
-//
-// })
+app.get('/matchList',function(req,res){
+    "use strict";
+    console.log(todayMatch.length)
+    if(_.isEmpty(todayMatch)){
+        res.send(null)
+    }
+    res.send(todayMatch.pop())
+
+})
 
 app.get('/',function(req,res){
     "use strict";
@@ -22,7 +23,12 @@ app.get('/',function(req,res){
     //         if(error){console.log(error)}
     //         else{res.send(results)}
     //     })
-    res.send([])
+    if(_.isEmpty(todayMatch)){
+        res.send(null)
+    }else{
+        res.send(todayMatch)
+    }
+
 })
 
 
@@ -31,14 +37,9 @@ app.post('/',function(req,res){
     "use strict";
 
     res.send('success')
+    todayMatch=req.body['matches']
 
-    _.forEach(req.body['awayPastMatches'],function(match){
-        dataToStore(match)
-    })
-
-    _.forEach(req.body['homePastMatches'],function(match){
-        dataToStore(match)
-    })
+    console.log(JSON.stringify(req.body))
 
     // var d2=new match(d1,d1.awayId)
     // console.log(JSON.stringify(d2))
