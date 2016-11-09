@@ -2,23 +2,13 @@ var request=require('request')
 var cheerio=require('cheerio')
 var iconv=require('iconv-lite')
 var _=require('lodash')
-function checkServer(){
-    "use strict";
-    return new Promise(function(resolve,reject){
-        request('http://localhost:8080/todayMatches',function(err,res,body){
-            if(!err&&res.statusCode===200){
-                resolve(body)
-            }else{
-                reject('server is down')
-            }
-        })
-    })
-}
-function getTodayMatch(url){
+
+
+function getTodayMatch(){
     "use strict";
 
     var options={
-        url:url,
+        url:'http://live.500.com/2h1.php',
         headers:{
             'User-Agent':"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
         },
@@ -53,39 +43,12 @@ function getTodayMatch(url){
     })
 }
 
+module.exports=getTodayMatch
 
 
-
-checkServer()
-    .then((val)=>{
-        "use strict";
-        if(_.isEmpty(val)){
-            console.log('Server has no data, get the data from webpage')
-            var match=getTodayMatch('http://live.500.com/2h1.php')
-            match.then((val)=>{
-
-                "use strict";
-                request.post(
-                    'http://localhost:8080/todayMatches',
-                    {json:val},
-                    function (error, response, body) {
-                        if (!error && response.statusCode == 200) {
-                            console.log(body)
-                            console.log('today has totally '+val['matches'].length+' matches')
-                        }
-                    }
-                );
-
-            })
-                .catch((err)=>console.log('promise went wrong: '+err))
-        }else{
-            console.log('server has data,quit the app')
-        }
-    })
-
-
-
-    .catch((err)=>console.log(err))
+// var match=getTodayMatch('http://live.500.com/2h1.php')
+// match.then((val)=>{console.log(val)})
+//     .catch((err)=>console.log(err))
 
 
 

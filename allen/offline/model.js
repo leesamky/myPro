@@ -1,0 +1,89 @@
+var mongoose=require('mongoose')
+var Schema=mongoose.Schema
+
+mongoose.connect('mongodb://localhost/soccer')
+
+var teamInfoSchema=Schema({
+    en_name:{
+        type:String,
+        required:true
+    },
+    gb_name:{
+        type:String,
+        required:true
+    },
+    teamId:{
+        type:Number,
+        required:true,
+        index:true,
+        unique:true
+    }
+})
+
+var matchInfoSchema=Schema({
+    away:{
+        type:String,
+        index:true,
+        required:true
+    },
+    awayFullTime:{
+        type:Number,
+        required:true
+    },
+    awayFirstHalf:{
+        type:Number
+    },
+    awaySecondHalf:{
+        type:Number
+    },
+    awayId:{
+        type:Number,
+        required:true,
+        index:true
+    },
+    date:{
+        type:Date
+    },
+    home:{
+        type:String,
+        index:true,
+        required:true
+    },
+    homeFirstHalf:{
+        type:Number
+    },
+    homeSecondHalf:{
+        type:Number
+    },
+    homeFullTime:{
+        type:Number,
+        required:true
+    },
+    homeId:{
+        type:Number,
+        required:true,
+        index:true
+    },
+    match:{
+        type:String,
+        index:true
+    },
+    matchId:{
+        type:Number,
+        index:true,
+        unique:true
+    },
+    matchGoals:{
+        type:Number,
+        required:true
+    },
+    firstHalfGoals:{
+        type:Number
+    },
+    secondHalfGoals:{
+        type:Number
+    }
+})
+
+module.exports.teamInfo=mongoose.model('teamInfo',teamInfoSchema)
+module.exports.matchInfo=mongoose.model('matchInfo',matchInfoSchema)
