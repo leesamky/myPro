@@ -1,10 +1,8 @@
-var mongoose=require('mongoose')
 var _=require('lodash')
 var request=require('request')
 var cheerio=require('cheerio')
 var iconv=require('iconv-lite')
-var teamInfo=require('./model').teamInfo
-
+var getTeaminfo=require('./getTeamInfo')//init the global variable
 var match={
     'homeInfo':{
         'league':{
@@ -38,28 +36,17 @@ var matchUrl=[ '欧U19',
 
 function objToSave(obj){
     "use strict";
-    teamInfo.findOne({'teamId':obj['awayId']})
-        .exec(function(error,result){
-            if(error){console.log(error)}
-            else{
-                obj['away']=result['en_name']
-
-                teamInfo.findOne({'teamId':obj['homeId']})//second query
-                    .exec(function(error,result){
-                        if(error){console.log(error)}
-                        else{
-                            obj['home']=result['en_name']
-                            obj['homeSecondHalf']=obj['homeFullTime']-obj['homeFirstHalf']
-                            obj['awaySecondHalf']=obj['awayFullTime']-obj['awayFirstHalf']
-                            obj['date']=new Date(obj['date'])
-                            obj['matchGoals']=obj['homeFullTime']+obj['awayFullTime']
-                            obj['firstHalfGoals']=obj['homeFirstHalf']+obj['awayFirstHalf']
-                            obj['secondHalfGoals']=obj['homeSecondHalf']+obj['awaySecondHalf']
-                            console.log(obj)
-                        }
-                    })
-            }
-        })
+    obj['away']=global.teamInfo[obj.awayId]['en_name']
+    obj['away_cn']=global.teamInfo[obj.awayId]['gb_name']
+    obj['home']=global.teamInfo[obj.homeId]['en_name']
+    obj['home_cn']=global.teamInfo[obj.homeId]['gb_name']
+    obj['homeSecondHalf']=obj['homeFullTime']-obj['homeFirstHalf']
+    obj['awaySecondHalf']=obj['awayFullTime']-obj['awayFirstHalf']
+    obj['date']=new Date(obj['date'])
+    obj['matchGoals']=obj['homeFullTime']+obj['awayFullTime']
+    obj['firstHalfGoals']=obj['homeFirstHalf']+obj['awayFirstHalf']
+    obj['secondHalfGoals']=obj['homeSecondHalf']+obj['awaySecondHalf']
+    return obj
 }
 
 
@@ -85,7 +72,9 @@ function getMatchInfo(match,matchUrl){
                if(_.isEmpty($(this).find('td').eq(0).find('a').text())) {
                    return
                }
-                temp['match'] = $(this).find('td').eq(0).find('a').text()
+                temp['league'] = $(this).find('td').eq(0).find('a').text()
+                var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
+                temp['leagueId']=parseInt((s[s.length-2]).slice(6))
                 temp['matchId'] = parseInt($(this).attr('id'))
                 temp['date'] = $(this).find('td.td_time').text()
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
@@ -97,10 +86,11 @@ function getMatchInfo(match,matchUrl){
                 temp['awayFullTime']=score[1]
                 temp['homeFirstHalf']=score[2]
                 temp['awayFirstHalf']=score[3]
-                // match['homePastMatches'].push(temp)
-                objToSave(temp)
+
+
+                match['homePastMatches'].push(objToSave(temp))
             });
-            // console.log(match)
+            console.log(match)
 
         }else{
             console.log(error)
