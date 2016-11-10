@@ -2,38 +2,71 @@ var mongoose=require('mongoose')
 var _=require('lodash')
 var request=require('request')
 var getTodayMatch=require('./getTodayMatch')
-var teamInfo=require('./model').teamInfo
+var fs=require('fs')
+
+var file=JSON.parse(fs.readFileSync('teamInfo',{encoding:'utf-8'}))
+global.teamInfo=[]
+_.forEach(file,function(obj,index,arr){
+    "use strict";
+    teamInfo[obj.teamId]=obj
+})
+// console.log(global.teamInfo[5524],global.teamInfo[5526])
+
 
 function getTeamInfo(match,matchUrl){
     "use strict";
     var team=matchUrl[1].split('/')
     var teamId=parseInt(team[team.length-2])
     match['homeInfo']['teamId']=teamId
-    teamInfo.findOne({teamId:teamId})
-        .exec(function(err,result){
-            if(err){console.log(err)}
-            else{
-                match['homeInfo']['gb_name']=result['gb_name']
-                match['homeInfo']['en_name']=result['en_name']
+    match['homeInfo']['gb_name']=global.teamInfo[teamId]['gb_name']
+    match['homeInfo']['en_name']=global.teamInfo[teamId]['en_name']
 
 
-            }
-        })
     var team=matchUrl[2].split('/')
     var teamId=parseInt(team[team.length-2])
+
     match['awayInfo']['teamId']=teamId
-    teamInfo.findOne({teamId:teamId})
-        .exec(function(err,result){
-            if(err){console.log(err)}
-            else{
-                match['awayInfo']['gb_name']=result['gb_name']
-                match['awayInfo']['en_name']=result['en_name']
+    match['awayInfo']['gb_name']=global.teamInfo[teamId]['gb_name']
+    match['awayInfo']['en_name']=global.teamInfo[teamId]['en_name']
 
+    return match
 
-            }
-        })
 
 }
+// console.log(getTeamInfo(match,matchUrl))
+
 
 module.exports=getTeamInfo
 
+
+
+// var match={
+//     'homeInfo':{
+//         'league':{
+//             'home':[],
+//             'away':[],
+//             'overall':[]
+//         }
+//     },
+//     'awayInfo':{
+//         'league':{
+//             'home':[],
+//             'away':[],
+//             'overall':[]
+//         }
+//     },
+//     'matchInfo':{},
+//     'homePastMatches':[],
+//     'homeFutureMatches':[],
+//     'awayPastMatches':[],
+//     'awayFutureMatches':[],
+//     'bothMatches':[]
+// }
+//
+// var matchUrl=[ '欧U19',
+//     'http://liansai.500.com/team/5524/',
+//     'http://liansai.500.com/team/5526/',
+//     'http://odds.500.com/fenxi/shuju-626168.shtml',
+//     'http://liansai.500.com/zuqiu-4090/',
+//     '11-09&nbsp;19:00',
+//     '资格赛' ]
