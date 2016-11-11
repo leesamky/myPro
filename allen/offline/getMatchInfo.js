@@ -121,7 +121,7 @@ function getMatchInfo(match,matchUrl){
             }
             
 
-            console.log(JSON.stringify(match,2))
+
 
 
 
