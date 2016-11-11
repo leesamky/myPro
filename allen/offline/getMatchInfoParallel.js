@@ -65,6 +65,7 @@ function getMatchInfo(urls){
         else{
             matchInfo.create([...match['homePastMatches'],...match['awayPastMatches']],function(err,result){
                 matchData.create(match,function(err,result){
+                    // mongoose.disconnect()
                     mongoose.connection.close()
                 })
             })
@@ -98,7 +99,7 @@ function getBothMatchInfo(match,urls,callback){
                 temp['league'] = $(this).find('td').eq(0).find('a').text()
                 var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
                 temp['leagueId']=parseInt((s[s.length-2]).slice(6))
-                temp['date']=new Date($(this).find('td').eq(1).text())
+                temp['date']=new Date($(this).find('td').eq(1).text()+' GMT-0000')
                 var str=_.words($(this).find('td').eq(2).text())
                 if(str.length===6){
                     temp['homeRank']=parseInt(str[0])
@@ -191,7 +192,7 @@ function getHomeMatches(match,urls,callback){
                 var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
                 temp['leagueId']=parseInt((s[s.length-2]).slice(6))
                 temp['matchId'] = parseInt($(this).attr('id'))
-                temp['date'] = $(this).find('td.td_time').text()
+                temp['date'] = $(this).find('td.td_time').text()+' GMT-0000'
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
                 temp['homeId']=parseInt(homeTeam[4])
                 var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
@@ -217,7 +218,7 @@ function getHomeMatches(match,urls,callback){
                 temp['leagueId']=parseInt((s[s.length-2]).slice(6))
                 temp['matchId'] = parseInt($(this).attr('id'))
 
-                temp['date'] = new Date($(this).find('td.td_time').text())
+                temp['date'] = new Date($(this).find('td.td_time').text()+' GMT-0000')
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
                 temp['homeId']=parseInt(homeTeam[4])
                 temp['home']=global.teamInfo[temp['homeId']]['en_name']
@@ -264,7 +265,7 @@ function getAwayMatches(match,urls,callback){
                 var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
                 temp['leagueId']=parseInt((s[s.length-2]).slice(6))
                 temp['matchId'] = parseInt($(this).attr('id'))
-                temp['date'] = $(this).find('td.td_time').text()
+                temp['date'] = $(this).find('td.td_time').text()+' GMT-0000'
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
                 temp['homeId']=parseInt(homeTeam[4])
                 var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
@@ -289,7 +290,7 @@ function getAwayMatches(match,urls,callback){
                 temp['leagueId']=parseInt((s[s.length-2]).slice(6))
                 temp['matchId'] = parseInt($(this).attr('id'))
 
-                temp['date'] = new Date($(this).find('td.td_time').text())
+                temp['date'] = new Date($(this).find('td.td_time').text()+' GMT-0000')
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
                 temp['homeId']=parseInt(homeTeam[4])
                 temp['home']=global.teamInfo[temp['homeId']]['en_name']

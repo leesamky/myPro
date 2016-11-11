@@ -8,23 +8,24 @@ var matchUrl=[ '欧U19',
     '11-09&nbsp;19:00',
     '资格赛' ]
 //
-// matchInfo(matchUrl)
+matchInfo(matchUrl)
 //
-var matchInfo=require('./model').matchInfo
-var matchData=require('./model').matchData
-    matchInfo.find()
-        .exec(function(err,results){
-            "use strict";
-            if(err){console.log(err)}
-            else{
-                console.log(results.length)
-                matchData.find()
-                    .exec(function(err,result){
-                        if(err){console.log(err)}
-                        else{
-                            console.log(JSON.stringify(result,null,2))
-                        }
-                    })
-            }
-        })
-
+// var matchInfo=require('./model').matchInfo
+// var matchData=require('./model').matchData
+//     matchInfo.find()
+//         .exec(function(err,results){
+//             "use strict";
+//             if(err){console.log(err)}
+//             else{
+//                 console.log(results.length)
+//                 matchData.find()
+//                     .exec(function(err,result){
+//                         if(err){console.log(err)}
+//                         else{
+//                             console.log(JSON.stringify(result,null,2))
+//                             mongoose.disconnect()
+//                         }
+//                     })
+//             }
+//         })
+//
