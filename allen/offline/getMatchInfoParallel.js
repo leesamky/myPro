@@ -4,6 +4,9 @@ var cheerio=require('cheerio')
 var iconv=require('iconv-lite')
 var async = require('async');
 var getTeaminfo=require('./getTeamInfo')//init the global variable
+var matchInfo=require('./model').matchInfo
+var matchData=require('./model').matchData
+var mongoose=require('mongoose')
 function objToSave(obj){
     "use strict";
     obj['away']=global.teamInfo[obj.awayId]['en_name']
@@ -18,7 +21,11 @@ function objToSave(obj){
     obj['secondHalfGoals']=obj['homeSecondHalf']+obj['awaySecondHalf']
     return obj
 }
-
+// temp['league'] = $(this).find('td').eq(0).find('a').text()
+// var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
+// temp['leagueId']=parseInt((s[s.length-2]).slice(6))
+// temp['matchId'] = parseInt($(this).attr('id'))
+// temp['date']
 var matchUrl=[ '欧U19',
     'http://liansai.500.com/team/5524/',
     'http://liansai.500.com/team/5526/',
@@ -27,36 +34,47 @@ var matchUrl=[ '欧U19',
     '11-09&nbsp;19:00',
     '资格赛' ]
 
-var match={
-    'homeInfo':{
-
-    },
-    'awayInfo':{
-
-    },
-    'matchInfo':{},
-    'homePastMatches':[],
-    'homeFutureMatches':[],
-    'awayPastMatches':[],
-    'awayFutureMatches':[],
-    'bothMatches':[]
-}
-
 function getMatchInfo(urls){
     "use strict";
+    var match={
+        'homeInfo':{},
+        'awayInfo':{},
+        'homePastMatches':[],
+        'homeFutureMatches':[],
+        'awayPastMatches':[],
+        'awayFutureMatches':[],
+        'bothMatches':[]
+    }
+    match['league']=urls[0]
+    var s=urls[4].split('/')
+    match['leagueId']=parseInt((s[s.length-2]).slice(6))
+    var s=urls[3].split('/')
+    match['matchId']=parseInt(s[4].split('-')[1])
+    match['round']=urls[6]
+    var s=urls[5]
+    s='2016-'+s.replace('&nbsp;',' ')+' GMT-0000'
+    match['date']=new Date(s)
+
     getTeaminfo(match,urls)
     async.parallel([
-        getHomeMatches.bind(null,urls),
-        getAwayMatches.bind(null,urls),
-        getBothMatchInfo.bind(null,urls)
+        getHomeMatches.bind(null,match,urls),
+        getAwayMatches.bind(null,match,urls),
+        getBothMatchInfo.bind(null,match,urls)
     ],function(err){
         if(err){console.log(err)}
-        else{console.log(match)}
+        else{
+            matchInfo.create([...match['homePastMatches'],...match['awayPastMatches']],function(err,result){
+                matchData.create(match,function(err,result){
+                    mongoose.connection.close()
+                })
+            })
+
+        }
     })
 
 }
 
-function getBothMatchInfo(urls,callback){
+function getBothMatchInfo(match,urls,callback){
     "use strict";
     var url=urls[3]
     var options={
@@ -146,7 +164,7 @@ function getBothMatchInfo(urls,callback){
     })
 }
 
-function getHomeMatches(urls,callback){
+function getHomeMatches(match,urls,callback){
     "use strict";
     var url=urls[1]+'teamfixture/'
     var options={
@@ -219,7 +237,7 @@ function getHomeMatches(urls,callback){
     })
 }
 
-function getAwayMatches(urls,callback){
+function getAwayMatches(match,urls,callback){
     "use strict";
     var url=urls[2]+'teamfixture/'
     var options={
@@ -294,4 +312,4 @@ function getAwayMatches(urls,callback){
 }
 
 
-getMatchInfo(matchUrl)
+module.exports=getMatchInfo

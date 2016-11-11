@@ -3,6 +3,38 @@ var Schema=mongoose.Schema
 
 mongoose.connect('mongodb://localhost/soccer')
 
+var matchDataSchema=Schema({
+    homeInfo:{},
+    awayInfo:{},
+    homePastMatches:[],
+    homeFutureMatches:[],
+    awayPastMatches:[],
+    awayFutureMatches:[],
+    bothMatches:[],
+    league:{
+        type:String,
+        index:true
+    },
+    leagueId:{
+        type:Number,
+        index:true,
+    },
+    matchId:{
+        type:Number,
+        index:true,
+        unique:true
+    },
+    date:{
+        type:Date
+    },
+    round:{
+        type:String
+    }
+
+})
+
+
+
 var teamInfoSchema=Schema({
     en_name:{
         type:String,
@@ -41,6 +73,10 @@ var matchInfoSchema=Schema({
         required:true,
         index:true
     },
+    away_cn:{
+        type:String,
+        index:true,
+    },
     date:{
         type:Date
     },
@@ -64,9 +100,17 @@ var matchInfoSchema=Schema({
         required:true,
         index:true
     },
-    match:{
+    home_cn:{
+        type:String,
+        index:true,
+    },
+    league:{
         type:String,
         index:true
+    },
+    leagueId:{
+        type:Number,
+        index:true,
     },
     matchId:{
         type:Number,
@@ -87,3 +131,4 @@ var matchInfoSchema=Schema({
 
 module.exports.teamInfo=mongoose.model('teamInfo',teamInfoSchema)
 module.exports.matchInfo=mongoose.model('matchInfo',matchInfoSchema)
+module.exports.matchData=mongoose.model('matchData',matchDataSchema)
