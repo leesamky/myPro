@@ -105,14 +105,19 @@ function getMatchInfo(match,matchUrl){
 
                 temp['date'] = new Date($(this).find('td.td_time').text())
                 var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
-                temp['home']=parseInt(homeTeam[4])
+                temp['homeId']=parseInt(homeTeam[4])
+                temp['home']=global.teamInfo[temp['homeId']]['en_name']
+                temp['home_cn']=global.teamInfo[temp['homeId']]['gb_name']
                 var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
-                temp['away']=parseInt(awayTeam[4])
+                temp['awayId']=parseInt(awayTeam[4])
+                temp['away']=global.teamInfo[temp['awayId']]['en_name']
+                temp['away_cn']=global.teamInfo[temp['awayId']]['gb_name']
 
                 match['homeFutureMatches'].push(temp)
             })
-
             console.log(match)
+
+
 
 
         }else{
@@ -160,6 +165,30 @@ function getMatchInfo(match,matchUrl){
 
                 match['awayPastMatches'].push(objToSave(temp))
             });
+            $('#f_table').find('tr').each(function(){
+                var temp={}
+
+                if(_.isEmpty($(this).find('td').eq(0).find('a').text())){
+                    return
+                }
+                temp['league'] = $(this).find('td').eq(0).find('a').text()
+                var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
+                temp['leagueId']=parseInt((s[s.length-2]).slice(6))
+                temp['matchId'] = parseInt($(this).attr('id'))
+
+                temp['date'] = new Date($(this).find('td.td_time').text())
+                var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
+                temp['homeId']=parseInt(homeTeam[4])
+                temp['home']=global.teamInfo[temp['homeId']]['en_name']
+                temp['home_cn']=global.teamInfo[temp['homeId']]['gb_name']
+                var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
+                temp['awayId']=parseInt(awayTeam[4])
+                temp['away']=global.teamInfo[temp['awayId']]['en_name']
+                temp['away_cn']=global.teamInfo[temp['awayId']]['gb_name']
+
+                match['awayFutureMatches'].push(temp)
+            })
+
             console.log(match)
 
         }else{
