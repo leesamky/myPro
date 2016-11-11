@@ -4,20 +4,8 @@ var cheerio=require('cheerio')
 var iconv=require('iconv-lite')
 var getTeaminfo=require('./getTeamInfo')//init the global variable
 var match={
-    'homeInfo':{
-        'league':{
-            'home':[],
-            'away':[],
-            'overall':[]
-        }
-    },
-    'awayInfo':{
-        'league':{
-            'home':[],
-            'away':[],
-            'overall':[]
-        }
-    },
+    'homeInfo':{},
+    'awayInfo':{},
     'matchInfo':{},
     'homePastMatches':[],
     'homeFutureMatches':[],
@@ -29,7 +17,7 @@ var match={
 var matchUrl=[ '欧U19',
     'http://liansai.500.com/team/5524/',
     'http://liansai.500.com/team/5526/',
-    'http://odds.500.com/fenxi/shuju-626168.shtml',
+    'http://odds.500.com/fenxi/shuju-581388.shtml',
     'http://liansai.500.com/zuqiu-4090/',
     '11-09&nbsp;19:00',
     '资格赛' ]
@@ -52,13 +40,14 @@ function objToSave(obj){
 
 function getMatchInfo(match,matchUrl){
     "use strict";
-    var url=matchUrl[1]+'teamfixture/'
+    var url=matchUrl[3]
     var options={
         url:url,
         headers:{
             'User-Agent':"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
         },
-        encoding:null
+        encoding:null,
+        gzip:true
     }
     request(options,function(error,response,body){
         "use strict";
@@ -67,129 +56,74 @@ function getMatchInfo(match,matchUrl){
             var $=cheerio.load(html,{
                 decodeEntities:false
             })
-            $('div.ltab_bd table.jTrHover').find('tr').each(function () {
-                var temp = {}
-                var score_temp = _.map(_.words($(this).find('td').eq(3).text()),_.parseInt)
-                if(_.isEmpty($(this).find('td').eq(0).find('a').text())||_.isUndefined(score_temp[2])) {
-                    return
-                }
-                temp['league'] = $(this).find('td').eq(0).find('a').text()
-                var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
-                temp['leagueId']=parseInt((s[s.length-2]).slice(6))
-                temp['matchId'] = parseInt($(this).attr('id'))
-                temp['date'] = $(this).find('td.td_time').text()
-                var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
-                temp['homeId']=parseInt(homeTeam[4])
-                var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
-                temp['awayId']=parseInt(awayTeam[4])
-                var score = _.map(_.words($(this).find('td').eq(3).text()),_.parseInt)
-                temp['homeFullTime']=score[0]
-                temp['awayFullTime']=score[1]
-                temp['homeFirstHalf']=score[2]
-                temp['awayFirstHalf']=score[3]
 
-
-                match['homePastMatches'].push(objToSave(temp))
-            });
-
-            $('#f_table').find('tr').each(function(){
+            $('#team_jiaozhan').find('td.dz').parent().slice(1).each(function(){
                 var temp={}
-
-                if(_.isEmpty($(this).find('td').eq(0).find('a').text())){
-                    return
-                }
                 temp['league'] = $(this).find('td').eq(0).find('a').text()
                 var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
                 temp['leagueId']=parseInt((s[s.length-2]).slice(6))
-                temp['matchId'] = parseInt($(this).attr('id'))
-
-                temp['date'] = new Date($(this).find('td.td_time').text())
-                var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
-                temp['homeId']=parseInt(homeTeam[4])
-                temp['home']=global.teamInfo[temp['homeId']]['en_name']
-                temp['home_cn']=global.teamInfo[temp['homeId']]['gb_name']
-                var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
-                temp['awayId']=parseInt(awayTeam[4])
-                temp['away']=global.teamInfo[temp['awayId']]['en_name']
-                temp['away_cn']=global.teamInfo[temp['awayId']]['gb_name']
-
-                match['homeFutureMatches'].push(temp)
-            })
-            console.log(match)
-
-
-
-
-        }else{
-            console.log(error)
-        }
-    })
-
-
-    var url=matchUrl[2]+'teamfixture/'
-    var options={
-        url:url,
-        headers:{
-            'User-Agent':"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
-        },
-        encoding:null
-    }
-    request(options,function(error,response,body){
-        "use strict";
-        if(!error&&response.statusCode===200){
-            var html=iconv.decode(body,'gb2312')
-            var $=cheerio.load(html,{
-                decodeEntities:false
-            })
-            $('div.ltab_bd table.jTrHover').find('tr').each(function () {
-                var temp = {}
-                var score_temp = _.map(_.words($(this).find('td').eq(3).text()),_.parseInt)
-                if(_.isEmpty($(this).find('td').eq(0).find('a').text())||_.isUndefined(score_temp[2])) {
-                    return
+                temp['date']=new Date($(this).find('td').eq(1).text())
+                var str=_.words($(this).find('td').eq(2).text())
+                if(str.length===6){
+                    temp['homeRank']=parseInt(str[0])
+                    temp['home']=str[1]
+                    temp['homeFullTime']=parseInt(str[2])
+                    temp['awayFullTime']=parseInt(str[3])
+                    temp['away']=str[4]
+                    temp['awayRank']=parseInt(str[5])
+                }else{
+                    temp['home']=str[0]
+                    temp['homeFullTime']=parseInt(str[1])
+                    temp['awayFullTime']=parseInt(str[2])
+                    temp['away']=str[3]
                 }
-                temp['league'] = $(this).find('td').eq(0).find('a').text()
-                var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
-                temp['leagueId']=parseInt((s[s.length-2]).slice(6))
-                temp['matchId'] = parseInt($(this).attr('id'))
-                temp['date'] = $(this).find('td.td_time').text()
-                var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
-                temp['homeId']=parseInt(homeTeam[4])
-                var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
-                temp['awayId']=parseInt(awayTeam[4])
-                var score = _.map(_.words($(this).find('td').eq(3).text()),_.parseInt)
-                temp['homeFullTime']=score[0]
-                temp['awayFullTime']=score[1]
-                temp['homeFirstHalf']=score[2]
-                temp['awayFirstHalf']=score[3]
-
-
-                match['awayPastMatches'].push(objToSave(temp))
-            });
-            $('#f_table').find('tr').each(function(){
-                var temp={}
-
-                if(_.isEmpty($(this).find('td').eq(0).find('a').text())){
-                    return
-                }
-                temp['league'] = $(this).find('td').eq(0).find('a').text()
-                var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
-                temp['leagueId']=parseInt((s[s.length-2]).slice(6))
-                temp['matchId'] = parseInt($(this).attr('id'))
-
-                temp['date'] = new Date($(this).find('td.td_time').text())
-                var homeTeam = $(this).find('td.td_lteam').find('a').attr('href').split('/')
-                temp['homeId']=parseInt(homeTeam[4])
-                temp['home']=global.teamInfo[temp['homeId']]['en_name']
-                temp['home_cn']=global.teamInfo[temp['homeId']]['gb_name']
-                var awayTeam = $(this).find('td.td_rteam').find('a').attr('href').split('/')
-                temp['awayId']=parseInt(awayTeam[4])
-                temp['away']=global.teamInfo[temp['awayId']]['en_name']
-                temp['away_cn']=global.teamInfo[temp['awayId']]['gb_name']
-
-                match['awayFutureMatches'].push(temp)
+                match['bothMatches'].push(temp)
             })
+            // console.log(match['bothMatches'])
+            if($('div.team_a').length){
+                match['homeInfo']['league']={
+                    'overall':[],
+                    'home':[],
+                    'away':[]
+                }
+                $('div.team_a').find('th.th_one').parent().parent().find('tr').eq(1).find('td').each(function(){
+                    match['homeInfo']['league']['overall'].push($(this).text())
+                })
 
-            console.log(match)
+                $('div.team_a').find('th.th_one').parent().parent().find('tr').eq(2).find('td').each(function(){
+                    match['homeInfo']['league']['home'].push($(this).text())
+                })
+
+                $('div.team_a').find('th.th_one').parent().parent().find('tr').eq(3).find('td').each(function(){
+                    match['homeInfo']['league']['away'].push($(this).text())
+                })
+
+            }
+
+            if($('div.team_b').length){
+                match['awayInfo']['league']={
+                    'overall':[],
+                    'home':[],
+                    'away':[]
+                }
+                $('div.team_a').find('th.th_one').parent().parent().find('tr').eq(1).find('td').each(function(){
+                    match['awayInfo']['league']['overall'].push($(this).text())
+                })
+
+                $('div.team_a').find('th.th_one').parent().parent().find('tr').eq(2).find('td').each(function(){
+                    match['awayInfo']['league']['home'].push($(this).text())
+                })
+
+                $('div.team_a').find('th.th_one').parent().parent().find('tr').eq(3).find('td').each(function(){
+                    match['awayInfo']['league']['away'].push($(this).text())
+                })
+
+            }
+            
+
+            console.log(JSON.stringify(match,2))
+
+
 
         }else{
             console.log(error)
