@@ -1,14 +1,30 @@
 var matchInfo=require('./getMatchInfoParallel')
 var mongoose=require('mongoose')
-var matchUrl=[ '欧U19',
-    'http://liansai.500.com/team/5524/',
-    'http://liansai.500.com/team/5526/',
-    'http://odds.500.com/fenxi/shuju-581388.shtml',
-    'http://liansai.500.com/zuqiu-4090/',
-    '11-09&nbsp;19:00',
-    '资格赛' ]
+var todayMatch=require('./getTodayMatch')
+var async=require('async')
+
+
+todayMatch().then((val=>{
+    "use strict";
+    // console.log(val.slice(5,9))
+    // val.forEach(function(val){
+    //     console.log(val[3])
+    // })
+    console.log('get the data')
+    async.eachLimit(val,2,matchInfo,function(err){
+        mongoose.connection.close()
+    })
+
+}))
+// var matchUrl=[ '欧U19',
+//     'http://liansai.500.com/team/5524/',
+//     'http://liansai.500.com/team/5526/',
+//     'http://odds.500.com/fenxi/shuju-581388.shtml',
+//     'http://liansai.500.com/zuqiu-4090/',
+//     '11-09&nbsp;19:00',
+//     '资格赛' ]
 //
-matchInfo(matchUrl)
+// matchInfo(matchUrl)
 //
 // var matchInfo=require('./model').matchInfo
 // var matchData=require('./model').matchData
@@ -28,4 +44,17 @@ matchInfo(matchUrl)
 //                     })
 //             }
 //         })
-//
+// var dataObj=[
+//     [1,2,3],
+//     [2,3,4]
+// ]
+
+// function test(item,callback){
+//     "use strict";
+//     console.log(item); // print the key
+//     callback(); // tell async that the iterator has completed
+
+// }
+// async.forEach(dataObj, test, function(err) {
+//     console.log('iterating done');
+// });

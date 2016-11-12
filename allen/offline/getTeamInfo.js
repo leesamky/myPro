@@ -6,10 +6,22 @@ var fs=require('fs')
 
 var file=JSON.parse(fs.readFileSync('teamInfo',{encoding:'utf-8'}))
 global.teamInfo=[]
+global.teamMissing=[]
+var teamIds=[]
+var completeIds=[]
+for(let i=1;i<=9999;i++){
+    completeIds.push(i)
+}
+
 _.forEach(file,function(obj,index,arr){
     "use strict";
+    teamIds.push(obj.teamId)
     teamInfo[obj.teamId]=obj
 })
+
+teamMissing=_.difference(completeIds,teamIds)
+
+
 // console.log(global.teamInfo[5524],global.teamInfo[5526])
 
 
@@ -17,22 +29,30 @@ function getTeamInfo(match,matchUrl){
     "use strict";
     var team=matchUrl[1].split('/')
     var teamId=parseInt(team[team.length-2])
-    match['homeInfo']['teamId']=teamId
-    match['homeInfo']['gb_name']=global.teamInfo[teamId]['gb_name']
-    match['homeInfo']['en_name']=global.teamInfo[teamId]['en_name']
+
+    if(!_.isEmpty(global.teamInfo[teamId])){//in case the database does not have the team
+        match['homeInfo']['teamId']=teamId
+        match['homeInfo']['gb_name']=global.teamInfo[teamId]['gb_name']
+        match['homeInfo']['en_name']=global.teamInfo[teamId]['en_name']
+    }
 
 
     var team=matchUrl[2].split('/')
     var teamId=parseInt(team[team.length-2])
+    if(!_.isEmpty(global.teamInfo[teamId])) {//in case the database does not have the team
 
-    match['awayInfo']['teamId']=teamId
-    match['awayInfo']['gb_name']=global.teamInfo[teamId]['gb_name']
-    match['awayInfo']['en_name']=global.teamInfo[teamId]['en_name']
+
+        match['awayInfo']['teamId'] = teamId
+        match['awayInfo']['gb_name'] = global.teamInfo[teamId]['gb_name']
+        match['awayInfo']['en_name'] = global.teamInfo[teamId]['en_name']
+
+    }
 
     return match
 
 
 }
+// console.log(teamMissing.length)
 // console.log(getTeamInfo(match,matchUrl))
 
 

@@ -35,7 +35,7 @@ function getTodayMatch(){
                     today['matches'].push(temp)
 
                 })
-                resolve(today)
+                resolve(today['matches'])
             }else{
                 reject(error,response)
             }
