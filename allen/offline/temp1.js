@@ -43,10 +43,11 @@ function getBothMatchInfo(match,urls){
             var $=cheerio.load(html,{
                 decodeEntities:false
             })
-            var history=$('#team_jianzhan').find("span:contains('双方无交战历史')").length
+
+
+            var history=$('#team_jianzhan').find("span:contains('双方无交战历史')").length//both matches
             if(history){
-                console.log('no both match')
-                console.log(history.length)
+
             }else{
                 $('#team_jiaozhan').find('td.dz').parent().slice(1).each(function(){
                     var temp={}
@@ -73,7 +74,7 @@ function getBothMatchInfo(match,urls){
             }
 
 
-            if($('div.M_box').find('h4:contains("赛前联赛积分排名")').length){
+            if($('div.M_box').find('h4:contains("赛前联赛积分排名")').length){//league
 
                 if($('div.M_content').find('div.team_a').length){
 
@@ -119,10 +120,35 @@ function getBothMatchInfo(match,urls){
 
                 }
 
-            }else{
-                console.log('no league')
             }
-            
+
+            var cup=$('h4:contains("赛前杯赛排名")')
+            if(cup.length){
+                match['homeInfo']['cup']=[]
+
+                cup.parent().siblings().eq(1).find('tbody').find('tr').slice(0,1).each(function(){
+                    var that=this
+                    var temp=[]
+                    $(that).find('th').each(function(){
+                        temp.push($(this).text())
+                    })
+                    match['homeInfo']['cup'].push(temp)
+
+                })
+                cup.parent().siblings().eq(1).find('tbody').find('tr').slice(1).each(function(){
+                    var that=this
+                    var temp=[]
+                    $(that).find('td').each(function(){
+                        temp.push($(this).text())
+                    })
+                    match['homeInfo']['cup'].push(temp)
+
+                })
+                match['awayInfo']['cup']=match['homeInfo']['cup']
+
+            }
+            console.log(JSON.stringify(match,null,2))
+
 
         }else{
             console.log(error)
