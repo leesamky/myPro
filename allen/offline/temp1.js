@@ -122,7 +122,7 @@ function getBothMatchInfo(match,urls){
 
             }
 
-            var cup=$('h4:contains("赛前杯赛排名")')
+            var cup=$('h4:contains("赛前杯赛排名")')// cup
             if(cup.length){
                 match['homeInfo']['cup']=[]
 
@@ -147,7 +147,7 @@ function getBothMatchInfo(match,urls){
                 match['awayInfo']['cup']=match['homeInfo']['cup']
 
             }
-            console.log(JSON.stringify(match,null,2))
+
 
 
         }else{
