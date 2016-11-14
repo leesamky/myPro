@@ -4,9 +4,7 @@ var cheerio=require('cheerio')
 var iconv=require('iconv-lite')
 var async = require('async');
 var getTeaminfo=require('./getTeamInfo')//init the global variable
-var matchInfo=require('./model').matchInfo
-var matchData=require('./model').matchData
-var mongoose=require('mongoose')
+
 function objToSave(obj){
     "use strict";
     obj['away']=global.teamInfo[obj.awayId]['en_name']
@@ -22,15 +20,15 @@ function objToSave(obj){
     return obj
 }
 
-var urls=[ '丹甲',
-    'http://liansai.500.com/team/867/',
-    'http://liansai.500.com/team/4588/',
-    'http://odds.500.com/fenxi/shuju-580785.shtml',
-    'http://liansai.500.com/zuqiu-3849/',
-    '11-15&nbsp;02:00',
-    '第17轮' ]
+var urls=[ '欧U19',
+    'http://liansai.500.com/team/5524/',
+    'http://liansai.500.com/team/2654/',
+    'http://odds.500.com/fenxi/shuju-626171.shtml',
+    'http://liansai.500.com/zuqiu-4090/',
+    '11-14&nbsp;19:00',
+    '资格赛' ]
 
-function getMatchInfo(urls,callback){
+function getMatchInfo(urls){
     "use strict";
     console.log('now is '+urls[3])
     var match={
@@ -62,8 +60,8 @@ function getMatchInfo(urls,callback){
         else{
             matchInfo.create([...match['homePastMatches'],...match['awayPastMatches']],function(err,result){
                 matchData.create(match,function(err,result){
-                    // console.log(match.matchId+'done')
-                    callback(null)
+                    console.log(match.matchId+'done')
+                    // callback(null)
                     // mongoose.disconnect()
                     // mongoose.connection.close()
                 })
@@ -445,3 +443,4 @@ function getAwayMatches(match,urls,callback){
 
 
 // module.exports=getMatchInfo
+getMatchInfo(urls)

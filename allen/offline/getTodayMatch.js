@@ -43,7 +43,7 @@ function getTodayMatch(){
     })
 }
 
-// module.exports=getTodayMatch
+module.exports=getTodayMatch
 
 
 // var match=getTodayMatch('http://live.500.com/2h1.php')
