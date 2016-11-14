@@ -4,6 +4,11 @@ var cheerio=require('cheerio')
 var iconv=require('iconv-lite')
 var async = require('async');
 var getTeaminfo=require('./getTeamInfo')//init the global variable
+var mongoose=require('mongoose')
+var matchInfo=require('./model').matchInfo
+var matchData=require('./model').matchData
+
+
 
 function objToSave(obj){
     "use strict";
@@ -20,15 +25,15 @@ function objToSave(obj){
     return obj
 }
 
-var urls=[ '欧U19',
-    'http://liansai.500.com/team/5524/',
-    'http://liansai.500.com/team/2654/',
-    'http://odds.500.com/fenxi/shuju-626171.shtml',
-    'http://liansai.500.com/zuqiu-4090/',
-    '11-14&nbsp;19:00',
-    '资格赛' ]
+// var urls=[ '欧U19',
+//     'http://liansai.500.com/team/5524/',
+//     'http://liansai.500.com/team/2654/',
+//     'http://odds.500.com/fenxi/shuju-626171.shtml',
+//     'http://liansai.500.com/zuqiu-4090/',
+//     '11-14&nbsp;19:00',
+//     '资格赛' ]
 
-function getMatchInfo(urls){
+function getMatchInfo(urls,callback){
     "use strict";
     console.log('now is '+urls[3])
     var match={
@@ -61,7 +66,7 @@ function getMatchInfo(urls){
             matchInfo.create([...match['homePastMatches'],...match['awayPastMatches']],function(err,result){
                 matchData.create(match,function(err,result){
                     console.log(match.matchId+'done')
-                    // callback(null)
+                    callback(null)
                     // mongoose.disconnect()
                     // mongoose.connection.close()
                 })
@@ -102,20 +107,15 @@ function getBothMatchInfo(match,urls,callback){
                     var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
                     temp['leagueId']=parseInt((s[s.length-2]).slice(6))
                     temp['date']=new Date($(this).find('td').eq(1).text()+' GMT-0000')
-                    var str=_.words($(this).find('td').eq(2).text())
-                    if(str.length===6){
-                        temp['homeRank']=parseInt(str[0])
-                        temp['home']=str[1]
-                        temp['homeFullTime']=parseInt(str[2])
-                        temp['awayFullTime']=parseInt(str[3])
-                        temp['away']=str[4]
-                        temp['awayRank']=parseInt(str[5])
-                    }else{
-                        temp['home']=str[0]
-                        temp['homeFullTime']=parseInt(str[1])
-                        temp['awayFullTime']=parseInt(str[2])
-                        temp['away']=str[3]
-                    }
+
+                    var teams=$(this).find('td').eq(2).find('a').attr('title').slice(0,-4).split('VS')
+                    var scores=$(this).find('td').eq(2).find('em').text().split(':')
+                    temp['home']=teams[0]
+                    temp['homeFullTime']=parseInt(scores[0])
+                    temp['awayFullTime']=parseInt(scores[1])
+                    temp['away']=teams[1]
+                    // console.log(temp)
+
                     match['bothMatches'].push(temp)
                 })
             }
@@ -442,5 +442,5 @@ function getAwayMatches(match,urls,callback){
 }
 
 
-// module.exports=getMatchInfo
-getMatchInfo(urls)
+module.exports=getMatchInfo
+// getMatchInfo(urls)
