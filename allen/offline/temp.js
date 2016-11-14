@@ -11,7 +11,7 @@ todayMatch().then((val=>{
     //     console.log(val[3])
     // })
     console.log('get the data')
-    async.eachLimit(val,2,matchInfo,function(err){
+    async.eachLimit(val,3,matchInfo,function(err){
         mongoose.connection.close()
     })
 

@@ -1,4 +1,4 @@
-var mongoose=require('mongoose')
+// read the file to get the global variable teamInfo and export the function getTeamInfo
 var _=require('lodash')
 var request=require('request')
 var getTodayMatch=require('./getTodayMatch')

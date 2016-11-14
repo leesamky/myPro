@@ -22,6 +22,13 @@ function objToSave(obj){
     return obj
 }
 
+var urls=[ '丹甲',
+    'http://liansai.500.com/team/867/',
+    'http://liansai.500.com/team/4588/',
+    'http://odds.500.com/fenxi/shuju-580785.shtml',
+    'http://liansai.500.com/zuqiu-3849/',
+    '11-15&nbsp;02:00',
+    '第17轮' ]
 
 function getMatchInfo(urls,callback){
     "use strict";
@@ -437,4 +444,4 @@ function getAwayMatches(match,urls,callback){
 }
 
 
-module.exports=getMatchInfo
+// module.exports=getMatchInfo
