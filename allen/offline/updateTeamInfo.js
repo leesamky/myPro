@@ -17,11 +17,8 @@ for(let i=1;i<=9999;i++){
 
 _.forEach(file,function(obj,index,arr){
     "use strict";
-    if(!_.isEmpty(obj)){
-        teamIds.push(obj.teamId)
-        teamInfo[obj.teamId]=obj
-    }
-
+    teamIds.push(obj.teamId)
+    teamInfo[obj.teamId]=obj
 })
 
 teamMissing=_.difference(completeIds,teamIds)

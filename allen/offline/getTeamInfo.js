@@ -6,20 +6,16 @@ var fs=require('fs')
 
 var file=JSON.parse(fs.readFileSync('teamInfo',{encoding:'utf-8'}))
 global.teamInfo=[]
-global.teamMissing=[]
-var teamIds=[]
-var completeIds=[]
-for(let i=1;i<=9999;i++){
-    completeIds.push(i)
-}
+
 
 _.forEach(file,function(obj,index,arr){
     "use strict";
-    teamIds.push(obj.teamId)
-    teamInfo[obj.teamId]=obj
+    if(!_.isEmpty(obj)){
+        teamInfo[obj.teamId]=obj
+    }
+
 })
 
-teamMissing=_.difference(completeIds,teamIds)
 
 
 // console.log(global.teamInfo[5524],global.teamInfo[5526])
