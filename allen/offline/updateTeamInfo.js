@@ -1,12 +1,14 @@
 // run alone to update the teamInfo file
+var teamModel=require('./model').teamInfo
 var _=require('lodash')
 var request=require('request')
 var fs=require('fs')
-
+var getTeaminfo=require('./getTeamInfo')//init the global variable
 var cheerio=require('cheerio')
 var iconv=require('iconv-lite')
 var async=require('async')
 var file=JSON.parse(fs.readFileSync('teamInfo',{encoding:'utf-8'}))
+var mongoose=require('mongoose')
 global.teamInfo=[]
 global.teamMissing=[]
 var teamIds=[]
@@ -17,8 +19,10 @@ for(let i=1;i<=9999;i++){
 
 _.forEach(file,function(obj,index,arr){
     "use strict";
-    teamIds.push(obj.teamId)
-    teamInfo[obj.teamId]=obj
+    if(!_.isEmpty(obj)) {
+        teamIds.push(obj.teamId)
+        teamInfo[obj.teamId] = obj
+    }
 })
 
 teamMissing=_.difference(completeIds,teamIds)
@@ -73,10 +77,31 @@ async.eachLimit(teamMissing,8,updateTeamInfo,function(err){
 
     if(update){
         fs.writeFileSync('teamInfo',JSON.stringify(global.teamInfo),{encoding:'utf-8'})
-        console.log('finish updating')
+        console.log('finish updating local file, now update the server')
+        var file=JSON.parse(fs.readFileSync('teamInfo',{encoding:'utf-8'}))
+        var teamInfos=[]
+        _.forEach(file,function(obj,index,arr){
+            "use strict";
+            if(!_.isEmpty(obj)) {
+                delete obj['_id']
+                delete obj['__v']
+                teamInfos.push(obj)
+            }
+        })
+        teamModel.create(teamInfos,function(error,result){
+            "use strict";
+            if(error){console.log(error)}
+            else{
+                console.log(result)
+                console.log('end of the app')
+            }
+        })
     }else{
         console.log('no update')
+        mongoose.connection.close()
     }
+
+
 })
 
 

@@ -5,7 +5,7 @@ var _=require('lodash')
 var dataToStore=require('server/data/dataToStore.js')
 var match=require('server/data/matchInfo.js')
 var todayMatch=[]
-//
+var matchData=require('server/db/model').matchData
 app.get('/matchList',function(req,res){
     "use strict";
     console.log(todayMatch.length)
@@ -18,16 +18,15 @@ app.get('/matchList',function(req,res){
 
 app.get('/',function(req,res){
     "use strict";
-    // teamInfo.find()
-    //     .exec(function(error,results){
-    //         if(error){console.log(error)}
-    //         else{res.send(results)}
-    //     })
-    if(_.isEmpty(todayMatch)){
-        res.send(null)
-    }else{
-        res.send(todayMatch)
-    }
+    matchData.find()
+        .sort({date:-1})
+        .exec(function(error,results){
+            if(error){console.log(error)}
+            else{
+                res.send(JSON.stringify(results,null,2))
+            }
+        })
+
 
 })
 
@@ -37,7 +36,7 @@ app.post('/',function(req,res){
     "use strict";
 
     res.send('success')
-    todayMatch=req.body['matches']
+    todayMatch=req.body
 
     console.log(JSON.stringify(req.body))
 

@@ -2,7 +2,7 @@ var matchInfo=require('./getMatchInfoParallel')
 var mongoose=require('mongoose')
 var todayMatch=require('./getTodayMatch')
 var async=require('async')
-
+var request=require('request')
 
 todayMatch().then((val=>{
     "use strict";
@@ -14,6 +14,7 @@ todayMatch().then((val=>{
     console.log('totally: '+val.length)
     async.eachLimit(val,1,matchInfo,function(err){
         mongoose.connection.close()
+        console.log('done')
     })
 
 }))

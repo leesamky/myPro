@@ -1,18 +1,24 @@
-var matchInfo=require('./model').matchInfo
-var matchData=require('./model').matchData
-var mongoose=require('mongoose')
-var _=require('lodash')
+var request=require('request')
+var arr=[1,2,3]
+var url='http://localhost:8080/todayMatches'
+var options={
+    url:url,
+    headers:{
+        'User-Agent':"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36"
+    },
+    encoding:null,
+    method:'post',
+    json:arr
+}
 
-matchData.find()
-    .exec(function(error,results){
-        "use strict";
-        if(error){console.log(error)}
-        else{
-            _.forEach(results,function(result){
-                console.log(JSON.stringify(result,null,2))
-            })
-        }
-    })
+request(options,function(error,response,body){
+    "use strict";
+    if(!error&&response.statusCode===200){
+        console.log('done')
+    }else{
+        console.log(error)
+    }
+})
 
 
 

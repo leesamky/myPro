@@ -38,11 +38,9 @@ var matchDataSchema=Schema({
 var teamInfoSchema=Schema({
     en_name:{
         type:String,
-        required:true
     },
     gb_name:{
         type:String,
-        required:true
     },
     teamId:{
         type:Number,
