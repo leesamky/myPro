@@ -1,31 +1,43 @@
 var express=require('express')
 var app=express()
-var teamInfo=require('server/db/model').teamInfo
+
+var matchInfoModel=require('server/db/model').matchInfo
 var _=require('lodash')
-var dataToStore=require('server/data/dataToStore.js')
-var match=require('server/data/matchInfo.js')
+
 var todayMatch=[]
-var matchData=require('server/db/model').matchData
-app.get('/matchList',function(req,res){
+
+var fs=require('fs')
+var _=require('lodash')
+
+
+var file=JSON.parse(fs.readFileSync(__dirname+'/teamInfo.txt',{encoding:'utf-8'}))
+var teamIds=[]
+var teamInfo=[]
+_.forEach(file,function(obj,index,arr){
     "use strict";
-    console.log(todayMatch.length)
-    if(_.isEmpty(todayMatch)){
+    if(!_.isEmpty(obj)) {
+        teamIds.push(obj.teamId)
+        teamInfo[obj.teamId]=obj
+    }
+})
+
+teamIds=_.chunk(teamIds,1)
+// teamIds=[[1,2,3,4]]
+// console.log('TEAM IDS TOTALLY'+teamIds.length)
+app.get('/matchIds',function(req,res){
+    "use strict";
+    if(!_.isEmpty(teamIds)){
+        res.send(teamIds.pop())
+    }else{
         res.send(null)
     }
-    res.send(todayMatch.pop())
 
 })
 
 app.get('/',function(req,res){
     "use strict";
-    matchData.find()
-        .sort({date:-1})
-        .exec(function(error,results){
-            if(error){console.log(error)}
-            else{
-                res.send(JSON.stringify(results,null,2))
-            }
-        })
+    res.send([teamIds.length])
+
 
 
 })
@@ -36,16 +48,22 @@ app.post('/',function(req,res){
     "use strict";
 
     res.send('success')
-    todayMatch=req.body
+    var matches=_.map(req.body['matches'],objToSave)
+    console.log(matches.length)
+    // matches.forEach(function(match){
+    //     if(_.isEmpty(match['away'])){
+    //         console.log(match)
+    //     }
+    // })
 
-    console.log(JSON.stringify(req.body))
-
+    // console.log(req.body)
+    // console.log(objToSave(req.body['matches'][0]))
     // var d2=new match(d1,d1.awayId)
     // console.log(JSON.stringify(d2))
-    // teamInfo.create(data,function(error,results){
-    //     if(error){console.log(error)}
-    //     else{console.log(results)}
-    // })
+    if(matches.length){
+        matchInfoModel.create(matches)
+    }
+
 
 })
 
@@ -64,5 +82,21 @@ app.delete('/:id',function(req,res){
     //     else{res.send(results)}
     // })
 })
+
+
+function objToSave(obj){
+    "use strict";
+    obj['away']=_.isUndefined(teamInfo[obj.awayId]['en_name'])?'':teamInfo[obj.awayId]['en_name']
+    obj['away_cn']=_.isUndefined(teamInfo[obj.awayId]['gb_name'])?'':teamInfo[obj.awayId]['gb_name']
+    obj['home']=_.isUndefined(teamInfo[obj.homeId]['en_name'])?'':teamInfo[obj.homeId]['en_name']
+    obj['home_cn']=_.isUndefined(teamInfo[obj.homeId]['gb_name'])?'':teamInfo[obj.homeId]['gb_name']
+    obj['homeSecondHalf']=obj['homeFullTime']-obj['homeFirstHalf']
+    obj['awaySecondHalf']=obj['awayFullTime']-obj['awayFirstHalf']
+    obj['date']=new Date(obj['date']+'GMT-0000')//something wrong
+    obj['matchGoals']=obj['homeFullTime']+obj['awayFullTime']
+    obj['firstHalfGoals']=obj['homeFirstHalf']+obj['awayFirstHalf']
+    obj['secondHalfGoals']=obj['homeSecondHalf']+obj['awaySecondHalf']
+    return obj
+}
 
 module.exports=app

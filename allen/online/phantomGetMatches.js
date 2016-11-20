@@ -73,13 +73,8 @@ function selectOptionByValue(selector, valueToMatch){
             }
         });
         // dispatch change event in case there is some kind of validation
-        // var evt = document.createEvent("UIEvents"); // or "HTMLEvents"
-        // evt.initUIEvent("change", true, true);
-        var evt = new UIEvent("change", { // this works for firefox
-            "view": window,
-            "bubbles": true,
-            "cancelable": true
-        });
+        var evt = document.createEvent("UIEvents"); // or "HTMLEvents"
+        evt.initUIEvent("change", true, true);
         select.dispatchEvent(evt);
     }, selector, valueToMatch);
 };
@@ -103,7 +98,12 @@ function getMatches(){
         var teamId=teamIds.pop()
         var url='http://liansai.500.com/team/'+teamId+'/teamfixture/'
         console.log(url)
-        this.thenOpen(url).then(function(){
+
+        this.thenOpen(url,function(response){
+            console.log(response['status'])
+        }).then(function(){
+
+
             selectOptionByValue.apply(this,['#record','100'])
             console.log('click 100 games')
         })

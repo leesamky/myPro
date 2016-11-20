@@ -4,5 +4,5 @@ var todayMatch=require('server/pages/todayMatch')
 module.exports=function(app){
     "use strict";
     app.use('/teamInfo',teamInfoRouter)
-    app.use('/todayMatches',todayMatch)
+    app.use('/matches',todayMatch)
 }

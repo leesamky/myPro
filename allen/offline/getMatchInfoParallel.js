@@ -387,7 +387,7 @@ function getAwayMatches(match,urls,callback){
             $('div.ltab_bd table.jTrHover').find('tr').each(function () {
                 var temp = {}
                 var score_temp = _.map(_.words($(this).find('td').eq(3).text()),_.parseInt)
-                if(_.isEmpty($(this).find('td').eq(0).find('a').text())||_.isUndefined(score_temp[2])) { //maybe isNaN?
+                if(_.isEmpty($(this).find('td').eq(0).find('a').text())||_.isUndefined(score_temp[2]) ||_.isNaN(score_temp[2])) {
                     return
                 }
                 temp['league'] = $(this).find('td').eq(0).find('a').text()

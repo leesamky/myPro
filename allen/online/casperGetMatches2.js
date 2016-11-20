@@ -15,7 +15,8 @@ var casper=require('casper').create({
     waitTimeout:60000
 })
 
-
+var teamIds=[]
+var server='http://localhost:8080/matches/matchIds'
 
 casper.userAgent("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36")
 
@@ -72,15 +73,19 @@ function selectOptionByValue(selector, valueToMatch){
             }
         });
         // dispatch change event in case there is some kind of validation
-        var evt = document.createEvent("UIEvents"); // or "HTMLEvents"
-        evt.initUIEvent("change", true, true);
+        // var evt = document.createEvent("UIEvents"); // or "HTMLEvents"
+        // evt.initUIEvent("change", true, true);
+        var evt = new UIEvent("change", { // this works for firefox
+            "view": window,
+            "bubbles": true,
+            "cancelable": true
+        });
         select.dispatchEvent(evt);
     }, selector, valueToMatch);
 };
 
 casper.userAgent("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36")
 
-var teamIds=[29,39]
 
 function openPage(url){
     "use strict";
@@ -88,21 +93,36 @@ function openPage(url){
         console.log('page opened')
     })
 }
+function pageCallback(response){
+    "use strict";
+    console.log(response['status']===200)
+    if(response['status']!=='200'){
+        pageReload.call(this,response['url'])
+    }
+}
 
+function pageReload(url) {
+
+    this.open(url, pageCallback);
+}
 
 function getMatches(){
     "use strict";
     var data={'matches':[]}
+    console.log('teamIds are '+teamIds)
     if(!_.isEmpty(teamIds)){
         var teamId=teamIds.pop()
         var url='http://liansai.500.com/team/'+teamId+'/teamfixture/'
         console.log(url)
-        this.thenOpen(url).then(function(){
+        // this.thenOpen(url).then(function(){
+        //     selectOptionByValue.apply(this,['#record','100'])
+        //     console.log('click 100 games')
+        // })
+
+        this.thenOpen(url,pageCallback).then(function(){
             selectOptionByValue.apply(this,['#record','100'])
             console.log('click 100 games')
         })
-
-
 
         this.waitForResource(function testResource(resource){
             return resource.url.indexOf("records=100")>0
@@ -175,7 +195,7 @@ function getMatches(){
                 $('div.lcontent_full').find('tbody.his_table').find('tr').each(function () {
                     var temp = {}
                     var score = _.map(_.words($(this).find('td').eq(3).text()), _.parseInt)
-                    if (_.isEmpty($(this).find('td').eq(0).find('a').text()) || _.isNaN(score[2])) {
+                    if (_.isEmpty($(this).find('td').eq(0).find('a').text()) || _.isNaN(score[2]) || _.isUndefined(score[2])) {
                         return
                     }
                     temp['match'] = $(this).find('td').eq(0).find('a').text()
@@ -199,23 +219,63 @@ function getMatches(){
                 // data['matches'].push(1)
                 return data
             },JSON.stringify(data))
-            console.log('totally'+(Date.now()-t).toString())
-            // console.log('Total away matches:'+data['matches'].length)
+            // console.log('totally'+(Date.now()-t).toString())
+            console.log('Total matches:'+data['matches'].length)
+            sendData.call(this,data)
             // console.log(JSON.stringify(data))
         })
         this.run(getMatches)
     }else{
-        this.echo('all done')
-        this.exit()
+
+        getTeamIds.call(this)
+
+
     }
 
 }
 
+function getTeamIds(){
+    "use strict";
+    console.log('get ids from server')
+    teamIds=this.evaluate(function(server){
+            return JSON.parse(__utils__.sendAJAX(server,'GET',null,false))
+        },server)
 
+    console.log(teamIds)
+    if(_.isEmpty(teamIds)){
+        this.echo('all done')
+        this.exit()
+    }else{
+        this.echo('get teams from the list')
+        this.run(getMatches)
+    }
+}
 
+function sendData(data){
+    "use strict";
+    var server='http://localhost:8080/matches'
+    this.then(function(){
 
-casper.start('starting')
-t=Date.now()
+        this.evaluate(function(server,data){
+            // data=JSON.parse(data)
+            return JSON.parse(__utils__.sendAJAX(server,'POST',data,false,{
+                contentType:"application/json",
+                charset:"utf-8",
+                dataType:"json"
+            }))
+        },server,JSON.stringify(data))
+    })
+
+}
+
+casper.start().then(function(){
+    "use strict";
+    this.echo('starting')
+    teamIds=casper.evaluate(function(server){
+        return JSON.parse(__utils__.sendAJAX(server,'GET',null,false))
+    },server)
+})
+// t=Date.now()
 casper.run(getMatches)
 console.log('page opened')
 
