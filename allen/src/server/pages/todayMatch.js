@@ -48,18 +48,10 @@ app.post('/',function(req,res){
     "use strict";
 
     res.send('success')
+    // console.log(JSON.stringify(req.body['matches'],null,2))
     var matches=_.map(req.body['matches'],objToSave)
-    console.log(matches.length)
-    // matches.forEach(function(match){
-    //     if(_.isEmpty(match['away'])){
-    //         console.log(match)
-    //     }
-    // })
+    console.log(req.body['teamId']+'  total matches:'+matches.length)
 
-    // console.log(req.body)
-    // console.log(objToSave(req.body['matches'][0]))
-    // var d2=new match(d1,d1.awayId)
-    // console.log(JSON.stringify(d2))
     if(matches.length){
         matchInfoModel.create(matches)
     }

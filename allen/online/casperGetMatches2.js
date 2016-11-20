@@ -112,6 +112,7 @@ function getMatches(){
     console.log('teamIds are '+teamIds)
     if(!_.isEmpty(teamIds)){
         var teamId=teamIds.pop()
+        data['teamId']=teamId
         var url='http://liansai.500.com/team/'+teamId+'/teamfixture/'
         console.log(url)
         // this.thenOpen(url).then(function(){
@@ -152,8 +153,9 @@ function getMatches(){
                     if (_.isEmpty($(this).find('td').eq(0).find('a').text()) || _.isNaN(score[2])) {
                         return
                     }
-                    temp['match'] = $(this).find('td').eq(0).find('a').text()
-
+                    temp['league'] = $(this).find('td').eq(0).find('a').text()
+                    var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
+                    temp['leagueId']=parseInt((s[s.length-2]).slice(6))
                     temp['matchId'] = parseInt($(this).attr('id'))
 
                     temp['date'] = $(this).find('td.td_time').text()
@@ -198,8 +200,9 @@ function getMatches(){
                     if (_.isEmpty($(this).find('td').eq(0).find('a').text()) || _.isNaN(score[2]) || _.isUndefined(score[2])) {
                         return
                     }
-                    temp['match'] = $(this).find('td').eq(0).find('a').text()
-
+                    temp['league'] = $(this).find('td').eq(0).find('a').text()
+                    var s=$(this).find('td').eq(0).find('a').attr('href').split('/')
+                    temp['leagueId']=parseInt((s[s.length-2]).slice(6))
                     temp['matchId'] = parseInt($(this).attr('id'))
 
                     temp['date'] = $(this).find('td.td_time').text()
