@@ -1,23 +1,7 @@
 var mongoose=require('mongoose')
 var Schema=mongoose.Schema
-mongoose.Promise = global.Promise;
+mongoose.Promise=global.Promise
 mongoose.connect('mongodb://localhost/soccer')
-
-var leagueSchema=Schema({
-    leagueId:{
-        type:Number,
-        index:true,
-        unique:true
-    },
-    leagueCN:{
-        type:String,
-        index:true,
-    },
-    teamsId:[],
-    teamsCn:[]
-})
-
-
 
 var matchDataSchema=Schema({
     homeInfo:{},
@@ -41,7 +25,8 @@ var matchDataSchema=Schema({
         unique:true
     },
     date:{
-        type:Date
+        type:Date,
+        index:true
     },
     round:{
         type:String
@@ -77,10 +62,12 @@ var matchInfoSchema=Schema({
         required:true
     },
     awayFirstHalf:{
-        type:Number
+        type:Number,
+        index:true
     },
     awaySecondHalf:{
-        type:Number
+        type:Number,
+        index:true
     },
     awayId:{
         type:Number,
@@ -92,7 +79,8 @@ var matchInfoSchema=Schema({
         index:true,
     },
     date:{
-        type:Date
+        type:Date,
+        index:true
     },
     home:{
         type:String,
@@ -100,7 +88,8 @@ var matchInfoSchema=Schema({
         required:true
     },
     homeFirstHalf:{
-        type:Number
+        type:Number,
+        index:true
     },
     homeSecondHalf:{
         type:Number
@@ -136,14 +125,15 @@ var matchInfoSchema=Schema({
         required:true
     },
     firstHalfGoals:{
-        type:Number
+        type:Number,
+        index:true
     },
     secondHalfGoals:{
-        type:Number
+        type:Number,
+        index:true
     }
 })
 
 module.exports.teamInfo=mongoose.model('teamInfo',teamInfoSchema)
 module.exports.matchInfo=mongoose.model('matchInfo',matchInfoSchema)
 module.exports.matchData=mongoose.model('matchData',matchDataSchema)
-module.exports.league=mongoose.model('league',leagueSchema)
