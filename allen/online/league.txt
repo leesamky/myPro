@@ -1,0 +1,6799 @@
+[
+  {
+    "id": "1700",
+    "name": " Alanya Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197640",
+    "name": "AFF - U19 Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10516",
+    "name": "AFC - Asian Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8562",
+    "name": "AFC - Asian Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1707",
+    "name": "AFC - Asian Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1708",
+    "name": "AFC - Champions League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9596",
+    "name": "AFC - Champions League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "7795",
+    "name": "AFC - Champions League Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192714",
+    "name": "AFC - Champions League Qualifiers Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1709",
+    "name": "AFC - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196884",
+    "name": "AFC - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196889",
+    "name": "AFC - Asian Cup Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1710",
+    "name": "AFC - Cup Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196937",
+    "name": "AFC - Asian Cup Qualifiers Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197943",
+    "name": "AFC - Solidarity Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10085",
+    "name": "AFC - U19 Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191734",
+    "name": "AFC - U19 Championship Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197916",
+    "name": "AFC - U19 Championship Womens Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "35179",
+    "name": "AFC - U23 Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "35180",
+    "name": "AFC - U23 Championship Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1713",
+    "name": "CAF - Africa Cup of Nations Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10576",
+    "name": "CAF - Africa Cup of Nations Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1715",
+    "name": "CAF - Champions League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1717",
+    "name": "CAF - African Nations Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187665",
+    "name": "CAF - African Nations Championship Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192619",
+    "name": "CAF - African Nations Championship Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1718",
+    "name": "CAF - Africa Cup of Nations",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1722",
+    "name": "Albania - Superliga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "7953",
+    "name": "International - Algarve Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198027",
+    "name": "Algeria - Professional Ligue 1 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1725",
+    "name": "Algeria - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "8667",
+    "name": "Algeria - Professional Ligue 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10747",
+    "name": "Algeria - Youth U21 League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6269",
+    "name": "Sweden - Allsvenskan Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1728",
+    "name": "Sweden - Allsvenskan",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6820",
+    "name": "Argentina - Primera B Nacional Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196767",
+    "name": "Argentina - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192769",
+    "name": "Argentina - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6327",
+    "name": "Argentina - Primera Division Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1739",
+    "name": "Argentina - Primera B Nacional",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1740",
+    "name": "Argentina - Primera Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1741",
+    "name": "Argentina - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191700",
+    "name": "Armenia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191830",
+    "name": "Armenia - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1742",
+    "name": "Armenia - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "198023",
+    "name": "ASEAN Football Championship Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1744",
+    "name": "ASEAN Football Championship",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "149046",
+    "name": "AFF - Women Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196891",
+    "name": "AFC - Asian Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1745",
+    "name": "AFC - Asian Cup Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1746",
+    "name": "Asian Games - Men",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4593",
+    "name": "Asian Games - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1748",
+    "name": "Audi Cup (in Munich)",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6478",
+    "name": "Audi Cup (in Munich) Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "125465",
+    "name": "Australia - FFA Cup Qualifiers Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10914",
+    "name": "Australia - Brisbane Capital League 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "11663",
+    "name": "Australia - Brisbane Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8709",
+    "name": "Australia - Brisbane Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10631",
+    "name": "Australia - Brisbane Silver Boot",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1749",
+    "name": "Australia - Brisbane Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197317",
+    "name": "Australia - Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8826",
+    "name": "Australia - Dockerty Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9394",
+    "name": "Australia - FFA Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191383",
+    "name": "Australia - FFA Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10984",
+    "name": "Australia - FFA Cup Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197539",
+    "name": "Australia - FFT League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1751",
+    "name": "Australia - Foxtel Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "120869",
+    "name": "Australia - Northern Football",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8592",
+    "name": "Australia NPL - Capital Territory",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8594",
+    "name": "Australia NPL - Northern NSW",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8588",
+    "name": "Australia NPL - New South Wales",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194796",
+    "name": "Australia NPL - New South Wales 2",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194630",
+    "name": "Australia NPL - South Australia State League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8590",
+    "name": "Australia NPL - T-League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196909",
+    "name": "Australia NPL - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "66352",
+    "name": "Australia NPL - Western Australia Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8586",
+    "name": "Australia NPL - Western Australia",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9913",
+    "name": "Australia - NPL Finals",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8653",
+    "name": "Australia - NSW Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10136",
+    "name": "Australia - National Youth League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198008",
+    "name": "Australia - National Youth League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1752",
+    "name": "Austria - ÖFB Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6775",
+    "name": "Austria - Erste Liga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1753",
+    "name": "Australia NPL - South Australia",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191466",
+    "name": "Australia - State Leagues",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "163720",
+    "name": "Australia - Tasmania",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "35177",
+    "name": "Australia - Victoria Premier League Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "42018",
+    "name": "Australia NPL - Victoria Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "66350",
+    "name": "Australia NPL - Victoria Division 1 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198014",
+    "name": "Australia - Women League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9318",
+    "name": "Western Australia Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194565",
+    "name": "Australia - Western Night Series",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1756",
+    "name": "Australia NPL - Victoria Division 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "8584",
+    "name": "Australia NPL - Queensland",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196792",
+    "name": "Australia NPL - Queensland Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192150",
+    "name": "Austria - Regionalliga Mitte Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192151",
+    "name": "Austria - Regionalliga West Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192152",
+    "name": "Austria - Regionalliga Ost Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1765",
+    "name": "Australia - A-League Pre-Season Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1766",
+    "name": "Australia - A League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10030",
+    "name": "Australia - Women League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "48010",
+    "name": "Australia - A League Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6782",
+    "name": "Australia - A League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1769",
+    "name": "Australia NPL - Victoria",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1773",
+    "name": "Austria - Erste Liga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "76258",
+    "name": "Austria - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1776",
+    "name": "Austria - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196952",
+    "name": "Austria - Regionalliga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1784",
+    "name": "Austria - Regionalliga Ost",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1785",
+    "name": "Austria - Regionalliga Mitte",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1786",
+    "name": "Austria - Regionalliga West",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194738",
+    "name": "Austria - Frauen Bundesliga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1792",
+    "name": "Austria - Bundesliga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6299",
+    "name": "Austria - Bundesliga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "8727",
+    "name": "Australia Victorian Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "7167",
+    "name": "Azerbaijan - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1796",
+    "name": "Azerbaijan - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1797",
+    "name": "Bahrain - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1798",
+    "name": "Bahrain - FA Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192105",
+    "name": "Bahrain - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1800",
+    "name": "Bahrain - Kings Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10769",
+    "name": "Brazil - Baiano",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1801",
+    "name": "Baltic - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "198029",
+    "name": "Bangladesh - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "88184",
+    "name": "Bangladesh - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197300",
+    "name": "Belgium - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6416",
+    "name": "Belarus - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1813",
+    "name": "Belarus - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197045",
+    "name": "Belarus - Women Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10336",
+    "name": "Belgium - First Division B Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10584",
+    "name": "Belgium - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191834",
+    "name": "Belgium - Youth League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1816",
+    "name": "Belgium - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1817",
+    "name": "Belgium - First Division A",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1818",
+    "name": "Belgium - First Division B",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6486",
+    "name": "Belgium - First Division A Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1819",
+    "name": "Belgium - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10254",
+    "name": "Belgium - Youth League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196778",
+    "name": "Belgium - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9975",
+    "name": "BeNeLeague - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5595",
+    "name": "Bolivia - LFPB",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197206",
+    "name": "Bolivia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1826",
+    "name": "Bosnia and Herzegovina  - Premier Liga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192685",
+    "name": "Brazil - Alagoano",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197586",
+    "name": "Brazil - Copa Gaucha",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191548",
+    "name": "Brazil - Copa Paulista",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192778",
+    "name": "Brazil - Paraibano",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "11681",
+    "name": "Brazil - Potiguar",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194651",
+    "name": "Brazil - Primeira Liga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1829",
+    "name": "Brazil - Gaucho",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "185632",
+    "name": "Brazil - Serie B Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192841",
+    "name": "Brazil - Brasiliense",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10883",
+    "name": "Brazil - Copa Do Nordeste",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "75455",
+    "name": "Brazil - Copa Verde",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194726",
+    "name": "Brazil - Carioca 2",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197888",
+    "name": "Brazil - Copa Fares Lopes",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10885",
+    "name": "Brazil - Pernambucano",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191543",
+    "name": "Brazil - Rio Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191805",
+    "name": "Brazil - U20 Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1833",
+    "name": "Brazil - Cup",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192357",
+    "name": "Brazil - Cup Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192701",
+    "name": "Brazil - Maranhense 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192693",
+    "name": "Brazil - Primeira Liga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192172",
+    "name": "Brazil - Super Copa Gaucha",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1834",
+    "name": "Brazil - Serie A",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1835",
+    "name": "Brazil - Serie B",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196773",
+    "name": "Brazil - Sergipano",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10402",
+    "name": "Brazil - U20",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6310",
+    "name": "Brazil - Serie A Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9320",
+    "name": "Bulgaria - A PFG",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1839",
+    "name": "Bulgaria - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9503",
+    "name": "Bulgaria - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5886",
+    "name": "Germany - Bundesliga 2 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8564",
+    "name": "Germany - Bundesliga 3 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5874",
+    "name": "Germany - Bundesliga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "194704",
+    "name": "Germany - Bundesliga U19 Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197439",
+    "name": "Germany - Bundesliga Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8705",
+    "name": "Germany - Bundesliga U19",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198012",
+    "name": "Germany - Bundesliga U19 Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1842",
+    "name": "Germany - Bundesliga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1843",
+    "name": "Germany - Bundesliga 2",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1844",
+    "name": "Germany - Bundesliga 3",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1845",
+    "name": "Germany - Bundesliga Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10768",
+    "name": "Brazil - Cearense",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187709",
+    "name": "CAF - Confederation Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198017",
+    "name": "CAF - Africa Women Cup of Nations",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "198025",
+    "name": "CAF - Africa Women Cup of Nations Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192351",
+    "name": "CAF - Cup of Nations U23",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10897",
+    "name": "CAF - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "11686",
+    "name": "CAF - U20 Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1849",
+    "name": "Cameroon - Division 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1850",
+    "name": "Canada - Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1851",
+    "name": "Canada - Soccer League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1852",
+    "name": "Brazil - Carioca",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "72421",
+    "name": "Brazil - Carioca Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "4711",
+    "name": "Carling Nations Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197077",
+    "name": "Cosafa Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10776",
+    "name": "Brazil - Catarinense",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1854",
+    "name": "Africa - CECAFA Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197642",
+    "name": "Africa - CECAFA Womens Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197294",
+    "name": "CEE U19 Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6476",
+    "name": "International Champions Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1855",
+    "name": "International Champions Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10279",
+    "name": "Chile - Primera B",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "72423",
+    "name": "Chile - Primera B Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1856",
+    "name": "Chile - Cup",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10587",
+    "name": "Chile - Cup Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197657",
+    "name": "Chile - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1857",
+    "name": "Chile - Primera Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10658",
+    "name": "Chile - Primera Division Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6417",
+    "name": "China - Super League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "11670",
+    "name": "China - Super League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8655",
+    "name": "China - League One",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1859",
+    "name": "China - FA Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10813",
+    "name": "China - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5452",
+    "name": "UEFA - Champions League Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5979",
+    "name": "Club Friendlies II",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187737",
+    "name": "Club Friendlies III",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10711",
+    "name": "Club Friendlies II - Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10608",
+    "name": "Club Friendlies - Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1863",
+    "name": "Club Friendlies",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1864",
+    "name": "Club Friendly - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1865",
+    "name": "FIFA - Club World Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10423",
+    "name": "FIFA - Club World Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5591",
+    "name": "Colombia - Primera A",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "72425",
+    "name": "Colombia - Primera A Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10921",
+    "name": "Colombia - Primera B",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1867",
+    "name": "Colombia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10629",
+    "name": "Colombia - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191919",
+    "name": "CONCACAF - Confed Cup Playoff",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "194553",
+    "name": "CONCACAF - Champions League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197197",
+    "name": "CONCACAF - North/Central America U20  Qualiefiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1870",
+    "name": "CONCACAF - Champions League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4787",
+    "name": "CONCACAF - U20 Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6354",
+    "name": "FIFA - Confed Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1871",
+    "name": "FIFA - Confed Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187542",
+    "name": "Copa America 2016 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192496",
+    "name": "Copa America Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187543",
+    "name": "Copa America 2016 Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1872",
+    "name": "Copa America 2016",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192522",
+    "name": "Copa America Qualifiers Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192708",
+    "name": "CONMEBOL - Copa Libertadores U20",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1875",
+    "name": "CONMEBOL - Copa Libertadores",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6283",
+    "name": "CONMEBOL - Copa Libertadores Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4677",
+    "name": "CONCACAF - Copa Centro Americana",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9383",
+    "name": "Copa EuroAmericana",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1878",
+    "name": "Copa Panamericana",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197076",
+    "name": "Cosafa - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9531",
+    "name": "Costa Rica - Primera Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9532",
+    "name": "Costa Rica - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "72429",
+    "name": "Costa Rica - Primera Division Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "72427",
+    "name": "Croatia - 1. HNL Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1880",
+    "name": "Croatia - 1. HNL",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1881",
+    "name": "Croatia - 2. HNL",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1882",
+    "name": "Croatia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6851",
+    "name": "sonia test",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1887",
+    "name": "Cyprus - 1st  Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1888",
+    "name": "Cyprus - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6648",
+    "name": "Cyprus - 1st Division Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "7955",
+    "name": "International - Cyprus Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1890",
+    "name": "Cyprus - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1891",
+    "name": "Czech Republic - Czech Liga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6758",
+    "name": "Czech Republic - Czech Liga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "194587",
+    "name": "Czech Republic - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197511",
+    "name": "Czech Republic - FNL",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1898",
+    "name": "Czech Republic - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10895",
+    "name": "Czech Republic - U19 League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9755",
+    "name": "Czech Republic - U21 League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197996",
+    "name": "Czech Republic - U21 League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9441",
+    "name": "Czech Republic - 2. Liga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1903",
+    "name": "Sweden - Damallsvenskan",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1904",
+    "name": "Denmark - Division 1",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6666",
+    "name": "Denmark - Division 1 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191393",
+    "name": "Denmark - 2nd Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6822",
+    "name": "Denmark - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1908",
+    "name": "Denmark - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1913",
+    "name": "Denmark - Superliga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6426",
+    "name": "Denmark - Superliga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "198031",
+    "name": "Denmark - Reserve League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10841",
+    "name": "Denmark - Reserve League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "163789",
+    "name": "Denmark - U19",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1924",
+    "name": "Denmark - U21",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187661",
+    "name": "Denmark - Elitedivisionen Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1928",
+    "name": "Netherlands - Eredivisie",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1929",
+    "name": "Netherlands - Eerste Divisie",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1930",
+    "name": "Netherlands - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6273",
+    "name": "Netherlands - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "194765",
+    "name": "Netherlands - Reserve League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6439",
+    "name": "Netherlands - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1933",
+    "name": "Netherlands - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "194624",
+    "name": "Netherlands - Jong Eredivisie U19",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10147",
+    "name": "Netherlands - Jong Eredivisie U23",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192092",
+    "name": "Netherlands - Jong Eredivisie U23 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192784",
+    "name": "Netherlands - Eredivisie (women)",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6312",
+    "name": "Netherlands - Eredivisie Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6713",
+    "name": "Netherlands - Eerste Divisie Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6437",
+    "name": "EAFF East Asian - Cup Women Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1939",
+    "name": "EAFF East Asian - Cup Men",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6435",
+    "name": "EAFF East Asian Cup - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5598",
+    "name": "Ecuador - Serie A",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6668",
+    "name": "Ecuador - Serie A Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197248",
+    "name": "Ecuador - Serie B",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197249",
+    "name": "Ecuador - U19",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1946",
+    "name": "Egypt - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9885",
+    "name": "Egypt - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "125463",
+    "name": "Egypt - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196742",
+    "name": "El Salvador - Primera Division",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "187838",
+    "name": "Emirates - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1950",
+    "name": "Emirates - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6834",
+    "name": "England - League Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5938",
+    "name": "England - Championship Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10553",
+    "name": "England - Cheshire Senior Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1951",
+    "name": "England - National League North",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1952",
+    "name": "England - National League South",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10551",
+    "name": "England - Derbyshire Senior Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197559",
+    "name": "England - EFL Trophy",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1953",
+    "name": "England - Community Shield",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1955",
+    "name": "England - FA Youth",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191445",
+    "name": "England - Isthmian Division 1 North",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191446",
+    "name": "England - Isthmian Division 1 South",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10549",
+    "name": "England - Isthmian League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "11697",
+    "name": "England - Isthmian Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192153",
+    "name": "England - Isthmian Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192237",
+    "name": "England - London Senior Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1957",
+    "name": "England - League 1",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6303",
+    "name": "England - League 1 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1958",
+    "name": "England - League 2",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "42016",
+    "name": "England - League 2 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197377",
+    "name": "England - Liverpool Senior Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197654",
+    "name": "England - Northern Premier League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192235",
+    "name": "England - Northamptonshire Senior Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "11693",
+    "name": "England - Northern Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192488",
+    "name": "England - Northern Premier League Challenge Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197646",
+    "name": "England - Premier League 2",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5487",
+    "name": "England - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197438",
+    "name": "England - Premier League Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198002",
+    "name": "England - Premier League 2 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10555",
+    "name": "England - Southern Football League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "11695",
+    "name": "England - Southern Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197758",
+    "name": "England - U23 Premier League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192096",
+    "name": "England - Walsall Senior Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192098",
+    "name": "England - West Riding County Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8713",
+    "name": "England - Women Super League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1977",
+    "name": "England - Championship",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1978",
+    "name": "England - National League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1979",
+    "name": "England - FA Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1980",
+    "name": "England - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1981",
+    "name": "England - FA Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6678",
+    "name": "England - National League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1982",
+    "name": "England - League Cup",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192109",
+    "name": "England - FA Trophy Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "1983",
+    "name": "England - FA Trophy",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6516",
+    "name": "England - Community Shield Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6276",
+    "name": "England - FA Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1988",
+    "name": "EPL Specials",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6565",
+    "name": "England - Premier League U21",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6682",
+    "name": "England - Premier League U21 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "1989",
+    "name": "Estonia - Meistriliiga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9544",
+    "name": "Estonia - Meistriliiga (1st Division) Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "125461",
+    "name": "Estonia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5643",
+    "name": "UEFA - EURO 2016 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196982",
+    "name": "UEFA - EURO 2016 Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9601",
+    "name": "UEFA - Europa League Qualifiers Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5981",
+    "name": "FIFA - World Cup Qualifiers Europe II",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2010",
+    "name": "FIFA - U20 World Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4483",
+    "name": "FIFA - U17 World Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197971",
+    "name": "FIFA - U20 World Cup Women Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2012",
+    "name": "FIFA - World Cup Qualifiers Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2013",
+    "name": "FIFA - World Cup Qualifiers Africa",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2014",
+    "name": "FIFA - World Cup Qualifiers Asia",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2015",
+    "name": "FIFA - World Cup Qualifiers Europe",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6760",
+    "name": "FIFA - World Cup Qualifiers Intercontinental",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5001",
+    "name": "FIFA - World Cup Qualifiers Oceania",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2016",
+    "name": "FIFA - World Cup Qualifiers South America",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5894",
+    "name": "FIFA - World Cup Qualifiers Europe Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6852",
+    "name": "FIFA - World Cup Qualifiers Women Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6990",
+    "name": "FIFA - World Cup Qualifiers Africa Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "7016",
+    "name": "FIFA - World Cup Qualifier Intercontinental Corner",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2017",
+    "name": "FIFA - World Cup Qualifiers North America",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192271",
+    "name": "FIFA - World Cup Qualifiers North America Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6338",
+    "name": "FIFA - World Cup Qualifiers South America Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2018",
+    "name": "Finland - Kakkonen",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192724",
+    "name": "Finland - League Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197053",
+    "name": "Finland - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2020",
+    "name": "Finland - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4993",
+    "name": "Finland - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197235",
+    "name": "Finland - Naisten Liiga Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197320",
+    "name": "Finland - U20 League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2023",
+    "name": "Finland - Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2024",
+    "name": "Finland - Veikkausliiga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6385",
+    "name": "Finland - Veikkausliiga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2025",
+    "name": "Finland - Ykkonen",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196769",
+    "name": "Finland - Ykkonen Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2026",
+    "name": "Four Nations Tournament",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6321",
+    "name": "France - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2027",
+    "name": "France - National",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192419",
+    "name": "France - National Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2032",
+    "name": "France - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2033",
+    "name": "France - Feminine Division 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2034",
+    "name": "France - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6836",
+    "name": "France - League Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2035",
+    "name": "France - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197590",
+    "name": "France - U19 League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6489",
+    "name": "France - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2036",
+    "name": "France - Ligue 1",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2037",
+    "name": "France - Ligue 2",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6495",
+    "name": "France - Ligue 2 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6267",
+    "name": "France - Ligue 1 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2038",
+    "name": "Friendlies",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2039",
+    "name": "Friendly - U19",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2040",
+    "name": "Friendly - U20",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2041",
+    "name": "Friendly - U21",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2042",
+    "name": "Friendly - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10728",
+    "name": "GCC - Champions League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10236",
+    "name": "Georgia - Umaglesi Liga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2044",
+    "name": "Georgia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "8719",
+    "name": "Germany - Brandenburg Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "187892",
+    "name": "Germany Regional Cups - Hamburg",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8721",
+    "name": "Germany Niedersachsen Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197265",
+    "name": "Germany - Regional Cup Schleswig-Holstein",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6546",
+    "name": "Germany - Regionalliga Bavaria",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6680",
+    "name": "Germany - Regionalliga Bavaria Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192776",
+    "name": "Germany - Regionalliga Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191538",
+    "name": "Germany Regional Cup - Bayern",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2048",
+    "name": "Germany - Regionalliga North",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192396",
+    "name": "Germany - Regionalliga North Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6545",
+    "name": "Germany - Regionalliga North East",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196875",
+    "name": "Germany - Regionalliga Playoff",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2049",
+    "name": "Germany - Regionalliga Sued",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6543",
+    "name": "Germany - Regionalliga South West",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2050",
+    "name": "Germany - Regionalliga West",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191364",
+    "name": "Germany - Regionalliga West Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "149053",
+    "name": "Germany - Regional Cup Westfalen",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194782",
+    "name": "Germany - Regionalliga North East Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196929",
+    "name": "Germany - Regionalliga Playoff Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194585",
+    "name": "Germany - Regionalliga South West Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8722",
+    "name": "Germany Rheinland Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6441",
+    "name": "Germany - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2054",
+    "name": "Germany - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197785",
+    "name": "Germany - Oberliga Mitterlrhein",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197470",
+    "name": "Germany - Oberliga Niederrhein",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192149",
+    "name": "Germany - Oberliga Bayern Nord Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2065",
+    "name": "Germany - Oberliga Bayern Nord",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2066",
+    "name": "Germany - Oberliga Bayern Sud",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196869",
+    "name": "Germany - Cup Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6325",
+    "name": "Germany - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2067",
+    "name": "Germany - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2068",
+    "name": "Germany - DFB Pokal Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191448",
+    "name": "Germany - Oberliga Nordost Nord",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191449",
+    "name": "Germany - Oberliga Nordost Sud",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2072",
+    "name": "Germany - Oberliga Bayern",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191452",
+    "name": "Germany - Oberliga Bremen",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2073",
+    "name": "Germany - Oberliga Baden-Wurttemberg",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191447",
+    "name": "Germany - Oberliga Hessen",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191453",
+    "name": "Germany - Oberliga Hamburg",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191454",
+    "name": "Germany - Oberliga Niedersachsen",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191450",
+    "name": "Germany - Oberliga Rheinland-Pfalz/Saar",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191451",
+    "name": "Germany - Oberliga Schleswig-Holstein",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197471",
+    "name": "Germany - Oberliga Westfalen",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8732",
+    "name": "Germany - Regionalliga Cup Mittelrhein",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196927",
+    "name": "Ghana - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10748",
+    "name": "Gibraltar - Premier Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191821",
+    "name": "Gibraltar - Premier Division Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10780",
+    "name": "Brazil - Goiano",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2077",
+    "name": "CONCACAF - Gold Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6401",
+    "name": "CONCACAF - Gold Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "35185",
+    "name": "CONCACAF - Gold Cup Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187828",
+    "name": "CONCACAF - Gold Cup Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2080",
+    "name": "Greece - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10589",
+    "name": "Greece - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2081",
+    "name": "Greece - Super League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10250",
+    "name": "Greece - Football League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6756",
+    "name": "Greece - Super League Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192531",
+    "name": "Greece - Football Leauge U19",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10390",
+    "name": "Greece - Super League U20",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198043",
+    "name": "Guatemala - Liga Nacional Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2088",
+    "name": "Guatemala - Liga Nacional",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2089",
+    "name": "AFC - Gulf Clubs Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2090",
+    "name": "AFC - Gulf Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10272",
+    "name": "AFC - Gulf Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197635",
+    "name": "Hong Kong - HKFA 1. Division INACTIVE",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196865",
+    "name": "Honduras - Liga Nacional",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10363",
+    "name": "Hong Kong - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192446",
+    "name": "Hong Kong - Sapling Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191825",
+    "name": "Hong Kong - Senior Shield",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197637",
+    "name": "Hong Kong - HKFA 1. Division",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197998",
+    "name": "Hong Kong - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9809",
+    "name": "Hong Kong - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196893",
+    "name": "Hong Kong - AFC Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10940",
+    "name": "Hong Kong - FA Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2095",
+    "name": "Hungary - NB 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2096",
+    "name": "Hungary - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2098",
+    "name": "Hungary - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "69875",
+    "name": "Hungary - NB 1 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6733",
+    "name": "Hungary - Ligakupa Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192819",
+    "name": "Iceland - League Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2100",
+    "name": "Iceland - 1. Deild",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197236",
+    "name": "Iceland - 1. Deild Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197293",
+    "name": "Iceland - 2. Deild",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "187705",
+    "name": "Iceland - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2101",
+    "name": "Iceland - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10509",
+    "name": "Iceland - Fotbolti Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4994",
+    "name": "Iceland - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192494",
+    "name": "Iceland - Reykjavik Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196933",
+    "name": "Iceland - U19 League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197088",
+    "name": "Iceland - Urvalsdeild Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2102",
+    "name": "Iceland - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10492",
+    "name": "India - Federation Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196760",
+    "name": "India - Federation Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10353",
+    "name": "India - Goa Professional League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10578",
+    "name": "India - I-League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192535",
+    "name": "India - Mumbai Elite Division League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10083",
+    "name": "India - Super League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "198033",
+    "name": "India - Super League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10636",
+    "name": "India - I-League U19",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198021",
+    "name": "Indonesia - Soccer Championship Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191920",
+    "name": "Indonesia - President''s Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197031",
+    "name": "Indonesia - Soccer Championship",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "8717",
+    "name": "Indonesia - Super League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5978",
+    "name": "International - Friendlies II",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10982",
+    "name": "International - Friendlies U19 Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197705",
+    "name": "International - Friendlies U20 Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10597",
+    "name": "International - Friendlies II Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6323",
+    "name": "International - Friendlies Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2104",
+    "name": "Interliga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2106",
+    "name": "UEFA - Intertoto Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2107",
+    "name": "Friendly - International Friend. Youth Tournament",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2111",
+    "name": "Friendly - International U18",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2112",
+    "name": "International - Friendlies U19",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2113",
+    "name": "International - Friendlies U20",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2114",
+    "name": "International - Friendlies U21",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "48006",
+    "name": "International - Friendlies U21 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2115",
+    "name": "International - Friendlies U23",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10937",
+    "name": "International - Friendlies U23 Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "72435",
+    "name": "International - Friendlies Women Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2116",
+    "name": "International - Friendlies Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "48008",
+    "name": "International Friendlies - Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2117",
+    "name": "International - Friendlies",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197975",
+    "name": "International - Friendlies U20 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10346",
+    "name": "Iran - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2118",
+    "name": "Iran - Pro League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "125378",
+    "name": "Iraq - Iraqi League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197224",
+    "name": "Ireland - U19 League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2120",
+    "name": "Ireland - Premier",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6392",
+    "name": "Ireland - Premier Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2122",
+    "name": "Ireland - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191366",
+    "name": "Ireland - League Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194804",
+    "name": "Ireland - Division 1 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2123",
+    "name": "Ireland - Division 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196871",
+    "name": "Ireland - FAI Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2124",
+    "name": "Ireland - FAI Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2125",
+    "name": "Ireland - Leinster Senior Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192706",
+    "name": "Ireland - Munster Senior Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10954",
+    "name": "Ireland - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10604",
+    "name": "Israel - Liga Alef",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2129",
+    "name": "Israel - State Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2133",
+    "name": "Israel - Ligat Leumit",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2136",
+    "name": "Israel - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191425",
+    "name": "Israel - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2138",
+    "name": "Israel - Ligat Al Toto Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192533",
+    "name": "Israel - U19 Elite Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192782",
+    "name": "Israel - Premier League (women)",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196887",
+    "name": "INACTIVE",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197578",
+    "name": "Israel - Ligat Leumit Toto Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6650",
+    "name": "Israel - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2147",
+    "name": "Italy - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196870",
+    "name": "Italy - Cup Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6319",
+    "name": "Italy - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10332",
+    "name": "Italy - Lega Pro",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10806",
+    "name": "Italy - Lega Pro Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194555",
+    "name": "Italy - Lega Pro Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194720",
+    "name": "Italy - Lega Pro Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "163785",
+    "name": "Italy - Lega Pro Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10455",
+    "name": "Italy - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2153",
+    "name": "Italy - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10227",
+    "name": "Italy - Primavera Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10448",
+    "name": "Italy - Primavera Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "88182",
+    "name": "Italy - Dante Berretti Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2157",
+    "name": "Japan - J League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6308",
+    "name": "Japan - J League Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2159",
+    "name": "Japan - J2 League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6784",
+    "name": "Japan - J2 League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10078",
+    "name": "Japan - J3 League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10407",
+    "name": "Jamaica - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9747",
+    "name": "Japan - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2160",
+    "name": "Japan - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2161",
+    "name": "Japan - Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6595",
+    "name": "Japan - League Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4995",
+    "name": "Japan - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192844",
+    "name": "Japan - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5421",
+    "name": "Japan - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9902",
+    "name": "Jordan - Pro League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "72433",
+    "name": "Jordan - Pro League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2167",
+    "name": "Jordan - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191461",
+    "name": "Jordan - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2169",
+    "name": "Jordan -Shield Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10967",
+    "name": "Kazakhstan - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6418",
+    "name": "Kazakhstan - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2176",
+    "name": "Kazakhstan - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187707",
+    "name": "Kenya - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2178",
+    "name": "Asia - Kings Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2179",
+    "name": "International - Kirin Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196935",
+    "name": "International - Kirin Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9097",
+    "name": "Korea Republic - K League Challenge",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2181",
+    "name": "Korea Republic - FA Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197223",
+    "name": "Korea Republic - K League Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2185",
+    "name": "Korea Republic - K League Classic",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "51239",
+    "name": "Korea Republic - K League Classic Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2188",
+    "name": "Korea - National League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2189",
+    "name": "Korea - National League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191863",
+    "name": "Kuwait - Crown Prince Cup ET PS",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191796",
+    "name": "Kuwait - Federation Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "194698",
+    "name": "Kuwait - Emir Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10380",
+    "name": "Kuwait - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191669",
+    "name": "Kuwait Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192335",
+    "name": "Kuwait - Youth League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2196",
+    "name": "Spain - La Liga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5490",
+    "name": "Spain - La Liga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "32746",
+    "name": "Spain - La Liga Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2198",
+    "name": "Spain - La Liga Specials",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2199",
+    "name": "La Manga Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2201",
+    "name": "Lahti Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2203",
+    "name": "Latvia - Virsliga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9542",
+    "name": "Latvia - Virsliga Corner",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2204",
+    "name": "Latvia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10150",
+    "name": "Lithuania - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2211",
+    "name": "Lithuania -  A Lyga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192774",
+    "name": "Live South Africa - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196904",
+    "name": "Luxembourg - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2228",
+    "name": "Luxembourg - Nationale Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "194574",
+    "name": "Macedonia - National Football Team",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2230",
+    "name": "Macedonia - 1st League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2232",
+    "name": "Malaysia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2233",
+    "name": "Malaysia - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2234",
+    "name": "Malaysia - Super League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2238",
+    "name": "Malta - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197933",
+    "name": "Mexico - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2242",
+    "name": "Mexico - Primera Division",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191423",
+    "name": "Mexico - Ascenso",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6423",
+    "name": "Mexico - Primera Division Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5778",
+    "name": "Mexico - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197534",
+    "name": "Mexico - Segunda Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10602",
+    "name": "Mexico - U20 League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192107",
+    "name": "Mexico - U20 League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10778",
+    "name": "Brazil - Mineiro",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10288",
+    "name": "Morocco - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2253",
+    "name": "Morocco - Botola Pro",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191936",
+    "name": "Morocco - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198045",
+    "name": "Morocco - Botola Pro Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192557",
+    "name": "Northern Ireland - County Antrim Shield",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4996",
+    "name": "Northern Ireland - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2255",
+    "name": "North America - United Soccer League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2258",
+    "name": "Northern Ireland - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2259",
+    "name": "Northern Ireland - Premiership",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2261",
+    "name": "North America - Super Liga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2264",
+    "name": "New Zealand - Premier",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197584",
+    "name": "Nicaragua - Primera Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191419",
+    "name": "Norway - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6816",
+    "name": "Norway - 1st Division Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5888",
+    "name": "Norway - Tippeligaen Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2280",
+    "name": "Norway - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2281",
+    "name": "Norway - Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2331",
+    "name": "Norway - 1st Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2332",
+    "name": "Norway - 2nd Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2333",
+    "name": "Norway - Tippeligaen",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196861",
+    "name": "Norway - Toppserien Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "125458",
+    "name": "OFC - Champions League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197231",
+    "name": "Olympic - Men",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197371",
+    "name": "Olympic - Men Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2349",
+    "name": "Olympic - Qualifiers Men",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5000",
+    "name": "Olympic - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197368",
+    "name": "Olympic - Women Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2350",
+    "name": "Olympic Soccer - Qualifiers Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10416",
+    "name": "Oman - Professional League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10270",
+    "name": "Palestine - West Bank League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2354",
+    "name": "Pan American Games - Men",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2355",
+    "name": "Pan American Games - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2356",
+    "name": "UEFA - Pan Arabia Games",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10573",
+    "name": "Panama - Primera Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191914",
+    "name": "Panama - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2359",
+    "name": "Paraguay - Division Profesional",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9591",
+    "name": "Paraguay - Division Profesional Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10770",
+    "name": "Brazil - Paranaense",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2360",
+    "name": "Brazil - Paulista",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10782",
+    "name": "Brazil - Paulista  A2",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192728",
+    "name": "Brazil - Paulista Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2361",
+    "name": "Friendlies - Peace Queen Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2366",
+    "name": "Peru - Primera Division",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192394",
+    "name": "Peru - Primera Division Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10899",
+    "name": "Peru - Copa Inca",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5592",
+    "name": "Peru - Copa Peru",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10754",
+    "name": "Peru - Torneo del Inca",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10634",
+    "name": "Philippines - FA League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10745",
+    "name": "Philippines - UFL",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "185648",
+    "name": "Philippines - UFL Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10606",
+    "name": "Philippines - National Club Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191698",
+    "name": "Poland - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6421",
+    "name": "Poland - Ekstraklasa Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6633",
+    "name": "Poland - 1st Liga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2368",
+    "name": "Poland - 2nd Liga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2373",
+    "name": "Poland - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "163787",
+    "name": "Poland - Ekstraliga Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2374",
+    "name": "Poland - Ekstraklasa",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5828",
+    "name": "Poland - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6985",
+    "name": "Poland - 1st Liga Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191409",
+    "name": "Portugal - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2381",
+    "name": "Portugal - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10543",
+    "name": "Portugal - League Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6814",
+    "name": "Portugal - LigaPro Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6600",
+    "name": "Portugal - Primeira Liga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196966",
+    "name": "Portugal - 1st Division Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "4997",
+    "name": "Portugal - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6313",
+    "name": "Portugal - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2384",
+    "name": "Portugal - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192537",
+    "name": "Portugal - U19 Championship",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196968",
+    "name": "Portugal - Nacional Championship Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2386",
+    "name": "Portugal - Primeira Liga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2387",
+    "name": "Portugal - LigaPro",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10905",
+    "name": "Qatar - Crown Prince Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "11711",
+    "name": "Qatar - Stars League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10903",
+    "name": "Qatar - Emir Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10907",
+    "name": "Qatar - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10901",
+    "name": "Qatar - Stars Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "8128",
+    "name": "Qatar - Stars League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197505",
+    "name": "CONMEBOL - Recopa Sudamericana Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2394",
+    "name": "CONMEBOL - Recopa Sudamericana",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "194669",
+    "name": "Romania - League Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "16340",
+    "name": "Romania - Liga 1 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "187758",
+    "name": "Romania - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2395",
+    "name": "Romania - Liga 1",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2396",
+    "name": "Romania - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9250",
+    "name": "Romania - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6838",
+    "name": "Romania - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2406",
+    "name": "Russia - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9757",
+    "name": "Russia - 2nd Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2409",
+    "name": "Russia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "185642",
+    "name": "Russia - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "35174",
+    "name": "Russia - FNL",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198010",
+    "name": "Russia - FNL Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6431",
+    "name": "Russia - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4763",
+    "name": "Russia - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197302",
+    "name": "Russia - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9429",
+    "name": "Russia - Youth Championship U21",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197994",
+    "name": "Russia - Youth Championship U21 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196776",
+    "name": "Russia - Supreme Division Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2411",
+    "name": "South Africa - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "196763",
+    "name": "South Africa - PSL",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192762",
+    "name": "South Asian Games",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192440",
+    "name": "SAFF - Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196765",
+    "name": "South Africa - PSL Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10419",
+    "name": "Saudi Arabia - Pro League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10600",
+    "name": "Saudi Arabia - Division 1",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "16278",
+    "name": "Saudi Arabia - Pro League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10792",
+    "name": "Saudi Arabia - Champions Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10791",
+    "name": "Saudi Arabia - Crown Prince Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2417",
+    "name": "Scotland - Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2418",
+    "name": "Scotland - League One",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2419",
+    "name": "Scotland - League Two",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2420",
+    "name": "Scotland - Challenge Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197976",
+    "name": "Scotland - Challenge Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6315",
+    "name": "Scotland - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197038",
+    "name": "Scotland - Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191925",
+    "name": "Scotland - SPFL Development League U20 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10145",
+    "name": "Scotland - SPFL Development League U20",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197199",
+    "name": "Scotland - Forfarshire Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "4998",
+    "name": "Scotland - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197285",
+    "name": "Scotland - League Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197064",
+    "name": "Scotland - Premier League Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2421",
+    "name": "Scotland - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6824",
+    "name": "Scotland - Championship Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6519",
+    "name": "Scotland - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2426",
+    "name": "Scotland - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "185680",
+    "name": "Southeast Asian Games",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10317",
+    "name": "Spain - Segunda B",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2429",
+    "name": "Spain - Segunda B Playoffs",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5898",
+    "name": "Spain - Segunda Division Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2432",
+    "name": "Spain - Segunda Liga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2434",
+    "name": "Serbia - Super Liga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2435",
+    "name": "Serbia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2436",
+    "name": "Italy - Serie A",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5488",
+    "name": "Italy - Serie A Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197440",
+    "name": "Italy - Serie A Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2438",
+    "name": "Italy - Serie B",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5896",
+    "name": "Italy - Serie B Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2444",
+    "name": "Ireland - Setanta Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9603",
+    "name": "Singapore - S League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9427",
+    "name": "Singapore - S League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9945",
+    "name": "Singapore - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9163",
+    "name": "Singapore - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "196725",
+    "name": "Slovakia - Super Liga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2453",
+    "name": "Slovakia - Super Liga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2454",
+    "name": "Slovakia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2456",
+    "name": "Slovenia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2457",
+    "name": "Slovenia - Prva Liga",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "194780",
+    "name": "Slovenia - Prva Liga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192773",
+    "name": "South Africa - Premier League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191388",
+    "name": "South Africa - 8 Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191807",
+    "name": "South Africa - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2462",
+    "name": "Spain - Cup",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6735",
+    "name": "Spain - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192507",
+    "name": "Spain - Federation Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2463",
+    "name": "Spain - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2464",
+    "name": "Spain - Segunda B Group 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2465",
+    "name": "Spain - Segunda B Group 2",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2466",
+    "name": "Spain - Segunda B Group 3",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2467",
+    "name": "Spain - Segunda B Group 4",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197059",
+    "name": "Spain - Primera Division Women Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "72431",
+    "name": "Spain - Primera Division Women Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2468",
+    "name": "Spain - Primera Division Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2469",
+    "name": "Spain - Copa Catalunya",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197898",
+    "name": "Spain - Supercopa Catalunya",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5878",
+    "name": "Spain - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197906",
+    "name": "Spain - Supercopa Catalunya Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2472",
+    "name": "CONMEBOL - Copa Sudamericana",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4679",
+    "name": "CONMEBOL - U20 Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6914",
+    "name": "CONMEBOL - Copa Sudamericana Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2473",
+    "name": "CONMEBOL - U20 Championship Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2476",
+    "name": "Sweden - Superettan",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6388",
+    "name": "Sweden - Superettan Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6317",
+    "name": "Sweden - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192147",
+    "name": "Sweden - 2nd Div. Sodra Svealand Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192148",
+    "name": "Sweden - 2nd Div. Vastra Gotaland Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192145",
+    "name": "Sweden - 2nd Div. Norrland Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191455",
+    "name": "Sweden - 2nd Div. Norra Gotaland",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2481",
+    "name": "Sweden - 2nd Div. Norra Svealand",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2484",
+    "name": "Sweden - 2nd Div. Sodra Gotaland",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2485",
+    "name": "Sweden - 2nd Div. Sodra Svealand",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2486",
+    "name": "Sweden - 2nd Div. Vastra Gotaland",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2487",
+    "name": "Sweden - 2nd Div. Norrland",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192143",
+    "name": "Sweden - 2nd Div. Norra Gotaland Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192144",
+    "name": "Sweden - 2nd Div. Norra Svealand Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192146",
+    "name": "Sweden - 2nd Div. Sodra Gotaland Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2503",
+    "name": "Sweden - International Tournament",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191832",
+    "name": "Sweden - U21 League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197261",
+    "name": "Sweden - Division 1 Norra Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2510",
+    "name": "Sweden - Division 1 Norra",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197263",
+    "name": "Sweden - Division 1 Sodra Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2512",
+    "name": "Sweden - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2513",
+    "name": "Sweden - Division 1 Sodra",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2514",
+    "name": "Sweden - U21",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2516",
+    "name": "Sweden - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2517",
+    "name": "Switzerland - Super League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2518",
+    "name": "Switzerland - Challenge League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192764",
+    "name": "Switzerland - Challenge League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6428",
+    "name": "Switzerland - Super League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2519",
+    "name": "Switzerland - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187569",
+    "name": "Switzerland - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2520",
+    "name": "Switzerland - Playoffs",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10334",
+    "name": "Syria - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "192529",
+    "name": "Chinese Taipei - Inter City League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2547",
+    "name": "Test Folder",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6664",
+    "name": "Test Corner League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "11117",
+    "name": "testting3",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197535",
+    "name": "test league dont bet",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6420",
+    "name": "Thailand - FA Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9096",
+    "name": "Thailand - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6419",
+    "name": "Thailand - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187740",
+    "name": "Thailand - Division 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2568",
+    "name": "Italy - Trofeo Luigi Berlusconi",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2572",
+    "name": "Tunesia - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10355",
+    "name": "Tunisia - League 1",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "191934",
+    "name": "Tunisia - League 1 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6811",
+    "name": "Turkey - Super League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191395",
+    "name": "Turkey - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2578",
+    "name": "Turkey - 1st League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "192416",
+    "name": "Turkey - 1st League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2586",
+    "name": "Turkey - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2592",
+    "name": "Turkey - Super League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5497",
+    "name": "Turkey - Spor Toto Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10425",
+    "name": "Turkey - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2597",
+    "name": "Turkey - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2605",
+    "name": "U17 EuroCham",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2606",
+    "name": "U17 InterFri",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2607",
+    "name": "U17 SAC Wom",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6779",
+    "name": "FIFA - World Cup U17 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2608",
+    "name": "FIFA - World Cup U17",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2609",
+    "name": "U17Eur Ch Q",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2610",
+    "name": "U17Eur W ChQ",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2611",
+    "name": "U17Inter.Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2612",
+    "name": "U19 CL Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2615",
+    "name": "U19 Eur Cham",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187792",
+    "name": "UEFA - U19 Euro Championship Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2616",
+    "name": "UEFA - U19 Euro Championship Women Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2617",
+    "name": "UEFA - Euro Champ. Qualifiers U19",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2619",
+    "name": "South America - U20",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2620",
+    "name": "FIFA - World Cup U20",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6381",
+    "name": "FIFA - World Cup U20 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "16276",
+    "name": "UAE - Arabian Gulf League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "8126",
+    "name": "UAE - Arabian Gulf League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2624",
+    "name": "UAE - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2625",
+    "name": "UAE - Division 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2626",
+    "name": "UAE - Division 2",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10072",
+    "name": "United Arab Emirates - FA Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10034",
+    "name": "UAE - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10750",
+    "name": "United Arab Emirates - U21 League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2627",
+    "name": "UEFA - Champions League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "16325",
+    "name": "UEFA - Champions League Bookings",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2629",
+    "name": "UEFA - Champions League Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2630",
+    "name": "UEFA - Europa League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2631",
+    "name": "UEFA Europa League - Specials",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "185678",
+    "name": "UEFA - Europa League Bookings",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "187711",
+    "name": "UEFA - Europa League Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187712",
+    "name": "UEFA - Europa League Qualifiers 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187713",
+    "name": "UEFA - Europa League Qualifiers 2",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5264",
+    "name": "UEFA - EURO 2016",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2635",
+    "name": "UEFA - EURO Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9749",
+    "name": "UEFA - EURO Qualifiers Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5880",
+    "name": "UEFA - Super Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2636",
+    "name": "UEFA - Super Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2638",
+    "name": "UEFA - U19 European Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6458",
+    "name": "UEFA - U19 European Championship Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5983",
+    "name": "UEFA - U19 European Championship Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10274",
+    "name": "UEFA - U19 Euro Championship Qualifiers Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2639",
+    "name": "UEFA - U21 European Championship",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6334",
+    "name": "UEFA - U21 European Championship Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5982",
+    "name": "UEFA - U21 European Championship Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2640",
+    "name": "UEFA - EURO Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2641",
+    "name": "UEFA - EURO Women Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2642",
+    "name": "UEFA - Champions League Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "191412",
+    "name": "UEFA - Champions League Women Qualifiers",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197989",
+    "name": "UEFA - Champions League Women Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6619",
+    "name": "UEFA - Youth League U19",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6912",
+    "name": "UEFA - Youth League U19 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6493",
+    "name": "UEFA - Champions League Qualifiers Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "7014",
+    "name": "UEFA - U21 European Championship Qualifiers Corner",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6408",
+    "name": "UEFA - EURO Women Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6263",
+    "name": "UEFA - Europa League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197817",
+    "name": "Uganda - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2645",
+    "name": "Uhren - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "198000",
+    "name": "Ukraine - Youth Championship U21 Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6845",
+    "name": "Ukraine - Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2647",
+    "name": "Ukraine - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2650",
+    "name": "Ukraine - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "125456",
+    "name": "Ukraine - U19 League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9811",
+    "name": "Ukraine - Youth Championship U21",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6809",
+    "name": "Ukraine - Premier League  Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2657",
+    "name": "Universiade - Soccer Men",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6398",
+    "name": "Universiade - Soccer Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5593",
+    "name": "Uruguay - Primera Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5594",
+    "name": "Uruguay - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2662",
+    "name": "USA - Open Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "197291",
+    "name": "USA - Open Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2663",
+    "name": "USA - Major League Soccer",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "4809",
+    "name": "USA - North American Soccer League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "6301",
+    "name": "USA - Major League Soccer Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "198035",
+    "name": "Uzbekistan - Oily Liga Corners",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "131783",
+    "name": "Uzbekistan - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9813",
+    "name": "Uzbekistan - Oily Liga",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "5596",
+    "name": "Venezuela - Primera Division",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "5597",
+    "name": "Venezuela - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "9154",
+    "name": "Vietnam - V League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9253",
+    "name": "Vietnam - Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "197600",
+    "name": "Vietnam - Womens National League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2674",
+    "name": "Friendly - World Club",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2676",
+    "name": "Friendlies - Peace Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2678",
+    "name": "Wales - Premier League",
+    "feedContents": "1",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "10481",
+    "name": "Wales - Division 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "10285",
+    "name": "Wales - League Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2681",
+    "name": "FIFA - World Cup Qualifier",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "8915",
+    "name": "FIFA - World Cup Advance Lines",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9146",
+    "name": "FIFA - World Cup Specials",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "6331",
+    "name": "FIFA - World Cup Qualifiers Asia Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "194728",
+    "name": "FIFA - World Cup Qualifiers CONCACAF Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2684",
+    "name": "Friendlies - Wembley Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2686",
+    "name": "FIFA - World Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "8581",
+    "name": "FIFA - World Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2687",
+    "name": "FIFA - World Cup Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "187537",
+    "name": "FIFA - World Cup Women Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "9102",
+    "name": "FIFA - World Cup Extra Time",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "2688",
+    "name": "Friendlies - World Football Challenge",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "2689",
+    "name": "Yemen - Division 1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  }
+]

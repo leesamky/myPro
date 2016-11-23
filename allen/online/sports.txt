@@ -1,0 +1,277 @@
+[
+  {
+    "id": "1",
+    "name": "Badminton",
+    "feedContents": "0"
+  },
+  {
+    "id": "2",
+    "name": "Bandy",
+    "feedContents": "1"
+  },
+  {
+    "id": "3",
+    "name": "Baseball",
+    "feedContents": "1"
+  },
+  {
+    "id": "4",
+    "name": "Basketball",
+    "feedContents": "1"
+  },
+  {
+    "id": "5",
+    "name": "Beach Volleyball",
+    "feedContents": "0"
+  },
+  {
+    "id": "6",
+    "name": "Boxing",
+    "feedContents": "1"
+  },
+  {
+    "id": "7",
+    "name": "Chess",
+    "feedContents": "1"
+  },
+  {
+    "id": "8",
+    "name": "Cricket",
+    "feedContents": "1"
+  },
+  {
+    "id": "9",
+    "name": "Curling",
+    "feedContents": "1"
+  },
+  {
+    "id": "10",
+    "name": "Darts",
+    "feedContents": "0"
+  },
+  {
+    "id": "11",
+    "name": "Darts (Legs)",
+    "feedContents": "0"
+  },
+  {
+    "id": "12",
+    "name": "E Sports",
+    "feedContents": "1"
+  },
+  {
+    "id": "13",
+    "name": "Field Hockey",
+    "feedContents": "0"
+  },
+  {
+    "id": "14",
+    "name": "Floorball",
+    "feedContents": "0"
+  },
+  {
+    "id": "15",
+    "name": "Football",
+    "feedContents": "1"
+  },
+  {
+    "id": "16",
+    "name": "Futsal",
+    "feedContents": "0"
+  },
+  {
+    "id": "17",
+    "name": "Golf",
+    "feedContents": "1"
+  },
+  {
+    "id": "18",
+    "name": "Handball",
+    "feedContents": "1"
+  },
+  {
+    "id": "19",
+    "name": "Hockey",
+    "feedContents": "1"
+  },
+  {
+    "id": "20",
+    "name": "Horse Racing",
+    "feedContents": "0"
+  },
+  {
+    "id": "22",
+    "name": "Mixed Martial Arts",
+    "feedContents": "1"
+  },
+  {
+    "id": "23",
+    "name": "Other Sports",
+    "feedContents": "0"
+  },
+  {
+    "id": "24",
+    "name": "Politics",
+    "feedContents": "0"
+  },
+  {
+    "id": "26",
+    "name": "Rugby League",
+    "feedContents": "0"
+  },
+  {
+    "id": "27",
+    "name": "Rugby Union",
+    "feedContents": "1"
+  },
+  {
+    "id": "28",
+    "name": "Snooker",
+    "feedContents": "1"
+  },
+  {
+    "id": "29",
+    "name": "Soccer",
+    "feedContents": "1"
+  },
+  {
+    "id": "30",
+    "name": "Softball",
+    "feedContents": "0"
+  },
+  {
+    "id": "31",
+    "name": "Squash",
+    "feedContents": "0"
+  },
+  {
+    "id": "32",
+    "name": "Table Tennis",
+    "feedContents": "0"
+  },
+  {
+    "id": "33",
+    "name": "Tennis",
+    "feedContents": "1"
+  },
+  {
+    "id": "34",
+    "name": "Volleyball",
+    "feedContents": "1"
+  },
+  {
+    "id": "35",
+    "name": "Volleyball (Points)",
+    "feedContents": "0"
+  },
+  {
+    "id": "36",
+    "name": "Water Polo",
+    "feedContents": "0"
+  },
+  {
+    "id": "39",
+    "name": "Aussie Rules",
+    "feedContents": "0"
+  },
+  {
+    "id": "40",
+    "name": "Alpine Skiing",
+    "feedContents": "1"
+  },
+  {
+    "id": "41",
+    "name": "Biathlon",
+    "feedContents": "0"
+  },
+  {
+    "id": "42",
+    "name": "Ski Jumping",
+    "feedContents": "1"
+  },
+  {
+    "id": "43",
+    "name": "Cross Country",
+    "feedContents": "0"
+  },
+  {
+    "id": "44",
+    "name": "Formula 1",
+    "feedContents": "0"
+  },
+  {
+    "id": "45",
+    "name": "Cycling",
+    "feedContents": "0"
+  },
+  {
+    "id": "46",
+    "name": "Bobsleigh",
+    "feedContents": "0"
+  },
+  {
+    "id": "47",
+    "name": "Figure Skating",
+    "feedContents": "0"
+  },
+  {
+    "id": "48",
+    "name": "Freestyle Skiing",
+    "feedContents": "0"
+  },
+  {
+    "id": "49",
+    "name": "Luge",
+    "feedContents": "0"
+  },
+  {
+    "id": "50",
+    "name": "Nordic Combined",
+    "feedContents": "0"
+  },
+  {
+    "id": "51",
+    "name": "Short Track",
+    "feedContents": "0"
+  },
+  {
+    "id": "52",
+    "name": "Skeleton",
+    "feedContents": "0"
+  },
+  {
+    "id": "53",
+    "name": "Snow Boarding",
+    "feedContents": "0"
+  },
+  {
+    "id": "54",
+    "name": "Speed Skating",
+    "feedContents": "0"
+  },
+  {
+    "id": "55",
+    "name": "Olympics",
+    "feedContents": "0"
+  },
+  {
+    "id": "56",
+    "name": "Athletics",
+    "feedContents": "0"
+  },
+  {
+    "id": "57",
+    "name": "Crossfit",
+    "feedContents": "0"
+  },
+  {
+    "id": "58",
+    "name": "Entertainment",
+    "feedContents": "0"
+  },
+  {
+    "id": "60",
+    "name": "Drone Racing",
+    "feedContents": "0"
+  }
+]

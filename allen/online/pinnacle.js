@@ -2,11 +2,50 @@ var pinnacle=require('pinnacle-sports')
 var client=pinnacle.createClient('ZW764330','Hailan@001')
 var sportsModel=require('./modelPinnacle').sports
 var leagueModel=require('./modelPinnacle').leagues
+var fs=require('fs')
 var _=require('lodash')
+// var league={}
+// var file=JSON.parse(fs.readFileSync('league.txt',{encoding:'utf-8'}))
+// _.forEach(file,function(obj){
+//     "use strict";
+//     league[obj["id"]]=obj
+// })
+//
+// file=JSON.parse(fs.readFileSync('fixtures.txt',{encoding:'utf-8'}))
+// {
+//     let fixturesMatches=[]
+//     _.forEach(file["league"],function(matchObj){
+//         "use strict";
+//         fixturesMatches.push(matchObj)
+//     })
+//     let matches=[]
+//     _.forEach(fixturesMatches,function(leagueMatches){
+//         "use strict";
+//         _.forEach(leagueMatches["events"],function(match){
+//             match['leagueId']=leagueMatches["id"]
+//             if(!_.isUndefined(league[leagueMatches["id"]])){
+//                 match['league']=league[leagueMatches["id"]]['name']
+//             }
+//             match["starts"]=new Date(match["starts"])
+//             // match['league']=league[leagueMatches["id"].toString]['name']
+//             matches.push(match)
+//         })
+//     })
+//     console.log(_.orderBy(matches,['starts'],['desc']))
+// }
+
+
+
+
+
+
+
+
+
 var options={
     sportid:29,
     // leagueIds:[1980],
-    // "last": 353758134,
+    // "last": 353797290,
     oddsFormat:'Decimal'
 }
 
@@ -174,34 +213,33 @@ var options={
 // //
 
 //
-client.get_odds(options,function(error,result){
-    "use strict";
+// client.get_odds(options,function(error,result){
+//     "use strict";
+//
+//     // _.forEach(result['leagues'][0]['events'],function(match) {
+//     //     decimalOdd(match)
+//     // })
+//     fs.writeFileSync('updatedInfo.txt',JSON.stringify(result,null,2),{encoding:'utf-8'})
+//     console.log('write the fullMatch to updatedInfo.txt')
+//     console.log(JSON.stringify(result,null,2))
 
-    // _.forEach(result['leagues'][0]['events'],function(match) {
-    //     decimalOdd(match)
-    // })
-
-    console.log(JSON.stringify(result,null,2))
-
-
-})
+//
+// })
 
 // client.get_fixtures(options,function(error,result){
 //     "use strict";
-//     console.log(error)
-//     console.log(JSON.stringify(result,null,2))
+//     if(error){console.log(error)}
+//     else{
+//         fs.writeFileSync('fixtures.txt',JSON.stringify(result,null,2),{encoding:'utf-8'})
+//         console.log('write fixture to disk')
+//     }
 // })
 
 // client.get_sports(null,function(error,result){
 //     "use strict";
 //     if(error){console.log(error)}
 //     else{
-//         sportsModel.create(result,function(error,result){
-//             if(error){console.log(error)}
-//             else{
-//                 console.log(result)
-//             }
-//         })
+//         fs.writeFileSync('sports.txt',JSON.stringify(result,null,2),{encoding:'utf-8'})
 //     }
 // })
 
@@ -209,12 +247,8 @@ client.get_odds(options,function(error,result){
 //     "use strict";
 //     if(error){console.log(error)}
 //     else{
-//         leagueModel.create(results,function(error,result){
-//             if(error){console.log(error)}
-//             else{
-//                 console.log(result)
-//             }
-//         })
+//         fs.writeFileSync('league.txt',JSON.stringify(results,null,2),{encoding:'utf-8'})
+//         console.log('write league to disk')
 //     }
 // })
 // leagueModel.find()
@@ -228,4 +262,10 @@ client.get_odds(options,function(error,result){
 //                 }
 //             })
 //         }
+//     })
+
+// leagueModel.find({id:6820})
+//     .exec(function(error,results){
+//         "use strict";
+//         console.log(results)
 //     })
