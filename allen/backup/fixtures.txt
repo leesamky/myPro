@@ -1,6 +1,6 @@
 {
   "sportId": 29,
-  "last": 90506393,
+  "last": 90527871,
   "league": [
     {
       "id": 6820,
@@ -13,46 +13,6 @@
           "rotNum": "2087",
           "liveStatus": 1,
           "status": "H",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665293254,
-          "starts": "2016-11-23T00:05:00Z",
-          "home": "Argentinos Juniors (Corners)",
-          "away": "Flandria (Corners)",
-          "rotNum": "2090",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665294307,
-          "starts": "2016-11-23T00:05:00Z",
-          "home": "Argentinos Juniors (Corners)",
-          "away": "Flandria (Corners)",
-          "rotNum": "2090",
-          "liveStatus": 1,
-          "status": "I",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665293257,
-          "starts": "2016-11-23T00:05:00Z",
-          "home": "Chacarita Juniors (Corners)",
-          "away": "Independiente Rivadavia (Corners)",
-          "rotNum": "2093",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665294308,
-          "starts": "2016-11-23T00:05:00Z",
-          "home": "Chacarita Juniors (Corners)",
-          "away": "Independiente Rivadavia (Corners)",
-          "rotNum": "2093",
-          "liveStatus": 1,
-          "status": "I",
           "parlayRestriction": 1
         },
         {
@@ -292,46 +252,6 @@
           "away": "Boca Unidos",
           "rotNum": "2066",
           "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665292947,
-          "starts": "2016-11-23T00:05:00Z",
-          "home": "Argentinos Juniors",
-          "away": "Flandria",
-          "rotNum": "2090",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665294297,
-          "starts": "2016-11-23T00:05:00Z",
-          "home": "Argentinos Juniors",
-          "away": "Flandria",
-          "rotNum": "2090",
-          "liveStatus": 1,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665292948,
-          "starts": "2016-11-23T00:05:00Z",
-          "home": "Chacarita Juniors",
-          "away": "Independiente Rivadavia",
-          "rotNum": "2093",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665294298,
-          "starts": "2016-11-23T00:05:00Z",
-          "home": "Chacarita Juniors",
-          "away": "Independiente Rivadavia",
-          "rotNum": "2093",
-          "liveStatus": 1,
           "status": "I",
           "parlayRestriction": 2
         },
@@ -936,22 +856,22 @@
           "parlayRestriction": 2
         },
         {
-          "id": 662607538,
-          "starts": "2016-11-23T11:00:00Z",
-          "home": "Alashkert",
-          "away": "Ararat Yerevan",
-          "rotNum": "29213",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
           "id": 665292208,
           "starts": "2016-11-27T11:00:00Z",
           "home": "Gandzasar Kapan",
           "away": "Alashkert",
           "rotNum": "29201",
-          "liveStatus": 0,
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666086539,
+          "starts": "2016-11-27T11:00:00Z",
+          "home": "Gandzasar Kapan",
+          "away": "Alashkert",
+          "rotNum": "29201",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         },
@@ -966,32 +886,22 @@
           "parlayRestriction": 2
         },
         {
-          "id": 662607536,
-          "starts": "2016-11-23T11:00:00Z",
-          "home": "Gandzasar Kapan",
-          "away": "FC Shirak",
-          "rotNum": "29207",
-          "liveStatus": 0,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665895814,
-          "starts": "2016-11-23T11:00:00Z",
-          "home": "Alashkert",
-          "away": "Ararat Yerevan",
-          "rotNum": "29213",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
           "id": 665292206,
           "starts": "2016-11-27T12:00:00Z",
           "home": "Ararat Yerevan",
           "away": "FC Banants Yerevan",
-          "rotNum": "29215",
-          "liveStatus": 0,
+          "rotNum": "29204",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666086580,
+          "starts": "2016-11-27T12:00:00Z",
+          "home": "Ararat Yerevan",
+          "away": "FC Banants Yerevan",
+          "rotNum": "29204",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         }
@@ -1001,13 +911,23 @@
       "id": 198023,
       "events": [
         {
-          "id": 665923706,
+          "id": 665923708,
+          "starts": "2016-11-23T08:30:00Z",
+          "home": "Malaysia (Corners)",
+          "away": "Vietnam (Corners)",
+          "rotNum": "32707",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 665909996,
           "starts": "2016-11-23T11:30:00Z",
           "home": "Myanmar (Corners)",
           "away": "Cambodia (Corners)",
           "rotNum": "32710",
-          "liveStatus": 1,
-          "status": "H",
+          "liveStatus": 2,
+          "status": "I",
           "parlayRestriction": 1
         },
         {
@@ -1019,42 +939,12 @@
           "liveStatus": 2,
           "status": "O",
           "parlayRestriction": 1
-        },
-        {
-          "id": 665923708,
-          "starts": "2016-11-23T08:30:00Z",
-          "home": "Malaysia (Corners)",
-          "away": "Vietnam (Corners)",
-          "rotNum": "32707",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665909996,
-          "starts": "2016-11-23T11:30:00Z",
-          "home": "Myanmar (Corners)",
-          "away": "Cambodia (Corners)",
-          "rotNum": "32710",
-          "liveStatus": 2,
-          "status": "O",
-          "parlayRestriction": 1
         }
       ]
     },
     {
       "id": 1744,
       "events": [
-        {
-          "id": 665340421,
-          "starts": "2016-11-23T08:30:00Z",
-          "home": "Malaysia",
-          "away": "Vietnam",
-          "rotNum": "32707",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 2
-        },
         {
           "id": 665340439,
           "starts": "2016-11-23T11:30:00Z",
@@ -1063,26 +953,6 @@
           "rotNum": "32710",
           "liveStatus": 2,
           "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665923650,
-          "starts": "2016-11-23T08:30:00Z",
-          "home": "Malaysia",
-          "away": "Vietnam",
-          "rotNum": "32707",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665923647,
-          "starts": "2016-11-23T11:30:00Z",
-          "home": "Myanmar",
-          "away": "Cambodia",
-          "rotNum": "32710",
-          "liveStatus": 1,
-          "status": "O",
           "parlayRestriction": 2
         }
       ]
@@ -1356,16 +1226,6 @@
       "id": 88184,
       "events": [
         {
-          "id": 663396078,
-          "starts": "2016-11-23T09:30:00Z",
-          "home": "Muktijoddha SKC",
-          "away": "Mohammedan Sporting Club",
-          "rotNum": "39762",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
           "id": 663397321,
           "starts": "2016-11-23T12:15:00Z",
           "home": "Uttar Bardhrhara Club",
@@ -1573,6 +1433,41 @@
       ]
     },
     {
+      "id": 5595,
+      "events": [
+        {
+          "id": 666147755,
+          "starts": "2016-11-23T19:30:00Z",
+          "home": "Guabira Montero",
+          "away": "Club Petrolero",
+          "rotNum": "2551",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666147822,
+          "starts": "2016-11-23T20:15:00Z",
+          "home": "Sport Boys Warnes",
+          "away": "Universitario Sucre",
+          "rotNum": "2554",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666147884,
+          "starts": "2016-11-24T00:15:00Z",
+          "home": "Blooming",
+          "away": "The Strongest",
+          "rotNum": "2557",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
       "id": 1826,
       "events": [
         {
@@ -1596,11 +1491,31 @@
           "parlayRestriction": 2
         },
         {
+          "id": 666134811,
+          "starts": "2016-12-03T12:00:00Z",
+          "home": "Olimpik Sarajevo",
+          "away": "NK Metalleghe-BSI",
+          "rotNum": "27306",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
           "id": 663121022,
           "starts": "2016-11-26T12:00:00Z",
           "home": "NK Celik Zenica",
           "away": "Sloboda Tuzla",
           "rotNum": "27308",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666134810,
+          "starts": "2016-12-03T12:00:00Z",
+          "home": "Sloboda Tuzla",
+          "away": "Krupa",
+          "rotNum": "27309",
           "liveStatus": 0,
           "status": "O",
           "parlayRestriction": 2
@@ -1745,6 +1660,16 @@
           "starts": "2016-11-25T15:30:00Z",
           "home": "FK Lokomotiv Gorna Oryahovitsa",
           "away": "Pirin Blagoevgrad",
+          "rotNum": "2951",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666146059,
+          "starts": "2016-12-03T13:00:00Z",
+          "home": "Dunav Ruse",
+          "away": "FK Lokomotiv Gorna Oryahovitsa",
           "rotNum": "2951",
           "liveStatus": 0,
           "status": "O",
@@ -1934,6 +1859,16 @@
           "liveStatus": 0,
           "status": "O",
           "parlayRestriction": 2
+        },
+        {
+          "id": 666144829,
+          "starts": "2016-11-26T12:00:00Z",
+          "home": "Hertha Berlin U19",
+          "away": "Wolfsburg U19",
+          "rotNum": "25907",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
         }
       ]
     },
@@ -1957,7 +1892,7 @@
           "away": "Hamburger SV U19 (Corners)",
           "rotNum": "25901",
           "liveStatus": 2,
-          "status": "O",
+          "status": "I",
           "parlayRestriction": 1
         }
       ]
@@ -2698,6 +2633,41 @@
       ]
     },
     {
+      "id": 1863,
+      "events": [
+        {
+          "id": 666105124,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "TSV Steinbach",
+          "away": "FSV Frankfurt",
+          "rotNum": "30851",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666105384,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "Alemania Aachen",
+          "away": "Fortuna Koln",
+          "rotNum": "30854",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666127228,
+          "starts": "2016-11-23T17:00:00Z",
+          "home": "Enskede IK",
+          "away": "Djurgardens",
+          "rotNum": "30857",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
       "id": 1880,
       "events": [
         {
@@ -2838,6 +2808,31 @@
       ]
     },
     {
+      "id": 197511,
+      "events": [
+        {
+          "id": 666077178,
+          "starts": "2016-11-23T16:30:00Z",
+          "home": "Banik Ostrava",
+          "away": "Sigma Olomouc",
+          "rotNum": "36228",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666077239,
+          "starts": "2016-11-23T16:30:00Z",
+          "home": "Banik Ostrava",
+          "away": "Sigma Olomouc",
+          "rotNum": "36228",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
       "id": 10895,
       "events": [
         {
@@ -2916,12 +2911,32 @@
       "id": 9755,
       "events": [
         {
-          "id": 664730218,
-          "starts": "2016-11-27T13:00:00Z",
-          "home": "FK Fotbal Trinec U21",
-          "away": "Slovan Liberec U21",
+          "id": 664947205,
+          "starts": "2016-11-28T13:00:00Z",
+          "home": "FC Zbrojovka Brno U21",
+          "away": "FC Viktoria Plzen U21",
+          "rotNum": "7057",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665206226,
+          "starts": "2016-11-27T10:00:00Z",
+          "home": "FK Mlada Boleslav U21",
+          "away": "SK Slavia Praha U21",
           "rotNum": "7051",
-          "liveStatus": 0,
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666084437,
+          "starts": "2016-11-27T10:00:00Z",
+          "home": "FK Mlada Boleslav U21",
+          "away": "SK Slavia Praha U21",
+          "rotNum": "7051",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         },
@@ -2940,8 +2955,38 @@
           "starts": "2016-11-27T12:00:00Z",
           "home": "Dukla Prague U21",
           "away": "SK Dynamo Ceske Budejovice U21",
+          "rotNum": "7054",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666084461,
+          "starts": "2016-11-27T12:00:00Z",
+          "home": "Dukla Prague U21",
+          "away": "SK Dynamo Ceske Budejovice U21",
+          "rotNum": "7054",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666084776,
+          "starts": "2016-11-27T12:00:00Z",
+          "home": "FC Zbrojovka Brno U21",
+          "away": "FC Viktoria Plzen U21",
           "rotNum": "7057",
-          "liveStatus": 0,
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666084482,
+          "starts": "2016-11-27T12:30:00Z",
+          "home": "Bohemians 1905 Praha U21",
+          "away": "MFK Karvina U21",
+          "rotNum": "7060",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         },
@@ -2951,17 +2996,7 @@
           "home": "Bohemians 1905 Praha U21",
           "away": "MFK Karvina U21",
           "rotNum": "7060",
-          "liveStatus": 0,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 664947205,
-          "starts": "2016-11-27T12:00:00Z",
-          "home": "FC Zbrojovka Brno U21",
-          "away": "FC Viktoria Plzen U21",
-          "rotNum": "7066",
-          "liveStatus": 0,
+          "liveStatus": 2,
           "status": "O",
           "parlayRestriction": 2
         },
@@ -2970,8 +3005,38 @@
           "starts": "2016-11-27T13:00:00Z",
           "home": "Jablonec U21",
           "away": "FK Teplice U21",
-          "rotNum": "7075",
-          "liveStatus": 0,
+          "rotNum": "7063",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666084497,
+          "starts": "2016-11-27T13:00:00Z",
+          "home": "Jablonec U21",
+          "away": "FK Teplice U21",
+          "rotNum": "7063",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 664730218,
+          "starts": "2016-11-27T13:00:00Z",
+          "home": "FK Fotbal Trinec U21",
+          "away": "Slovan Liberec U21",
+          "rotNum": "7066",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666084511,
+          "starts": "2016-11-27T13:00:00Z",
+          "home": "FK Fotbal Trinec U21",
+          "away": "Slovan Liberec U21",
+          "rotNum": "7066",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         },
@@ -2986,11 +3051,11 @@
           "parlayRestriction": 2
         },
         {
-          "id": 665206226,
-          "starts": "2016-11-27T10:00:00Z",
-          "home": "FK Mlada Boleslav U21",
-          "away": "SK Slavia Praha U21",
-          "rotNum": "7084",
+          "id": 666140489,
+          "starts": "2016-11-27T12:00:00Z",
+          "home": "FC Zbrojovka Brno U21",
+          "away": "FC Viktoria Plzen U21",
+          "rotNum": "7083",
           "liveStatus": 0,
           "status": "O",
           "parlayRestriction": 2
@@ -3163,6 +3228,31 @@
       ]
     },
     {
+      "id": 163789,
+      "events": [
+        {
+          "id": 666118674,
+          "starts": "2016-11-26T11:15:00Z",
+          "home": "Randers Freja U19",
+          "away": "Silkeborg IF U19",
+          "rotNum": "40251",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666153138,
+          "starts": "2016-11-26T12:00:00Z",
+          "home": "Aalborg BK U19",
+          "away": "Lyngby BK U19",
+          "rotNum": "40254",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
       "id": 1928,
       "events": [
         {
@@ -3301,113 +3391,13 @@
       "id": 1929,
       "events": [
         {
-          "id": 665480847,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "Achilles 29",
-          "away": "Emmen",
-          "rotNum": "6351",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665480895,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "Almere City",
-          "away": "VVV Venlo",
-          "rotNum": "6354",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665480943,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "Cambuur Leeuwarden",
-          "away": "NAC Breda",
-          "rotNum": "6357",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665481040,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "FC Eindhoven",
-          "away": "Dordrecht",
-          "rotNum": "6360",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665481137,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "FC Oss",
-          "away": "Jong FC Utrecht",
-          "rotNum": "6363",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665481175,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "Helmond Sport",
-          "away": "Fortuna Sittard",
-          "rotNum": "6366",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665481341,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "Jong Ajax",
-          "away": "Telstar",
-          "rotNum": "6369",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665481435,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "MVV Maastricht",
-          "away": "Den Bosch",
-          "rotNum": "6372",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665481472,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "RKC Waalwijk",
-          "away": "De Graafschap",
-          "rotNum": "6375",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665481544,
-          "starts": "2016-11-25T13:00:00Z",
-          "home": "Volendam",
-          "away": "Jong PSV Eindhoven",
-          "rotNum": "6378",
-          "liveStatus": 0,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
           "id": 665480354,
           "starts": "2016-11-27T13:00:00Z",
           "home": "Sparta Rotterdam",
           "away": "Roda JC",
           "rotNum": "6366",
           "liveStatus": 0,
-          "status": "O",
+          "status": "H",
           "parlayRestriction": 2
         },
         {
@@ -3417,7 +3407,7 @@
           "away": "Heracles Almelo",
           "rotNum": "6369",
           "liveStatus": 0,
-          "status": "O",
+          "status": "H",
           "parlayRestriction": 2
         },
         {
@@ -3427,7 +3417,107 @@
           "away": "Ajax",
           "rotNum": "6372",
           "liveStatus": 0,
-          "status": "O",
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665480847,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "Achilles 29",
+          "away": "Emmen",
+          "rotNum": "6351",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665480895,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "Almere City",
+          "away": "VVV Venlo",
+          "rotNum": "6354",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665480943,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "Cambuur Leeuwarden",
+          "away": "NAC Breda",
+          "rotNum": "6357",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665481040,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "FC Eindhoven",
+          "away": "Dordrecht",
+          "rotNum": "6360",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665481137,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "FC Oss",
+          "away": "Jong FC Utrecht",
+          "rotNum": "6363",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665481175,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "Helmond Sport",
+          "away": "Fortuna Sittard",
+          "rotNum": "6366",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665481341,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "Jong Ajax",
+          "away": "Telstar",
+          "rotNum": "6369",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665481435,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "MVV Maastricht",
+          "away": "Den Bosch",
+          "rotNum": "6372",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665481472,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "RKC Waalwijk",
+          "away": "De Graafschap",
+          "rotNum": "6375",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665481544,
+          "starts": "2016-11-25T19:00:00Z",
+          "home": "Volendam",
+          "away": "Jong PSV Eindhoven",
+          "rotNum": "6378",
+          "liveStatus": 0,
+          "status": "I",
           "parlayRestriction": 2
         }
       ]
@@ -3575,6 +3665,26 @@
     {
       "id": 9885,
       "events": [
+        {
+          "id": 666104719,
+          "starts": "2016-11-23T12:45:00Z",
+          "home": "Tanta SC",
+          "away": "El-Entag El-Harby",
+          "rotNum": "37651",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666104806,
+          "starts": "2016-11-23T17:00:00Z",
+          "home": "Al Ahly Cairo",
+          "away": "Tala.ea El Giesh",
+          "rotNum": "37654",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
         {
           "id": 663698240,
           "starts": "2016-11-21T17:30:00Z",
@@ -4014,6 +4124,131 @@
           "liveStatus": 1,
           "status": "I",
           "parlayRestriction": 1
+        }
+      ]
+    },
+    {
+      "id": 1958,
+      "events": [
+        {
+          "id": 666148289,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Accrington Stanley",
+          "away": "Yeovil Town",
+          "rotNum": "3831",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148308,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Barnet",
+          "away": "Notts County",
+          "rotNum": "3834",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148340,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Blackpool",
+          "away": "Newport County",
+          "rotNum": "3837",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148378,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Cambridge United",
+          "away": "Cheltenham Town",
+          "rotNum": "3840",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148465,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Carlisle United",
+          "away": "Mansfield Town",
+          "rotNum": "3843",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148494,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Colchester United",
+          "away": "Crewe Alexandra",
+          "rotNum": "3846",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148551,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Crawley Town",
+          "away": "Grimsby Town",
+          "rotNum": "3849",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148572,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Doncaster Rovers",
+          "away": "Leyton Orient",
+          "rotNum": "3852",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148638,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Exeter City",
+          "away": "Luton Town",
+          "rotNum": "3855",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148653,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Morecambe",
+          "away": "Plymouth Argyle",
+          "rotNum": "3858",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148785,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Portsmouth",
+          "away": "Stevenage FC",
+          "rotNum": "3861",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666148818,
+          "starts": "2016-11-26T15:00:00Z",
+          "home": "Wycombe Wanderers",
+          "away": "Hartlepool United",
+          "rotNum": "3864",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
         }
       ]
     },
@@ -4856,6 +5091,46 @@
       "id": 2010,
       "events": [
         {
+          "id": 666118992,
+          "starts": "2016-11-24T06:00:00Z",
+          "home": "Korea DPR (w) U20",
+          "away": "Spain (w) U20",
+          "rotNum": "10051",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666119187,
+          "starts": "2016-11-24T09:00:00Z",
+          "home": "Japan (w) U20",
+          "away": "Brazil (w) U20",
+          "rotNum": "10054",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666120299,
+          "starts": "2016-11-25T06:00:00Z",
+          "home": "USA (w) U20",
+          "away": "Mexico (w) U20",
+          "rotNum": "10057",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666120331,
+          "starts": "2016-11-25T09:30:00Z",
+          "home": "Germany (w) U20",
+          "away": "France (w) U20",
+          "rotNum": "10060",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
           "id": 663690180,
           "starts": "2016-11-21T09:00:00Z",
           "home": "Venezuela (w) U20",
@@ -5188,6 +5463,51 @@
       ]
     },
     {
+      "id": 192776,
+      "events": [
+        {
+          "id": 666076399,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "TSV Steinbach",
+          "away": "FSV Frankfurt",
+          "rotNum": "36219",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666076476,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "Alemannia Aachen",
+          "away": "Fortuna Koln",
+          "rotNum": "36222",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666076651,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "TSV Steinbach",
+          "away": "FSV Frankfurt",
+          "rotNum": "36219",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666076717,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "Alemannia Aachen",
+          "away": "Fortuna Koln",
+          "rotNum": "36222",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
       "id": 6543,
       "events": [
         {
@@ -5237,7 +5557,7 @@
           "away": "SV Rodinghausen (Corners)",
           "rotNum": "34501",
           "liveStatus": 2,
-          "status": "O",
+          "status": "I",
           "parlayRestriction": 1
         },
         {
@@ -6567,7 +6887,7 @@
         },
         {
           "id": 665122904,
-          "starts": "2016-11-23T23:00:00Z",
+          "starts": "2016-11-24T20:00:00Z",
           "home": "Real Sociedad de Tocoa",
           "away": "Real Espana",
           "rotNum": "15023",
@@ -6577,7 +6897,7 @@
         },
         {
           "id": 665122905,
-          "starts": "2016-11-23T23:00:00Z",
+          "starts": "2016-11-24T01:00:00Z",
           "home": "CD Marathon",
           "away": "CD Motagua",
           "rotNum": "15020",
@@ -6617,7 +6937,7 @@
         },
         {
           "id": 665402691,
-          "starts": "2016-11-24T02:00:00Z",
+          "starts": "2016-11-24T00:00:00Z",
           "home": "CD Petapa",
           "away": "Suchitepequez",
           "rotNum": "15034",
@@ -6674,6 +6994,16 @@
           "liveStatus": 0,
           "status": "O",
           "parlayRestriction": 2
+        },
+        {
+          "id": 666103016,
+          "starts": "2016-11-24T02:00:00Z",
+          "home": "Malacateco",
+          "away": "Deportivo Guastatoya",
+          "rotNum": "15051",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
         }
       ]
     },
@@ -6698,6 +7028,31 @@
           "rotNum": "47051",
           "liveStatus": 0,
           "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
+      "id": 192446,
+      "events": [
+        {
+          "id": 666088833,
+          "starts": "2016-11-23T12:00:00Z",
+          "home": "Hong Kong FC",
+          "away": "Kwoon Chung Southern",
+          "rotNum": "9313",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666088764,
+          "starts": "2016-11-23T12:00:00Z",
+          "home": "Hong Kong FC",
+          "away": "Kwoon Chung Southern",
+          "rotNum": "9313",
+          "liveStatus": 2,
+          "status": "I",
           "parlayRestriction": 2
         }
       ]
@@ -6778,6 +7133,31 @@
       ]
     },
     {
+      "id": 198047,
+      "events": [
+        {
+          "id": 666100817,
+          "starts": "2016-11-23T12:00:00Z",
+          "home": "Hong Kong FC (Corners)",
+          "away": "Kwoon Chung Southern (Corners)",
+          "rotNum": "9313",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666100720,
+          "starts": "2016-11-23T12:00:00Z",
+          "home": "Hong Kong FC (Corners)",
+          "away": "Kwoon Chung Southern (Corners)",
+          "rotNum": "9313",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        }
+      ]
+    },
+    {
       "id": 9809,
       "events": [
         {
@@ -6826,7 +7206,17 @@
           "home": "Kitchee SC",
           "away": "HK Sapling",
           "rotNum": "37061",
-          "liveStatus": 0,
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666086132,
+          "starts": "2016-11-27T09:30:00Z",
+          "home": "Kitchee SC",
+          "away": "HK Sapling",
+          "rotNum": "37061",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         }
@@ -6846,12 +7236,42 @@
           "parlayRestriction": 2
         },
         {
+          "id": 665923592,
+          "starts": "2016-11-23T13:30:00Z",
+          "home": "Mumbai City FC",
+          "away": "Chennai Titans FC",
+          "rotNum": "37806",
+          "liveStatus": 1,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 662582758,
+          "starts": "2016-11-24T13:30:00Z",
+          "home": "FC Goa",
+          "away": "Atletico De Kolkata",
+          "rotNum": "37809",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
           "id": 663404321,
           "starts": "2016-11-27T13:30:00Z",
           "home": "Delhi Dynamos FC",
           "away": "FC Goa",
           "rotNum": "37801",
-          "liveStatus": 0,
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666085751,
+          "starts": "2016-11-27T13:30:00Z",
+          "home": "Delhi Dynamos FC",
+          "away": "FC Goa",
+          "rotNum": "37801",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         },
@@ -6876,31 +7296,11 @@
           "parlayRestriction": 2
         },
         {
-          "id": 665923592,
-          "starts": "2016-11-23T13:30:00Z",
-          "home": "Mumbai City FC",
-          "away": "Chennai Titans FC",
-          "rotNum": "37806",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
           "id": 665166314,
           "starts": "2016-12-01T13:30:00Z",
           "home": "FC Goa",
           "away": "Chennai Titans FC",
           "rotNum": "37808",
-          "liveStatus": 0,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 662582758,
-          "starts": "2016-11-24T13:30:00Z",
-          "home": "FC Goa",
-          "away": "Atletico De Kolkata",
-          "rotNum": "37809",
           "liveStatus": 0,
           "status": "O",
           "parlayRestriction": 2
@@ -6926,11 +7326,31 @@
           "parlayRestriction": 2
         },
         {
+          "id": 666152171,
+          "starts": "2016-12-03T13:30:00Z",
+          "home": "Kerala Blasters FC",
+          "away": "NorthEast United FC",
+          "rotNum": "37812",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
           "id": 663131691,
           "starts": "2016-11-26T13:30:00Z",
           "home": "Chennai Titans FC",
           "away": "NorthEast United FC",
           "rotNum": "37813",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666152172,
+          "starts": "2016-12-03T13:30:00Z",
+          "home": "Mumbai City FC",
+          "away": "Delhi Dynamos FC",
+          "rotNum": "37815",
           "liveStatus": 0,
           "status": "O",
           "parlayRestriction": 2
@@ -6948,6 +7368,31 @@
           "rotNum": "50259",
           "liveStatus": 0,
           "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
+      "id": 2116,
+      "events": [
+        {
+          "id": 666124095,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Hungary (w)",
+          "away": "Serbia (w)",
+          "rotNum": "31204",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666096267,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Hungary (w)",
+          "away": "Serbia (w)",
+          "rotNum": "31204",
+          "liveStatus": 0,
+          "status": "I",
           "parlayRestriction": 2
         }
       ]
@@ -7347,7 +7792,7 @@
         },
         {
           "id": 663408223,
-          "starts": "2016-11-26T19:30:00Z",
+          "starts": "2016-11-26T15:30:00Z",
           "home": "Ancona",
           "away": "Parma FC",
           "rotNum": "36222",
@@ -7468,6 +7913,126 @@
       ]
     },
     {
+      "id": 10806,
+      "events": [
+        {
+          "id": 666070579,
+          "starts": "2016-11-23T13:30:00Z",
+          "home": "Carrarese",
+          "away": "Padova",
+          "rotNum": "36201",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666071776,
+          "starts": "2016-11-23T13:30:00Z",
+          "home": "Carrarese",
+          "away": "Padova",
+          "rotNum": "36201",
+          "liveStatus": 1,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666070589,
+          "starts": "2016-11-23T13:30:00Z",
+          "home": "Teramo",
+          "away": "Robur Siena",
+          "rotNum": "36204",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666072405,
+          "starts": "2016-11-23T13:30:00Z",
+          "home": "Teramo",
+          "away": "Robur Siena",
+          "rotNum": "36204",
+          "liveStatus": 1,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666070627,
+          "starts": "2016-11-23T15:30:00Z",
+          "home": "Foggia",
+          "away": "Matera Calcio",
+          "rotNum": "36207",
+          "liveStatus": 0,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666070662,
+          "starts": "2016-11-23T15:30:00Z",
+          "home": "Taranto",
+          "away": "ACR Messina",
+          "rotNum": "36210",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666070687,
+          "starts": "2016-11-23T17:30:00Z",
+          "home": "Pontedera",
+          "away": "AC Tuttocuoio",
+          "rotNum": "36213",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666075751,
+          "starts": "2016-11-23T15:30:00Z",
+          "home": "Taranto",
+          "away": "ACR Messina",
+          "rotNum": "36210",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666076043,
+          "starts": "2016-11-23T17:30:00Z",
+          "home": "Pontedera",
+          "away": "AC Tuttocuoio",
+          "rotNum": "36213",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
+      "id": 194555,
+      "events": [
+        {
+          "id": 666070972,
+          "starts": "2016-11-23T17:30:00Z",
+          "home": "Pontedera (Corners)",
+          "away": "AC Tuttocuoio (Corners)",
+          "rotNum": "36213",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666071430,
+          "starts": "2016-11-23T17:30:00Z",
+          "home": "Pontedera (Corners)",
+          "away": "AC Tuttocuoio (Corners)",
+          "rotNum": "36213",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        }
+      ]
+    },
+    {
       "id": 10227,
       "events": [
         {
@@ -7489,56 +8054,6 @@
           "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
-        }
-      ]
-    },
-    {
-      "id": 2157,
-      "events": [
-        {
-          "id": 663687731,
-          "starts": "2016-11-23T05:00:00Z",
-          "home": "Kawasaki Frontale",
-          "away": "Kashima Antlers",
-          "rotNum": "5951",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665294281,
-          "starts": "2016-11-23T05:00:00Z",
-          "home": "Kawasaki Frontale",
-          "away": "Kashima Antlers",
-          "rotNum": "5951",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 2
-        }
-      ]
-    },
-    {
-      "id": 6308,
-      "events": [
-        {
-          "id": 665293242,
-          "starts": "2016-11-23T05:00:00Z",
-          "home": "Kawasaki Frontale (Corners)",
-          "away": "Kashima Antlers (Corners)",
-          "rotNum": "5951",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665294302,
-          "starts": "2016-11-23T05:00:00Z",
-          "home": "Kawasaki Frontale (Corners)",
-          "away": "Kashima Antlers (Corners)",
-          "rotNum": "5951",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 1
         }
       ]
     },
@@ -7818,6 +8333,51 @@
       ]
     },
     {
+      "id": 198051,
+      "events": [
+        {
+          "id": 666116288,
+          "starts": "2016-11-23T12:30:00Z",
+          "home": "Pobeda",
+          "away": "Bregalnica Štip",
+          "rotNum": "44663",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666116154,
+          "starts": "2016-11-23T12:30:00Z",
+          "home": "Pobeda",
+          "away": "Bregalnica Štip",
+          "rotNum": "44663",
+          "liveStatus": 2,
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666116039,
+          "starts": "2016-11-23T12:30:00Z",
+          "home": "Pelister",
+          "away": "Sileks",
+          "rotNum": "44660",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666116261,
+          "starts": "2016-11-23T12:30:00Z",
+          "home": "Pelister",
+          "away": "Sileks",
+          "rotNum": "44660",
+          "liveStatus": 1,
+          "status": "I",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
       "id": 2238,
       "events": [
         {
@@ -7836,6 +8396,36 @@
           "home": "Floriana",
           "away": "St. Andrews FC",
           "rotNum": "40851",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666096317,
+          "starts": "2016-11-27T15:15:00Z",
+          "home": "Valletta",
+          "away": "Mosta FC",
+          "rotNum": "40851",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666096318,
+          "starts": "2016-11-27T13:00:00Z",
+          "home": "Balzan FC",
+          "away": "Pembroke Athleta FC",
+          "rotNum": "40854",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666096319,
+          "starts": "2016-11-26T13:00:00Z",
+          "home": "Gzira United",
+          "away": "Hamrun Spartans",
+          "rotNum": "40857",
           "liveStatus": 0,
           "status": "O",
           "parlayRestriction": 2
@@ -8081,7 +8671,17 @@
           "home": "Raja Casablanca",
           "away": "Wydad Casablanca",
           "rotNum": "37269",
-          "liveStatus": 0,
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666085945,
+          "starts": "2016-11-27T15:00:00Z",
+          "home": "Raja Casablanca",
+          "away": "Wydad Casablanca",
+          "rotNum": "37269",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         },
@@ -8091,7 +8691,17 @@
           "home": "Olympic Safi",
           "away": "FUS Rabat",
           "rotNum": "37272",
-          "liveStatus": 0,
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666085966,
+          "starts": "2016-11-27T17:30:00Z",
+          "home": "Olympic Safi",
+          "away": "FUS Rabat",
+          "rotNum": "37272",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         },
@@ -8101,9 +8711,34 @@
           "home": "FAR Rabat",
           "away": "Chabab Atlas Khenifra",
           "rotNum": "37275",
-          "liveStatus": 0,
+          "liveStatus": 2,
           "status": "O",
           "parlayRestriction": 2
+        },
+        {
+          "id": 666085992,
+          "starts": "2016-11-27T19:30:00Z",
+          "home": "FAR Rabat",
+          "away": "Chabab Atlas Khenifra",
+          "rotNum": "37275",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
+      "id": 198045,
+      "events": [
+        {
+          "id": 666064568,
+          "starts": "2016-11-23T18:30:00Z",
+          "home": "FUS Rabat (Corners)",
+          "away": "FAR Rabat (Corners)",
+          "rotNum": "37251",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
         }
       ]
     },
@@ -8376,7 +9011,7 @@
           "home": "GKS Tychy",
           "away": "Sandecja Nowy Sacz",
           "rotNum": "7822",
-          "liveStatus": 0,
+          "liveStatus": 2,
           "status": "I",
           "parlayRestriction": 2
         },
@@ -8386,7 +9021,7 @@
           "home": "Stal Mielec",
           "away": "Gornik Zabrze",
           "rotNum": "7825",
-          "liveStatus": 0,
+          "liveStatus": 2,
           "status": "I",
           "parlayRestriction": 2
         },
@@ -8396,7 +9031,7 @@
           "home": "Pogon Siedlce",
           "away": "Zaglebie Sosnowiec",
           "rotNum": "7828",
-          "liveStatus": 0,
+          "liveStatus": 2,
           "status": "I",
           "parlayRestriction": 2
         },
@@ -8416,6 +9051,36 @@
           "home": "Pogon Siedlce",
           "away": "Stal Mielec",
           "rotNum": "7804",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666087452,
+          "starts": "2016-11-27T13:00:00Z",
+          "home": "GKS Tychy",
+          "away": "Sandecja Nowy Sacz",
+          "rotNum": "7822",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666087498,
+          "starts": "2016-11-27T14:00:00Z",
+          "home": "Stal Mielec",
+          "away": "Gornik Zabrze",
+          "rotNum": "7825",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666087541,
+          "starts": "2016-11-27T16:45:00Z",
+          "home": "Pogon Siedlce",
+          "away": "Zaglebie Sosnowiec",
+          "rotNum": "7828",
           "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
@@ -8549,12 +9214,82 @@
           "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 1
+        },
+        {
+          "id": 666087159,
+          "starts": "2016-11-27T13:00:00Z",
+          "home": "GKS Tychy (Corners)",
+          "away": "Sandecja Nowy Sacz (Corners)",
+          "rotNum": "7822",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666087327,
+          "starts": "2016-11-27T13:00:00Z",
+          "home": "GKS Tychy (Corners)",
+          "away": "Sandecja Nowy Sacz (Corners)",
+          "rotNum": "7822",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666087194,
+          "starts": "2016-11-27T14:00:00Z",
+          "home": "Stal Mielec (Corners)",
+          "away": "Gornik Zabrze (Corners)",
+          "rotNum": "7825",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666087382,
+          "starts": "2016-11-27T14:00:00Z",
+          "home": "Stal Mielec (Corners)",
+          "away": "Gornik Zabrze (Corners)",
+          "rotNum": "7825",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666087248,
+          "starts": "2016-11-27T16:45:00Z",
+          "home": "Pogon Siedlce (Corners)",
+          "away": "Zaglebie Sosnowiec (Corners)",
+          "rotNum": "7828",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666087402,
+          "starts": "2016-11-27T16:45:00Z",
+          "home": "Pogon Siedlce (Corners)",
+          "away": "Zaglebie Sosnowiec (Corners)",
+          "rotNum": "7828",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
         }
       ]
     },
     {
       "id": 6814,
       "events": [
+        {
+          "id": 665909896,
+          "starts": "2016-11-23T15:00:00Z",
+          "home": "Uniao da Madeira (Corners)",
+          "away": "Sportin Lisbon B (Corners)",
+          "rotNum": "6463",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        },
         {
           "id": 665909830,
           "starts": "2016-11-23T14:45:00Z",
@@ -8632,16 +9367,6 @@
           "away": "Gil Vicente (Corners)",
           "rotNum": "6460",
           "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665909896,
-          "starts": "2016-11-23T15:00:00Z",
-          "home": "Uniao da Madeira (Corners)",
-          "away": "Sportin Lisbon B (Corners)",
-          "rotNum": "6463",
-          "liveStatus": 2,
           "status": "O",
           "parlayRestriction": 1
         },
@@ -9171,7 +9896,7 @@
           "home": "Kryliya Sovetov",
           "away": "Tom Tomsk",
           "rotNum": "6613",
-          "liveStatus": 0,
+          "liveStatus": 2,
           "status": "I",
           "parlayRestriction": 2
         },
@@ -9181,7 +9906,7 @@
           "home": "Rostov FK",
           "away": "Anzhi Makhachkala",
           "rotNum": "6616",
-          "liveStatus": 0,
+          "liveStatus": 2,
           "status": "I",
           "parlayRestriction": 2
         },
@@ -9201,8 +9926,28 @@
           "home": "FC Krasnodar",
           "away": "Zenit St. Petersburg",
           "rotNum": "6619",
-          "liveStatus": 0,
+          "liveStatus": 2,
           "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666095723,
+          "starts": "2016-11-27T11:00:00Z",
+          "home": "Kryliya Sovetov",
+          "away": "Tom Tomsk",
+          "rotNum": "6613",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666095743,
+          "starts": "2016-11-27T13:30:00Z",
+          "home": "Rostov FK",
+          "away": "Anzhi Makhachkala",
+          "rotNum": "6616",
+          "liveStatus": 1,
+          "status": "O",
           "parlayRestriction": 2
         },
         {
@@ -9210,6 +9955,16 @@
           "starts": "2016-11-21T16:00:00Z",
           "home": "Terek Grozny",
           "away": "Tom Tomsk",
+          "rotNum": "6619",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666095758,
+          "starts": "2016-11-27T16:00:00Z",
+          "home": "FC Krasnodar",
+          "away": "Zenit St. Petersburg",
           "rotNum": "6619",
           "liveStatus": 1,
           "status": "O",
@@ -9231,10 +9986,70 @@
           "parlayRestriction": 2
         },
         {
+          "id": 666095257,
+          "starts": "2016-11-27T11:00:00Z",
+          "home": "Kryliya Sovetov (Corners)",
+          "away": "Tom Tomsk (Corners)",
+          "rotNum": "6613",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666095592,
+          "starts": "2016-11-27T11:00:00Z",
+          "home": "Kryliya Sovetov (Corners)",
+          "away": "Tom Tomsk (Corners)",
+          "rotNum": "6613",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666095332,
+          "starts": "2016-11-27T13:30:00Z",
+          "home": "Rostov FK (Corners)",
+          "away": "Anzhi Makhachkala (Corners)",
+          "rotNum": "6616",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666095633,
+          "starts": "2016-11-27T13:30:00Z",
+          "home": "Rostov FK (Corners)",
+          "away": "Anzhi Makhachkala (Corners)",
+          "rotNum": "6616",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
           "id": 665127438,
           "starts": "2016-11-21T16:00:00Z",
           "home": "Terek Grozny (Corners)",
           "away": "Tom Tomsk (Corners)",
+          "rotNum": "6619",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666095396,
+          "starts": "2016-11-27T16:00:00Z",
+          "home": "FC Krasnodar (Corners)",
+          "away": "Zenit St. Petersburg (Corners)",
+          "rotNum": "6619",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666095665,
+          "starts": "2016-11-27T16:00:00Z",
+          "home": "FC Krasnodar (Corners)",
+          "away": "Zenit St. Petersburg (Corners)",
           "rotNum": "6619",
           "liveStatus": 1,
           "status": "O",
@@ -9651,26 +10466,6 @@
           "parlayRestriction": 1
         },
         {
-          "id": 665292000,
-          "starts": "2016-11-22T14:00:00Z",
-          "home": "Hibernian FC U20 (Corners)",
-          "away": "Dunfermline Athletic U20 (Corners)",
-          "rotNum": "40957",
-          "liveStatus": 2,
-          "status": "H",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665292039,
-          "starts": "2016-11-22T16:00:00Z",
-          "home": "St Mirren U20 (Corners)",
-          "away": "Dundee FC U20 (Corners)",
-          "rotNum": "40960",
-          "liveStatus": 2,
-          "status": "H",
-          "parlayRestriction": 1
-        },
-        {
           "id": 665129795,
           "starts": "2016-11-21T19:45:00Z",
           "home": "Livingston U20 (Corners)",
@@ -9678,6 +10473,26 @@
           "rotNum": "40957",
           "liveStatus": 0,
           "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666077346,
+          "starts": "2016-11-23T20:00:00Z",
+          "home": "Airdrieonians U20 (Corners)",
+          "away": "Albion Rovers U20 (Corners)",
+          "rotNum": "36234",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666077427,
+          "starts": "2016-11-23T20:00:00Z",
+          "home": "Airdrieonians U20 (Corners)",
+          "away": "Albion Rovers U20 (Corners)",
+          "rotNum": "36234",
+          "liveStatus": 1,
+          "status": "O",
           "parlayRestriction": 1
         },
         {
@@ -9713,6 +10528,26 @@
           "rotNum": "40957",
           "liveStatus": 1,
           "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666077309,
+          "starts": "2016-11-23T20:00:00Z",
+          "home": "Airdrieonians U20",
+          "away": "Albion Rovers U20",
+          "rotNum": "36234",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666077463,
+          "starts": "2016-11-23T20:00:00Z",
+          "home": "Airdrieonians U20",
+          "away": "Albion Rovers U20",
+          "rotNum": "36234",
+          "liveStatus": 1,
+          "status": "O",
           "parlayRestriction": 2
         },
         {
@@ -10546,22 +11381,22 @@
       "id": 10355,
       "events": [
         {
-          "id": 665480484,
-          "starts": "2016-11-23T13:00:00Z",
-          "home": "Kairouan",
-          "away": "Etoile Sahel",
-          "rotNum": "50001",
-          "liveStatus": 2,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
           "id": 665923671,
           "starts": "2016-11-23T13:00:00Z",
           "home": "Kairouan",
           "away": "Etoile Sahel",
           "rotNum": "50001",
           "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665480484,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Kairouan",
+          "away": "Etoile Sahel",
+          "rotNum": "50001",
+          "liveStatus": 2,
           "status": "O",
           "parlayRestriction": 2
         }
@@ -10758,8 +11593,88 @@
       ]
     },
     {
+      "id": 16276,
+      "events": [
+        {
+          "id": 666101895,
+          "starts": "2016-11-23T12:40:00Z",
+          "home": "Emirates Club (Corners)",
+          "away": "Al Wasl FC  (Corners)",
+          "rotNum": "38251",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666101795,
+          "starts": "2016-11-23T12:40:00Z",
+          "home": "Emirates Club (Corners)",
+          "away": "Al Wasl FC  (Corners)",
+          "rotNum": "38251",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        }
+      ]
+    },
+    {
+      "id": 8126,
+      "events": [
+        {
+          "id": 666101217,
+          "starts": "2016-11-23T12:40:00Z",
+          "home": "Emirates Club",
+          "away": "Al Wasl FC",
+          "rotNum": "38251",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666101276,
+          "starts": "2016-11-23T16:00:00Z",
+          "home": "Al Ittihad Kalba",
+          "away": "Al Sharjah",
+          "rotNum": "38254",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666101358,
+          "starts": "2016-11-23T12:40:00Z",
+          "home": "Emirates Club",
+          "away": "Al Wasl FC",
+          "rotNum": "38251",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666101413,
+          "starts": "2016-11-23T16:00:00Z",
+          "home": "Al Ittihad Kalba",
+          "away": "Al Sharjah",
+          "rotNum": "38254",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
       "id": 2627,
       "events": [
+        {
+          "id": 665194261,
+          "starts": "2016-11-23T17:00:00Z",
+          "home": "Home Teams (Tuesday 8 Matches)",
+          "away": "Away Teams (Tuesday 8 Matches)",
+          "rotNum": "11078",
+          "liveStatus": 0,
+          "status": "H",
+          "parlayRestriction": 1
+        },
         {
           "id": 658214307,
           "starts": "2016-11-23T17:00:00Z",
@@ -10841,14 +11756,14 @@
           "parlayRestriction": 2
         },
         {
-          "id": 665194261,
+          "id": 666058481,
           "starts": "2016-11-23T17:00:00Z",
-          "home": "Home Teams (Tuesday 8 Matches)",
-          "away": "Away Teams (Tuesday 8 Matches)",
+          "home": "Home Teams (Wednesday 8 Matches)",
+          "away": "Away Teams (Wednesday 8 Matches)",
           "rotNum": "11075",
           "liveStatus": 0,
           "status": "I",
-          "parlayRestriction": 1
+          "parlayRestriction": 2
         },
         {
           "id": 665923575,
@@ -11266,6 +12181,176 @@
       "id": 6619,
       "events": [
         {
+          "id": 666069408,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Kairat U19",
+          "away": "Salzburg U19",
+          "rotNum": "35310",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666069496,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Roma U19",
+          "away": "Cork City U19",
+          "rotNum": "35319",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666069520,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Napoli U19",
+          "away": "Dynamo Kyiv U19",
+          "rotNum": "35322",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666069525,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Celtic FC U19",
+          "away": "Barcelona U19",
+          "rotNum": "35325",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065250,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Arsenal U19",
+          "away": "Paris Saint Germain U19",
+          "rotNum": "35313",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666069438,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Arsenal U19",
+          "away": "Paris Saint Germain U19",
+          "rotNum": "35313",
+          "liveStatus": 1,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065262,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Ludogorets Razgrad U19",
+          "away": "Basel U19",
+          "rotNum": "35316",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666069460,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Ludogorets Razgrad U19",
+          "away": "Basel U19",
+          "rotNum": "35316",
+          "liveStatus": 1,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065295,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Roma U19",
+          "away": "Cork City U19",
+          "rotNum": "35319",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065328,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Napoli U19",
+          "away": "Dynamo Kyiv U19",
+          "rotNum": "35322",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065359,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Celtic FC U19",
+          "away": "Barcelona U19",
+          "rotNum": "35325",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065385,
+          "starts": "2016-11-23T15:00:00Z",
+          "home": "Borussia Monchengladbach U19",
+          "away": "Manchester City U19",
+          "rotNum": "35328",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065392,
+          "starts": "2016-11-23T15:00:00Z",
+          "home": "Atletico Madrid U19",
+          "away": "PSV Eindhoven U19",
+          "rotNum": "35331",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065406,
+          "starts": "2016-11-23T16:00:00Z",
+          "home": "Zurich U19",
+          "away": "Viitorul U19",
+          "rotNum": "35334",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065438,
+          "starts": "2016-11-23T17:00:00Z",
+          "home": "Cukaricki U19",
+          "away": "Rosenborg U19",
+          "rotNum": "35337",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065461,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "Midtjylland U19",
+          "away": "Malaga U19",
+          "rotNum": "35340",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666065219,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Kairat U19",
+          "away": "Salzburg U19",
+          "rotNum": "35310",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
           "id": 652223714,
           "starts": "2016-10-09T16:00:00Z",
           "home": "Bayern Munchen U19",
@@ -11274,6 +12359,281 @@
           "liveStatus": 0,
           "status": "O",
           "parlayRestriction": 2
+        },
+        {
+          "id": 666069572,
+          "starts": "2016-11-23T15:00:00Z",
+          "home": "Borussia Monchengladbach U19",
+          "away": "Manchester City U19",
+          "rotNum": "35328",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666069609,
+          "starts": "2016-11-23T15:00:00Z",
+          "home": "Atletico Madrid U19",
+          "away": "PSV Eindhoven U19",
+          "rotNum": "35331",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666069627,
+          "starts": "2016-11-23T16:00:00Z",
+          "home": "Zurich U19",
+          "away": "Viitorul U19",
+          "rotNum": "35334",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666069650,
+          "starts": "2016-11-23T17:00:00Z",
+          "home": "Cukaricki U19",
+          "away": "Rosenborg U19",
+          "rotNum": "35337",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666069670,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "Midtjylland U19",
+          "away": "Malaga U19",
+          "rotNum": "35340",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
+      "id": 6912,
+      "events": [
+        {
+          "id": 666067253,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Kairat U19 (Corners)",
+          "away": "Salzburg U19 (Corners)",
+          "rotNum": "35310",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666067354,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Roma U19 (Corners)",
+          "away": "Cork City U19 (Corners)",
+          "rotNum": "35319",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666067416,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Napoli U19 (Corners)",
+          "away": "Dynamo Kyiv U19 (Corners)",
+          "rotNum": "35322",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666067520,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Celtic FC U19 (Corners)",
+          "away": "Barcelona U19 (Corners)",
+          "rotNum": "35325",
+          "liveStatus": 1,
+          "status": "H",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066132,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Arsenal U19 (Corners)",
+          "away": "Paris Saint Germain U19 (Corners)",
+          "rotNum": "35313",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666067266,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Arsenal U19 (Corners)",
+          "away": "Paris Saint Germain U19 (Corners)",
+          "rotNum": "35313",
+          "liveStatus": 1,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066275,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Ludogorets Razgrad U19 (Corners)",
+          "away": "Basel U19 (Corners)",
+          "rotNum": "35316",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666067283,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Ludogorets Razgrad U19 (Corners)",
+          "away": "Basel U19 (Corners)",
+          "rotNum": "35316",
+          "liveStatus": 1,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066310,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Roma U19 (Corners)",
+          "away": "Cork City U19 (Corners)",
+          "rotNum": "35319",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066328,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Napoli U19 (Corners)",
+          "away": "Dynamo Kyiv U19 (Corners)",
+          "rotNum": "35322",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066351,
+          "starts": "2016-11-23T14:00:00Z",
+          "home": "Celtic FC U19 (Corners)",
+          "away": "Barcelona U19 (Corners)",
+          "rotNum": "35325",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066385,
+          "starts": "2016-11-23T15:00:00Z",
+          "home": "Borussia Monchengladbach U19 (Corners)",
+          "away": "Manchester City U19 (Corners)",
+          "rotNum": "35328",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066445,
+          "starts": "2016-11-23T15:00:00Z",
+          "home": "Atletico Madrid U19 (Corners)",
+          "away": "PSV Eindhoven U19 (Corners)",
+          "rotNum": "35331",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066108,
+          "starts": "2016-11-23T13:00:00Z",
+          "home": "Kairat U19 (Corners)",
+          "away": "Salzburg U19 (Corners)",
+          "rotNum": "35310",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666067578,
+          "starts": "2016-11-23T15:00:00Z",
+          "home": "Borussia Monchengladbach U19 (Corners)",
+          "away": "Manchester City U19 (Corners)",
+          "rotNum": "35328",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666067627,
+          "starts": "2016-11-23T15:00:00Z",
+          "home": "Atletico Madrid U19 (Corners)",
+          "away": "PSV Eindhoven U19 (Corners)",
+          "rotNum": "35331",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066498,
+          "starts": "2016-11-23T16:00:00Z",
+          "home": "Zurich U19 (Corners)",
+          "away": "Viitorul U19 (Corners)",
+          "rotNum": "35334",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666067715,
+          "starts": "2016-11-23T16:00:00Z",
+          "home": "Zurich U19 (Corners)",
+          "away": "Viitorul U19 (Corners)",
+          "rotNum": "35334",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066704,
+          "starts": "2016-11-23T17:00:00Z",
+          "home": "Cukaricki U19 (Corners)",
+          "away": "Rosenborg U19 (Corners)",
+          "rotNum": "35337",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666069092,
+          "starts": "2016-11-23T17:00:00Z",
+          "home": "Cukaricki U19 (Corners)",
+          "away": "Rosenborg U19 (Corners)",
+          "rotNum": "35337",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666066742,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "Midtjylland U19 (Corners)",
+          "away": "Malaga U19 (Corners)",
+          "rotNum": "35340",
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 1
+        },
+        {
+          "id": 666069140,
+          "starts": "2016-11-23T18:00:00Z",
+          "home": "Midtjylland U19 (Corners)",
+          "away": "Malaga U19 (Corners)",
+          "rotNum": "35340",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 1
         }
       ]
     },
@@ -11301,8 +12661,18 @@
           "parlayRestriction": 2
         },
         {
-          "id": 665392000,
+          "id": 665460464,
           "starts": "2016-11-27T10:00:00Z",
+          "home": "FK Chornomorets Odessa U19",
+          "away": "FC Dynamo Kyiv U19",
+          "rotNum": "19001",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 665392000,
+          "starts": "2016-11-27T11:00:00Z",
           "home": "Karpaty Lviv U19",
           "away": "FC Stal Dniprodzerzhynsk U19",
           "rotNum": "19004",
@@ -11335,16 +12705,6 @@
           "starts": "2016-11-26T11:00:00Z",
           "home": "FK Skala Stryi U19",
           "away": "FC Olimpik Donetsk U19",
-          "rotNum": "19016",
-          "liveStatus": 0,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665460464,
-          "starts": "2016-11-27T10:00:00Z",
-          "home": "FK Chornomorets Odessa U19",
-          "away": "FC Dynamo Kyiv U19",
           "rotNum": "19016",
           "liveStatus": 0,
           "status": "O",
@@ -11418,183 +12778,8 @@
       ]
     },
     {
-      "id": 2663,
-      "events": [
-        {
-          "id": 662220507,
-          "starts": "2016-11-23T01:00:00Z",
-          "home": "Montreal Impact",
-          "away": "Toronto FC",
-          "rotNum": "9201",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 662220543,
-          "starts": "2016-11-23T03:00:00Z",
-          "home": "Seattle Sounders",
-          "away": "Colorado Rapids",
-          "rotNum": "9204",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665294264,
-          "starts": "2016-11-23T01:00:00Z",
-          "home": "Montreal Impact",
-          "away": "Toronto FC",
-          "rotNum": "9201",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665294265,
-          "starts": "2016-11-23T03:00:00Z",
-          "home": "Seattle Sounders",
-          "away": "Colorado Rapids",
-          "rotNum": "9204",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 2
-        }
-      ]
-    },
-    {
-      "id": 6301,
-      "events": [
-        {
-          "id": 665293236,
-          "starts": "2016-11-23T01:00:00Z",
-          "home": "Montreal Impact (Corners)",
-          "away": "Toronto FC (Corners)",
-          "rotNum": "9201",
-          "liveStatus": 2,
-          "status": "O",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665294299,
-          "starts": "2016-11-23T01:00:00Z",
-          "home": "Montreal Impact (Corners)",
-          "away": "Toronto FC (Corners)",
-          "rotNum": "9201",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665293239,
-          "starts": "2016-11-23T03:00:00Z",
-          "home": "Seattle Sounders (Corners)",
-          "away": "Colorado Rapids (Corners)",
-          "rotNum": "9204",
-          "liveStatus": 2,
-          "status": "O",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665294300,
-          "starts": "2016-11-23T03:00:00Z",
-          "home": "Seattle Sounders (Corners)",
-          "away": "Colorado Rapids (Corners)",
-          "rotNum": "9204",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 1
-        }
-      ]
-    },
-    {
-      "id": 198035,
-      "events": [
-        {
-          "id": 665923674,
-          "starts": "2016-11-23T09:00:00Z",
-          "home": "Bunyodkor (Corners)",
-          "away": "Lokomotiv Tashkent (Corners)",
-          "rotNum": "37159",
-          "liveStatus": 1,
-          "status": "H",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665923675,
-          "starts": "2016-11-23T09:00:00Z",
-          "home": "Buxoro FK (Corners)",
-          "away": "Shurtan (Corners)",
-          "rotNum": "37185",
-          "liveStatus": 1,
-          "status": "H",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665909821,
-          "starts": "2016-11-23T09:00:00Z",
-          "home": "Bunyodkor (Corners)",
-          "away": "Lokomotiv Tashkent (Corners)",
-          "rotNum": "37159",
-          "liveStatus": 2,
-          "status": "O",
-          "parlayRestriction": 1
-        },
-        {
-          "id": 665909824,
-          "starts": "2016-11-23T09:00:00Z",
-          "home": "Buxoro FK (Corners)",
-          "away": "Shurtan (Corners)",
-          "rotNum": "37185",
-          "liveStatus": 2,
-          "status": "O",
-          "parlayRestriction": 1
-        }
-      ]
-    },
-    {
       "id": 9813,
       "events": [
-        {
-          "id": 663412036,
-          "starts": "2016-11-23T09:00:00Z",
-          "home": "Bunyodkor",
-          "away": "Lokomotiv Tashkent",
-          "rotNum": "37159",
-          "liveStatus": 2,
-          "status": "I",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665923594,
-          "starts": "2016-11-23T09:00:00Z",
-          "home": "Bunyodkor",
-          "away": "Lokomotiv Tashkent",
-          "rotNum": "37159",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 664086180,
-          "starts": "2016-11-23T09:00:00Z",
-          "home": "Buxoro FK",
-          "away": "Shurtan",
-          "rotNum": "37185",
-          "liveStatus": 2,
-          "status": "O",
-          "parlayRestriction": 2
-        },
-        {
-          "id": 665923595,
-          "starts": "2016-11-23T09:00:00Z",
-          "home": "Buxoro FK",
-          "away": "Shurtan",
-          "rotNum": "37185",
-          "liveStatus": 1,
-          "status": "O",
-          "parlayRestriction": 2
-        },
         {
           "id": 666011220,
           "starts": "2016-11-22T09:00:00Z",
@@ -11628,6 +12813,51 @@
       ]
     },
     {
+      "id": 5596,
+      "events": [
+        {
+          "id": 666088180,
+          "starts": "2016-11-23T19:00:00Z",
+          "home": "Atletico Venezuela",
+          "away": "Deportivo Tachira",
+          "rotNum": "9301",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666088459,
+          "starts": "2016-11-23T23:00:00Z",
+          "home": "Caracas FC",
+          "away": "Zulia Maracaibo",
+          "rotNum": "9304",
+          "liveStatus": 2,
+          "status": "I",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666088597,
+          "starts": "2016-11-23T19:00:00Z",
+          "home": "Atletico Venezuela",
+          "away": "Deportivo Tachira",
+          "rotNum": "9301",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666088531,
+          "starts": "2016-11-23T23:00:00Z",
+          "home": "Caracas FC",
+          "away": "Zulia Maracaibo",
+          "rotNum": "9304",
+          "liveStatus": 1,
+          "status": "O",
+          "parlayRestriction": 2
+        }
+      ]
+    },
+    {
       "id": 2678,
       "events": [
         {
@@ -11646,7 +12876,17 @@
           "home": "Cardiff Metropolitan University  FC",
           "away": "Llandudno FC",
           "rotNum": "32301",
-          "liveStatus": 0,
+          "liveStatus": 2,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666086316,
+          "starts": "2016-11-27T15:00:00Z",
+          "home": "Cardiff Metropolitan University  FC",
+          "away": "Llandudno FC",
+          "rotNum": "32301",
+          "liveStatus": 1,
           "status": "O",
           "parlayRestriction": 2
         },
@@ -11656,6 +12896,16 @@
           "home": "Rhyl",
           "away": "The New Saints",
           "rotNum": "32303",
+          "liveStatus": 0,
+          "status": "O",
+          "parlayRestriction": 2
+        },
+        {
+          "id": 666079932,
+          "starts": "2016-11-25T19:45:00Z",
+          "home": "Rhyl",
+          "away": "Connahs Quay",
+          "rotNum": "32305",
           "liveStatus": 0,
           "status": "O",
           "parlayRestriction": 2

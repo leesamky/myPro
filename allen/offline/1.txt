@@ -1,0 +1,104 @@
+{
+    "league": "2016/2017 以色列超级联赛",
+    "leagueId": "4036",
+    "teams": [
+      {
+        "gb_name": "贝尔谢巴夏普尔",
+        "en_name": "Hapoel Beer Sheva",
+        "teamId": 1419,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "特拉维夫马卡比",
+        "en_name": "Maccabi Tel Aviv",
+        "teamId": 1222,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "海法马卡比",
+        "en_name": "Maccabi Haifa",
+        "teamId": 856,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "佩塔提克瓦马卡比",
+        "en_name": "Maccabi Petah Tikva FC",
+        "teamId": 1622,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "耶路撒冷贝塔",
+        "en_name": "Beitar Jerusalem",
+        "teamId": 1513,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "赖阿南纳夏普尔",
+        "en_name": "Hapoel Raanana",
+        "teamId": 4732,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "谢莫纳夏普尔",
+        "en_name": "Hapoel Ironi Kiryat Shmona",
+        "teamId": 4579,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "法萨巴夏普尔",
+        "en_name": "Hapoel Kfar Saba",
+        "teamId": 3010,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "比尼萨赫宁",
+        "en_name": "Hapoel Bnei Sakhnin FC",
+        "teamId": 1623,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "阿什杜德",
+        "en_name": "Ashdod MS",
+        "teamId": 1514,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "海法夏普尔",
+        "en_name": "Hapoel Haifa",
+        "teamId": 2480,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": "MS Haifa Rubi Shapira"
+      },
+      {
+        "gb_name": "特拉维夫夏普尔",
+        "en_name": "Hapoel Tel Aviv",
+        "teamId": 1223,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "比尼叶胡达",
+        "en_name": "Bnei Yehuda Tel Aviv",
+        "teamId": 3009,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      },
+      {
+        "gb_name": "阿什凯泽夏普尔",
+        "en_name": "Hapoel Ashkelon",
+        "teamId": 5749,
+        "league": "2016/2017 以色列超级联赛",
+        "pname": ""
+      }
+    ]
+  },

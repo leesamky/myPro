@@ -219,7 +219,7 @@
   {
     "id": "8667",
     "name": "Algeria - Professional Ligue 1",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -247,7 +247,7 @@
   {
     "id": "6820",
     "name": "Argentina - Primera B Nacional Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -289,7 +289,7 @@
   {
     "id": "1741",
     "name": "Argentina - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -317,14 +317,14 @@
   {
     "id": "198023",
     "name": "ASEAN Football Championship Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "1744",
     "name": "ASEAN Football Championship",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -436,7 +436,7 @@
   {
     "id": "9394",
     "name": "Australia - FFA Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -870,7 +870,7 @@
   {
     "id": "88184",
     "name": "Bangladesh - Premier League",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -912,7 +912,7 @@
   {
     "id": "10584",
     "name": "Belgium - Cup Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -954,7 +954,7 @@
   {
     "id": "1819",
     "name": "Belgium - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -975,6 +975,13 @@
   {
     "id": "9975",
     "name": "BeNeLeague - Women",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198062",
+    "name": "Bolivia - LFPB Corners",
     "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
@@ -1003,6 +1010,13 @@
   {
     "id": "192685",
     "name": "Brazil - Alagoano",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198070",
+    "name": "Brazil - U20 Cup Corners",
     "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
@@ -1122,7 +1136,7 @@
   {
     "id": "192357",
     "name": "Brazil - Cup Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -1190,6 +1204,13 @@
     "allowRoundRobins": "0"
   },
   {
+    "id": "198082",
+    "name": "Bulgaria - A PFG Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
     "id": "1839",
     "name": "Bulgaria - Cup",
     "feedContents": "0",
@@ -1248,7 +1269,7 @@
   {
     "id": "198012",
     "name": "Germany - Bundesliga U19 Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -1262,7 +1283,7 @@
   {
     "id": "1843",
     "name": "Germany - Bundesliga 2",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -1297,7 +1318,7 @@
   {
     "id": "198017",
     "name": "CAF - Africa Women Cup of Nations",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -1437,14 +1458,14 @@
   {
     "id": "1856",
     "name": "Chile - Cup",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "10587",
     "name": "Chile - Cup Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -1507,7 +1528,7 @@
   {
     "id": "5452",
     "name": "UEFA - Champions League Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -1766,7 +1787,7 @@
   {
     "id": "1880",
     "name": "Croatia - 1. HNL",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -1780,7 +1801,7 @@
   {
     "id": "1882",
     "name": "Croatia - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -1855,9 +1876,16 @@
     "allowRoundRobins": "0"
   },
   {
+    "id": "198056",
+    "name": "Czech Republic - FNL Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
     "id": "1898",
     "name": "Czech Republic - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -1941,7 +1969,7 @@
   {
     "id": "6426",
     "name": "Denmark - Superliga Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -1962,7 +1990,7 @@
   {
     "id": "163789",
     "name": "Denmark - U19",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -1990,7 +2018,7 @@
   {
     "id": "1929",
     "name": "Netherlands - Eerste Divisie",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -2011,7 +2039,7 @@
   {
     "id": "194765",
     "name": "Netherlands - Reserve League",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -2095,21 +2123,21 @@
   {
     "id": "5598",
     "name": "Ecuador - Serie A",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "6668",
     "name": "Ecuador - Serie A Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "197248",
     "name": "Ecuador - Serie B",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -2130,21 +2158,21 @@
   {
     "id": "9885",
     "name": "Egypt - Premier League",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "125463",
     "name": "Egypt - Premier League Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "196742",
     "name": "El Salvador - Primera Division",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -2165,7 +2193,7 @@
   {
     "id": "6834",
     "name": "England - League Cup Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -2277,14 +2305,14 @@
   {
     "id": "6303",
     "name": "England - League 1 Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "1958",
     "name": "England - League 2",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -2333,7 +2361,7 @@
   {
     "id": "197646",
     "name": "England - Premier League 2",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -2410,14 +2438,14 @@
   {
     "id": "1978",
     "name": "England - National League",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "1979",
     "name": "England - FA Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -2438,7 +2466,7 @@
   {
     "id": "6678",
     "name": "England - National League Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -2459,7 +2487,7 @@
   {
     "id": "1983",
     "name": "England - FA Trophy",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -2767,7 +2795,7 @@
   {
     "id": "2027",
     "name": "France - National",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -2844,7 +2872,7 @@
   {
     "id": "6495",
     "name": "France - Ligue 2 Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -2961,6 +2989,13 @@
     "allowRoundRobins": "1"
   },
   {
+    "id": "198058",
+    "name": "Germany - Regionalliga Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
     "id": "191538",
     "name": "Germany Regional Cup - Bayern",
     "feedContents": "0",
@@ -3005,7 +3040,7 @@
   {
     "id": "6543",
     "name": "Germany - Regionalliga South West",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -3047,7 +3082,7 @@
   {
     "id": "194585",
     "name": "Germany - Regionalliga South West Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -3082,7 +3117,7 @@
   {
     "id": "197470",
     "name": "Germany - Oberliga Niederrhein",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -3096,14 +3131,14 @@
   {
     "id": "2065",
     "name": "Germany - Oberliga Bayern Nord",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "2066",
     "name": "Germany - Oberliga Bayern Sud",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -3138,14 +3173,14 @@
   {
     "id": "191448",
     "name": "Germany - Oberliga Nordost Nord",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "191449",
     "name": "Germany - Oberliga Nordost Sud",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -3159,35 +3194,35 @@
   {
     "id": "191452",
     "name": "Germany - Oberliga Bremen",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "2073",
     "name": "Germany - Oberliga Baden-Wurttemberg",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "191447",
     "name": "Germany - Oberliga Hessen",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "191453",
     "name": "Germany - Oberliga Hamburg",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "191454",
     "name": "Germany - Oberliga Niedersachsen",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -3201,14 +3236,14 @@
   {
     "id": "191451",
     "name": "Germany - Oberliga Schleswig-Holstein",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "197471",
     "name": "Germany - Oberliga Westfalen",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -3278,21 +3313,21 @@
   {
     "id": "2080",
     "name": "Greece - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "10589",
     "name": "Greece - Cup Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "2081",
     "name": "Greece - Super League",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -3304,9 +3339,16 @@
     "allowRoundRobins": "0"
   },
   {
+    "id": "198084",
+    "name": "Greece - Football League Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
     "id": "6756",
     "name": "Greece - Super League Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -3409,6 +3451,13 @@
     "allowRoundRobins": "0"
   },
   {
+    "id": "198047",
+    "name": "Hong Kong - Sapling Cup Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
     "id": "9809",
     "name": "Hong Kong - Premier League",
     "feedContents": "1",
@@ -3439,7 +3488,7 @@
   {
     "id": "2096",
     "name": "Hungary - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -3705,7 +3754,7 @@
   {
     "id": "2113",
     "name": "International - Friendlies U20",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -3747,7 +3796,7 @@
   {
     "id": "2116",
     "name": "International - Friendlies Women",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -3899,6 +3948,13 @@
     "allowRoundRobins": "1"
   },
   {
+    "id": "198074",
+    "name": "Israel - Ligat Leumit Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
     "id": "2136",
     "name": "Israel - Premier League",
     "feedContents": "0",
@@ -3915,7 +3971,7 @@
   {
     "id": "2138",
     "name": "Israel - Ligat Al Toto Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -3955,9 +4011,16 @@
     "allowRoundRobins": "1"
   },
   {
+    "id": "198080",
+    "name": "Italy - Primavera Championship Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
     "id": "2147",
     "name": "Italy - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -3971,7 +4034,7 @@
   {
     "id": "6319",
     "name": "Italy - Cup Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4034,7 +4097,7 @@
   {
     "id": "10448",
     "name": "Italy - Primavera Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -4048,21 +4111,21 @@
   {
     "id": "2157",
     "name": "Japan - J League",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "6308",
     "name": "Japan - J League Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "2159",
     "name": "Japan - J2 League",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4384,7 +4447,7 @@
   {
     "id": "2211",
     "name": "Lithuania -  A Lyga",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4408,6 +4471,13 @@
     "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
+  },
+  {
+    "id": "198051",
+    "name": "Macedonia - National Football Team Cup",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
   },
   {
     "id": "194574",
@@ -4445,11 +4515,25 @@
     "allowRoundRobins": "1"
   },
   {
-    "id": "2238",
-    "name": "Malta - Premier League",
-    "feedContents": "1",
+    "id": "2236",
+    "name": "Malta - FA Trophy",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
+  },
+  {
+    "id": "2238",
+    "name": "Malta - Premier League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "1"
+  },
+  {
+    "id": "198064",
+    "name": "Mexico - Ascenso Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
   },
   {
     "id": "197933",
@@ -4461,7 +4545,7 @@
   {
     "id": "2242",
     "name": "Mexico - Primera Division",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4475,7 +4559,7 @@
   {
     "id": "6423",
     "name": "Mexico - Primera Division Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4650,7 +4734,7 @@
   {
     "id": "2333",
     "name": "Norway - Tippeligaen",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4720,6 +4804,13 @@
   {
     "id": "10270",
     "name": "Palestine - West Bank League",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198068",
+    "name": "Palestine - West Bank League Corners",
     "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
@@ -4811,14 +4902,14 @@
   {
     "id": "2366",
     "name": "Peru - Primera Division",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "192394",
     "name": "Peru - Primera Division Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -4874,7 +4965,7 @@
   {
     "id": "191698",
     "name": "Poland - Cup Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -4888,7 +4979,7 @@
   {
     "id": "6633",
     "name": "Poland - 1st Liga",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4902,7 +4993,7 @@
   {
     "id": "2373",
     "name": "Poland - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4916,7 +5007,7 @@
   {
     "id": "2374",
     "name": "Poland - Ekstraklasa",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4930,7 +5021,7 @@
   {
     "id": "6985",
     "name": "Poland - 1st Liga Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4951,14 +5042,14 @@
   {
     "id": "10543",
     "name": "Portugal - League Cup Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "6814",
     "name": "Portugal - LigaPro Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -4979,7 +5070,7 @@
   {
     "id": "4997",
     "name": "Portugal - League Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -5091,7 +5182,7 @@
   {
     "id": "16340",
     "name": "Romania - Liga 1 Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -5224,7 +5315,7 @@
   {
     "id": "196763",
     "name": "South Africa - PSL",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -5259,7 +5350,7 @@
   {
     "id": "10600",
     "name": "Saudi Arabia - Division 1",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -5343,7 +5434,7 @@
   {
     "id": "10145",
     "name": "Scotland - SPFL Development League U20",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -5399,7 +5490,7 @@
   {
     "id": "2426",
     "name": "Scotland - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -5444,6 +5535,13 @@
     "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
+  },
+  {
+    "id": "198086",
+    "name": "Serbia - Super Liga Corners",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
   },
   {
     "id": "2435",
@@ -5595,7 +5693,7 @@
   {
     "id": "6735",
     "name": "Spain - Cup Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -5658,7 +5756,7 @@
   {
     "id": "2468",
     "name": "Spain - Primera Division Women",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -5693,7 +5791,7 @@
   {
     "id": "2472",
     "name": "CONMEBOL - Copa Sudamericana",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -6022,7 +6120,7 @@
   {
     "id": "10355",
     "name": "Tunisia - League 1",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -6064,7 +6162,7 @@
   {
     "id": "2586",
     "name": "Turkey - Cup",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -6085,7 +6183,7 @@
   {
     "id": "10425",
     "name": "Turkey - Cup Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -6211,14 +6309,14 @@
   {
     "id": "16276",
     "name": "UAE - Arabian Gulf League Corners",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
   {
     "id": "8126",
     "name": "UAE - Arabian Gulf League",
-    "feedContents": "0",
+    "feedContents": "1",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
@@ -6274,7 +6372,7 @@
   {
     "id": "16325",
     "name": "UEFA - Champions League Bookings",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -6533,7 +6631,7 @@
   {
     "id": "125456",
     "name": "Ukraine - U19 League",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -6610,14 +6708,14 @@
   {
     "id": "6301",
     "name": "USA - Major League Soccer Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "1"
   },
   {
     "id": "198035",
     "name": "Uzbekistan - Oily Liga Corners",
-    "feedContents": "1",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },
@@ -6631,7 +6729,14 @@
   {
     "id": "9813",
     "name": "Uzbekistan - Oily Liga",
-    "feedContents": "1",
+    "feedContents": "0",
+    "homeTeamType": "Team1",
+    "allowRoundRobins": "0"
+  },
+  {
+    "id": "198060",
+    "name": "Venezuela - Primera Division Corners",
+    "feedContents": "0",
     "homeTeamType": "Team1",
     "allowRoundRobins": "0"
   },

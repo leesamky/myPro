@@ -1,0 +1,17 @@
+// no record
+[
+"Germany - Oberliga Bayern Nord","Germany - Oberliga Bayern Sud",
+"Germany - Oberliga Baden-Wurttemberg","Guatemala - Liga Nacional",
+"Ukraine - Youth Championship U21","Czech Republic - U21 League",
+"Russia - Youth Championship U21","Brazil - U20","Israel - Liga Alef",
+"Czech Republic - U19 League","England - Northern Premier League",
+"England - Southern Premier League","England - Isthmian Premier League",
+"Bangladesh - Premier League",Ukraine - U19 League,"Denmark - U19",
+"Germany - Oberliga Nordost Nord","Germany - Oberliga Nordost Sud",
+"Germany - Oberliga Rheinland-Pfalz/Saar","Germany - Oberliga Schleswig-Holstein",
+"Germany - Oberliga Bremen","Germany - Oberliga Hamburg","Germany - Oberliga Niedersachsen",
+"Portugal - U19 Championship","El Salvador - Primera Division","Honduras - Liga Nacional",
+"Indonesia - Soccer Championship","Ecuador - Serie B",
+"Germany - Oberliga Niederrhein","Germany - Oberliga Westfalen",
+"Czech Republic - FNL","Hong Kong - HKFA 1. Division","England - Premier League 2"
+]

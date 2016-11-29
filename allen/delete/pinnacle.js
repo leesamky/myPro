@@ -1,11 +1,11 @@
 var pinnacle=require('pinnacle-sports')
 var client=pinnacle.createClient('ZW764330','Hailan@001')
-var sportsModel=require('./modelPinnacle').sports
-var leagueModel=require('./modelPinnacle').leagues
+// var sportsModel=require('./modelPinnacle').sports
+// var leagueModel=require('./modelPinnacle').leagues
 var fs=require('fs')
 var _=require('lodash')
 var leagueObj={}//{leagueid:leagueObj}
-// var corners=[]//the leagues which are corners
+
 
 {
     let file=JSON.parse(fs.readFileSync('league.txt',{encoding:'utf-8'}))
@@ -14,7 +14,7 @@ var leagueObj={}//{leagueid:leagueObj}
         leagueObj[obj["id"]]=obj
 
     })
-    // console.log(corners)
+
 
 }
 var fixtures={}
@@ -43,6 +43,8 @@ var fixtures={}
     })
     // console.log(_.orderBy(fixtures,['starts'],['desc']))
 }
+
+
 var odd=[]
 {
     let file=JSON.parse(fs.readFileSync('fullMatch.txt',{encoding:'utf-8'}))
@@ -69,31 +71,66 @@ var odd=[]
     _.forEach(matchOdd,function(match){
         "use strict";
         let temp=_.assign({},fixtures[match['matchId']],match)
-        odd.push(temp)
+        if(!_.every([temp['spreads'],temp['moneyline'],temp['totals'],temp['teamTotal']],_.isUndefined)){
+            odd.push(temp)
+        }
+
     })
 
-}
+    console.log(_.groupBy(odd,'matchId'))
 
+}
+fs.writeFileSync('odd.txt',JSON.stringify(odd,null,2),{encoding:'utf-8'})
+console.log('write odds to the disk')
 console.log(_.orderBy(odd,['starts','matchId','number'],['asc','asc','asc']))
 
 
 
 
+const uniqueRequestId=require('uuid')
 
 
 
 
 var options={
+    uniqueRequestId:uniqueRequestId(),
+    acceptBetterLine:'TRUE',
+    oddsFormat:"DECIMAL",
+    stake:1,
+    winRiskStake:'RISK',
     sportid:29,
-    // leagueIds:[1980],
+    eventId:665123870,
+    periodNumber:0,
+    betType:'SPREAD',
+    team:'team1',
+    lineId: 355183297,
+    altLineId: 1294970052
+    // side:'over',
+    // handicap:'-0.75',
     // "last": 353797290,
-    oddsFormat:'Decimal'
+    // oddsFormat:'Decimal'
 }
 
+// client.place_bet(options,function(error,result){
+//     "use strict";
+//     if(error){console.log(error)}
+//     else{
+//         console.log(result)
+//     }
+// })
 
-
-
+// client.get_line(options,function(error,result){
+//     "use strict";
+//     if(error){console.log(error)}
+//     else{
+//         console.log(result)
+//     }
 //
+// })
+
+
+// get all the odds
+//need to go with the fixture file to get the team name and league
 // client.get_odds(options,function(error,result){
 //     "use strict";
 //
@@ -103,7 +140,7 @@ var options={
 //
 //
 // })
-
+//
 // client.get_fixtures(options,function(error,result){
 //     "use strict";
 //     if(error){console.log(error)}
@@ -112,7 +149,7 @@ var options={
 //         console.log('write fixture to disk')
 //     }
 // })
-
+//
 // client.get_sports(null,function(error,result){
 //     "use strict";
 //     if(error){console.log(error)}
@@ -120,7 +157,7 @@ var options={
 //         fs.writeFileSync('sports.txt',JSON.stringify(result,null,2),{encoding:'utf-8'})
 //     }
 // })
-
+//
 // client.get_leagues(options,function(error,results){
 //     "use strict";
 //     if(error){console.log(error)}

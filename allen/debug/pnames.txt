@@ -1,0 +1,1639 @@
+{
+  "Argentina - Primera Division": [
+    {
+      "home": "San Martin San Juan",
+      "away": "Atletico Rafaela",
+      "league": "Argentina - Primera Division"
+    }
+  ],
+  "Colombia - Primera B": [
+    {
+      "home": "Leones FC",
+      "away": "Deportivo Pereira",
+      "league": "Colombia - Primera B"
+    },
+    {
+      "home": "Bogota FC",
+      "away": "Tigres FC",
+      "league": "Colombia - Primera B"
+    }
+  ],
+  "Japan - J League": [
+    {
+      "home": "Kashima Antlers",
+      "away": "Urawa Red Diamonds",
+      "league": "Japan - J League"
+    }
+  ],
+  "India - Super League": [
+    {
+      "home": "Atletico De Kolkata",
+      "away": "Kerala Blasters FC",
+      "league": "India - Super League"
+    }
+  ],
+  "Romania - Liga 1": [
+    {
+      "home": "Concordia Chiajna",
+      "away": "ASA Tirgu Mures",
+      "league": "Romania - Liga 1"
+    },
+    {
+      "home": "Viitorul Constanta",
+      "away": "CSM Politehnica Iasi",
+      "league": "Romania - Liga 1"
+    },
+    {
+      "home": "CSU Craiova",
+      "away": "ACS Poli Timisoara",
+      "league": "Romania - Liga 1"
+    },
+    {
+      "home": "Botosani",
+      "away": "Gaz Metan Medias",
+      "league": "Romania - Liga 1"
+    },
+    {
+      "home": "Dinamo Bucuresti",
+      "away": "Steaua Bucharest",
+      "league": "Romania - Liga 1"
+    },
+    {
+      "home": "Pandurii Targu Jiu",
+      "away": "FC Voluntari",
+      "league": "Romania - Liga 1"
+    },
+    {
+      "home": "Astra Giurgiu",
+      "away": "CFR Cluj",
+      "league": "Romania - Liga 1"
+    }
+  ],
+  "Denmark - Superliga": [
+    {
+      "home": "AGF Aarhus",
+      "away": "Lyngby",
+      "league": "Denmark - Superliga"
+    },
+    {
+      "home": "Sonderjyske",
+      "away": "Aalborg",
+      "league": "Denmark - Superliga"
+    },
+    {
+      "home": "FC Copenhagen",
+      "away": "Viborg",
+      "league": "Denmark - Superliga"
+    },
+    {
+      "home": "Nordsjaelland",
+      "away": "AC Horsens",
+      "league": "Denmark - Superliga"
+    },
+    {
+      "home": "Randers FC",
+      "away": "Brondby IF",
+      "league": "Denmark - Superliga"
+    },
+    {
+      "home": "Silkeborg",
+      "away": "Midtjylland",
+      "league": "Denmark - Superliga"
+    },
+    {
+      "home": "Odense BK",
+      "away": "Esbjerg",
+      "league": "Denmark - Superliga"
+    }
+  ],
+  "France - Ligue 1": [
+    {
+      "home": "Lorient",
+      "away": "Rennes",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Lille",
+      "away": "Caen",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Dijon",
+      "away": "AS Monaco",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Nancy",
+      "away": "Metz",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Saint Etienne",
+      "away": "Marseille",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "SC Bastia",
+      "away": "Bordeaux",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Toulouse",
+      "away": "Montpellier",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Nantes",
+      "away": "Lyon",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Guingamp",
+      "away": "Nice",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "Angers",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Caen",
+      "away": "Dijon",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Montpellier",
+      "away": "Paris Saint Germain",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Bordeaux",
+      "away": "Lille",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Guingamp",
+      "away": "Nantes",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Metz",
+      "away": "Lyon",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Angers",
+      "away": "Lorient",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "AS Monaco",
+      "away": "SC Bastia",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Rennes",
+      "away": "Saint Etienne",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Marseille",
+      "away": "Nancy",
+      "league": "France - Ligue 1"
+    },
+    {
+      "home": "Nice",
+      "away": "Toulouse",
+      "league": "France - Ligue 1"
+    }
+  ],
+  "Austria - Bundesliga": [
+    {
+      "home": "Rheindorf Altach",
+      "away": "SV Ried",
+      "league": "Austria - Bundesliga"
+    },
+    {
+      "home": "Austria Wien",
+      "away": "Red Bull Salzburg",
+      "league": "Austria - Bundesliga"
+    },
+    {
+      "home": "Mattersburg",
+      "away": "Rapid Wien",
+      "league": "Austria - Bundesliga"
+    },
+    {
+      "home": "SKN St. Polten",
+      "away": "Wolfsberger AC",
+      "league": "Austria - Bundesliga"
+    },
+    {
+      "home": "Sturm Graz",
+      "away": "Admira Wacker Modling",
+      "league": "Austria - Bundesliga"
+    }
+  ],
+  "Germany - Regionalliga South West": [
+    {
+      "home": "FK Pirmasens",
+      "away": "SSV Ulm 1846",
+      "league": "Germany - Regionalliga South West"
+    }
+  ],
+  "Germany - Regionalliga West": [
+    {
+      "home": "Alemannia Aachen",
+      "away": "Sportfreunde Siegen",
+      "league": "Germany - Regionalliga West"
+    }
+  ],
+  "England - League 1": [
+    {
+      "home": "Sheffield United",
+      "away": "Walsall",
+      "league": "England - League 1"
+    }
+  ],
+  "England - National League": [
+    {
+      "home": "Boreham Wood",
+      "away": "Braintree Town",
+      "league": "England - National League"
+    },
+    {
+      "home": "Chester",
+      "away": "North Ferriby Utd",
+      "league": "England - National League"
+    },
+    {
+      "home": "Dagenham & Redbridge",
+      "away": "Torquay United",
+      "league": "England - National League"
+    },
+    {
+      "home": "Gateshead",
+      "away": "Tranmere Rovers",
+      "league": "England - National League"
+    },
+    {
+      "home": "Lincoln City",
+      "away": "Wrexham",
+      "league": "England - National League"
+    },
+    {
+      "home": "Macclesfield Town",
+      "away": "Barrow",
+      "league": "England - National League"
+    },
+    {
+      "home": "Maidstone United",
+      "away": "Eastleigh",
+      "league": "England - National League"
+    },
+    {
+      "home": "Southport",
+      "away": "Solihull Moors",
+      "league": "England - National League"
+    },
+    {
+      "home": "Sutton United",
+      "away": "Dover Athletic",
+      "league": "England - National League"
+    },
+    {
+      "home": "Woking",
+      "away": "Bromley",
+      "league": "England - National League"
+    },
+    {
+      "home": "York City",
+      "away": "Guiseley",
+      "league": "England - National League"
+    }
+  ],
+  "England - FA Trophy": [
+    {
+      "home": "East Thurrock United",
+      "away": "Margate FC",
+      "league": "England - FA Trophy"
+    },
+    {
+      "home": "Salford City",
+      "away": "Harrogate Town",
+      "league": "England - FA Trophy"
+    },
+    {
+      "home": "St. Albans City",
+      "away": "Whitehawk",
+      "league": "England - FA Trophy"
+    },
+    {
+      "home": "United of Manchester",
+      "away": "Nuneaton Town",
+      "league": "England - FA Trophy"
+    },
+    {
+      "home": "Wealdstone",
+      "away": "Maidenhead United",
+      "league": "England - FA Trophy"
+    },
+    {
+      "home": "Alfreton Town",
+      "away": "Gainsborough Trinity",
+      "league": "England - FA Trophy"
+    }
+  ],
+  "France - Ligue 2": [
+    {
+      "home": "Ajaccio",
+      "away": "Amiens",
+      "league": "France - Ligue 2"
+    },
+    {
+      "home": "Auxerre",
+      "away": "Nimes",
+      "league": "France - Ligue 2"
+    },
+    {
+      "home": "Brest",
+      "away": "Troyes",
+      "league": "France - Ligue 2"
+    },
+    {
+      "home": "Clermont Foot",
+      "away": "Tours",
+      "league": "France - Ligue 2"
+    },
+    {
+      "home": "Laval",
+      "away": "Lens",
+      "league": "France - Ligue 2"
+    },
+    {
+      "home": "Le Havre",
+      "away": "Strasbourg",
+      "league": "France - Ligue 2"
+    },
+    {
+      "home": "Red Star Saint Ouen",
+      "away": "US Orleans",
+      "league": "France - Ligue 2"
+    },
+    {
+      "home": "Sochaux",
+      "away": "Bourg en Bresse Peronnas 01",
+      "league": "France - Ligue 2"
+    },
+    {
+      "home": "Valenciennes",
+      "away": "Gazelec Ajaccio",
+      "league": "France - Ligue 2"
+    }
+  ],
+  "Argentina - Primera B Nacional": [
+    {
+      "home": "Los Andes",
+      "away": "Nueva Chicago BA",
+      "league": "Argentina - Primera B Nacional"
+    }
+  ],
+  "Norway - Tippeligaen": [
+    {
+      "home": "Jerv",
+      "away": "Stabaek",
+      "league": "Norway - Tippeligaen"
+    }
+  ],
+  "Scotland - Premier League": [
+    {
+      "home": "Heart of Midlothian",
+      "away": "Glasgow Rangers",
+      "league": "Scotland - Premier League"
+    },
+    {
+      "home": "Motherwell",
+      "away": "Celtic FC",
+      "league": "Scotland - Premier League"
+    },
+    {
+      "home": "Hamilton Academical",
+      "away": "Partick Thistle",
+      "league": "Scotland - Premier League"
+    },
+    {
+      "home": "Kilmarnock",
+      "away": "Dundee",
+      "league": "Scotland - Premier League"
+    },
+    {
+      "home": "Glasgow Rangers",
+      "away": "Aberdeen",
+      "league": "Scotland - Premier League"
+    },
+    {
+      "home": "Ross County",
+      "away": "Heart of Midlothian",
+      "league": "Scotland - Premier League"
+    },
+    {
+      "home": "Saint Johnstone",
+      "away": "Inverness",
+      "league": "Scotland - Premier League"
+    }
+  ],
+  "Russia - Premier League": [
+    {
+      "home": "Ural Sverdlovsk Oblast",
+      "away": "Rostov FK",
+      "league": "Russia - Premier League"
+    },
+    {
+      "home": "Rubin Kazan",
+      "away": "Arsenal Tula",
+      "league": "Russia - Premier League"
+    },
+    {
+      "home": "CSKA Moscow",
+      "away": "FC Orenburg",
+      "league": "Russia - Premier League"
+    },
+    {
+      "home": "Zenit St. Petersburg",
+      "away": "FC Ufa",
+      "league": "Russia - Premier League"
+    },
+    {
+      "home": "Kryliya Sovetov",
+      "away": "Spartak Moscow",
+      "league": "Russia - Premier League"
+    },
+    {
+      "home": "Terek Grozny",
+      "away": "FC Krasnodar",
+      "league": "Russia - Premier League"
+    },
+    {
+      "home": "Anzhi Makhachkala",
+      "away": "Amkar Perm",
+      "league": "Russia - Premier League"
+    }
+  ],
+  "CONMEBOL - Copa Sudamericana": [
+    {
+      "home": "Atletico Nacional Medellin",
+      "away": "Chapecoense",
+      "league": "CONMEBOL - Copa Sudamericana"
+    }
+  ],
+  "USA - Major League Soccer": [
+    {
+      "home": "Toronto FC",
+      "away": "Montreal Impact",
+      "league": "USA - Major League Soccer"
+    }
+  ],
+  "Denmark - Division 1": [
+    {
+      "home": "Naestved",
+      "away": "Skive IK",
+      "league": "Denmark - Division 1"
+    },
+    {
+      "home": "Nykøbing FC",
+      "away": "Vejle",
+      "league": "Denmark - Division 1"
+    }
+  ],
+  "England - Championship": [
+    {
+      "home": "Queens Park Rangers",
+      "away": "Wolverhampton Wanderers",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Nottingham Forest",
+      "away": "Newcastle United",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Sheffield Wednesday",
+      "away": "Preston North End",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Wigan Athletic",
+      "away": "Derby County",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Birmingham City",
+      "away": "Barnsley",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Blackburn Rovers",
+      "away": "Huddersfield Town",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Bristol City",
+      "away": "Ipswich Town",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Burton Albion",
+      "away": "Rotherham United",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Cardiff City",
+      "away": "Brighton & Hove Albion",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Fulham",
+      "away": "Reading",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Norwich City",
+      "away": "Brentford",
+      "league": "England - Championship"
+    },
+    {
+      "home": "Leeds United",
+      "away": "Aston Villa",
+      "league": "England - Championship"
+    }
+  ],
+  "Australia - A League": [
+    {
+      "home": "Melbourne Victory",
+      "away": "Perth Glory",
+      "league": "Australia - A League"
+    },
+    {
+      "home": "Central Coast Mariners",
+      "away": "Western Sydney Wanderers",
+      "league": "Australia - A League"
+    },
+    {
+      "home": "Melbourne City",
+      "away": "Brisbane Roar",
+      "league": "Australia - A League"
+    },
+    {
+      "home": "Newcastle Jets",
+      "away": "Sydney FC",
+      "league": "Australia - A League"
+    },
+    {
+      "home": "Adelaide United",
+      "away": "Wellington Phoenix",
+      "league": "Australia - A League"
+    }
+  ],
+  "Czech Republic - Czech Liga": [
+    {
+      "home": "FK Jablonec",
+      "away": "Hradec Kralove",
+      "league": "Czech Republic - Czech Liga"
+    },
+    {
+      "home": "Fastav Zlin",
+      "away": "Slavia Prague",
+      "league": "Czech Republic - Czech Liga"
+    },
+    {
+      "home": "Sparta Praha",
+      "away": "Teplice",
+      "league": "Czech Republic - Czech Liga"
+    },
+    {
+      "home": "Zbrojovka Brno",
+      "away": "Karvina",
+      "league": "Czech Republic - Czech Liga"
+    },
+    {
+      "home": "Vysocina Jihlava",
+      "away": "Slovan Liberec",
+      "league": "Czech Republic - Czech Liga"
+    },
+    {
+      "home": "Bohemians 1905",
+      "away": "Viktoria Plzen",
+      "league": "Czech Republic - Czech Liga"
+    },
+    {
+      "home": "Dukla Prague",
+      "away": "Slovacko",
+      "league": "Czech Republic - Czech Liga"
+    },
+    {
+      "home": "Mlada Boleslav",
+      "away": "Príbram",
+      "league": "Czech Republic - Czech Liga"
+    }
+  ],
+  "Austria - Erste Liga": [
+    {
+      "home": "SC Wiener Neustadt",
+      "away": "FC Liefering",
+      "league": "Austria - Erste Liga"
+    },
+    {
+      "home": "WSG Swarovski Wattens",
+      "away": "Floridsdorfer AC",
+      "league": "Austria - Erste Liga"
+    },
+    {
+      "home": "Austria Lustenau",
+      "away": "SV Horn",
+      "league": "Austria - Erste Liga"
+    },
+    {
+      "home": "Kapfenberger SV",
+      "away": "Wacker Innsbruck",
+      "league": "Austria - Erste Liga"
+    },
+    {
+      "home": "LASK Linz",
+      "away": "Blau Weiss Linz",
+      "league": "Austria - Erste Liga"
+    }
+  ],
+  "Netherlands - Eredivisie": [
+    {
+      "home": "Heracles Almelo",
+      "away": "NEC Nijmegen",
+      "league": "Netherlands - Eredivisie"
+    },
+    {
+      "home": "Go Ahead Eagles",
+      "away": "SC Heerenveen",
+      "league": "Netherlands - Eredivisie"
+    },
+    {
+      "home": "Excelsior SBV",
+      "away": "AZ Alkmaar",
+      "league": "Netherlands - Eredivisie"
+    },
+    {
+      "home": "Roda JC",
+      "away": "PSV Eindhoven",
+      "league": "Netherlands - Eredivisie"
+    },
+    {
+      "home": "Vitesse Arnhem",
+      "away": "PEC Zwolle",
+      "league": "Netherlands - Eredivisie"
+    },
+    {
+      "home": "ADO Den Haag",
+      "away": "FC Utrecht",
+      "league": "Netherlands - Eredivisie"
+    },
+    {
+      "home": "Feyenoord",
+      "away": "Sparta Rotterdam",
+      "league": "Netherlands - Eredivisie"
+    },
+    {
+      "home": "Willem II",
+      "away": "FC Twente Enschede",
+      "league": "Netherlands - Eredivisie"
+    },
+    {
+      "home": "Ajax",
+      "away": "Groningen",
+      "league": "Netherlands - Eredivisie"
+    }
+  ],
+  "Spain - Segunda Liga": [
+    {
+      "home": "Getafe",
+      "away": "Sevilla Atletico",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "UCAM Murcia",
+      "away": "CD Lugo",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "CD Mirandes",
+      "away": "Elche",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "Numancia",
+      "away": "Almeria",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "Cadiz",
+      "away": "Real Zaragoza",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "Girona",
+      "away": "Levante",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "Rayo Vallecano",
+      "away": "AD Alcorcon",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "Real Oviedo",
+      "away": "Gimnastic Tarragona",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "Mallorca",
+      "away": "Real Valladolid",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "Tenerife",
+      "away": "SD Huesca",
+      "league": "Spain - Segunda Liga"
+    },
+    {
+      "home": "Reus Deportiu",
+      "away": "Cordoba",
+      "league": "Spain - Segunda Liga"
+    }
+  ],
+  "Germany - Bundesliga": [
+    {
+      "home": "FSV Mainz 05",
+      "away": "Bayern Munchen",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Borussia Dortmund",
+      "away": "Borussia Monchengladbach",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Bayer Leverkusen",
+      "away": "SC Freiburg",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "VfL Wolfsburg",
+      "away": "Hertha Berlin",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Werder Bremen",
+      "away": "Ingolstadt 04",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "TSG Hoffenheim",
+      "away": "FC Köln",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "RB Leipzig",
+      "away": "Schalke 04",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "SV Darmstadt 98",
+      "away": "Hamburger SV",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Augsburg",
+      "away": "Eintracht Frankfurt",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Eintracht Frankfurt",
+      "away": "TSG Hoffenheim",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Bayern Munchen",
+      "away": "VfL Wolfsburg",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "FC Koln",
+      "away": "Borussia Dortmund",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Hamburger SV",
+      "away": "Augsburg",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Ingolstadt 04",
+      "away": "RB Leipzig",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "SC Freiburg",
+      "away": "SV Darmstadt 98",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Hertha Berlin",
+      "away": "Werder Bremen",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Borussia Monchengladbach",
+      "away": "FSV Mainz 05",
+      "league": "Germany - Bundesliga"
+    },
+    {
+      "home": "Schalke 04",
+      "away": "Bayer Leverkusen",
+      "league": "Germany - Bundesliga"
+    }
+  ],
+  "Belgium - First Division A": [
+    {
+      "home": "KV Mechelen",
+      "away": "Eupen",
+      "league": "Belgium - First Division A"
+    },
+    {
+      "home": "Club Brugge",
+      "away": "KV Oostende",
+      "league": "Belgium - First Division A"
+    },
+    {
+      "home": "Sint-Truidense",
+      "away": "Royal Mouscron Peruwelz",
+      "league": "Belgium - First Division A"
+    },
+    {
+      "home": "Zulte Waregem",
+      "away": "Waasland Beveren",
+      "league": "Belgium - First Division A"
+    },
+    {
+      "home": "KVC Westerlo",
+      "away": "KAA Gent",
+      "league": "Belgium - First Division A"
+    },
+    {
+      "home": "KV Kortrijk",
+      "away": "Anderlecht",
+      "league": "Belgium - First Division A"
+    },
+    {
+      "home": "Sporting Charleroi",
+      "away": "Standard Liege",
+      "league": "Belgium - First Division A"
+    },
+    {
+      "home": "Racing Genk",
+      "away": "Sporting Lokeren",
+      "league": "Belgium - First Division A"
+    }
+  ],
+  "Italy - Serie B": [
+    {
+      "home": "Trapani",
+      "away": "Carpi",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Avellino",
+      "away": "Ascoli",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Bari",
+      "away": "Salernitana",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Cittadella",
+      "away": "S.P.A.L.",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Latina",
+      "away": "Virtus Entella",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Novara",
+      "away": "Vicenza",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Pro Vercelli",
+      "away": "Pisa",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Spezia",
+      "away": "Frosinone",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Ternana",
+      "away": "Brescia",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Hellas Verona",
+      "away": "Perugia",
+      "league": "Italy - Serie B"
+    },
+    {
+      "home": "Benevento",
+      "away": "Cesena",
+      "league": "Italy - Serie B"
+    }
+  ],
+  "Italy - Serie A": [
+    {
+      "home": "Napoli",
+      "away": "Inter Milan",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Juventus",
+      "away": "Atalanta",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "AC Milan",
+      "away": "Crotone",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Pescara",
+      "away": "Cagliari",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Sampdoria",
+      "away": "Torino",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Empoli",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Lazio",
+      "away": "AS Roma",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Palermo",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Chievo",
+      "away": "Genoa",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Udinese",
+      "away": "Bologna",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Crotone",
+      "away": "Pescara",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Sampdoria",
+      "away": "Lazio",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Cagliari",
+      "away": "Napoli",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Palermo",
+      "away": "Chievo",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Torino",
+      "away": "Juventus",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Atalanta",
+      "away": "Udinese",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Bologna",
+      "away": "Empoli",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Inter Milan",
+      "away": "Genoa",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "Fiorentina",
+      "away": "Sassuolo",
+      "league": "Italy - Serie A"
+    },
+    {
+      "home": "AS Roma",
+      "away": "AC Milan",
+      "league": "Italy - Serie A"
+    }
+  ],
+  "Portugal - Primeira Liga": [
+    {
+      "home": "Maritimo",
+      "away": "Benfica",
+      "league": "Portugal - Primeira Liga"
+    },
+    {
+      "home": "Rio Ave",
+      "away": "CD Tondela",
+      "league": "Portugal - Primeira Liga"
+    },
+    {
+      "home": "Sporting Lisbon",
+      "away": "Vitoria Setubal",
+      "league": "Portugal - Primeira Liga"
+    },
+    {
+      "home": "Porto",
+      "away": "Sporting Braga",
+      "league": "Portugal - Primeira Liga"
+    },
+    {
+      "home": "Feirense",
+      "away": "FC Arouca",
+      "league": "Portugal - Primeira Liga"
+    },
+    {
+      "home": "Moreirense",
+      "away": "Nacional da Madeira",
+      "league": "Portugal - Primeira Liga"
+    },
+    {
+      "home": "Estoril Praia",
+      "away": "Belenenses",
+      "league": "Portugal - Primeira Liga"
+    },
+    {
+      "home": "Vitoria Guimaraes",
+      "away": "GD Chaves",
+      "league": "Portugal - Primeira Liga"
+    },
+    {
+      "home": "Pacos de Ferreira",
+      "away": "Boavista",
+      "league": "Portugal - Primeira Liga"
+    }
+  ],
+  "Turkey - Super League": [
+    {
+      "home": "Istanbul Basaksehir",
+      "away": "Antalyaspor",
+      "league": "Turkey - Super League"
+    },
+    {
+      "home": "Fenerbahce",
+      "away": "Besiktas",
+      "league": "Turkey - Super League"
+    },
+    {
+      "home": "Alanyaspor",
+      "away": "Konyaspor",
+      "league": "Turkey - Super League"
+    },
+    {
+      "home": "Osmanlispor",
+      "away": "Kardemir Karabukspor",
+      "league": "Turkey - Super League"
+    },
+    {
+      "home": "Gaziantepspor",
+      "away": "Akhisar Belediyespor",
+      "league": "Turkey - Super League"
+    },
+    {
+      "home": "Adanaspor",
+      "away": "Genclerbirligi",
+      "league": "Turkey - Super League"
+    },
+    {
+      "home": "Kasimpasa",
+      "away": "Galatasaray",
+      "league": "Turkey - Super League"
+    },
+    {
+      "home": "Bursaspor",
+      "away": "Caykur Rizespor",
+      "league": "Turkey - Super League"
+    },
+    {
+      "home": "Kayserispor",
+      "away": "Trabzonspor",
+      "league": "Turkey - Super League"
+    }
+  ],
+  "Spain - La Liga": [
+    {
+      "home": "Granada",
+      "away": "Sevilla",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Leganes",
+      "away": "Villarreal",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Atletico Madrid",
+      "away": "RCD Espanyol",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Real Betis",
+      "away": "Celta Vigo",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Athletic Bilbao",
+      "away": "Eibar",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Alaves",
+      "away": "Las Palmas",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Sporting Gijon",
+      "away": "Osasuna",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Valencia",
+      "away": "Malaga",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Deportivo La Coruna",
+      "away": "Real Sociedad",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Malaga",
+      "away": "Granada",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Osasuna",
+      "away": "Barcelona",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Real Sociedad",
+      "away": "Valencia",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Las Palmas",
+      "away": "Leganes",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Real Madrid",
+      "away": "Deportivo La Coruna",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Eibar",
+      "away": "Alaves",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Celta Vigo",
+      "away": "Sevilla",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "RCD Espanyol",
+      "away": "Sporting Gijon",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Real Betis",
+      "away": "Athletic Bilbao",
+      "league": "Spain - La Liga"
+    },
+    {
+      "home": "Villarreal",
+      "away": "Atletico Madrid",
+      "league": "Spain - La Liga"
+    }
+  ],
+  "England - Premier League": [
+    {
+      "home": "Manchester City",
+      "away": "Chelsea",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Crystal Palace",
+      "away": "Southampton",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Stoke City",
+      "away": "Burnley",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Sunderland",
+      "away": "Leicester City",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Tottenham Hotspur",
+      "away": "Swansea City",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "W.B.A",
+      "away": "Watford",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "West Ham United",
+      "away": "Arsenal",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Bournemouth AFC",
+      "away": "Liverpool",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Everton",
+      "away": "Manchester United",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Middlesbrough",
+      "away": "Hull City",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Watford",
+      "away": "Everton",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Arsenal",
+      "away": "Stoke City",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Burnley",
+      "away": "Bournemouth AFC",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Hull City",
+      "away": "Crystal Palace",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Swansea City",
+      "away": "Sunderland",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Leicester City",
+      "away": "Manchester City",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Chelsea",
+      "away": "W.B.A",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Manchester United",
+      "away": "Tottenham Hotspur",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Southampton",
+      "away": "Middlesbrough",
+      "league": "England - Premier League"
+    },
+    {
+      "home": "Liverpool",
+      "away": "West Ham United",
+      "league": "England - Premier League"
+    }
+  ],
+  "Switzerland - Super League": [
+    {
+      "home": "Luzern",
+      "away": "Vaduz",
+      "league": "Switzerland - Super League"
+    },
+    {
+      "home": "Young Boys",
+      "away": "Basel",
+      "league": "Switzerland - Super League"
+    },
+    {
+      "home": "Lausanne Sports",
+      "away": "Grasshopper",
+      "league": "Switzerland - Super League"
+    },
+    {
+      "home": "Lugano",
+      "away": "Thun",
+      "league": "Switzerland - Super League"
+    },
+    {
+      "home": "St. Gallen",
+      "away": "FC Sion",
+      "league": "Switzerland - Super League"
+    }
+  ],
+  "England - League 2": [
+    {
+      "home": "Stevenage FC",
+      "away": "Doncaster Rovers",
+      "league": "England - League 2"
+    },
+    {
+      "home": "Yeovil Town",
+      "away": "Crawley Town",
+      "league": "England - League 2"
+    }
+  ],
+  "Switzerland - Challenge League": [
+    {
+      "home": "FC Zurich",
+      "away": "Wil 1900",
+      "league": "Switzerland - Challenge League"
+    },
+    {
+      "home": "Servette",
+      "away": "Winterthur",
+      "league": "Switzerland - Challenge League"
+    },
+    {
+      "home": "Aarau",
+      "away": "Wohlen",
+      "league": "Switzerland - Challenge League"
+    },
+    {
+      "home": "Schaffhausen",
+      "away": "Chiasso",
+      "league": "Switzerland - Challenge League"
+    },
+    {
+      "home": "Neuchâtel Xamax",
+      "away": "Le Mont Lausanne",
+      "league": "Switzerland - Challenge League"
+    }
+  ],
+  "UEFA - Champions League": [
+    {
+      "home": "Paris Saint Germain",
+      "away": "Ludogorets Razgrad",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Basel",
+      "away": "Arsenal",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Benfica",
+      "away": "Napoli",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Barcelona",
+      "away": "Borussia Monchengladbach",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Bayern Munchen",
+      "away": "Atletico Madrid",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "PSV Eindhoven",
+      "away": "Rostov FK",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Dynamo Kyiv",
+      "away": "Besiktas",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Manchester City",
+      "away": "Celtic FC",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Tottenham Hotspur",
+      "away": "CSKA Moscow",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Real Madrid",
+      "away": "Borussia Dortmund",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Porto",
+      "away": "Leicester City",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Juventus",
+      "away": "Dinamo Zagreb",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Bayer Leverkusen",
+      "away": "AS Monaco",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Legia Warszawa",
+      "away": "Sporting Lisbon",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Lyon",
+      "away": "Sevilla",
+      "league": "UEFA - Champions League"
+    },
+    {
+      "home": "Club Brugge",
+      "away": "FC Copenhagen",
+      "league": "UEFA - Champions League"
+    }
+  ],
+  "UEFA - Europa League": [
+    {
+      "home": "Qarabag Aghdam",
+      "away": "Fiorentina",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "PAOK",
+      "away": "Slovan Liberec",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Osmanlispor",
+      "away": "FC Zurich",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Villarreal",
+      "away": "Steaua Bucuresti",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Konyaspor",
+      "away": "KAA Gent",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Sporting Braga",
+      "away": "Shakhtar Donetsk",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Anderlecht",
+      "away": "Saint Etienne",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "FSV Mainz 05",
+      "away": "Qabala PFC",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "AZ Alkmaar",
+      "away": "Zenit St Petersburg",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Maccabi Tel Aviv",
+      "away": "Dundalk",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Viktoria Plzen",
+      "away": "Austria Wien",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Astra Giurgiu (n)",
+      "away": "AS Roma",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Feyenoord",
+      "away": "Fenerbahce",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Zorya Luhansk (n)",
+      "away": "Manchester United",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "APOEL Nicosia",
+      "away": "Olympiacos",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Young Boys",
+      "away": "FC Astana",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Racing Genk",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Rapid Wien",
+      "away": "Athletic Bilbao",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Panathinaikos",
+      "away": "Celta Vigo",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Standard Liege",
+      "away": "Ajax",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Southampton",
+      "away": "Hapoel Beer Sheva",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Inter Milan",
+      "away": "Sparta Praha",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Nice",
+      "away": "FC Krasnodar",
+      "league": "UEFA - Europa League"
+    },
+    {
+      "home": "Red Bull Salzburg",
+      "away": "Schalke 04",
+      "league": "UEFA - Europa League"
+    }
+  ],
+  "Germany - Oberliga Rheinland-Pfalz/Saar": [
+    {
+      "home": "Hauenstein",
+      "away": "TuS RW Koblenz",
+      "league": "Germany - Oberliga Rheinland-Pfalz/Saar"
+    }
+  ]
+}

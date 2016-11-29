@@ -1,0 +1,6 @@
+This folder is used for debugging.
+The reason is the team name in pinnacle and 500 are different, so we get the data from pinnacle to link with the 500
+
+Files required
+1. odd.txt
+    This file contains the latest odd catagoried by league name.
