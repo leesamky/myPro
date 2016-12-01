@@ -1,0 +1,120 @@
+{
+  "sportId": 29,
+  "last": 355693640,
+  "leagues": [
+    {
+      "id": 2406,
+      "events": [
+        {
+          "id": 669058683,
+          "awayScore": 0,
+          "homeScore": 2,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693640,
+              "number": 0,
+              "cutoff": "2016-12-01T17:00:00Z",
+              "maxSpread": 4500,
+              "maxMoneyline": 1500,
+              "maxTotal": 4500,
+              "spreads": [
+                {
+                  "hdp": 0.5,
+                  "home": 2.02,
+                  "away": 1.9
+                },
+                {
+                  "altLineId": 1301472025,
+                  "hdp": 1.25,
+                  "home": 1.289,
+                  "away": 3.7
+                },
+                {
+                  "altLineId": 1301472026,
+                  "hdp": 1,
+                  "home": 1.4,
+                  "away": 3.08
+                },
+                {
+                  "altLineId": 1301472027,
+                  "hdp": 0.75,
+                  "home": 1.709,
+                  "away": 2.27
+                },
+                {
+                  "altLineId": 1301472028,
+                  "hdp": 0.25,
+                  "home": 2.54,
+                  "away": 1.571
+                },
+                {
+                  "altLineId": 1301472029,
+                  "hdp": 0,
+                  "home": 4.03,
+                  "away": 1.25
+                },
+                {
+                  "altLineId": 1301472030,
+                  "hdp": -0.25,
+                  "home": 4.85,
+                  "away": 1.179
+                }
+              ],
+              "moneyline": {
+                "home": 1.248,
+                "away": 12.87,
+                "draw": 6.39
+              },
+              "totals": [
+                {
+                  "points": 3.5,
+                  "over": 2.13,
+                  "under": 1.781
+                },
+                {
+                  "altLineId": 1301472033,
+                  "points": 2.75,
+                  "over": 1.266,
+                  "under": 3.72
+                },
+                {
+                  "altLineId": 1301472034,
+                  "points": 3,
+                  "over": 1.398,
+                  "under": 3.01
+                },
+                {
+                  "altLineId": 1301472035,
+                  "points": 3.25,
+                  "over": 1.775,
+                  "under": 2.14
+                },
+                {
+                  "altLineId": 1301472036,
+                  "points": 3.75,
+                  "over": 2.57,
+                  "under": 1.537
+                },
+                {
+                  "altLineId": 1301472037,
+                  "points": 4,
+                  "over": 3.55,
+                  "under": 1.291
+                },
+                {
+                  "altLineId": 1301472038,
+                  "points": 4.25,
+                  "over": 4.14,
+                  "under": 1.218
+                }
+              ],
+              "matchId": 669058683
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -40,11 +40,11 @@ async.series([get_fixtures,get_odds,get_leagues],function(err){
     "use strict";
     if(err){console.log(err)}
     else{
-        global.odds=makeOdd()
+        global.odds=makeOdd()//make odd file
         let fileName=path.resolve(__dirname,'./files')+'/odds.txt'
         fs.writeFileSync(fileName,JSON.stringify(global.odds,null,2),{encoding:'utf-8'})
-        missingPName()
-        global.display=display()
+        missingPName()//make missing file
+        global.display=display()//make display file
         fileName=path.resolve(__dirname,'./files')+'/display.txt'
         fs.writeFileSync(fileName,JSON.stringify(global.display,null,2),{encoding:'utf-8'})
 

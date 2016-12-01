@@ -1,0 +1,729 @@
+{
+  "sportId": 29,
+  "last": 355693499,
+  "leagues": [
+    {
+      "id": 2080,
+      "events": [
+        {
+          "id": 669058700,
+          "awayScore": 0,
+          "homeScore": 0,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693496,
+              "number": 1,
+              "cutoff": "2016-12-01T17:15:00Z",
+              "maxSpread": 750,
+              "spreads": [
+                {
+                  "hdp": 0,
+                  "home": 3.38,
+                  "away": 1.319
+                },
+                {
+                  "altLineId": 1301469999,
+                  "hdp": 0.25,
+                  "home": 1.1,
+                  "away": 6
+                }
+              ],
+              "matchId": 669058700
+            },
+            {
+              "lineId": 355693492,
+              "number": 0,
+              "cutoff": "2016-12-01T17:15:00Z",
+              "maxSpread": 1500,
+              "maxMoneyline": 750,
+              "maxTotal": 1500,
+              "spreads": [
+                {
+                  "hdp": 0.5,
+                  "home": 1.925,
+                  "away": 1.97
+                },
+                {
+                  "altLineId": 1301469942,
+                  "hdp": 1,
+                  "home": 1.37,
+                  "away": 3.13
+                },
+                {
+                  "altLineId": 1301469943,
+                  "hdp": 0.75,
+                  "home": 1.649,
+                  "away": 2.33
+                },
+                {
+                  "altLineId": 1301469944,
+                  "hdp": 0.25,
+                  "home": 2.41,
+                  "away": 1.609
+                },
+                {
+                  "altLineId": 1301469945,
+                  "hdp": 0,
+                  "home": 3.86,
+                  "away": 1.25
+                }
+              ],
+              "moneyline": {
+                "home": 6.18,
+                "away": 1.934,
+                "draw": 2.68
+              },
+              "totals": [
+                {
+                  "points": 1.5,
+                  "over": 2.09,
+                  "under": 1.8
+                },
+                {
+                  "altLineId": 1301469950,
+                  "points": 1,
+                  "over": 1.42,
+                  "under": 2.85
+                },
+                {
+                  "altLineId": 1301469951,
+                  "points": 1.25,
+                  "over": 1.769,
+                  "under": 2.13
+                },
+                {
+                  "altLineId": 1301469952,
+                  "points": 1.75,
+                  "over": 2.49,
+                  "under": 1.552
+                },
+                {
+                  "altLineId": 1301469953,
+                  "points": 2,
+                  "over": 3.35,
+                  "under": 1.305
+                }
+              ],
+              "matchId": 669058700
+            }
+          ]
+        },
+        {
+          "id": 669058701,
+          "awayScore": 0,
+          "homeScore": 0,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693485,
+              "number": 0,
+              "cutoff": "2016-12-01T17:15:00Z",
+              "maxSpread": 1500,
+              "maxMoneyline": 750,
+              "maxTotal": 1500,
+              "spreads": [
+                {
+                  "hdp": 0.5,
+                  "home": 1.833,
+                  "away": 2.08
+                },
+                {
+                  "altLineId": 1301469830,
+                  "hdp": 1,
+                  "home": 1.349,
+                  "away": 3.22
+                },
+                {
+                  "altLineId": 1301469831,
+                  "hdp": 0.75,
+                  "home": 1.591,
+                  "away": 2.45
+                },
+                {
+                  "altLineId": 1301469832,
+                  "hdp": 0.25,
+                  "home": 2.18,
+                  "away": 1.751
+                },
+                {
+                  "altLineId": 1301469833,
+                  "hdp": 0,
+                  "home": 2.96,
+                  "away": 1.409
+                }
+              ],
+              "moneyline": {
+                "home": 4.28,
+                "away": 2.06,
+                "draw": 3.01
+              },
+              "totals": [
+                {
+                  "points": 2,
+                  "over": 2.07,
+                  "under": 1.813
+                },
+                {
+                  "altLineId": 1301469838,
+                  "points": 1.5,
+                  "over": 1.564,
+                  "under": 2.46
+                },
+                {
+                  "altLineId": 1301469839,
+                  "points": 1.75,
+                  "over": 1.751,
+                  "under": 2.15
+                },
+                {
+                  "altLineId": 1301469840,
+                  "points": 2.25,
+                  "over": 2.44,
+                  "under": 1.574
+                },
+                {
+                  "altLineId": 1301469841,
+                  "points": 2.5,
+                  "over": 2.8,
+                  "under": 1.436
+                }
+              ],
+              "matchId": 669058701
+            },
+            {
+              "lineId": 355693499,
+              "number": 1,
+              "cutoff": "2016-12-01T17:15:00Z",
+              "maxSpread": 750,
+              "maxTotal": 750,
+              "spreads": [
+                {
+                  "hdp": 0,
+                  "home": 2.47,
+                  "away": 1.581
+                },
+                {
+                  "altLineId": 1301470058,
+                  "hdp": 0.25,
+                  "home": 1.21,
+                  "away": 4.23
+                },
+                {
+                  "altLineId": 1301470060,
+                  "hdp": -0.25,
+                  "home": 6,
+                  "away": 1.1
+                }
+              ],
+              "totals": [
+                {
+                  "points": 0.5,
+                  "over": 4.17,
+                  "under": 1.195
+                }
+              ],
+              "matchId": 669058701
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10589,
+      "events": [
+        {
+          "id": 669058757,
+          "awayScore": 2,
+          "homeScore": 0,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693497,
+              "number": 0,
+              "cutoff": "2016-12-01T17:15:00Z",
+              "maxSpread": 250,
+              "maxTotal": 500,
+              "spreads": [
+                {
+                  "hdp": 1,
+                  "home": 2.01,
+                  "away": 1.813
+                },
+                {
+                  "altLineId": 1301470022,
+                  "hdp": 1.5,
+                  "home": 1.699,
+                  "away": 2.14
+                },
+                {
+                  "altLineId": 1301470025,
+                  "hdp": 0.5,
+                  "home": 2.33,
+                  "away": 1.571
+                }
+              ],
+              "totals": [
+                {
+                  "points": 7,
+                  "over": 2.01,
+                  "under": 1.806
+                },
+                {
+                  "altLineId": 1301470030,
+                  "points": 6.5,
+                  "over": 1.719,
+                  "under": 2.11
+                },
+                {
+                  "altLineId": 1301470033,
+                  "points": 7.5,
+                  "over": 2.33,
+                  "under": 1.571
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 669058758,
+          "awayScore": 0,
+          "homeScore": 1,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693488,
+              "number": 0,
+              "cutoff": "2016-12-01T17:15:00Z",
+              "maxSpread": 250,
+              "maxTotal": 500,
+              "spreads": [
+                {
+                  "hdp": 0.5,
+                  "home": 1.869,
+                  "away": 1.952
+                },
+                {
+                  "altLineId": 1301469878,
+                  "hdp": 1,
+                  "home": 1.581,
+                  "away": 2.32
+                },
+                {
+                  "altLineId": 1301469881,
+                  "hdp": 0,
+                  "home": 2.22,
+                  "away": 1.641
+                }
+              ],
+              "totals": [
+                {
+                  "points": 6.5,
+                  "over": 2.06,
+                  "under": 1.763
+                },
+                {
+                  "altLineId": 1301469886,
+                  "points": 6,
+                  "over": 1.757,
+                  "under": 2.07
+                },
+                {
+                  "altLineId": 1301469889,
+                  "points": 7,
+                  "over": 2.46,
+                  "under": 1.505
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11711,
+      "events": [
+        {
+          "id": 669058771,
+          "awayScore": 2,
+          "homeScore": 1,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693484,
+              "number": 0,
+              "cutoff": "2016-12-01T17:10:00Z",
+              "maxSpread": 0,
+              "maxTotal": 500,
+              "spreads": [
+                {
+                  "hdp": 1,
+                  "home": 2,
+                  "away": 1.9
+                },
+                {
+                  "altLineId": 1301469814,
+                  "hdp": 1.5,
+                  "home": 1.719,
+                  "away": 2.22
+                },
+                {
+                  "altLineId": 1301469817,
+                  "hdp": 0.5,
+                  "home": 2.33,
+                  "away": 1.649
+                }
+              ],
+              "totals": [
+                {
+                  "points": 8.5,
+                  "over": 2.07,
+                  "under": 1.775
+                },
+                {
+                  "altLineId": 1301469822,
+                  "points": 8,
+                  "over": 1.763,
+                  "under": 2.08
+                },
+                {
+                  "altLineId": 1301469825,
+                  "points": 9,
+                  "over": 2.47,
+                  "under": 1.518
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2406,
+      "events": [
+        {
+          "id": 669058683,
+          "awayScore": 0,
+          "homeScore": 2,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693491,
+              "number": 0,
+              "cutoff": "2016-12-01T17:00:00Z",
+              "maxSpread": 4500,
+              "maxMoneyline": 1500,
+              "maxTotal": 4500,
+              "spreads": [
+                {
+                  "hdp": 0.5,
+                  "home": 1.943,
+                  "away": 1.98
+                },
+                {
+                  "altLineId": 1301469926,
+                  "hdp": 1.25,
+                  "home": 1.255,
+                  "away": 3.97
+                },
+                {
+                  "altLineId": 1301469928,
+                  "hdp": 1,
+                  "home": 1.347,
+                  "away": 3.34
+                },
+                {
+                  "altLineId": 1301469930,
+                  "hdp": 0.75,
+                  "home": 1.649,
+                  "away": 2.37
+                },
+                {
+                  "altLineId": 1301469932,
+                  "hdp": 0.25,
+                  "home": 2.41,
+                  "away": 1.632
+                },
+                {
+                  "altLineId": 1301469934,
+                  "hdp": 0,
+                  "home": 3.83,
+                  "away": 1.273
+                },
+                {
+                  "altLineId": 1301469936,
+                  "hdp": -0.25,
+                  "home": 4.65,
+                  "away": 1.194
+                }
+              ],
+              "moneyline": {
+                "home": 1.218,
+                "away": 14.46,
+                "draw": 6.87
+              },
+              "totals": [
+                {
+                  "points": 3.25,
+                  "over": 1.84,
+                  "under": 2.06
+                },
+                {
+                  "altLineId": 1301469927,
+                  "points": 2.5,
+                  "over": 1.207,
+                  "under": 4.27
+                },
+                {
+                  "altLineId": 1301469929,
+                  "points": 2.75,
+                  "over": 1.292,
+                  "under": 3.56
+                },
+                {
+                  "altLineId": 1301469931,
+                  "points": 3,
+                  "over": 1.444,
+                  "under": 2.84
+                },
+                {
+                  "altLineId": 1301469933,
+                  "points": 3.5,
+                  "over": 2.2,
+                  "under": 1.724
+                },
+                {
+                  "altLineId": 1301469935,
+                  "points": 3.75,
+                  "over": 2.68,
+                  "under": 1.492
+                },
+                {
+                  "altLineId": 1301469937,
+                  "points": 4,
+                  "over": 3.79,
+                  "under": 1.256
+                }
+              ],
+              "matchId": 669058683
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2586,
+      "events": [
+        {
+          "id": 669058706,
+          "awayScore": 0,
+          "homeScore": 2,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693494,
+              "number": 0,
+              "cutoff": "2016-12-01T17:30:00Z",
+              "maxSpread": 1500,
+              "maxTotal": 1500,
+              "spreads": [
+                {
+                  "hdp": -0.75,
+                  "home": 1.8,
+                  "away": 2.04
+                },
+                {
+                  "altLineId": 1301469974,
+                  "hdp": -1.25,
+                  "home": 2.45,
+                  "away": 1.529
+                },
+                {
+                  "altLineId": 1301469975,
+                  "hdp": -1,
+                  "home": 2.12,
+                  "away": 1.729
+                },
+                {
+                  "altLineId": 1301469976,
+                  "hdp": -0.5,
+                  "home": 1.609,
+                  "away": 2.3
+                },
+                {
+                  "altLineId": 1301469977,
+                  "hdp": -0.25,
+                  "home": 1.4,
+                  "away": 2.79
+                }
+              ],
+              "totals": [
+                {
+                  "points": 4.25,
+                  "over": 1.934,
+                  "under": 1.892
+                },
+                {
+                  "altLineId": 1301470006,
+                  "points": 3.75,
+                  "over": 1.44,
+                  "under": 2.61
+                },
+                {
+                  "altLineId": 1301470007,
+                  "points": 4,
+                  "over": 1.617,
+                  "under": 2.25
+                },
+                {
+                  "altLineId": 1301470008,
+                  "points": 4.5,
+                  "over": 2.19,
+                  "under": 1.657
+                },
+                {
+                  "altLineId": 1301470009,
+                  "points": 4.75,
+                  "over": 2.55,
+                  "under": 1.465
+                }
+              ],
+              "matchId": 669058706
+            },
+            {
+              "lineId": 355693498,
+              "number": 1,
+              "cutoff": "2016-12-01T17:30:00Z",
+              "maxSpread": 750,
+              "maxTotal": 750,
+              "spreads": [
+                {
+                  "hdp": -0.25,
+                  "home": 2.15,
+                  "away": 1.787
+                },
+                {
+                  "altLineId": 1301470039,
+                  "hdp": -0.5,
+                  "home": 2.89,
+                  "away": 1.45
+                },
+                {
+                  "altLineId": 1301470040,
+                  "hdp": 0,
+                  "home": 1.33,
+                  "away": 3.44
+                }
+              ],
+              "totals": [
+                {
+                  "points": 2.5,
+                  "over": 1.943,
+                  "under": 1.961
+                },
+                {
+                  "altLineId": 1301470048,
+                  "points": 2.75,
+                  "over": 2.43,
+                  "under": 1.598
+                }
+              ],
+              "matchId": 669058706
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10425,
+      "events": [
+        {
+          "id": 669058763,
+          "awayScore": 0,
+          "homeScore": 2,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693495,
+              "number": 1,
+              "cutoff": "2016-12-01T17:30:00Z",
+              "maxTotal": 250,
+              "totals": [
+                {
+                  "points": 4,
+                  "over": 1.98,
+                  "under": 1.862
+                },
+                {
+                  "altLineId": 1301469990,
+                  "points": 3.5,
+                  "over": 1.552,
+                  "under": 2.41
+                },
+                {
+                  "altLineId": 1301469993,
+                  "points": 4.5,
+                  "over": 2.54,
+                  "under": 1.49
+                }
+              ]
+            },
+            {
+              "lineId": 355693493,
+              "number": 0,
+              "cutoff": "2016-12-01T17:30:00Z",
+              "maxSpread": 250,
+              "maxTotal": 500,
+              "spreads": [
+                {
+                  "hdp": -0.5,
+                  "home": 1.877,
+                  "away": 1.943
+                },
+                {
+                  "altLineId": 1301469958,
+                  "hdp": -1,
+                  "home": 2.18,
+                  "away": 1.671
+                },
+                {
+                  "altLineId": 1301469961,
+                  "hdp": 0,
+                  "home": 1.628,
+                  "away": 2.23
+                }
+              ],
+              "totals": [
+                {
+                  "points": 9,
+                  "over": 2.01,
+                  "under": 1.833
+                },
+                {
+                  "altLineId": 1301469966,
+                  "points": 8.5,
+                  "over": 1.763,
+                  "under": 2.08
+                },
+                {
+                  "altLineId": 1301469969,
+                  "points": 9.5,
+                  "over": 2.27,
+                  "under": 1.628
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

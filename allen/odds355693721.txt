@@ -1,0 +1,301 @@
+{
+  "sportId": 29,
+  "last": 355693721,
+  "leagues": [
+    {
+      "id": 2080,
+      "events": [
+        {
+          "id": 669058700,
+          "awayScore": 0,
+          "homeScore": 0,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693721,
+              "number": 0,
+              "cutoff": "2016-12-01T17:15:00Z",
+              "maxSpread": 1500,
+              "maxMoneyline": 750,
+              "maxTotal": 1500,
+              "spreads": [
+                {
+                  "hdp": 0.5,
+                  "home": 1.877,
+                  "away": 2.02
+                },
+                {
+                  "altLineId": 1301473138,
+                  "hdp": 1,
+                  "home": 1.33,
+                  "away": 3.33
+                },
+                {
+                  "altLineId": 1301473139,
+                  "hdp": 0.75,
+                  "home": 1.598,
+                  "away": 2.43
+                },
+                {
+                  "altLineId": 1301473140,
+                  "hdp": 0.25,
+                  "home": 2.35,
+                  "away": 1.641
+                },
+                {
+                  "altLineId": 1301473141,
+                  "hdp": 0,
+                  "home": 3.78,
+                  "away": 1.259
+                }
+              ],
+              "moneyline": {
+                "home": 6.13,
+                "away": 1.98,
+                "draw": 2.6
+              },
+              "totals": [
+                {
+                  "points": 1.25,
+                  "over": 1.847,
+                  "under": 2.03
+                },
+                {
+                  "altLineId": 1301473146,
+                  "points": 0.75,
+                  "over": 1.326,
+                  "under": 3.24
+                },
+                {
+                  "altLineId": 1301473147,
+                  "points": 1,
+                  "over": 1.48,
+                  "under": 2.66
+                },
+                {
+                  "altLineId": 1301473148,
+                  "points": 1.5,
+                  "over": 2.18,
+                  "under": 1.724
+                },
+                {
+                  "altLineId": 1301473149,
+                  "points": 1.75,
+                  "over": 2.63,
+                  "under": 1.492
+                }
+              ],
+              "matchId": 669058700
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2395,
+      "events": [
+        {
+          "id": 668254634,
+          "periods": [
+            {
+              "lineId": 355693712,
+              "number": 1,
+              "cutoff": "2016-12-01T15:59:30Z",
+              "maxSpread": 1500,
+              "maxTotal": 1500,
+              "spreads": [
+                {
+                  "hdp": 0,
+                  "home": 1.934,
+                  "away": 1.952
+                }
+              ],
+              "totals": [
+                {
+                  "points": 1,
+                  "over": 2.13,
+                  "under": 1.775
+                }
+              ],
+              "matchId": 668254634
+            },
+            {
+              "lineId": 355693710,
+              "number": 0,
+              "cutoff": "2016-12-01T16:00:00Z",
+              "maxSpread": 3000,
+              "maxMoneyline": 1500,
+              "maxTotal": 3000,
+              "maxTeamTotal": 1500,
+              "spreads": [
+                {
+                  "hdp": 0,
+                  "home": 1.961,
+                  "away": 1.943
+                },
+                {
+                  "altLineId": 1301472973,
+                  "hdp": 0.5,
+                  "home": 1.49,
+                  "away": 2.69
+                },
+                {
+                  "altLineId": 1301472975,
+                  "hdp": 0.25,
+                  "home": 1.662,
+                  "away": 2.32
+                },
+                {
+                  "altLineId": 1301472976,
+                  "hdp": -0.25,
+                  "home": 2.33,
+                  "away": 1.649
+                },
+                {
+                  "altLineId": 1301472978,
+                  "hdp": -0.5,
+                  "home": 2.71,
+                  "away": 1.485
+                }
+              ],
+              "moneyline": {
+                "home": 2.74,
+                "away": 2.72,
+                "draw": 3.36
+              },
+              "totals": [
+                {
+                  "points": 2.5,
+                  "over": 2.07,
+                  "under": 1.813
+                },
+                {
+                  "altLineId": 1301472972,
+                  "points": 2,
+                  "over": 1.518,
+                  "under": 2.55
+                },
+                {
+                  "altLineId": 1301472974,
+                  "points": 2.25,
+                  "over": 1.8,
+                  "under": 2.08
+                },
+                {
+                  "altLineId": 1301472977,
+                  "points": 2.75,
+                  "over": 2.36,
+                  "under": 1.621
+                },
+                {
+                  "altLineId": 1301472979,
+                  "points": 3,
+                  "over": 2.89,
+                  "under": 1.414
+                }
+              ],
+              "teamTotal": {
+                "home": {
+                  "points": 1,
+                  "over": 1.671,
+                  "under": 2.22
+                },
+                "away": {
+                  "points": 1.25,
+                  "over": 2.16,
+                  "under": 1.714
+                }
+              },
+              "matchId": 668254634
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2586,
+      "events": [
+        {
+          "id": 669058706,
+          "awayScore": 0,
+          "homeScore": 2,
+          "awayRedCards": 0,
+          "homeRedCards": 0,
+          "periods": [
+            {
+              "lineId": 355693717,
+              "number": 0,
+              "cutoff": "2016-12-01T17:30:00Z",
+              "maxSpread": 1500,
+              "maxTotal": 1500,
+              "spreads": [
+                {
+                  "hdp": -0.75,
+                  "home": 1.847,
+                  "away": 1.99
+                },
+                {
+                  "altLineId": 1301473080,
+                  "hdp": -1.25,
+                  "home": 2.54,
+                  "away": 1.49
+                },
+                {
+                  "altLineId": 1301473082,
+                  "hdp": -1,
+                  "home": 2.19,
+                  "away": 1.68
+                },
+                {
+                  "altLineId": 1301473084,
+                  "hdp": -0.5,
+                  "home": 1.641,
+                  "away": 2.25
+                },
+                {
+                  "altLineId": 1301473086,
+                  "hdp": -0.25,
+                  "home": 1.42,
+                  "away": 2.72
+                }
+              ],
+              "totals": [
+                {
+                  "points": 4.25,
+                  "over": 2.04,
+                  "under": 1.781
+                },
+                {
+                  "altLineId": 1301473081,
+                  "points": 3.75,
+                  "over": 1.512,
+                  "under": 2.43
+                },
+                {
+                  "altLineId": 1301473083,
+                  "points": 4,
+                  "over": 1.719,
+                  "under": 2.1
+                },
+                {
+                  "altLineId": 1301473085,
+                  "points": 4.5,
+                  "over": 2.34,
+                  "under": 1.574
+                },
+                {
+                  "altLineId": 1301473087,
+                  "points": 4.75,
+                  "over": 2.75,
+                  "under": 1.395
+                }
+              ],
+              "matchId": 669058706
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

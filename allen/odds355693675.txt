@@ -1,0 +1,105 @@
+{
+  "sportId": 29,
+  "last": 355693675,
+  "leagues": [
+    {
+      "id": 2592,
+      "events": [
+        {
+          "id": 668282556,
+          "periods": [
+            {
+              "lineId": 355693675,
+              "number": 0,
+              "cutoff": "2016-12-04T16:00:00Z",
+              "maxSpread": 1000,
+              "maxMoneyline": 500,
+              "maxTotal": 1000,
+              "maxTeamTotal": 500,
+              "spreads": [
+                {
+                  "hdp": 0.5,
+                  "home": 1.917,
+                  "away": 2
+                },
+                {
+                  "altLineId": 1301472484,
+                  "hdp": 1,
+                  "home": 1.454,
+                  "away": 2.87
+                },
+                {
+                  "altLineId": 1301472486,
+                  "hdp": 0.75,
+                  "home": 1.689,
+                  "away": 2.3
+                },
+                {
+                  "altLineId": 1301472488,
+                  "hdp": 0.25,
+                  "home": 2.23,
+                  "away": 1.729
+                },
+                {
+                  "altLineId": 1301472490,
+                  "hdp": 0,
+                  "home": 2.9,
+                  "away": 1.446
+                }
+              ],
+              "moneyline": {
+                "home": 4.03,
+                "away": 2,
+                "draw": 3.61
+              },
+              "totals": [
+                {
+                  "points": 2.75,
+                  "over": 2.06,
+                  "under": 1.84
+                },
+                {
+                  "altLineId": 1301472485,
+                  "points": 2.25,
+                  "over": 1.606,
+                  "under": 2.42
+                },
+                {
+                  "altLineId": 1301472487,
+                  "points": 2.5,
+                  "over": 1.84,
+                  "under": 2.06
+                },
+                {
+                  "altLineId": 1301472489,
+                  "points": 3,
+                  "over": 2.41,
+                  "under": 1.609
+                },
+                {
+                  "altLineId": 1301472491,
+                  "points": 3.25,
+                  "over": 2.72,
+                  "under": 1.48
+                }
+              ],
+              "teamTotal": {
+                "home": {
+                  "points": 1,
+                  "over": 1.97,
+                  "under": 1.917
+                },
+                "away": {
+                  "points": 1.5,
+                  "over": 1.909,
+                  "under": 1.98
+                }
+              },
+              "matchId": 668282556
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

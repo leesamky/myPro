@@ -1,13 +1,18 @@
 var express=require('express')
 var app=express()
 
-var matchInfoModel=require('server/db/model').matchInfo
+// var matchInfoModel=require('server/db/model').matchInfo
 var _=require('lodash')
-
 var todayMatch=[]
-
+//
 var fs=require('fs')
-var _=require('lodash')
+
+
+
+
+
+
+
 
 
 var file=JSON.parse(fs.readFileSync(__dirname+'/teamInfo.txt',{encoding:'utf-8'}))
@@ -36,7 +41,7 @@ app.get('/matchIds',function(req,res){
 
 app.get('/',function(req,res){
     "use strict";
-    res.send([teamIds.length])
+    res.send('123')
 
 
 
