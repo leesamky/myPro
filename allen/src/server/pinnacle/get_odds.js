@@ -5,6 +5,7 @@ var fs=require('fs')
 var path=require('path')
 var _=require('lodash')
 global.odds={}
+global.display=[]
 
 function get_odds(options,callback){
     "use strict";
@@ -67,9 +68,31 @@ function get_odds(options,callback){
 
                     })
 
-                        // console.log(_.groupBy(odd,'matchId'))
-                    fs.writeFileSync('odds'+result['last']+'.txt',JSON.stringify(result,null,2),{encoding:'utf-8'})
-                    fs.writeFileSync('global'+result['last']+'.txt',JSON.stringify(global.odds,null,2),{encoding:'utf-8'})
+                    let name_league=JSON.parse(fs.readFileSync(__dirname+'/pNames.txt',{encoding:'utf-8'}))
+                    let pname={}
+                    _.forEach(name_league,function(league){
+                        "use strict";
+                        _.forEach(league['teams'],function(team){
+                            pname[team['pname']]=team
+                        })
+                    })
+
+                    let display=[]
+                    _.forEach(global.odds,function(oddObj,key,obj){
+                        "use strict";
+                        let odd=obj[key]
+                        // fs.writeFileSync('temp.txt',JSON.stringify(odd,null,2),{encoding:'utf-8'})
+                        // console.log(odd)
+                        if(!_.isUndefined(pname[odd['home']])&&!_.isUndefined(pname[odd['away']])){
+                            display.push(odd)
+                        }
+
+                    })
+
+                    global.display= _.orderBy(display,['starts','league','matchId','number'],['asc','asc','asc','asc'])
+                    // fs.writeFileSync(options['since']+'result.txt',JSON.stringify(result,null,2),{encoding:'utf-8'})
+                    //
+                    // fs.writeFileSync(options['since']+'global.txt',JSON.stringify(global.display,null,2),{encoding:'utf-8'})
                     options['since']=result['last']
                     callback(null)
                 }

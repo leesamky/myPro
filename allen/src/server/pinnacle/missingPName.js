@@ -5,7 +5,7 @@ function missingPName(){
     {
 
 
-        let name_league=JSON.parse(fs.readFileSync('pNames.txt',{encoding:'utf-8'}))
+        let name_league=JSON.parse(fs.readFileSync(__dirname+'pNames.txt',{encoding:'utf-8'}))
 
         let odd={}
         _.forEach(name_league,function(league){

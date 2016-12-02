@@ -1863,62 +1863,63 @@
   {
     "league": "2016/2017 比利时乙级联赛",
     "leagueId": "3850",
+    "leagueName": "Belgium - First Division B",
     "teams": [
       {
         "gb_name": "鲁瑟拉勒",
         "en_name": "Roeselare",
         "teamId": 2111,
         "league": "2016/2017 比利时乙级联赛",
-        "pname": ""
+        "pname": "Roeselare"
       },
       {
         "gb_name": "利尔斯",
         "en_name": "Lierse",
         "teamId": 1013,
         "league": "2016/2017 比利时乙级联赛",
-        "pname": ""
+        "pname": "Lierse"
       },
       {
         "gb_name": "安特卫普",
         "en_name": "Royal Antwerp FC",
         "teamId": 595,
         "league": "2016/2017 比利时乙级联赛",
-        "pname": ""
+        "pname": "Royal Antwerp"
       },
       {
         "gb_name": "圣吉罗斯",
         "en_name": "Union St. Gilloise",
         "teamId": 2112,
         "league": "2016/2017 比利时乙级联赛",
-        "pname": ""
+        "pname": "Union Saint-Gilloise"
       },
       {
         "gb_name": "蒂比兹",
         "en_name": "Tubize",
         "teamId": 2113,
         "league": "2016/2017 比利时乙级联赛",
-        "pname": ""
+        "pname": "Tubize"
       },
       {
         "gb_name": "奥德赫维里",
         "en_name": "Oud Heverlee Leuven",
         "teamId": 3514,
         "league": "2016/2017 比利时乙级联赛",
-        "pname": ""
+        "pname": "Oud-Heverlee Leuven"
       },
       {
         "gb_name": "洛默尔",
         "en_name": "KVSK Lommel",
         "teamId": 1018,
         "league": "2016/2017 比利时乙级联赛",
-        "pname": ""
+        "pname": "Lommel United"
       },
       {
         "gb_name": "色格拉布鲁日",
         "en_name": "Cercle Brugge K.SV.z",
         "teamId": 730,
         "league": "2016/2017 比利时乙级联赛",
-        "pname": ""
+        "pname": "Cercle Brugge"
       }
     ]
   },
@@ -2361,7 +2362,7 @@
         "en_name": "Dames Lierse SK Womens",
         "teamId": 7855,
         "league": "2014/2015 比荷卢联盟女足联赛",
-        "pname": ""
+        "pname": "Lierse"
       },
       {
         "gb_name": "安德莱赫特女足",
@@ -2666,90 +2667,91 @@
   {
     "league": "2016/2017 北爱尔兰超级联赛",
     "leagueId": "3972",
+    "leagueName": "Northern Ireland - Premiership",
     "teams": [
       {
         "gb_name": "十字军",
         "en_name": "Crusaders FC",
         "teamId": 4863,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Crusaders"
       },
       {
         "gb_name": "林菲尔德",
         "en_name": "Linfield FC",
         "teamId": 2554,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Linfield FC"
       },
       {
         "gb_name": "克利夫顿维尔",
         "en_name": "Cliftonville FC",
         "teamId": 4258,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Cliftonville"
       },
       {
         "gb_name": "巴利米纳",
         "en_name": "Ballymena United",
         "teamId": 1402,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Ballymena United"
       },
       {
         "gb_name": "高利宁",
         "en_name": "Coleraine",
         "teamId": 817,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Coleraine"
       },
       {
         "gb_name": "格莱纳文",
         "en_name": "Glenavon Lurgan",
         "teamId": 4864,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Glenavon FC"
       },
       {
         "gb_name": "杜根伦",
         "en_name": "Dungannon Swifts",
         "teamId": 3500,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Dungannon Swifts"
       },
       {
         "gb_name": "格伦托兰",
         "en_name": "Glentoran FC",
         "teamId": 1527,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Glentoran FC"
       },
       {
         "gb_name": "阿兹",
         "en_name": "Ards FC",
         "teamId": 7188,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Ards FC"
       },
       {
         "gb_name": "波塔当",
         "en_name": "Portadown FC",
         "teamId": 692,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Portadown"
       },
       {
         "gb_name": "巴里纳马勒联",
         "en_name": "Ballinamallard United",
         "teamId": 6126,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Ballinamallard United"
       },
       {
         "gb_name": "卡域克流浪",
         "en_name": "Carrick Rangers",
         "teamId": 6721,
         "league": "2016/2017 北爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Carrick Rangers"
       }
     ]
   },
@@ -4231,132 +4233,133 @@
   {
     "league": "2016/2017 德国东北部联赛",
     "leagueId": "3969",
+    "leagueName": "Germany - Regionalliga North East",
     "teams": [
       {
         "gb_name": "耶拿",
         "en_name": "Carl Zeiss Jena",
         "teamId": 1311,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Carl Zeiss Jena"
       },
       {
         "gb_name": "柏林安卡拉体育",
         "en_name": "Berliner AK 07",
         "teamId": 7632,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Berliner AK 07"
       },
       {
         "gb_name": "科特布斯",
         "en_name": "Energie Cottbus",
         "teamId": 938,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Energie Cottbus"
       },
       {
         "gb_name": "柏林戴拿模",
         "en_name": "Berliner FC Dynamo",
         "teamId": 6536,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Berliner FC Dynamo"
       },
       {
         "gb_name": "莱比锡红牛B队",
         "en_name": "RB Leipzig II",
         "teamId": 8340,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "RB Leipzig Am"
       },
       {
         "gb_name": "柏林赫塔青年队",
         "en_name": "Hertha BSC Berlin Am",
         "teamId": 1705,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Hertha Berlin Am"
       },
       {
         "gb_name": "BFC维多利亚",
         "en_name": "Viktoria Berlin 1889",
         "teamId": 7164,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "FC Viktoria Berlin"
       },
       {
         "gb_name": "诺德豪森",
         "en_name": "Wacker Nordhausen",
         "teamId": 7646,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "FSV Wacker Nordhausen"
       },
       {
         "gb_name": "奥贝劳斯特",
         "en_name": "FC Oberlausitz",
         "teamId": 8339,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Oberlausitz Neugersdorf"
       },
       {
         "gb_name": "莱比锡火车头",
         "en_name": "FC Lokomotive Leipzig",
         "teamId": 7643,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Lokomotive Leipzig"
       },
       {
         "gb_name": "巴贝斯堡",
         "en_name": "SV Babelsberg 03",
         "teamId": 636,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "SV Babelsberg 03"
       },
       {
         "gb_name": "森博格",
         "en_name": "Schonberg",
         "teamId": 1701,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Schonberg 95"
       },
       {
         "gb_name": "奥尔巴赫",
         "en_name": "VfB Auerbach",
         "teamId": 7640,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "VfB Auerbach"
       },
       {
         "gb_name": "马瑟维兹",
         "en_name": "ZFC Meuselwitz",
         "teamId": 5930,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "ZFC Meuselwitz"
       },
       {
         "gb_name": "尤尼富斯滕瓦尔德",
         "en_name": "FSV Union Furstenwalde",
         "teamId": 9044,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Union Furstenwalde"
       },
       {
         "gb_name": "路肯瓦德",
         "en_name": "FSV Luckenwalde",
         "teamId": 8341,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "FSV Luckenwalde"
       },
       {
         "gb_name": "巴迪莎",
         "en_name": "Budissa Bautzen",
         "teamId": 7649,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "Budissa Bautzen"
       },
       {
         "gb_name": "诺伊施特累利茨",
         "en_name": "TSG Neustrelitz",
         "teamId": 4647,
         "league": "2016/2017 德国东北部联赛",
-        "pname": ""
+        "pname": "TSG Neustrelitz"
       }
     ]
   },
@@ -7064,62 +7067,63 @@
   {
     "league": "2016 哥伦比亚甲级联赛",
     "leagueId": "3744",
+    "leagueName": "Colombia - Primera A",
     "teams": [
       {
         "gb_name": "国民竞技",
         "en_name": "Atletico Nacional",
         "teamId": 2827,
         "league": "2016 哥伦比亚甲级联赛",
-        "pname": ""
+        "pname": "Atletico Nacional Medellin"
       },
       {
         "gb_name": "卡利体育会",
         "en_name": "Deportivo Cali",
         "teamId": 2825,
         "league": "2016 哥伦比亚甲级联赛",
-        "pname": ""
+        "pname": "Deportivo Cali"
       },
       {
         "gb_name": "托利马体育",
         "en_name": "Deportes Tolima",
         "teamId": 2828,
         "league": "2016 哥伦比亚甲级联赛",
-        "pname": ""
+        "pname": "Deportes Tolima"
       },
       {
         "gb_name": "百万富翁",
         "en_name": "Millonarios",
         "teamId": 2835,
         "league": "2016 哥伦比亚甲级联赛",
-        "pname": ""
+        "pname": "Millonarios Bogota"
       },
       {
         "gb_name": "圣塔菲",
         "en_name": "Independiente Santa Fe",
         "teamId": 2829,
         "league": "2016 哥伦比亚甲级联赛",
-        "pname": ""
+        "pname": "Santa Fe Bogota"
       },
       {
         "gb_name": "曼特宁独立",
         "en_name": "Dep.Independiente Medellin",
         "teamId": 2257,
         "league": "2016 哥伦比亚甲级联赛",
-        "pname": ""
+        "pname": "Independiente Medellin"
       },
       {
         "gb_name": "布卡拉曼格",
         "en_name": "Atletico Bucaramanga",
         "teamId": 2834,
         "league": "2016 哥伦比亚甲级联赛",
-        "pname": ""
+        "pname": "Atletico Bucaramanga"
       },
       {
         "gb_name": "帕特里奥坦斯",
         "en_name": "Patriotas FC",
         "teamId": 6856,
         "league": "2016 哥伦比亚甲级联赛",
-        "pname": ""
+        "pname": "Patriotas Tunja"
       },
       {
         "gb_name": "恩维加多",
@@ -7585,6 +7589,7 @@
   },
   {
     "league": "2016 韩国经典K联赛",
+    "leagueName": "Korea Republic - FA Cup",
     "leagueId": "3753",
     "teams": [
       {
@@ -7599,7 +7604,7 @@
         "en_name": "FC Seoul",
         "teamId": 1606,
         "league": "2016 韩国经典K联赛",
-        "pname": ""
+        "pname": "FC Seoul"
       },
       {
         "gb_name": "济州联队",
@@ -7655,7 +7660,7 @@
         "en_name": "Suwon Samsung Bluewings",
         "teamId": 1613,
         "league": "2016 韩国经典K联赛",
-        "pname": ""
+        "pname": "Suwon Samsung Bluewings"
       },
       {
         "gb_name": "仁川联合",
@@ -10006,6 +10011,7 @@
   {
     "league": "2016/2017 马耳他甲级联赛",
     "leagueId": "4013",
+    "leagueName": "Scotland - Championship",
     "teams": [
       {
         "gb_name": "巴尔赞青年队",
@@ -10019,7 +10025,7 @@
         "en_name": "Hibernians FC",
         "teamId": 3537,
         "league": "2016/2017 马耳他甲级联赛",
-        "pname": ""
+        "pname": "Hibernian"
       },
       {
         "gb_name": "瓦莱塔",
@@ -11874,6 +11880,7 @@
   {
     "league": "2016/2017 苏格兰冠军联赛",
     "leagueId": "3829",
+    "leagueName": "Scotland - Championship",
     "teams": [
       {
         "gb_name": "希伯尼安",
@@ -11887,7 +11894,7 @@
         "en_name": "Dundee United",
         "teamId": 765,
         "league": "2016/2017 苏格兰冠军联赛",
-        "pname": ""
+        "pname": "Dundee United"
       },
       {
         "gb_name": "摩顿",
@@ -11908,42 +11915,42 @@
         "en_name": "Falkirk",
         "teamId": 260,
         "league": "2016/2017 苏格兰冠军联赛",
-        "pname": ""
+        "pname": "Falkirk"
       },
       {
         "gb_name": "南后",
         "en_name": "Queen of South",
         "teamId": 1737,
         "league": "2016/2017 苏格兰冠军联赛",
-        "pname": ""
+        "pname": "Queen of South"
       },
       {
         "gb_name": "艾尔联",
         "en_name": "Ayr Utd.",
         "teamId": 1930,
         "league": "2016/2017 苏格兰冠军联赛",
-        "pname": ""
+        "pname": "Ayr United"
       },
       {
         "gb_name": "邓弗姆林",
         "en_name": "Dunfermline",
         "teamId": 766,
         "league": "2016/2017 苏格兰冠军联赛",
-        "pname": ""
+        "pname": "Dunfermline Athletic"
       },
       {
         "gb_name": "邓巴顿",
         "en_name": "Dumbarton",
         "teamId": 1928,
         "league": "2016/2017 苏格兰冠军联赛",
-        "pname": ""
+        "pname": "Dumbarton"
       },
       {
         "gb_name": "圣米伦",
         "en_name": "St. Mirren",
         "teamId": 402,
         "league": "2016/2017 苏格兰冠军联赛",
-        "pname": ""
+        "pname": "Saint Mirren"
       }
     ]
   },
@@ -14701,90 +14708,91 @@
   {
     "league": "2016/2017 匈牙利甲级联赛",
     "leagueId": "3979",
+    "leagueName": "Hungary - NB 1",
     "teams": [
       {
         "gb_name": "布达佩斯瓦萨斯",
         "en_name": "Vasas Budapest",
         "teamId": 2476,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Vasas Budapest"
       },
       {
         "gb_name": "维迪奥顿",
         "en_name": "Fehervar Videoton",
         "teamId": 1256,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Videoton FC"
       },
       {
         "gb_name": "费伦茨瓦罗斯",
         "en_name": "Ferencvarosi TC",
         "teamId": 798,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Ferencvarosi"
       },
       {
         "gb_name": "布达佩斯战士",
         "en_name": "Budapest Honved",
         "teamId": 2450,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Budapest Honved"
       },
       {
         "gb_name": "梅索科菲德",
         "en_name": "Mezokovesd-Zsory",
         "teamId": 4982,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Mezokovesd Zsory"
       },
       {
         "gb_name": "乌比斯迪",
         "en_name": "Ujpesti TE",
         "teamId": 2472,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Ujpest"
       },
       {
         "gb_name": "哈拉德斯",
         "en_name": "Szombathelyi Haladas",
         "teamId": 5306,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Szombathelyi Haladas"
       },
       {
         "gb_name": "德布雷塞尼",
         "en_name": "Debreceni VSC",
         "teamId": 767,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Debreceni VSC"
       },
       {
         "gb_name": "MTK匈格利亚",
         "en_name": "MTK Hungaria FC",
         "teamId": 348,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "MTK Budapest"
       },
       {
         "gb_name": "保克什",
         "en_name": "Paksi SE",
         "teamId": 3598,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Paksi FC"
       },
       {
         "gb_name": "迪欧斯捷尔",
         "en_name": "Diosgyor VTK",
         "teamId": 2475,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Diosgyori VTK"
       },
       {
         "gb_name": "吉尔蒙特",
         "en_name": "Gyirmot",
         "teamId": 3812,
         "league": "2016/2017 匈牙利甲级联赛",
-        "pname": ""
+        "pname": "Gyirmot FC"
       }
     ]
   },

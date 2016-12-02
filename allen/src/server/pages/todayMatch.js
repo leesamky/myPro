@@ -1,7 +1,7 @@
 var express=require('express')
 var app=express()
 
-// var matchInfoModel=require('server/db/model').matchInfo
+var matchInfoModel=require('server/db/model').matchInfo
 var _=require('lodash')
 var todayMatch=[]
 //
@@ -39,13 +39,7 @@ app.get('/matchIds',function(req,res){
 
 })
 
-app.get('/',function(req,res){
-    "use strict";
-    res.send('123')
 
-
-
-})
 
 
 

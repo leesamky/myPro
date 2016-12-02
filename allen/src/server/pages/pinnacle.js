@@ -9,7 +9,9 @@ var path=require('path')
 var get_odds=require('../pinnacle/get_odds')
 var get_leagues=require('../pinnacle/get_leagues')
 var get_fixtures=require('../pinnacle/get_fixtures')
+var get_leaguesNow=require('../pinnacle/get_leaguesNow')
 var async=require('async')
+var _=require('lodash')
 
 
 
@@ -27,6 +29,8 @@ async.forever(
 var optionsLeagues={
     sportId:29
 }
+
+get_leaguesNow(optionsLeagues)
 
 async.forever(
     get_leagues.bind(null,optionsLeagues),
@@ -51,5 +55,7 @@ async.forever(
         }
     }
 )
+
+
 
 module.exports=app

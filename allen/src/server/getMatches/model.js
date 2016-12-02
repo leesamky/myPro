@@ -1,0 +1,142 @@
+var mongoose=require('mongoose')
+var Schema=mongoose.Schema
+mongoose.Promise=global.Promise
+mongoose.connect('mongodb://localhost/soccer')
+
+
+var matchDataSchema=Schema({
+    homeInfo:{},
+    awayInfo:{},
+    homePastMatches:[],
+    homeFutureMatches:[],
+    awayPastMatches:[],
+    awayFutureMatches:[],
+    bothMatches:[],
+    league:{
+        type:String,
+        index:true
+    },
+    leagueId:{
+        type:Number,
+        index:true,
+    },
+    matchId:{
+        type:Number,
+        index:true,
+        unique:true
+    },
+    date:{
+        type:Date,
+        index:true
+    },
+    round:{
+        type:String
+    }
+
+})
+
+
+var teamInfoSchema=Schema({
+    en_name:{
+        type:String,
+    },
+    gb_name:{
+        type:String,
+    },
+    teamId:{
+        type:Number,
+        required:true,
+        index:true,
+        unique:true
+    }
+})
+
+var matchInfoSchema=Schema({
+    away:{
+        type:String,
+        index:true,
+        required:true
+    },
+    awayFullTime:{
+        type:Number,
+        required:true,
+        index:true
+    },
+    awayFirstHalf:{
+        type:Number,
+        index:true
+    },
+    awaySecondHalf:{
+        type:Number,
+        index:true
+    },
+    awayId:{
+        type:Number,
+        required:true,
+        index:true
+    },
+    away_cn:{
+        type:String,
+        index:true,
+    },
+    date:{
+        type:Date,
+        index:true
+    },
+    home:{
+        type:String,
+        index:true,
+        required:true
+    },
+    homeFirstHalf:{
+        type:Number,
+        index:true
+    },
+    homeSecondHalf:{
+        type:Number
+    },
+    homeFullTime:{
+        type:Number,
+        required:true,
+        index:true
+    },
+    homeId:{
+        type:Number,
+        required:true,
+        index:true
+    },
+    home_cn:{
+        type:String,
+        index:true,
+    },
+    league:{
+        type:String,
+        index:true
+    },
+    leagueId:{
+        type:Number,
+        index:true,
+    },
+    matchId:{
+        type:Number,
+        index:true,
+        unique:true
+    },
+    matchGoals:{
+        type:Number,
+        required:true,
+        index:true
+    },
+    firstHalfGoals:{
+        type:Number,
+        index:true
+    },
+    secondHalfGoals:{
+        type:Number,
+        index:true
+    }
+})
+
+module.exports.teamInfo=mongoose.model('teamInfo',teamInfoSchema)
+module.exports.matchInfo=mongoose.model('matchInfo',matchInfoSchema)
+module.exports.matchData=mongoose.model('matchData',matchDataSchema)

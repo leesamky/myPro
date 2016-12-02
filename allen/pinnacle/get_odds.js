@@ -17,7 +17,7 @@ function get_odds(callback){
         else{
             global.fullMatches=result
             let fileName=path.resolve(__dirname,'./files')+'/fullMatches.txt'
-            fs.writeFileSync(fileName,JSON.stringify(result,null,2),{encoding:'utf-8'})
+            // fs.writeFileSync(fileName,JSON.stringify(result,null,2),{encoding:'utf-8'})
             callback(null)
         }
 
