@@ -6,43 +6,24 @@ var app=express()
 var _=require('lodash')
 //
 var fs=require('fs')
-var name_league
-
+let name_league=JSON.parse(fs.readFileSync(__dirname+'/pNames.txt',{encoding:'utf-8'}))
+let pname={}
+_.forEach(name_league,function(league){
+    "use strict";
+    _.forEach(league['teams'],function(team){
+        pname[team['pname']]=team
+    })
+})
 app.get('/matchIds',function(req,res){
     "use strict";
-    // if(_.isEmpty(global.odds)){
-    //     res.send('odds is not ready')
-    // }else{
-    //     let name_league=JSON.parse(fs.readFileSync(__dirname+'/pNames.txt',{encoding:'utf-8'}))
-    //     let pname={}
-    //     _.forEach(name_league,function(league){
-    //         "use strict";
-    //         _.forEach(league['teams'],function(team){
-    //             pname[team['pname']]=team
-    //         })
-    //     })
-    //     // console.log(_.keys(odds).length)
-    //     let display=[]
-    //     _.forEach(global.odds,function(oddObj,key,obj){
-    //         "use strict";
-    //         let odd=obj[key]
-    //         fs.writeFileSync('temp.txt',JSON.stringify(odd,null,2),{encoding:'utf-8'})
-    //         // console.log(odd)
-    //         if(!_.isUndefined(pname[odd['home']])&&!_.isUndefined(pname[odd['away']])){
-    //             display.push(odd)
-    //         }
-    //
-    //     })
-    //    global.display= _.orderBy(display,['starts','league','matchId','number'],['asc','asc','asc','asc'])
-    //     fs.writeFileSync('globaldisplay.txt',JSON.stringify(global.display,null,2),{encoding:'utf-8'})
-        res.send(global.display)
-        // let teamIds=[]
-        // _.forEach(display,function(match){
-        //     "use strict";
-        //     teamIds.push(pname[match['home']],pname[match['away']])
-        // })
-        // console.log(_.uniq(teamIds).length)
-    // }
+        var teamIds=[]
+        _.forEach(global.display,function(match){
+            "use strict";
+
+            teamIds.push(pname[match['home']]['teamId'],pname[match['away']]['teamId'])
+        })
+        res.send(_.uniq(teamIds))
+
 
 })
 
@@ -54,7 +35,7 @@ app.get('/missingMatches',function(req,res){
     if(_.isEmpty(global.odds)){
         res.send('odds are not ready')
     }else{
-        name_league=JSON.parse(fs.readFileSync(__dirname+'/pNames.txt',{encoding:'utf-8'}))
+        // name_league=JSON.parse(fs.readFileSync(__dirname+'/pNames.txt',{encoding:'utf-8'}))
 
         let odd={}
         _.forEach(name_league,function(league){
