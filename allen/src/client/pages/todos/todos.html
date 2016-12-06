@@ -1,2 +1,35 @@
-<div ui-sref="about">About</div>
-<p>This is Todo</p>
+<div>
+    <a ui-sref="about">about</a>
+    <p>This is Todos</p>
+    <form ng-submit="createTask()">
+        <input placeholder="What do I need to do?" ng-model="createTaskInput">
+        <button>Create Task</button>
+    </form>
+    <table class="table table-hover">
+        <tr>
+            <th>league</th>
+            <th>time</th>
+            <th>home</th>
+            <th>away</th>
+            <th>moneyLine</th>
+        </tr>
+        <tr ng-repeat="todo in todos">
+            <td>
+                {{todo['league']}}
+            </td>
+            <td>
+                {{todo['starts'].toLocaleString()}}
+            </td>
+            <td>
+                {{todo.gb_home}}
+            </td>
+            <td>
+                {{todo.gb_away}}
+            </td>
+            <td>
+                <span>{{todo.moneyline}}</span>
+            </td>
+        </tr>
+    </table>
+
+</div>

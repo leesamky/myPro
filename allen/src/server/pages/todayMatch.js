@@ -1,43 +1,43 @@
-var express=require('express')
-var app=express()
-
-var matchInfoModel=require('server/db/model').matchInfo
-var _=require('lodash')
-var todayMatch=[]
+// var express=require('express')
+// var app=express()
 //
-var fs=require('fs')
-
-
-
-
-
-
-
-
-
-var file=JSON.parse(fs.readFileSync(__dirname+'/teamInfo.txt',{encoding:'utf-8'}))
-var teamIds=[]
-var teamInfo=[]
-_.forEach(file,function(obj,index,arr){
-    "use strict";
-    if(!_.isEmpty(obj)) {
-        teamIds.push(obj.teamId)
-        teamInfo[obj.teamId]=obj
-    }
-})
-
-teamIds=_.chunk(teamIds,1)
-// teamIds=[[1,2,3,4]]
-// console.log('TEAM IDS TOTALLY'+teamIds.length)
-app.get('/matchIds',function(req,res){
-    "use strict";
-    if(!_.isEmpty(teamIds)){
-        res.send(teamIds.pop())
-    }else{
-        res.send(null)
-    }
-
-})
+// var matchInfoModel=require('server/db/model').matchInfo
+// var _=require('lodash')
+// var todayMatch=[]
+// //
+// var fs=require('fs')
+//
+//
+//
+//
+//
+//
+//
+//
+//
+// var file=JSON.parse(fs.readFileSync(__dirname+'/teamInfo.txt',{encoding:'utf-8'}))
+// var teamIds=[]
+// var teamInfo=[]
+// _.forEach(file,function(obj,index,arr){
+//     "use strict";
+//     if(!_.isEmpty(obj)) {
+//         teamIds.push(obj.teamId)
+//         teamInfo[obj.teamId]=obj
+//     }
+// })
+//
+// teamIds=_.chunk(teamIds,1)
+// // teamIds=[[1,2,3,4]]
+// // console.log('TEAM IDS TOTALLY'+teamIds.length)
+// app.get('/matchIds',function(req,res){
+//     "use strict";
+//     if(!_.isEmpty(teamIds)){
+//         res.send(teamIds.pop())
+//     }else{
+//         res.send(null)
+//     }
+//
+// })
 
 
 

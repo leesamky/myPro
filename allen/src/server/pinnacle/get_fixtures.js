@@ -13,7 +13,7 @@ function get_fixtures(options,callback){
             if(error){
                 console.log(error)
             }else if(_.isEmpty(result)){
-                console.log('fixtures Response Empty')
+                // console.log('fixtures Response Empty')
                 callback(null)
             }
             else{

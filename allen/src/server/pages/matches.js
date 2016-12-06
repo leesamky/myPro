@@ -1,6 +1,8 @@
 var express=require('express')
 var app=express()
-
+var async=require('async')
+var getPastMatches=require('server/500/getPastMatches')
+var mongoose=require('mongoose')
 
 // var matchInfoModel=require('server/db/model').matchInfo
 var _=require('lodash')
@@ -22,12 +24,36 @@ app.get('/matchIds',function(req,res){
 
             teamIds.push(pname[match['home']]['teamId'],pname[match['away']]['teamId'])
         })
-        res.send(_.uniq(teamIds))
+        teamIds=_.uniq(teamIds)
+        async.eachLimit(teamIds,5,getPastMatches,function(err){
+            mongoose.connection.close()
+            console.log('done updating past matches')
+        })
+        res.send(teamIds)
 
 
 })
 
+app.get('/display',function(req,res){
+    "use strict";
+    if(global.update){
+        let data=[]
+        _.forEach(global.display,function(match){
+            if(match.number===0){
+                match['gb_home']=pname[match['home']]['gb_name']
+                match['gb_away']=pname[match['away']]['gb_name']
+                data.push(match)
+            }
+        })
+        res.send(_.orderBy(data,['starts','league','matchId','number'],['asc','asc','asc','asc']))
+        global.update=false
+        // console.log('send to client')
+    }else{
+        res.send(null)
+        // console.log('send null')
+    }
 
+})
 
 
 app.get('/missingMatches',function(req,res){

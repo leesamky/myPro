@@ -6,6 +6,7 @@ var path=require('path')
 var _=require('lodash')
 global.odds={}
 global.display=[]
+global.update=false
 
 function get_odds(options,callback){
     "use strict";
@@ -15,7 +16,7 @@ function get_odds(options,callback){
             if(error){console.log(error)
             }
             else if(_.isEmpty(result)){
-                console.log('odds empty response')
+                // console.log('odds empty response')
                 callback(null)
             }
             else{
@@ -90,6 +91,8 @@ function get_odds(options,callback){
                     })
 
                     global.display= _.orderBy(display,['starts','league','matchId','number'],['asc','asc','asc','asc'])
+                    global.update=true
+                    console.log('update display')
                     // fs.writeFileSync(options['since']+'result.txt',JSON.stringify(result,null,2),{encoding:'utf-8'})
                     //
                     // fs.writeFileSync(options['since']+'global.txt',JSON.stringify(global.display,null,2),{encoding:'utf-8'})

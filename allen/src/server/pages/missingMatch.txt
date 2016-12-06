@@ -2,64 +2,57 @@
   "ASEAN Football Championship": [
     {
       "league": "ASEAN Football Championship",
-      "home": "Indonesia",
-      "starts": "2016-12-03T12:00:00Z",
-      "away": "Vietnam"
+      "home": "Vietnam",
+      "starts": "2016-12-07T12:00:00Z",
+      "away": "Indonesia"
     },
     {
       "league": "ASEAN Football Championship",
-      "home": "Myanmar",
-      "starts": "2016-12-04T12:00:00Z",
-      "away": "Thailand"
+      "home": "Thailand",
+      "starts": "2016-12-08T12:00:00Z",
+      "away": "Myanmar"
     }
   ],
-  "Netherlands - Eerste Divisie": [
+  "Australia - A League": [
     {
-      "league": "Netherlands - Eerste Divisie",
-      "home": "Utrecht II (n)",
-      "starts": "2016-12-02T19:00:00Z"
+      "league": "Australia - A League",
+      "home": "Sydney FC (n)",
+      "starts": "2016-12-09T08:50:00Z"
+    },
+    {
+      "league": "Australia - A League",
+      "home": "Wellington Phoenix (n)",
+      "starts": "2016-12-10T06:35:00Z"
     }
   ],
-  "England - FA Cup": [
+  "Brazil - Cup": [
     {
-      "league": "England - FA Cup",
-      "home": "Stourbridge",
-      "starts": "2016-12-04T14:00:00Z"
+      "league": "Brazil - Cup",
+      "home": "Gremio Porto Alegre",
+      "starts": "2016-12-07T23:45:00Z",
+      "away": "Atletico Mineiro"
     }
   ],
-  "Germany - Regionalliga North": [
+  "Scotland - Cup": [
     {
-      "league": "Germany - Regionalliga North",
-      "home": "Hannover 96 Am",
-      "starts": "2016-12-02T18:30:00Z",
-      "away": "VfB Oldenburg"
-    }
-  ],
-  "Japan - J2 League": [
-    {
-      "league": "Japan - J2 League",
-      "home": "Zweigen Kanazawa (n)",
-      "starts": "2016-12-04T03:30:00Z"
-    }
-  ],
-  "Spain - Segunda B Group 3": [
-    {
-      "league": "Spain - Segunda B Group 3",
-      "home": "Lleida Esportiu",
-      "starts": "2016-12-02T19:00:00Z",
-      "away": "UD Llagostera"
+      "league": "Scotland - Cup",
+      "home": "Clyde",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Arbroath"
     }
   ],
   "UEFA - Champions League": [
     {
       "league": "UEFA - Champions League",
-      "away": "Ludogorets Razgrad",
-      "starts": "2016-12-06T19:45:00Z"
+      "home": "Home Teams (Wednesday 8 Matches)",
+      "starts": "2016-12-07T19:45:00Z",
+      "away": "Away Teams (Wednesday 8 Matches)"
     },
     {
       "league": "UEFA - Champions League",
-      "home": "Dynamo Kyiv",
-      "starts": "2016-12-06T19:45:00Z"
+      "home": "Home Teams (Tuesday 8 Matches)",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Away Teams (Tuesday 8 Matches)"
     }
   ],
   "UEFA - Europa League": [
@@ -67,27 +60,6 @@
       "league": "UEFA - Europa League",
       "home": "Qarabag Aghdam",
       "starts": "2016-12-08T16:00:00Z"
-    },
-    {
-      "league": "UEFA - Europa League",
-      "away": "Shakhtar Donetsk",
-      "starts": "2016-12-08T16:00:00Z"
-    },
-    {
-      "league": "UEFA - Europa League",
-      "away": "Qabala PFC",
-      "starts": "2016-12-08T18:00:00Z"
-    },
-    {
-      "league": "UEFA - Europa League",
-      "away": "Zenit St Petersburg",
-      "starts": "2016-12-08T18:00:00Z"
-    },
-    {
-      "league": "UEFA - Europa League",
-      "home": "Maccabi Tel Aviv",
-      "starts": "2016-12-08T18:00:00Z",
-      "away": "Dundalk"
     },
     {
       "league": "UEFA - Europa League",
@@ -110,12 +82,54 @@
       "starts": "2016-12-08T20:05:00Z"
     }
   ],
-  "Germany - Regionalliga Bavaria": [
+  "UEFA - Champions League Bookings": [
     {
-      "league": "Germany - Regionalliga Bavaria",
-      "home": "SpVgg Bayern Hof",
-      "starts": "2016-12-03T12:00:00Z",
-      "away": "Schweinfurt 05"
+      "league": "UEFA - Champions League Bookings",
+      "home": "Paris Saint Germain (Bookings)",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Ludogorets Razgrad (Bookings)"
+    },
+    {
+      "league": "UEFA - Champions League Bookings",
+      "home": "Basel (Bookings)",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Arsenal (Bookings)"
+    },
+    {
+      "league": "UEFA - Champions League Bookings",
+      "home": "Dynamo Kyiv (Bookings)",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Besiktas (Bookings)"
+    },
+    {
+      "league": "UEFA - Champions League Bookings",
+      "home": "Benfica (Bookings)",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Napoli (Bookings)"
+    },
+    {
+      "league": "UEFA - Champions League Bookings",
+      "home": "Barcelona (Bookings)",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Borussia Monchengladbach (Bookings)"
+    },
+    {
+      "league": "UEFA - Champions League Bookings",
+      "home": "Manchester City (Bookings)",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Celtic FC (Bookings)"
+    },
+    {
+      "league": "UEFA - Champions League Bookings",
+      "home": "Bayern Munchen (Bookings)",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Atletico Madrid (Bookings)"
+    },
+    {
+      "league": "UEFA - Champions League Bookings",
+      "home": "PSV Eindhoven (Bookings)",
+      "starts": "2016-12-06T19:45:00Z",
+      "away": "Rostov FK (Bookings)"
     }
   ],
   "Germany - Oberliga Rheinland-Pfalz/Saar": [
@@ -126,60 +140,22 @@
       "away": "TuS RW Koblenz"
     }
   ],
-  "El Salvador - Primera Division": [
+  "England - EFL Trophy": [
     {
-      "league": "El Salvador - Primera Division",
-      "home": "AD Isidro Metapan",
-      "starts": "2016-12-02T01:00:00Z",
-      "away": "Santa Tecla FC"
-    }
-  ],
-  "Honduras - Liga Nacional": [
+      "league": "England - EFL Trophy",
+      "home": "Norwich City U23",
+      "starts": "2016-12-06T19:00:00Z",
+      "away": "Swansea City U23"
+    },
     {
-      "league": "Honduras - Liga Nacional",
-      "home": "Motagua",
-      "starts": "2016-12-02T01:30:00Z",
-      "away": "Olimpia"
-    }
-  ],
-  "Indonesia - Soccer Championship": [
+      "league": "England - EFL Trophy",
+      "away": "Luton  Town",
+      "starts": "2016-12-06T19:45:00Z"
+    },
     {
-      "league": "Indonesia - Soccer Championship",
-      "home": "Persipura Jayapura",
-      "starts": "2016-12-02T07:00:00Z",
-      "away": "Bhayangkara Surabaya United"
-    }
-  ],
-  "Germany - Bundesliga Bookings": [
-    {
-      "league": "Germany - Bundesliga Bookings",
-      "home": "FSV Mainz 05 (Bookings)",
-      "starts": "2016-12-02T19:30:00Z",
-      "away": "Bayern Munchen (Bookings)"
-    }
-  ],
-  "Italy - Serie A Bookings": [
-    {
-      "league": "Italy - Serie A Bookings",
-      "home": "Napoli (Bookings)",
-      "starts": "2016-12-02T19:45:00Z",
-      "away": "Inter Milan (Bookings)"
-    }
-  ],
-  "Costa Rica - Primera Division": [
-    {
-      "league": "Costa Rica - Primera Division",
-      "home": "Deportivo Saprissa",
-      "starts": "2016-12-02T02:00:00Z",
-      "away": "Alajuelense"
-    }
-  ],
-  "Bangladesh - Premier League": [
-    {
-      "league": "Bangladesh - Premier League",
-      "home": "Muktijoddha SKC",
-      "starts": "2016-12-02T09:00:00Z",
-      "away": "Sheikh Jamal"
+      "league": "England - EFL Trophy",
+      "away": "Brighton & Hove Albion U23",
+      "starts": "2016-12-06T19:45:00Z"
     }
   ]
 }

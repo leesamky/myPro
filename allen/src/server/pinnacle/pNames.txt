@@ -894,6 +894,13 @@
                 "pname": "VfB Stuttgart"
             },
             {
+                "gb_name": "斯图加特",
+                "en_name": "VfB Stuttgart",
+                "teamId": 1195,
+                "league": "2016/2017 德国乙级联赛",
+                "pname": "VfB Stuttgart Am"
+            },
+            {
                 "gb_name": "汉诺威96",
                 "en_name": "Hannover 96",
                 "teamId": 862,
@@ -1677,6 +1684,13 @@
                 "teamId": 8816,
                 "league": "2016/2017 荷兰乙级联赛",
                 "pname": "Jong FC Utrecht"
+            },
+            {
+                "gb_name": "乌德勒支青年队",
+                "en_name": "FC Utrecht Am.",
+                "teamId": 8816,
+                "league": "2016/2017 荷兰乙级联赛",
+                "pname": "Utrecht II"
             },
             {
                 "gb_name": "多德勒支",
@@ -2803,14 +2817,14 @@
                 "en_name": "Olympiakos Piraeus",
                 "teamId": 616,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Olympiacos"
             },
             {
                 "gb_name": "帕纳辛纳科斯",
                 "en_name": "Panathinaikos",
                 "teamId": 1160,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Panathinaikos"
             },
             {
                 "gb_name": "帕斯基安尼纳",
@@ -2831,21 +2845,21 @@
                 "en_name": "Panionios",
                 "teamId": 1159,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Panionios"
             },
             {
                 "gb_name": "雅典AEK",
                 "en_name": "AEK Athens",
                 "teamId": 213,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "AEK Athens"
             },
             {
                 "gb_name": "帕纳多里高斯",
                 "en_name": "Panaitolikos Agrinio",
                 "teamId": 5968,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Panetolikos"
             },
             {
                 "gb_name": "阿特罗米托斯",
@@ -2859,21 +2873,21 @@
                 "en_name": "Kerkyra",
                 "teamId": 1597,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Kerkyra"
             },
             {
                 "gb_name": "普拉坦亚斯",
                 "en_name": "Platanias FC",
                 "teamId": 6829,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Platanias"
             },
             {
                 "gb_name": "克桑西",
                 "en_name": "Xanthi",
                 "teamId": 439,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Xanthi FC"
             },
             {
                 "gb_name": "莱瓦贾科斯",
@@ -2887,7 +2901,7 @@
                 "en_name": "Asteras Tripolis",
                 "teamId": 2962,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Asteras Tripolis"
             },
             {
                 "gb_name": "拉里萨",
@@ -2901,14 +2915,14 @@
                 "en_name": "Veria FC",
                 "teamId": 430,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Veria"
             },
             {
                 "gb_name": "伊拉克里斯",
                 "en_name": "Iraklis Saloniki",
                 "teamId": 306,
                 "league": "2016/2017 希腊超级联赛",
-                "pname": ""
+                "pname": "Iraklis"
             }
         ]
     },
@@ -3049,6 +3063,13 @@
                 "teamId": 1178,
                 "league": "2016 日本职业乙级联赛",
                 "pname": ""
+            },
+            {
+                "gb_name": "枥木SC",
+                "en_name": "Tochigi SC",
+                "teamId": 3834,
+                "league": "2016 日本丙级联赛",
+                "pname": "Tochigi SC"
             },
             {
                 "gb_name": "松本山雅",
@@ -4297,6 +4318,13 @@
                 "pname": "Steaua Bucharest"
             },
             {
+                "gb_name": "布加勒斯特星",
+                "en_name": "Steaua Bucuresti",
+                "teamId": 712,
+                "league": "2016/2017 罗马尼亚甲组联赛",
+                "pname": "Steaua Bucuresti"
+            },
+            {
                 "gb_name": "CS卡拉奥华大学",
                 "en_name": "CS Universitatea Craiova",
                 "teamId": 422,
@@ -4353,6 +4381,13 @@
                 "pname": "Pandurii Targu Jiu"
             },
             {
+                "gb_name": "潘杜里",
+                "en_name": "Pandurii",
+                "teamId": 2858,
+                "league": "2016/2017 罗马尼亚甲组联赛",
+                "pname": "Pandurii Targu-Jiu"
+            },
+            {
                 "gb_name": "久尔久",
                 "en_name": "FC Astra Giurgiu",
                 "teamId": 557,
@@ -4407,6 +4442,13 @@
                 "teamId": 496,
                 "league": "2016/2017 俄罗斯超级联赛",
                 "pname": "Zenit St. Petersburg"
+            },
+            {
+                "gb_name": "圣彼得堡泽尼特",
+                "en_name": "Zenit St.Petersburg",
+                "teamId": 496,
+                "league": "2016/2017 俄罗斯超级联赛",
+                "pname": "Zenit St Petersburg"
             },
             {
                 "gb_name": "莫斯科中央陆军",
@@ -4477,6 +4519,13 @@
                 "teamId": 5286,
                 "league": "2016/2017 俄罗斯超级联赛",
                 "pname": "FC Orenburg"
+            },
+            {
+                "gb_name": "奥伦堡加索维克",
+                "en_name": "Gazovik Orenburg",
+                "teamId": 5286,
+                "league": "2016/2017 俄罗斯超级联赛",
+                "pname": "Gazovik Orenburg"
             },
             {
                 "gb_name": "乌拉尔",
@@ -5480,6 +5529,13 @@
                 "pname": "Club Petrolero"
             },
             {
+                "gb_name": "东方石油",
+                "en_name": "Oriente Petrolero",
+                "teamId": 3909,
+                "league": "2016/2017 玻利维亚甲组联赛",
+                "pname": "Oriente Petrolero"
+            },
+            {
                 "gb_name": "皇家帕托斯",
                 "en_name": "Real Potosi",
                 "teamId": 3908,
@@ -5928,11 +5984,25 @@
                 "pname": "FK Qabala"
             },
             {
+                "gb_name": "盖贝莱",
+                "en_name": "FK Qabala",
+                "teamId": 6731,
+                "league": "2016/2017 阿塞拜疆超级联赛",
+                "pname": "Qabala PFC"
+            },
+            {
                 "gb_name": "卡拉巴赫",
                 "en_name": "Qarabag",
                 "teamId": 1546,
                 "league": "2016/2017 阿塞拜疆超级联赛",
                 "pname": "FK Qarabag"
+            },
+            {
+                "gb_name": "卡拉巴赫",
+                "en_name": "Qarabag",
+                "teamId": 1546,
+                "league": "2016/2017 阿塞拜疆超级联赛",
+                "pname": "Qarabag"
             },
             {
                 "gb_name": "国际巴库",
@@ -5988,7 +6058,7 @@
                 "en_name": "Ludogorets Razgrad",
                 "teamId": 6591,
                 "league": "2016/2017 保加利亚超级联赛",
-                "pname": "Ludogorets 1947"
+                "pname": "Ludogorets Razgrad"
             },
             {
                 "gb_name": "索菲亚利夫斯基",
@@ -6989,7 +7059,7 @@
                 "en_name": "Boluspor",
                 "teamId": 4721,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Boluspor"
             },
             {
                 "gb_name": "埃斯基谢希尔体育",
@@ -7003,49 +7073,49 @@
                 "en_name": "Goztepe",
                 "teamId": 824,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Goztepe AS"
             },
             {
                 "gb_name": "巴里科斯士邦",
                 "en_name": "Balikesirspor",
                 "teamId": 7182,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Balikesirspor"
             },
             {
                 "gb_name": "阿特诺度",
                 "en_name": "Altinordu",
                 "teamId": 7364,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Altinordu"
             },
             {
                 "gb_name": "锡瓦斯体育",
                 "en_name": "Sivasspor",
                 "teamId": 2483,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Sivasspor"
             },
             {
                 "gb_name": "加辛塔BB",
                 "en_name": "Gaziantep Buyuksehir Belediyesi",
                 "teamId": 3061,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Gaziantep Buyuksehir Belediyespor"
             },
             {
                 "gb_name": "代尼兹利体育",
                 "en_name": "Denizlispor",
                 "teamId": 757,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Denizlispor"
             },
             {
                 "gb_name": "阿达纳",
                 "en_name": "Adana Demirspor",
                 "teamId": 5459,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Adana Demirspor"
             },
             {
                 "gb_name": "吉里森士堡",
@@ -7059,28 +7129,28 @@
                 "en_name": "Elazigspor",
                 "teamId": 2485,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Elazigspor"
             },
             {
                 "gb_name": "尤姆尼耶士邦",
                 "en_name": "Umraniyespor",
                 "teamId": 9084,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Umraniyespor"
             },
             {
                 "gb_name": "尤法斯堡",
                 "en_name": "S.Urfaspor",
                 "teamId": 4777,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Sanliurfaspor"
             },
             {
                 "gb_name": "萨姆松体育",
                 "en_name": "Samsunspor",
                 "teamId": 453,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Samsunspor"
             },
             {
                 "gb_name": "梅尔辛",
@@ -7094,14 +7164,14 @@
                 "en_name": "Bandirmaspor",
                 "teamId": 8617,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Bandirmaspor"
             },
             {
                 "gb_name": "马尼萨体育",
                 "en_name": "Vestel Manisaspor",
                 "teamId": 2484,
                 "league": "2016/2017 土耳其甲级联赛",
-                "pname": ""
+                "pname": "Manisaspor"
             }
         ]
     },
@@ -7325,49 +7395,49 @@
                 "en_name": "SV Elversberg",
                 "teamId": 1862,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "SV Elversberg"
             },
             {
                 "gb_name": "萨尔布吕肯",
                 "en_name": "Saarbrucken",
                 "teamId": 1187,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "Saarbrucken"
             },
             {
                 "gb_name": "斯坦巴克",
                 "en_name": "Steinbach",
                 "teamId": 8315,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "TSV Steinbach"
             },
             {
                 "gb_name": "曼海姆",
                 "en_name": "SV Waldhof Mannheim",
                 "teamId": 1074,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "SV Waldhof Mannheim"
             },
             {
                 "gb_name": "霍芬海姆业余队",
                 "en_name": "TSG Hoffenheim Am.",
                 "teamId": 7645,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "TSG Hoffenheim Am"
             },
             {
                 "gb_name": "奥芬巴赫踢球者",
                 "en_name": "Kickers Offenbach",
                 "teamId": 607,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "Kickers Offenbach"
             },
             {
                 "gb_name": "黑森",
                 "en_name": "Hessen Kassel",
                 "teamId": 3572,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "Hessen Kassel"
             },
             {
                 "gb_name": "乌尔姆",
@@ -7381,21 +7451,21 @@
                 "en_name": "FC 08 Homburg",
                 "teamId": 3713,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "Homburg 08"
             },
             {
                 "gb_name": "沃尔姆斯",
                 "en_name": "VfR Wormatia Worms",
                 "teamId": 4651,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "Wormatia  08 Worms"
             },
             {
                 "gb_name": "科布伦茨",
                 "en_name": "Koblenz",
                 "teamId": 2104,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "TuS Koblenz"
             },
             {
                 "gb_name": "斯图加特踢球者",
@@ -7409,7 +7479,7 @@
                 "en_name": "Astoria Walldorf",
                 "teamId": 7357,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "Astoria Walldorf"
             },
             {
                 "gb_name": "皮尔马森斯",
@@ -7437,21 +7507,21 @@
                 "en_name": "Teutonia WS",
                 "teamId": 8932,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "SC Teutonia"
             },
             {
                 "gb_name": "特里尔",
                 "en_name": "Eintracht Trier",
                 "teamId": 4652,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "Eintracht Trier"
             },
             {
                 "gb_name": "诺汀根",
                 "en_name": "Nottingen",
                 "teamId": 1864,
                 "league": "2016/2017 德国南部联赛",
-                "pname": ""
+                "pname": "Nottingen 1957"
             }
         ]
     },
@@ -7472,7 +7542,7 @@
                 "en_name": "Maccabi Tel Aviv",
                 "teamId": 1222,
                 "league": "2016/2017 以色列超级联赛",
-                "pname": ""
+                "pname": "Maccabi Tel Aviv"
             },
             {
                 "gb_name": "海法马卡比",
@@ -7668,7 +7738,7 @@
                 "en_name": "CA River Plate",
                 "teamId": 2763,
                 "league": "2016/2017 乌拉圭超级联赛",
-                "pname": ""
+                "pname": "River Plate"
             },
             {
                 "gb_name": "维拉艾斯潘诺拉",
@@ -7724,7 +7794,7 @@
                 "en_name": "Halifax Town",
                 "teamId": 1959,
                 "league": "2016/2017 英格兰非职业联赛北部",
-                "pname": ""
+                "pname": "Halifax Town"
             },
             {
                 "gb_name": "索尔福德市",
@@ -7738,7 +7808,7 @@
                 "en_name": "Brackley Town",
                 "teamId": 5564,
                 "league": "2016/2017 英格兰非职业联赛北部",
-                "pname": ""
+                "pname": "Brackley Town"
             },
             {
                 "gb_name": "斯托克港",
@@ -7850,14 +7920,14 @@
                 "en_name": "Deportes Iquique",
                 "teamId": 5715,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Deportes Iquique"
             },
             {
                 "gb_name": "天主大学",
                 "en_name": "Univ. Catolica",
                 "teamId": 1718,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Universidad Catolica"
             },
             {
                 "gb_name": "西班牙联合",
@@ -7871,7 +7941,7 @@
                 "en_name": "O Higgins",
                 "teamId": 3352,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "O. Higgins"
             },
             {
                 "gb_name": "圣地亚哥漫步者",
@@ -7885,21 +7955,21 @@
                 "en_name": "Colo Colo",
                 "teamId": 1814,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Colo Colo"
             },
             {
                 "gb_name": "特木科",
                 "en_name": "Deportes Temuco",
                 "teamId": 1909,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Deportes Temuco"
             },
             {
                 "gb_name": "智利大学",
                 "en_name": "Universidad de Chile",
                 "teamId": 1907,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Universidad de Chile"
             },
             {
                 "gb_name": "巴勒斯坦人",
@@ -7913,35 +7983,35 @@
                 "en_name": "San Luis Quillota",
                 "teamId": 6127,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "San Luis Quillota"
             },
             {
                 "gb_name": "安托法加斯塔",
                 "en_name": "CSD Antofagasta",
                 "teamId": 3350,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Antofagasta"
             },
             {
                 "gb_name": "奥达科斯意大利人",
                 "en_name": "Audax Italiano",
                 "teamId": 2219,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Audax Italiano"
             },
             {
                 "gb_name": "科布雷萨尔",
                 "en_name": "Cobresal",
                 "teamId": 1905,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Cobresal"
             },
             {
                 "gb_name": "伊瓦顿",
                 "en_name": "Everton CD",
                 "teamId": 1904,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Everton Vina del Mar"
             },
             {
                 "gb_name": "瓦奇巴托",
@@ -7955,7 +8025,7 @@
                 "en_name": "U.Concepcion",
                 "teamId": 2823,
                 "league": "2016/2017 智利甲组联赛",
-                "pname": ""
+                "pname": "Universidad de Concepcion"
             }
         ]
     },
@@ -7969,49 +8039,49 @@
                 "en_name": "Estudiantes La Plata",
                 "teamId": 569,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Estudiantes La Plata"
             },
             {
                 "gb_name": "圣洛伦索",
                 "en_name": "San Lorenzo",
                 "teamId": 467,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "San Lorenzo"
             },
             {
                 "gb_name": "纽维尔老男孩",
                 "en_name": "Newells Old Boys",
                 "teamId": 1136,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Newells Old Boys"
             },
             {
                 "gb_name": "博卡青年",
                 "en_name": "Boca Juniors",
                 "teamId": 705,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Boca Juniors"
             },
             {
                 "gb_name": "竞技俱乐部",
                 "en_name": "Racing Club",
                 "teamId": 558,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Racing Club"
             },
             {
                 "gb_name": "塔勒瑞斯",
                 "en_name": "CA Talleres Cordoba",
                 "teamId": 1213,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Talleres Cordoba"
             },
             {
                 "gb_name": "科隆竞技",
                 "en_name": "Colon",
                 "teamId": 469,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Colon de Santa Fe"
             },
             {
                 "gb_name": "河床",
@@ -8025,35 +8095,35 @@
                 "en_name": "Lanus",
                 "teamId": 963,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Lanus"
             },
             {
                 "gb_name": "阿根廷独立",
                 "en_name": "Independiente",
                 "teamId": 1322,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Independiente"
             },
             {
                 "gb_name": "基尔梅斯",
                 "en_name": "Quilmes",
                 "teamId": 953,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Quilmes"
             },
             {
                 "gb_name": "戈多伊克鲁斯",
                 "en_name": "Godoy Cruz",
                 "teamId": 3608,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Godoy Cruz Antonio Tomba"
             },
             {
                 "gb_name": "班菲尔德",
                 "en_name": "CA Banfield",
                 "teamId": 639,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Banfield"
             },
             {
                 "gb_name": "圣菲联合",
@@ -8067,7 +8137,7 @@
                 "en_name": "Tigre",
                 "teamId": 4465,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Club Atletico Tigre"
             },
             {
                 "gb_name": "帕特罗纳图",
@@ -8088,21 +8158,21 @@
                 "en_name": "Rosario Central",
                 "teamId": 1034,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Rosario Central"
             },
             {
                 "gb_name": "奥林匹奥",
                 "en_name": "Olimpo",
                 "teamId": 5241,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Olimpo Bahia Blanca"
             },
             {
                 "gb_name": "图库曼竞技",
                 "en_name": "Atletico Tucuman",
                 "teamId": 5361,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Atletico Tucuman"
             },
             {
                 "gb_name": "拉斐拉竞技",
@@ -8123,28 +8193,28 @@
                 "en_name": "Sarmiento Junin",
                 "teamId": 6223,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Sarmiento Junin"
             },
             {
                 "gb_name": "坦珀利",
                 "en_name": "Temperley",
                 "teamId": 7398,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "CA Temperley"
             },
             {
                 "gb_name": "萨斯菲尔德",
                 "en_name": "Velez Sarsfield",
                 "teamId": 455,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Velez Sarsfield"
             },
             {
                 "gb_name": "飓风",
                 "en_name": "CA Huracan",
                 "teamId": 874,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Atletico Huracan"
             },
             {
                 "gb_name": "防御与正义",
@@ -8158,21 +8228,21 @@
                 "en_name": "Belgrano",
                 "teamId": 676,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Belgrano de Cordoba"
             },
             {
                 "gb_name": "阿尔多西维",
                 "en_name": "Aldosivi",
                 "teamId": 4615,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Aldosivi Mar del Plata"
             },
             {
                 "gb_name": "兵工厂",
                 "en_name": "Arsenal de Sarandi",
                 "teamId": 534,
                 "league": "2016/2017 阿根廷甲组联赛",
-                "pname": ""
+                "pname": "Arsenal de Sarandi"
             }
         ]
     },
@@ -8536,7 +8606,7 @@
                 "en_name": "Aldershot Town",
                 "teamId": 1951,
                 "league": "2016/2017 英格兰非职业联赛",
-                "pname": ""
+                "pname": "Aldershot Town"
             },
             {
                 "gb_name": "切斯特",
@@ -8636,994 +8706,2119 @@
         "leagueId": "3963",
         "leagueName": "Germany - Regionalliga West",
         "teams": [
-          {
-            "gb_name": "维多利科隆",
-            "en_name": "Viktoria koln",
-            "teamId": 7390,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "门兴格拉德巴赫青年队",
-            "en_name": "Monchengladbach AM.",
-            "teamId": 3574,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "多特蒙德青年队",
-            "en_name": "Dortmund B Borussia",
-            "teamId": 1871,
-            "league": "2016/2017 德国西部联赛",
-            "pname": "Borussia Dortmund Am"
-          },
-          {
-            "gb_name": "乌帕达尔",
-            "en_name": "",
-            "teamId": 7384,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "埃森",
-            "en_name": "RW Essen",
-            "teamId": 568,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "亚琛",
-            "en_name": "TSV Alemannia Aachen",
-            "teamId": 1306,
-            "league": "2016/2017 德国西部联赛",
-            "pname": "Alemannia Aachen"
-          },
-          {
-            "gb_name": "SC博内尔",
-            "en_name": "Bonner sc",
-            "teamId": 5934,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "瓦滕沙伊德",
-            "en_name": "Wattenscheid",
-            "teamId": 1245,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "奥伯豪森",
-            "en_name": "RW Oberhausen",
-            "teamId": 598,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "威登布拉克",
-            "en_name": "SC Wiedenbruck",
-            "teamId": 6539,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "罗迪豪森",
-            "en_name": "SV Rodinghausen",
-            "teamId": 7351,
-            "league": "2016/2017 德国西部联赛",
-            "pname": "SV Rodinghausen"
-          },
-          {
-            "gb_name": "科隆青年队",
-            "en_name": "Koln Am.",
-            "teamId": 1708,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "维尔拉",
-            "en_name": "SC Verl",
-            "teamId": 4561,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "沙尔克04业余队",
-            "en_name": "FC Schalke 04 II",
-            "teamId": 5443,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "杜塞尔多夫业余队",
-            "en_name": "Fortuna Dusseldorf II",
-            "teamId": 5935,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "阿伦",
-            "en_name": "LR Ahlen",
-            "teamId": 538,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          },
-          {
-            "gb_name": "西尔根",
-            "en_name": "Sportfreunde Siegen",
-            "teamId": 1973,
-            "league": "2016/2017 德国西部联赛",
-            "pname": "Sportfreunde Siegen"
-          },
-          {
-            "gb_name": "斯罗可候沃",
-            "en_name": "Sprockhovel",
-            "teamId": 9027,
-            "league": "2016/2017 德国西部联赛",
-            "pname": ""
-          }
-        ]
-      },
-      {
-          "league": "2016/2017 英格兰非职业联赛南部",
-          "leagueId": "4023",
-          "leagueName": "England - FA Trophy",
-          "teams": [
             {
-              "gb_name": "麦登赫德",
-              "en_name": "Maidenhead Utd.",
-              "teamId": 3843,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": "Maidenhead United"
+                "gb_name": "维多利科隆",
+                "en_name": "Viktoria koln",
+                "teamId": 7390,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "圣阿尔班斯",
-              "en_name": "St Albans City",
-              "teamId": 7579,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": "St. Albans City"
+                "gb_name": "门兴格拉德巴赫青年队",
+                "en_name": "Monchengladbach AM.",
+                "teamId": 3574,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "艾贝斯费特联",
-              "en_name": "Ebbsfleet United",
-              "teamId": 4687,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "多特蒙德青年队",
+                "en_name": "Dortmund B Borussia",
+                "teamId": 1871,
+                "league": "2016/2017 德国西部联赛",
+                "pname": "Borussia Dortmund Am"
             },
             {
-              "gb_name": "达特福德队",
-              "en_name": "Dartford",
-              "teamId": 5597,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "乌帕达尔",
+                "en_name": "",
+                "teamId": 7384,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "普尔城",
-              "en_name": "Poole Town",
-              "teamId": 8547,
-              "league": "2015/2016 英格兰南部超级联赛",
-              "pname": ""
+                "gb_name": "埃森",
+                "en_name": "RW Essen",
+                "teamId": 568,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "车姆斯福特",
-              "en_name": "Chelmsford City",
-              "teamId": 3850,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "亚琛",
+                "en_name": "TSV Alemannia Aachen",
+                "teamId": 1306,
+                "league": "2016/2017 德国西部联赛",
+                "pname": "Alemannia Aachen"
             },
             {
-              "gb_name": "汉普顿列治文",
-              "en_name": "Hampton & Richmond",
-              "teamId": 4956,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "SC博内尔",
+                "en_name": "Bonner sc",
+                "teamId": 5934,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "伊斯特图罗克",
-              "en_name": "East Thurrock United",
-              "teamId": 3321,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": "East Thurrock United"
+                "gb_name": "瓦滕沙伊德",
+                "en_name": "Wattenscheid",
+                "teamId": 1245,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "亨格福德镇",
-              "en_name": "Hungerford Town",
-              "teamId": 7580,
-              "league": "2015/2016 英格兰南部超级联赛",
-              "pname": ""
+                "gb_name": "奥伯豪森",
+                "en_name": "RW Oberhausen",
+                "teamId": 598,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "东伯恩",
-              "en_name": "Eastbourne",
-              "teamId": 2192,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "威登布拉克",
+                "en_name": "SC Wiedenbruck",
+                "teamId": 6539,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "巴斯",
-              "en_name": "Bath City",
-              "teamId": 2093,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "罗迪豪森",
+                "en_name": "SV Rodinghausen",
+                "teamId": 7351,
+                "league": "2016/2017 德国西部联赛",
+                "pname": "SV Rodinghausen"
             },
             {
-              "gb_name": "石威德",
-              "en_name": "Wealdstone FC",
-              "teamId": 3878,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": "Wealdstone"
+                "gb_name": "科隆青年队",
+                "en_name": "Koln Am.",
+                "teamId": 1708,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "特鲁罗城",
-              "en_name": "Truro City",
-              "teamId": 6130,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "维尔拉",
+                "en_name": "SC Verl",
+                "teamId": 4561,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "戈斯波特",
-              "en_name": "Gosport Borough",
-              "teamId": 7501,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "沙尔克04业余队",
+                "en_name": "FC Schalke 04 II",
+                "teamId": 5443,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "怀特豪克",
-              "en_name": "Whitehawk",
-              "teamId": 7578,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": "Whitehawk"
+                "gb_name": "杜塞尔多夫业余队",
+                "en_name": "Fortuna Dusseldorf II",
+                "teamId": 5935,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "牛津城",
-              "en_name": "Oxford City",
-              "teamId": 5566,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "阿伦",
+                "en_name": "LR Ahlen",
+                "teamId": 538,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             },
             {
-              "gb_name": "希美咸史特城",
-              "en_name": "Hemel Hempstead Town",
-              "teamId": 3880,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "西尔根",
+                "en_name": "Sportfreunde Siegen",
+                "teamId": 1973,
+                "league": "2016/2017 德国西部联赛",
+                "pname": "Sportfreunde Siegen"
             },
             {
-              "gb_name": "康卡德流浪",
-              "en_name": "Concord Rangers",
-              "teamId": 7500,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
-            },
-            {
-              "gb_name": "马格特",
-              "en_name": "Margate",
-              "teamId": 8397,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": "Margate FC"
-            },
-            {
-              "gb_name": "韦斯顿",
-              "en_name": "Weston Super Mare",
-              "teamId": 3317,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
-            },
-            {
-              "gb_name": "威灵",
-              "en_name": "Welling United",
-              "teamId": 3155,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
-            },
-            {
-              "gb_name": "史托佛主教",
-              "en_name": "Bishop\\'s Stortford",
-              "teamId": 2348,
-              "league": "2016/2017 英格兰非职业联赛南部",
-              "pname": ""
+                "gb_name": "斯罗可候沃",
+                "en_name": "Sprockhovel",
+                "teamId": 9027,
+                "league": "2016/2017 德国西部联赛",
+                "pname": ""
             }
-          ]
-        },
-        {
-            "league": "2016 挪威超级联赛",
-            "leagueId": "3757",
-            "league": "Norway - Tippeligaen",
-            "teams": [
-              {
+        ]
+    },
+    {
+        "league": "2016/2017 英格兰非职业联赛南部",
+        "leagueId": "4023",
+        "leagueName": "England - FA Trophy",
+        "teams": [
+            {
+                "gb_name": "麦登赫德",
+                "en_name": "Maidenhead Utd.",
+                "teamId": 3843,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": "Maidenhead United"
+            },
+            {
+                "gb_name": "圣阿尔班斯",
+                "en_name": "St Albans City",
+                "teamId": 7579,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": "St. Albans City"
+            },
+            {
+                "gb_name": "艾贝斯费特联",
+                "en_name": "Ebbsfleet United",
+                "teamId": 4687,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "达特福德队",
+                "en_name": "Dartford",
+                "teamId": 5597,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "普尔城",
+                "en_name": "Poole Town",
+                "teamId": 8547,
+                "league": "2015/2016 英格兰南部超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "车姆斯福特",
+                "en_name": "Chelmsford City",
+                "teamId": 3850,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "汉普顿列治文",
+                "en_name": "Hampton & Richmond",
+                "teamId": 4956,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "伊斯特图罗克",
+                "en_name": "East Thurrock United",
+                "teamId": 3321,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": "East Thurrock United"
+            },
+            {
+                "gb_name": "亨格福德镇",
+                "en_name": "Hungerford Town",
+                "teamId": 7580,
+                "league": "2015/2016 英格兰南部超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "东伯恩",
+                "en_name": "Eastbourne",
+                "teamId": 2192,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "巴斯",
+                "en_name": "Bath City",
+                "teamId": 2093,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "石威德",
+                "en_name": "Wealdstone FC",
+                "teamId": 3878,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": "Wealdstone"
+            },
+            {
+                "gb_name": "特鲁罗城",
+                "en_name": "Truro City",
+                "teamId": 6130,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "戈斯波特",
+                "en_name": "Gosport Borough",
+                "teamId": 7501,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "怀特豪克",
+                "en_name": "Whitehawk",
+                "teamId": 7578,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": "Whitehawk"
+            },
+            {
+                "gb_name": "牛津城",
+                "en_name": "Oxford City",
+                "teamId": 5566,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "希美咸史特城",
+                "en_name": "Hemel Hempstead Town",
+                "teamId": 3880,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "康卡德流浪",
+                "en_name": "Concord Rangers",
+                "teamId": 7500,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "马格特",
+                "en_name": "Margate",
+                "teamId": 8397,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": "Margate FC"
+            },
+            {
+                "gb_name": "韦斯顿",
+                "en_name": "Weston Super Mare",
+                "teamId": 3317,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "威灵",
+                "en_name": "Welling United",
+                "teamId": 3155,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "史托佛主教",
+                "en_name": "Bishop\\'s Stortford",
+                "teamId": 2348,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2016 挪威超级联赛",
+        "leagueId": "3757",
+        "league": "Norway - Tippeligaen",
+        "teams": [
+            {
                 "gb_name": "罗森博格",
                 "en_name": "Rosenborg",
                 "teamId": 1035,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "布兰",
                 "en_name": "Brann",
                 "teamId": 722,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "奥德",
                 "en_name": "Odd Grenland",
                 "teamId": 601,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "海于格松",
                 "en_name": "FK Haugesund",
                 "teamId": 3488,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "莫尔德",
                 "en_name": "Molde",
                 "teamId": 1109,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "萨尔普斯堡",
                 "en_name": "Sarpsborg 08 FF",
                 "teamId": 3418,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "斯特罗姆加斯特",
                 "en_name": "Stromsgodset",
                 "teamId": 407,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "维京",
                 "en_name": "Viking",
                 "teamId": 1259,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "奥勒松",
                 "en_name": "Aalesund FK",
                 "teamId": 546,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "瓦勒伦加",
                 "en_name": "Valerenga",
                 "teamId": 1242,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "松达尔",
                 "en_name": "Sogndal",
                 "teamId": 1328,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "利勒斯特罗姆",
                 "en_name": "Lillestrom",
                 "teamId": 1009,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "特罗姆瑟",
                 "en_name": "Tromso IL",
                 "teamId": 1226,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "格里姆斯塔",
                 "en_name": "Stabaek",
                 "teamId": 7955,
                 "league": "2016 挪威超级联赛",
                 "pname": "Stabaek"
-              },
-              {
-                  "gb_name": "斯塔贝克",
-                  "en_name": "Jerv",
-                  "teamId": 507,
-                  "league": "2016 挪威超级联赛",
-                  "pname": "Jerv"
-                },
-              {
+            },
+            {
+                "gb_name": "斯塔贝克",
+                "en_name": "Jerv",
+                "teamId": 507,
+                "league": "2016 挪威超级联赛",
+                "pname": "Jerv"
+            },
+            {
+                "gb_name": "斯塔贝克",
+                "en_name": "Jerv",
+                "teamId": 507,
+                "league": "2016 挪威超级联赛",
+                "pname": "FK Jerv"
+            },
+            {
                 "gb_name": "博德闪耀",
                 "en_name": "Bodo Glimt",
                 "teamId": 703,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              },
-              {
+            },
+            {
                 "gb_name": "斯达",
                 "en_name": "Start Kristiansand",
                 "teamId": 508,
                 "league": "2016 挪威超级联赛",
                 "pname": ""
-              }
-            ]
-          },
-          {
-              "league": "2016 美国职业大联盟",
-              "leagueId": "3756",
-              "leagueName": "USA - Major League Soccer",
-              "teams": [
-                {
-                  "gb_name": "达拉斯FC",
-                  "en_name": "FC Dallas",
-                  "teamId": 750,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "科罗拉多急流",
-                  "en_name": "Colorado Rapids",
-                  "teamId": 934,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "纽约红牛",
-                  "en_name": "New York Red Bulls",
-                  "teamId": 1139,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "纽约城",
-                  "en_name": "New York City Football Club",
-                  "teamId": 7947,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "多伦多FC",
-                  "en_name": "Toronto FC",
-                  "teamId": 6563,
-                  "league": "2016 美国职业大联盟",
-                  "pname": "Toronto FC"
-                },
-                {
-                  "gb_name": "洛杉矶银河",
-                  "en_name": "Los Angeles Galaxy",
-                  "teamId": 1044,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "西雅图海湾人",
-                  "en_name": "Seattle Sounders",
-                  "teamId": 4286,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "堪萨斯城竞技",
-                  "en_name": "Sporting Kansas City",
-                  "teamId": 950,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "华盛顿联",
-                  "en_name": "Washington D.C. United",
-                  "teamId": 881,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "皇家盐湖城",
-                  "en_name": "Real Salt Lake",
-                  "teamId": 2440,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "蒙特利尔冲击",
-                  "en_name": "Montreal Impact",
-                  "teamId": 4293,
-                  "league": "2016 美国职业大联盟",
-                  "pname": "Montreal Impact"
-                },
-                {
-                  "gb_name": "波特兰伐木工",
-                  "en_name": "Portland Timbers",
-                  "teamId": 4292,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "费城联合",
-                  "en_name": "Philadelphia Union",
-                  "teamId": 6186,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "新英格兰革命",
-                  "en_name": "New England Revolution",
-                  "teamId": 1302,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "奥兰多城",
-                  "en_name": "Orlando City",
-                  "teamId": 6555,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "温哥华白帽",
-                  "en_name": "Vancouver Whitecaps FC",
-                  "teamId": 4285,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "圣何塞地震",
-                  "en_name": "San Jose Earthquakes",
-                  "teamId": 499,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "哥伦布机员",
-                  "en_name": "Columbus Crew",
-                  "teamId": 821,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "休斯顿迪纳摩",
-                  "en_name": "Houston Dynamo",
-                  "teamId": 3419,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                },
-                {
-                  "gb_name": "芝加哥火焰",
-                  "en_name": "Chicago Fire",
-                  "teamId": 1349,
-                  "league": "2016 美国职业大联盟",
-                  "pname": ""
-                }
-              ]
+            }
+        ]
+    },
+    {
+        "league": "2016 美国职业大联盟",
+        "leagueId": "3756",
+        "leagueName": "USA - Major League Soccer",
+        "teams": [
+            {
+                "gb_name": "达拉斯FC",
+                "en_name": "FC Dallas",
+                "teamId": 750,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
             },
             {
+                "gb_name": "科罗拉多急流",
+                "en_name": "Colorado Rapids",
+                "teamId": 934,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "纽约红牛",
+                "en_name": "New York Red Bulls",
+                "teamId": 1139,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "纽约城",
+                "en_name": "New York City Football Club",
+                "teamId": 7947,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "多伦多FC",
+                "en_name": "Toronto FC",
+                "teamId": 6563,
+                "league": "2016 美国职业大联盟",
+                "pname": "Toronto FC"
+            },
+            {
+                "gb_name": "洛杉矶银河",
+                "en_name": "Los Angeles Galaxy",
+                "teamId": 1044,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "西雅图海湾人",
+                "en_name": "Seattle Sounders",
+                "teamId": 4286,
+                "league": "2016 美国职业大联盟",
+                "pname": "Seattle Sounders"
+            },
+            {
+                "gb_name": "堪萨斯城竞技",
+                "en_name": "Sporting Kansas City",
+                "teamId": 950,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "华盛顿联",
+                "en_name": "Washington D.C. United",
+                "teamId": 881,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "皇家盐湖城",
+                "en_name": "Real Salt Lake",
+                "teamId": 2440,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "蒙特利尔冲击",
+                "en_name": "Montreal Impact",
+                "teamId": 4293,
+                "league": "2016 美国职业大联盟",
+                "pname": "Montreal Impact"
+            },
+            {
+                "gb_name": "波特兰伐木工",
+                "en_name": "Portland Timbers",
+                "teamId": 4292,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "费城联合",
+                "en_name": "Philadelphia Union",
+                "teamId": 6186,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "新英格兰革命",
+                "en_name": "New England Revolution",
+                "teamId": 1302,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "奥兰多城",
+                "en_name": "Orlando City",
+                "teamId": 6555,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "温哥华白帽",
+                "en_name": "Vancouver Whitecaps FC",
+                "teamId": 4285,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "圣何塞地震",
+                "en_name": "San Jose Earthquakes",
+                "teamId": 499,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "哥伦布机员",
+                "en_name": "Columbus Crew",
+                "teamId": 821,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "休斯顿迪纳摩",
+                "en_name": "Houston Dynamo",
+                "teamId": 3419,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            },
+            {
+                "gb_name": "芝加哥火焰",
+                "en_name": "Chicago Fire",
+                "teamId": 1349,
+                "league": "2016 美国职业大联盟",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 埃及甲组联赛",
+        "leagueId": "4071",
+        "leagueName": "Egypt - Premier League",
+        "teams": [
+            {
+                "gb_name": "阿尔艾利开罗",
+                "en_name": "El Ahly Cairo",
+                "teamId": 2758,
                 "league": "2016/2017 埃及甲组联赛",
-                "leagueId": "4071",
-                "leagueName": "Egypt - Premier League",
-                "teams": [
-                  {
-                    "gb_name": "阿尔艾利开罗",
-                    "en_name": "El Ahly Cairo",
-                    "teamId": 2758,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "艾玛卡沙",
-                    "en_name": "Misr El Maqasah",
-                    "teamId": 7495,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": "Misr Lel Makasa"
-                  },
-                  {
-                    "gb_name": "佩特捷德",
-                    "en_name": "Petrojet Suez",
-                    "teamId": 5369,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": "Petrojet"
-                  },
-                  {
-                    "gb_name": "索莫哈",
-                    "en_name": "Smouha SC",
-                    "teamId": 7492,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": "Smouha SC"
-                  },
-                  {
-                    "gb_name": "马萨雷",
-                    "en_name": "EL Masry",
-                    "teamId": 5366,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "艾德瀚德",
-                    "en_name": "Ittihad Alexandria",
-                    "teamId": 5365,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": "Al Ittihad"
-                  },
-                  {
-                    "gb_name": "塔拉雅",
-                    "en_name": "Tala Al Jaish",
-                    "teamId": 5379,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "瓦迪戴加",
-                    "en_name": "Wadi Degla SC",
-                    "teamId": 7491,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": "Wadi Degla"
-                  },
-                  {
-                    "gb_name": "扎马雷克",
-                    "en_name": "El Zamalek",
-                    "teamId": 2300,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": "Zamalek"
-                  },
-                  {
-                    "gb_name": "依斯麦里",
-                    "en_name": "El Ismaily",
-                    "teamId": 2305,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "肯彻特斯",
-                    "en_name": "Arab Contractors",
-                    "teamId": 2985,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "恩比",
-                    "en_name": "Enppi",
-                    "teamId": 5374,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "坦塔",
-                    "en_name": "Tanta",
-                    "teamId": 9210,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "哈比",
-                    "en_name": "El Entag El Harby",
-                    "teamId": 8534,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "El达克尔野",
-                    "en_name": "El Daklyeh",
-                    "teamId": 7488,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "阿斯旺",
-                    "en_name": "Aswan",
-                    "teamId": 8535,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "纳塞塔亚登",
-                    "en_name": "Nasr Taadeen",
-                    "teamId": 9211,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  },
-                  {
-                    "gb_name": "El萨奇亚",
-                    "en_name": "El Sharqiyah",
-                    "teamId": 9209,
-                    "league": "2016/2017 埃及甲组联赛",
-                    "pname": ""
-                  }
-                ]
-              },
-              {
-                  "league": "2016/2017 南非超级联赛",
-                  "leagueId": "4018",
-                  "leagueName": "South Africa - PSL",
-                  "teams": [
-                    {
-                      "gb_name": "华特斯",
-                      "en_name": "Bidvest Wits",
-                      "teamId": 7722,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": "Bidvest Wit"
-                    },
-                    {
-                      "gb_name": "开普敦城",
-                      "en_name": "Cape Town City",
-                      "teamId": 9202,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": "Cape Town City FC"
-                    },
-                    {
-                      "gb_name": "超级竞技联",
-                      "en_name": "Supersport United",
-                      "teamId": 7730,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": "SuperSport United"
-                    },
-                    {
-                      "gb_name": "金箭",
-                      "en_name": "Lamontville Golden Arrows",
-                      "teamId": 7732,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    },
-                    {
-                      "gb_name": "恺撒酋长",
-                      "en_name": "Kaizer Chiefs",
-                      "teamId": 7539,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": "Kaizer Chiefs"
-                    },
-                    {
-                      "gb_name": "奥兰多海盗",
-                      "en_name": "Orlando Pirates",
-                      "teamId": 3582,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    },
-                    {
-                      "gb_name": "波洛克瓦尼",
-                      "en_name": "Polokwane City FC",
-                      "teamId": 7727,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    },
-                    {
-                      "gb_name": "辛当斯",
-                      "en_name": "Mamelodi Sundowns",
-                      "teamId": 2822,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    },
-                    {
-                      "gb_name": "马利特史堡联",
-                      "en_name": "Maritzburg United",
-                      "teamId": 7731,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": "Maritzburg United"
-                    },
-                    {
-                      "gb_name": "巴洛卡",
-                      "en_name": "Baroka FC",
-                      "teamId": 9107,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    },
-                    {
-                      "gb_name": "茨普帕",
-                      "en_name": "Chippa United FC",
-                      "teamId": 7729,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": "Chippa United"
-                    },
-                    {
-                      "gb_name": "铂星",
-                      "en_name": "Platinum Stars",
-                      "teamId": 5302,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    },
-                    {
-                      "gb_name": "布隆方丹凯尔特",
-                      "en_name": "Bloemfontein Celtic",
-                      "teamId": 7724,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    },
-                    {
-                      "gb_name": "海兰德斯公园",
-                      "en_name": "Highlands Park",
-                      "teamId": 8813,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    },
-                    {
-                      "gb_name": "开普敦阿贾克斯",
-                      "en_name": "Ajax Cape Town",
-                      "teamId": 2756,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    },
-                    {
-                      "gb_name": "自由洲明星队",
-                      "en_name": "Free State Stars",
-                      "teamId": 7728,
-                      "league": "2016/2017 南非超级联赛",
-                      "pname": ""
-                    }
-                  ]
-                },
-                {
-                    "league": "2015/2016 英格兰依斯米安联超级联赛",
-                    "leagueId": "3879",
-                    "leagueName": "England - FA Trophy",
-                    "leagueName": "England - Isthmian Premier League",
-                    "teams": [
-                      {
-                        "gb_name": "汉普顿列治文",
-                        "en_name": "Hampton & Richmond",
-                        "teamId": 4956,
-                        "league": "2016/2017 英格兰非职业联赛南部",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "博格内吉斯",
-                        "en_name": "Bongnor Regis Town",
-                        "teamId": 8542,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "伊斯特图罗克",
-                        "en_name": "East Thurrock United",
-                        "teamId": 3321,
-                        "league": "2016/2017 英格兰非职业联赛南部",
-                        "pname": "East Thurrock United"
-                      },
-                      {
-                        "gb_name": "汤桥天使",
-                        "en_name": "Tonbridge Angels",
-                        "teamId": 2188,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "杜尔维治",
-                        "en_name": "",
-                        "teamId": 8326,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "恩菲尔德镇",
-                        "en_name": "Enfield Town",
-                        "teamId": 3885,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": "Enfield Town"
-                      },
-                      {
-                        "gb_name": "金斯顿拿",
-                        "en_name": "Kingstonian",
-                        "teamId": 3308,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "李斯顿",
-                        "en_name": "Leiston FC",
-                        "teamId": 5570,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "比勒利卡",
-                        "en_name": "Billericay Town",
-                        "teamId": 2092,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": "Billericay Town"
-                      },
-                      {
-                        "gb_name": "梅尔斯哈",
-                        "en_name": "Merstham",
-                        "teamId": 8894,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "勒巴赫",
-                        "en_name": "Leatherhead",
-                        "teamId": 3846,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "大都会警察",
-                        "en_name": "Metropolitan Police",
-                        "teamId": 7035,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": "Metropolitan Police FC"
-                      },
-                      {
-                        "gb_name": "温盖特",
-                        "en_name": "Wingate & Finchley",
-                        "teamId": 5595,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": "Wingate & Finchley"
-                      },
-                      {
-                        "gb_name": "肯维",
-                        "en_name": "Canvey Island",
-                        "teamId": 1958,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "格雷斯",
-                        "en_name": "Grays Athletic",
-                        "teamId": 2350,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "斯塔尼斯",
-                        "en_name": "Staines Town",
-                        "teamId": 4947,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": "Staines Town"
-                      },
-                      {
-                        "gb_name": "哈雷",
-                        "en_name": "Harrow Borough",
-                        "teamId": 6442,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": "Harrow Borough"
-                      },
-                      {
-                        "gb_name": "法罗保夫",
-                        "en_name": "Farnborough Town",
-                        "teamId": 1967,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "赫顿",
-                        "en_name": "Hendon",
-                        "teamId": 6096,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": "Hendon"
-                      },
-                      {
-                        "gb_name": "尼德汉姆",
-                        "en_name": "Needham Market",
-                        "teamId": 8893,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "布格斯",
-                        "en_name": "Burgess Hill Town",
-                        "teamId": 5562,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "布伦特伍德",
-                        "en_name": "Brentwood Town",
-                        "teamId": 8545,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "雷威斯",
-                        "en_name": "Lewes",
-                        "teamId": 3151,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      },
-                      {
-                        "gb_name": "VCD体育会",
-                        "en_name": "VCD Athletic",
-                        "teamId": 8890,
-                        "league": "2015/2016 英格兰依斯米安联超级联赛",
-                        "pname": ""
-                      }
-                    ]
-                  }
+                "pname": ""
+            },
+            {
+                "gb_name": "艾玛卡沙",
+                "en_name": "Misr El Maqasah",
+                "teamId": 7495,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": "Misr Lel Makasa"
+            },
+            {
+                "gb_name": "佩特捷德",
+                "en_name": "Petrojet Suez",
+                "teamId": 5369,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": "Petrojet"
+            },
+            {
+                "gb_name": "索莫哈",
+                "en_name": "Smouha SC",
+                "teamId": 7492,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": "Smouha SC"
+            },
+            {
+                "gb_name": "马萨雷",
+                "en_name": "EL Masry",
+                "teamId": 5366,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "艾德瀚德",
+                "en_name": "Ittihad Alexandria",
+                "teamId": 5365,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": "Al Ittihad"
+            },
+            {
+                "gb_name": "塔拉雅",
+                "en_name": "Tala Al Jaish",
+                "teamId": 5379,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "瓦迪戴加",
+                "en_name": "Wadi Degla SC",
+                "teamId": 7491,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": "Wadi Degla"
+            },
+            {
+                "gb_name": "扎马雷克",
+                "en_name": "El Zamalek",
+                "teamId": 2300,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": "Zamalek"
+            },
+            {
+                "gb_name": "依斯麦里",
+                "en_name": "El Ismaily",
+                "teamId": 2305,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "肯彻特斯",
+                "en_name": "Arab Contractors",
+                "teamId": 2985,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "恩比",
+                "en_name": "Enppi",
+                "teamId": 5374,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "坦塔",
+                "en_name": "Tanta",
+                "teamId": 9210,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "哈比",
+                "en_name": "El Entag El Harby",
+                "teamId": 8534,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "El达克尔野",
+                "en_name": "El Daklyeh",
+                "teamId": 7488,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "阿斯旺",
+                "en_name": "Aswan",
+                "teamId": 8535,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "纳塞塔亚登",
+                "en_name": "Nasr Taadeen",
+                "teamId": 9211,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "El萨奇亚",
+                "en_name": "El Sharqiyah",
+                "teamId": 9209,
+                "league": "2016/2017 埃及甲组联赛",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 南非超级联赛",
+        "leagueId": "4018",
+        "leagueName": "South Africa - PSL",
+        "teams": [
+            {
+                "gb_name": "华特斯",
+                "en_name": "Bidvest Wits",
+                "teamId": 7722,
+                "league": "2016/2017 南非超级联赛",
+                "pname": "Bidvest Wit"
+            },
+            {
+                "gb_name": "开普敦城",
+                "en_name": "Cape Town City",
+                "teamId": 9202,
+                "league": "2016/2017 南非超级联赛",
+                "pname": "Cape Town City FC"
+            },
+            {
+                "gb_name": "超级竞技联",
+                "en_name": "Supersport United",
+                "teamId": 7730,
+                "league": "2016/2017 南非超级联赛",
+                "pname": "SuperSport United"
+            },
+            {
+                "gb_name": "金箭",
+                "en_name": "Lamontville Golden Arrows",
+                "teamId": 7732,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "恺撒酋长",
+                "en_name": "Kaizer Chiefs",
+                "teamId": 7539,
+                "league": "2016/2017 南非超级联赛",
+                "pname": "Kaizer Chiefs"
+            },
+            {
+                "gb_name": "奥兰多海盗",
+                "en_name": "Orlando Pirates",
+                "teamId": 3582,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "波洛克瓦尼",
+                "en_name": "Polokwane City FC",
+                "teamId": 7727,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "辛当斯",
+                "en_name": "Mamelodi Sundowns",
+                "teamId": 2822,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "马利特史堡联",
+                "en_name": "Maritzburg United",
+                "teamId": 7731,
+                "league": "2016/2017 南非超级联赛",
+                "pname": "Maritzburg United"
+            },
+            {
+                "gb_name": "巴洛卡",
+                "en_name": "Baroka FC",
+                "teamId": 9107,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "茨普帕",
+                "en_name": "Chippa United FC",
+                "teamId": 7729,
+                "league": "2016/2017 南非超级联赛",
+                "pname": "Chippa United"
+            },
+            {
+                "gb_name": "铂星",
+                "en_name": "Platinum Stars",
+                "teamId": 5302,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "布隆方丹凯尔特",
+                "en_name": "Bloemfontein Celtic",
+                "teamId": 7724,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "海兰德斯公园",
+                "en_name": "Highlands Park",
+                "teamId": 8813,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "开普敦阿贾克斯",
+                "en_name": "Ajax Cape Town",
+                "teamId": 2756,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "自由洲明星队",
+                "en_name": "Free State Stars",
+                "teamId": 7728,
+                "league": "2016/2017 南非超级联赛",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2015/2016 英格兰依斯米安联超级联赛",
+        "leagueId": "3879",
+        "leagueName": "England - FA Trophy",
+        "leagueName": "England - Isthmian Premier League",
+        "teams": [
+            {
+                "gb_name": "汉普顿列治文",
+                "en_name": "Hampton & Richmond",
+                "teamId": 4956,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": ""
+            },
+            {
+                "gb_name": "博格内吉斯",
+                "en_name": "Bongnor Regis Town",
+                "teamId": 8542,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "伊斯特图罗克",
+                "en_name": "East Thurrock United",
+                "teamId": 3321,
+                "league": "2016/2017 英格兰非职业联赛南部",
+                "pname": "East Thurrock United"
+            },
+            {
+                "gb_name": "汤桥天使",
+                "en_name": "Tonbridge Angels",
+                "teamId": 2188,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "杜尔维治",
+                "en_name": "",
+                "teamId": 8326,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "恩菲尔德镇",
+                "en_name": "Enfield Town",
+                "teamId": 3885,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": "Enfield Town"
+            },
+            {
+                "gb_name": "金斯顿拿",
+                "en_name": "Kingstonian",
+                "teamId": 3308,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "李斯顿",
+                "en_name": "Leiston FC",
+                "teamId": 5570,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "比勒利卡",
+                "en_name": "Billericay Town",
+                "teamId": 2092,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": "Billericay Town"
+            },
+            {
+                "gb_name": "梅尔斯哈",
+                "en_name": "Merstham",
+                "teamId": 8894,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "勒巴赫",
+                "en_name": "Leatherhead",
+                "teamId": 3846,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "大都会警察",
+                "en_name": "Metropolitan Police",
+                "teamId": 7035,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": "Metropolitan Police FC"
+            },
+            {
+                "gb_name": "温盖特",
+                "en_name": "Wingate & Finchley",
+                "teamId": 5595,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": "Wingate & Finchley"
+            },
+            {
+                "gb_name": "肯维",
+                "en_name": "Canvey Island",
+                "teamId": 1958,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "格雷斯",
+                "en_name": "Grays Athletic",
+                "teamId": 2350,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "斯塔尼斯",
+                "en_name": "Staines Town",
+                "teamId": 4947,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": "Staines Town"
+            },
+            {
+                "gb_name": "哈雷",
+                "en_name": "Harrow Borough",
+                "teamId": 6442,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": "Harrow Borough"
+            },
+            {
+                "gb_name": "法罗保夫",
+                "en_name": "Farnborough Town",
+                "teamId": 1967,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "赫顿",
+                "en_name": "Hendon",
+                "teamId": 6096,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": "Hendon"
+            },
+            {
+                "gb_name": "尼德汉姆",
+                "en_name": "Needham Market",
+                "teamId": 8893,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "布格斯",
+                "en_name": "Burgess Hill Town",
+                "teamId": 5562,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "布伦特伍德",
+                "en_name": "Brentwood Town",
+                "teamId": 8545,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "雷威斯",
+                "en_name": "Lewes",
+                "teamId": 3151,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "VCD体育会",
+                "en_name": "VCD Athletic",
+                "teamId": 8890,
+                "league": "2015/2016 英格兰依斯米安联超级联赛",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 匈牙利甲级联赛",
+        "leagueId": "3979",
+        "leagueName": "Hungary - NB 1",
+        "teams": [
+            {
+                "gb_name": "布达佩斯瓦萨斯",
+                "en_name": "Vasas Budapest",
+                "teamId": 2476,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Vasas Budapest"
+            },
+            {
+                "gb_name": "维迪奥顿",
+                "en_name": "Fehervar Videoton",
+                "teamId": 1256,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Videoton FC"
+            },
+            {
+                "gb_name": "费伦茨瓦罗斯",
+                "en_name": "Ferencvarosi TC",
+                "teamId": 798,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Ferencvarosi"
+            },
+            {
+                "gb_name": "布达佩斯战士",
+                "en_name": "Budapest Honved",
+                "teamId": 2450,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Budapest Honved"
+            },
+            {
+                "gb_name": "梅索科菲德",
+                "en_name": "Mezokovesd-Zsory",
+                "teamId": 4982,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Mezokovesd Zsory"
+            },
+            {
+                "gb_name": "乌比斯迪",
+                "en_name": "Ujpesti TE",
+                "teamId": 2472,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Ujpest"
+            },
+            {
+                "gb_name": "哈拉德斯",
+                "en_name": "Szombathelyi Haladas",
+                "teamId": 5306,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Szombathelyi Haladas"
+            },
+            {
+                "gb_name": "德布雷塞尼",
+                "en_name": "Debreceni VSC",
+                "teamId": 767,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Debreceni VSC"
+            },
+            {
+                "gb_name": "MTK匈格利亚",
+                "en_name": "MTK Hungaria FC",
+                "teamId": 348,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "MTK Budapest"
+            },
+            {
+                "gb_name": "保克什",
+                "en_name": "Paksi SE",
+                "teamId": 3598,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Paksi FC"
+            },
+            {
+                "gb_name": "迪欧斯捷尔",
+                "en_name": "Diosgyor VTK",
+                "teamId": 2475,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Diosgyori VTK"
+            },
+            {
+                "gb_name": "吉尔蒙特",
+                "en_name": "Gyirmot",
+                "teamId": 3812,
+                "league": "2016/2017 匈牙利甲级联赛",
+                "pname": "Gyirmot FC"
+            }
+        ]
+    },
+    {
+        "league": "2016 韩国经典K联赛",
+        "leagueName": "Korea Republic - FA Cup",
+        "leagueId": "3753",
+        "teams": [
+            {
+                "gb_name": "全北现代",
+                "en_name": "Jeonbuk Hyundai Motors",
+                "teamId": 1609,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "首尔FC",
+                "en_name": "FC Seoul",
+                "teamId": 1606,
+                "league": "2016 韩国经典K联赛",
+                "pname": "FC Seoul"
+            },
+            {
+                "gb_name": "济州联队",
+                "en_name": "Jeju United FC",
+                "teamId": 3410,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "蔚山现代",
+                "en_name": "Ulsan Hyundai Horang-i",
+                "teamId": 1603,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "全南天龙",
+                "en_name": "Chunnam Dragons",
+                "teamId": 1614,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "尚州尚武凤凰",
+                "en_name": "Sangju Sangmu Phoenix",
+                "teamId": 1615,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "城南FC",
+                "en_name": "Seongnam FC",
+                "teamId": 748,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "浦项制铁",
+                "en_name": "Pohang Steelers",
+                "teamId": 1608,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "光州FC",
+                "en_name": "Gwangju Football Club",
+                "teamId": 6477,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "水原三星",
+                "en_name": "Suwon Samsung Bluewings",
+                "teamId": 1613,
+                "league": "2016 韩国经典K联赛",
+                "pname": "Suwon Samsung Bluewings"
+            },
+            {
+                "gb_name": "仁川联合",
+                "en_name": "Incheon United FC",
+                "teamId": 1612,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "水原FC",
+                "en_name": "Suwon FC",
+                "teamId": 4546,
+                "league": "2016 韩国经典K联赛",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 北爱尔兰超级联赛",
+        "leagueId": "3972",
+        "leagueName": "Northern Ireland - Premiership",
+        "teams": [
+            {
+                "gb_name": "十字军",
+                "en_name": "Crusaders FC",
+                "teamId": 4863,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Crusaders"
+            },
+            {
+                "gb_name": "林菲尔德",
+                "en_name": "Linfield FC",
+                "teamId": 2554,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Linfield FC"
+            },
+            {
+                "gb_name": "克利夫顿维尔",
+                "en_name": "Cliftonville FC",
+                "teamId": 4258,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Cliftonville"
+            },
+            {
+                "gb_name": "巴利米纳",
+                "en_name": "Ballymena United",
+                "teamId": 1402,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Ballymena United"
+            },
+            {
+                "gb_name": "高利宁",
+                "en_name": "Coleraine",
+                "teamId": 817,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Coleraine"
+            },
+            {
+                "gb_name": "格莱纳文",
+                "en_name": "Glenavon Lurgan",
+                "teamId": 4864,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Glenavon FC"
+            },
+            {
+                "gb_name": "杜根伦",
+                "en_name": "Dungannon Swifts",
+                "teamId": 3500,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Dungannon Swifts"
+            },
+            {
+                "gb_name": "格伦托兰",
+                "en_name": "Glentoran FC",
+                "teamId": 1527,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Glentoran FC"
+            },
+            {
+                "gb_name": "阿兹",
+                "en_name": "Ards FC",
+                "teamId": 7188,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Ards FC"
+            },
+            {
+                "gb_name": "波塔当",
+                "en_name": "Portadown FC",
+                "teamId": 692,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Portadown"
+            },
+            {
+                "gb_name": "巴里纳马勒联",
+                "en_name": "Ballinamallard United",
+                "teamId": 6126,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Ballinamallard United"
+            },
+            {
+                "gb_name": "卡域克流浪",
+                "en_name": "Carrick Rangers",
+                "teamId": 6721,
+                "league": "2016/2017 北爱尔兰超级联赛",
+                "pname": "Carrick Rangers"
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 马耳他甲级联赛",
+        "leagueId": "4013",
+
+        "teams": [
+            {
+                "gb_name": "巴尔赞青年队",
+                "en_name": "Balzan Youths",
+                "teamId": 6735,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": "Balzan FC"
+            },
+            {
+                "gb_name": "希伯尼恩斯",
+                "en_name": "Hibernians FC",
+                "teamId": 3537,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": "Hibernian"
+            },
+            {
+                "gb_name": "瓦莱塔",
+                "en_name": "Valletta FC",
+                "teamId": 877,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": "Valletta"
+            },
+            {
+                "gb_name": "伯克尔卡拉",
+                "en_name": "Birkirkara FC",
+                "teamId": 663,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "佛罗里亚纳",
+                "en_name": "Floriana F.C.",
+                "teamId": 6572,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": "Floriana"
+            },
+            {
+                "gb_name": "施利马",
+                "en_name": "Sliema Wanderers FC",
+                "teamId": 1188,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "咸仑斯巴坦",
+                "en_name": "Hamrun Spartans",
+                "teamId": 6736,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": "Hamrun Spartans"
+            },
+            {
+                "gb_name": "圣安德鲁斯",
+                "en_name": "St. Andrews",
+                "teamId": 8410,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": "St. Andrews FC"
+            },
+            {
+                "gb_name": "塔希恩",
+                "en_name": "Tarxien Rainbows F.C.",
+                "teamId": 6737,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "格兹拉联",
+                "en_name": "Gzira United",
+                "teamId": 8210,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": "Gzira United"
+            },
+            {
+                "gb_name": "莫斯塔",
+                "en_name": "Mosta FC",
+                "teamId": 6733,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": "Mosta FC"
+            },
+            {
+                "gb_name": "彭布罗克",
+                "en_name": "Pembroke Athleta",
+                "teamId": 8411,
+                "league": "2016/2017 马耳他甲级联赛",
+                "pname": "Pembroke Athleta FC"
+            }
+        ]
+    },
+    {
+        "league": "2016 哥伦比亚甲级联赛",
+        "leagueId": "3744",
+        "leagueName": "Colombia - Primera A",
+        "teams": [
+            {
+                "gb_name": "国民竞技",
+                "en_name": "Atletico Nacional",
+                "teamId": 2827,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": "Atletico Nacional Medellin"
+            },
+            {
+                "gb_name": "卡利体育会",
+                "en_name": "Deportivo Cali",
+                "teamId": 2825,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": "Deportivo Cali"
+            },
+            {
+                "gb_name": "托利马体育",
+                "en_name": "Deportes Tolima",
+                "teamId": 2828,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": "Deportes Tolima"
+            },
+            {
+                "gb_name": "百万富翁",
+                "en_name": "Millonarios",
+                "teamId": 2835,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": "Millonarios Bogota"
+            },
+            {
+                "gb_name": "圣塔菲",
+                "en_name": "Independiente Santa Fe",
+                "teamId": 2829,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": "Santa Fe Bogota"
+            },
+            {
+                "gb_name": "曼特宁独立",
+                "en_name": "Dep.Independiente Medellin",
+                "teamId": 2257,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": "Independiente Medellin"
+            },
+            {
+                "gb_name": "布卡拉曼格",
+                "en_name": "Atletico Bucaramanga",
+                "teamId": 2834,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": "Atletico Bucaramanga"
+            },
+            {
+                "gb_name": "帕特里奥坦斯",
+                "en_name": "Patriotas FC",
+                "teamId": 6856,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": "Patriotas Tunja"
+            },
+            {
+                "gb_name": "恩维加多",
+                "en_name": "Envigado",
+                "teamId": 2833,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "阿利安萨",
+                "en_name": "Alianza Petrolera",
+                "teamId": 7059,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "巴兰基利亚青年",
+                "en_name": "Atletico Junior Barranquilla",
+                "teamId": 2256,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "意达古",
+                "en_name": "Deportivo Itagui",
+                "teamId": 6467,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "云斯卡尔达斯",
+                "en_name": "Deportiva Once Caldas",
+                "teamId": 1386,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "拉伊奎达德",
+                "en_name": "La Equidad",
+                "teamId": 4131,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "贾奎斯科尔多巴",
+                "en_name": "Jaguares de Cordoba",
+                "teamId": 7692,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "修罗",
+                "en_name": "Atletico Huila",
+                "teamId": 2836,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "福塔雷绍查",
+                "en_name": "Fortaleza F.C",
+                "teamId": 7257,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "柏斯度",
+                "en_name": "Deportivo Pasto",
+                "teamId": 2830,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "哥杜雷亚",
+                "en_name": "Cortulua",
+                "teamId": 6160,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "茨高",
+                "en_name": "Boyaca Chico",
+                "teamId": 2832,
+                "league": "2016 哥伦比亚甲级联赛",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 德国东北部联赛",
+        "leagueId": "3969",
+        "leagueName": "Germany - Regionalliga North East",
+        "teams": [
+            {
+                "gb_name": "耶拿",
+                "en_name": "Carl Zeiss Jena",
+                "teamId": 1311,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Carl Zeiss Jena"
+            },
+            {
+                "gb_name": "柏林安卡拉体育",
+                "en_name": "Berliner AK 07",
+                "teamId": 7632,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Berliner AK 07"
+            },
+            {
+                "gb_name": "科特布斯",
+                "en_name": "Energie Cottbus",
+                "teamId": 938,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Energie Cottbus"
+            },
+            {
+                "gb_name": "柏林戴拿模",
+                "en_name": "Berliner FC Dynamo",
+                "teamId": 6536,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Berliner FC Dynamo"
+            },
+            {
+                "gb_name": "莱比锡红牛B队",
+                "en_name": "RB Leipzig II",
+                "teamId": 8340,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "RB Leipzig Am"
+            },
+            {
+                "gb_name": "柏林赫塔青年队",
+                "en_name": "Hertha BSC Berlin Am",
+                "teamId": 1705,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Hertha Berlin Am"
+            },
+            {
+                "gb_name": "BFC维多利亚",
+                "en_name": "Viktoria Berlin 1889",
+                "teamId": 7164,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "FC Viktoria Berlin"
+            },
+            {
+                "gb_name": "诺德豪森",
+                "en_name": "Wacker Nordhausen",
+                "teamId": 7646,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "FSV Wacker Nordhausen"
+            },
+            {
+                "gb_name": "奥贝劳斯特",
+                "en_name": "FC Oberlausitz",
+                "teamId": 8339,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Oberlausitz Neugersdorf"
+            },
+            {
+                "gb_name": "莱比锡火车头",
+                "en_name": "FC Lokomotive Leipzig",
+                "teamId": 7643,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Lokomotive Leipzig"
+            },
+            {
+                "gb_name": "巴贝斯堡",
+                "en_name": "SV Babelsberg 03",
+                "teamId": 636,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "SV Babelsberg 03"
+            },
+            {
+                "gb_name": "森博格",
+                "en_name": "Schonberg",
+                "teamId": 1701,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Schonberg 95"
+            },
+            {
+                "gb_name": "奥尔巴赫",
+                "en_name": "VfB Auerbach",
+                "teamId": 7640,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "VfB Auerbach"
+            },
+            {
+                "gb_name": "马瑟维兹",
+                "en_name": "ZFC Meuselwitz",
+                "teamId": 5930,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "ZFC Meuselwitz"
+            },
+            {
+                "gb_name": "尤尼富斯滕瓦尔德",
+                "en_name": "FSV Union Furstenwalde",
+                "teamId": 9044,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Union Furstenwalde"
+            },
+            {
+                "gb_name": "路肯瓦德",
+                "en_name": "FSV Luckenwalde",
+                "teamId": 8341,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "FSV Luckenwalde"
+            },
+            {
+                "gb_name": "巴迪莎",
+                "en_name": "Budissa Bautzen",
+                "teamId": 7649,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "Budissa Bautzen"
+            },
+            {
+                "gb_name": "诺伊施特累利茨",
+                "en_name": "TSG Neustrelitz",
+                "teamId": 4647,
+                "league": "2016/2017 德国东北部联赛",
+                "pname": "TSG Neustrelitz"
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 比利时乙级联赛",
+        "leagueId": "3850",
+        "leagueName": "Belgium - First Division B",
+        "teams": [
+            {
+                "gb_name": "鲁瑟拉勒",
+                "en_name": "Roeselare",
+                "teamId": 2111,
+                "league": "2016/2017 比利时乙级联赛",
+                "pname": "Roeselare"
+            },
+            {
+                "gb_name": "利尔斯",
+                "en_name": "Lierse",
+                "teamId": 1013,
+                "league": "2016/2017 比利时乙级联赛",
+                "pname": "Lierse"
+            },
+            {
+                "gb_name": "安特卫普",
+                "en_name": "Royal Antwerp FC",
+                "teamId": 595,
+                "league": "2016/2017 比利时乙级联赛",
+                "pname": "Royal Antwerp"
+            },
+            {
+                "gb_name": "圣吉罗斯",
+                "en_name": "Union St. Gilloise",
+                "teamId": 2112,
+                "league": "2016/2017 比利时乙级联赛",
+                "pname": "Union Saint-Gilloise"
+            },
+            {
+                "gb_name": "蒂比兹",
+                "en_name": "Tubize",
+                "teamId": 2113,
+                "league": "2016/2017 比利时乙级联赛",
+                "pname": "Tubize"
+            },
+            {
+                "gb_name": "奥德赫维里",
+                "en_name": "Oud Heverlee Leuven",
+                "teamId": 3514,
+                "league": "2016/2017 比利时乙级联赛",
+                "pname": "Oud-Heverlee Leuven"
+            },
+            {
+                "gb_name": "洛默尔",
+                "en_name": "KVSK Lommel",
+                "teamId": 1018,
+                "league": "2016/2017 比利时乙级联赛",
+                "pname": "Lommel United"
+            },
+            {
+                "gb_name": "色格拉布鲁日",
+                "en_name": "Cercle Brugge K.SV.z",
+                "teamId": 730,
+                "league": "2016/2017 比利时乙级联赛",
+                "pname": "Cercle Brugge"
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 苏格兰冠军联赛",
+        "leagueId": "3829",
+        "leagueName": "Scotland - Championship",
+        "teams": [
+            {
+                "gb_name": "希伯尼安",
+                "en_name": "Hibernian FC",
+                "teamId": 1393,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "邓迪联",
+                "en_name": "Dundee United",
+                "teamId": 765,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": "Dundee United"
+            },
+            {
+                "gb_name": "摩顿",
+                "en_name": "Greenock Morton",
+                "teamId": 3542,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "拉茨流浪者",
+                "en_name": "Raith Rovers",
+                "teamId": 1917,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "法基克",
+                "en_name": "Falkirk",
+                "teamId": 260,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": "Falkirk"
+            },
+            {
+                "gb_name": "南后",
+                "en_name": "Queen of South",
+                "teamId": 1737,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": "Queen of South"
+            },
+            {
+                "gb_name": "艾尔联",
+                "en_name": "Ayr Utd.",
+                "teamId": 1930,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": "Ayr United"
+            },
+            {
+                "gb_name": "邓弗姆林",
+                "en_name": "Dunfermline",
+                "teamId": 766,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": "Dunfermline Athletic"
+            },
+            {
+                "gb_name": "邓巴顿",
+                "en_name": "Dumbarton",
+                "teamId": 1928,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": "Dumbarton"
+            },
+            {
+                "gb_name": "圣米伦",
+                "en_name": "St. Mirren",
+                "teamId": 402,
+                "league": "2016/2017 苏格兰冠军联赛",
+                "pname": "Saint Mirren"
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 乌克兰超级联赛",
+        "leagueId": "3903",
+        "teams": [
+            {
+                "gb_name": "顿涅茨克矿工",
+                "en_name": "FC Shakhtar Donetsk",
+                "teamId": 449,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": "Shakhtar Donetsk"
+            },
+            {
+                "gb_name": "基辅迪纳摩",
+                "en_name": "Dynamo Kyiv",
+                "teamId": 890,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": "Dynamo Kyiv"
+            },
+            {
+                "gb_name": "卢甘斯克黎明",
+                "en_name": "Zorya",
+                "teamId": 3557,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "D.奥林匹克",
+                "en_name": "Olimpic Donetsk",
+                "teamId": 4915,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "奥利克桑德拉",
+                "en_name": "PFC Oleksandria",
+                "teamId": 4909,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "奥德萨黑海人",
+                "en_name": "Chernomorets Odessa",
+                "teamId": 241,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "沃斯卡拉",
+                "en_name": "FC Vorskla Poltava",
+                "teamId": 1271,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "D.斯塔尔",
+                "en_name": "Stal Dniprodzherzhynsk",
+                "teamId": 3129,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "第聂伯罗",
+                "en_name": "FC Dnipro Dnipropetrovsk",
+                "teamId": 771,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "兹尔卡",
+                "en_name": "Zirka Kirovohrad",
+                "teamId": 1340,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "卡帕迪",
+                "en_name": "FC Karpaty Lviv",
+                "teamId": 919,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "沃林",
+                "en_name": "Volyn Lutsk",
+                "teamId": 1270,
+                "league": "2016/2017 乌克兰超级联赛",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2016 爱尔兰超级联赛",
+        "leagueId": "3745",
+        "teams": [
+            {
+                "gb_name": "邓多克",
+                "en_name": "Dundalk",
+                "teamId": 2412,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": "Dundalk"
+            },
+            {
+                "gb_name": "科克城",
+                "en_name": "Cork City",
+                "teamId": 1396,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "德里城",
+                "en_name": "Derry City",
+                "teamId": 764,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "沙姆洛克流浪",
+                "en_name": "Shamrock Rovers",
+                "teamId": 1373,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "斯莱戈流浪",
+                "en_name": "Sligo Rovers",
+                "teamId": 2428,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "布雷",
+                "en_name": "Bray Wanderers",
+                "teamId": 2427,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "圣帕特里克",
+                "en_name": "St. Patricks",
+                "teamId": 1378,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "波希米亚人",
+                "en_name": "Bohemians",
+                "teamId": 1383,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "戈尔韦",
+                "en_name": "Galway United",
+                "teamId": 2414,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "费恩哈普",
+                "en_name": "Finn Harps",
+                "teamId": 2437,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "韦克斯福德青年",
+                "en_name": "Wexford Youths",
+                "teamId": 4134,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "朗福德城",
+                "en_name": "Longford Town",
+                "teamId": 1375,
+                "league": "2016 爱尔兰超级联赛",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 苏格兰甲级联赛",
+        "leagueId": "3844",
+        "leagueName": "Scotland - League One",
+        "teams": [
+            {
+                "gb_name": "利云斯顿",
+                "en_name": "Livingston",
+                "teamId": 1014,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "布里金城",
+                "en_name": "Brechin City",
+                "teamId": 1725,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": "Brechin City"
+            },
+            {
+                "gb_name": "艾洛亚竞技",
+                "en_name": "Alloa Athletic",
+                "teamId": 1730,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "艾尔德里联",
+                "en_name": "Airdrie United",
+                "teamId": 1721,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "艾比安流浪",
+                "en_name": "Albion Rovers FC",
+                "teamId": 1724,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": "Albion Rovers"
+            },
+            {
+                "gb_name": "女王公园FC",
+                "en_name": "Queen's Park",
+                "teamId": 1733,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "斯青维尔",
+                "en_name": "Stranraer",
+                "teamId": 1734,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "彼得克",
+                "en_name": "Peterhead",
+                "teamId": 1727,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "东法夫",
+                "en_name": "East Fife",
+                "teamId": 1935,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "斯滕豪斯莫尔",
+                "en_name": "Stenhousemuir",
+                "teamId": 1726,
+                "league": "2016/2017 苏格兰甲级联赛",
+                "pname": ""
+            }
+        ]
+    },
+    {
+        "league": "2016/2017 苏格兰乙級联赛",
+        "leagueId": "3845",
+        "leagueName": "Scotland - League Two",
+        "teams": [
+            {
+                "gb_name": "福弗尔",
+                "en_name": "Forfar Athletic",
+                "teamId": 4943,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "加迪",
+                "en_name": "Clyde",
+                "teamId": 1722,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "阿布罗斯",
+                "en_name": "Arbroath",
+                "teamId": 2147,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "艾珍城",
+                "en_name": "Elgin City",
+                "teamId": 1933,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "安南竞技",
+                "en_name": "Annan Athletic",
+                "teamId": 3902,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "巴维克",
+                "en_name": "Berwick Rangers",
+                "teamId": 1731,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": "Berwick Rangers"
+            },
+            {
+                "gb_name": "艾比安斯特宁",
+                "en_name": "Stirling Albion",
+                "teamId": 1732,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": "Stirling Albion"
+            },
+            {
+                "gb_name": "考登比亚",
+                "en_name": "Cowdenbeath",
+                "teamId": 1736,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "蒙察斯",
+                "en_name": "Montrose",
+                "teamId": 2146,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": ""
+            },
+            {
+                "gb_name": "爱丁堡",
+                "en_name": "Edinburgh City",
+                "teamId": 3903,
+                "league": "2016/2017 苏格兰乙級联赛",
+                "pname": ""
+            }
+        ]
+    }
 ]

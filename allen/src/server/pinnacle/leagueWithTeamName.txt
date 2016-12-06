@@ -307,7 +307,7 @@
         "en_name": "Dundalk",
         "teamId": 2412,
         "league": "2016 爱尔兰超级联赛",
-        "pname": ""
+        "pname": "Dundalk"
       },
       {
         "gb_name": "科克城",
@@ -406,6 +406,13 @@
         "teamId": 1546,
         "league": "2016/2017 阿塞拜疆超级联赛",
         "pname": "FK Qarabag"
+      },
+      {
+          "gb_name": "卡拉巴赫",
+          "en_name": "Qarabag",
+          "teamId": 1546,
+          "league": "2016/2017 阿塞拜疆超级联赛",
+          "pname": "Qarabag"
       },
       {
         "gb_name": "国际巴库",
@@ -7370,7 +7377,7 @@
         "en_name": "FC Astana",
         "teamId": 4425,
         "league": "2016 哈萨克斯坦超级联赛",
-        "pname": ""
+        "pname": "FC Astana"
       },
       {
         "gb_name": "阿拉木图凯拉特",
@@ -11952,6 +11959,7 @@
   {
     "league": "2016/2017 苏格兰乙級联赛",
     "leagueId": "3845",
+    "leagueName": "Scotland - League Two",
     "teams": [
       {
         "gb_name": "福弗尔",
@@ -11993,14 +12001,14 @@
         "en_name": "Berwick Rangers",
         "teamId": 1731,
         "league": "2016/2017 苏格兰乙級联赛",
-        "pname": ""
+        "pname": "Berwick Rangers"
       },
       {
         "gb_name": "艾比安斯特宁",
         "en_name": "Stirling Albion",
         "teamId": 1732,
         "league": "2016/2017 苏格兰乙級联赛",
-        "pname": ""
+        "pname": "Stirling Albion"
       },
       {
         "gb_name": "考登比亚",
@@ -12521,6 +12529,7 @@
   {
     "league": "2016/2017 苏格兰甲级联赛",
     "leagueId": "3844",
+    "leagueName": "Scotland - League One",
     "teams": [
       {
         "gb_name": "利云斯顿",
@@ -12534,7 +12543,7 @@
         "en_name": "Brechin City",
         "teamId": 1725,
         "league": "2016/2017 苏格兰甲级联赛",
-        "pname": ""
+        "pname": "Brechin City"
       },
       {
         "gb_name": "艾洛亚竞技",
@@ -12555,7 +12564,7 @@
         "en_name": "Albion Rovers FC",
         "teamId": 1724,
         "league": "2016/2017 苏格兰甲级联赛",
-        "pname": ""
+        "pname": "Albion Rovers"
       },
       {
         "gb_name": "女王公园FC",
@@ -13737,7 +13746,7 @@
         "en_name": "Dynamo Kyiv",
         "teamId": 890,
         "league": "2016/2017 乌克兰超级联赛",
-        "pname": ""
+        "pname": "Dynamo Kyiv"
       },
       {
         "gb_name": "卢甘斯克黎明",
