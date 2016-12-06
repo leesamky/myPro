@@ -69,14 +69,14 @@ function get_odds(options,callback){
 
                     })
 
-                    let name_league=JSON.parse(fs.readFileSync(__dirname+'/pNames.txt',{encoding:'utf-8'}))
-                    let pname={}
-                    _.forEach(name_league,function(league){
-                        "use strict";
-                        _.forEach(league['teams'],function(team){
-                            pname[team['pname']]=team
-                        })
-                    })
+                    // let name_league=JSON.parse(fs.readFileSync(__dirname+'/pNames.txt',{encoding:'utf-8'}))
+                    // let pname={}
+                    // _.forEach(name_league,function(league){
+                    //     "use strict";
+                    //     _.forEach(league['teams'],function(team){
+                    //         pname[team['pname']]=team
+                    //     })
+                    // })
 
                     let display=[]
                     _.forEach(global.odds,function(oddObj,key,obj){
@@ -84,14 +84,14 @@ function get_odds(options,callback){
                         let odd=obj[key]
                         // fs.writeFileSync('temp.txt',JSON.stringify(odd,null,2),{encoding:'utf-8'})
                         // console.log(odd)
-                        if(!_.isUndefined(pname[odd['home']])&&!_.isUndefined(pname[odd['away']])){
+                        if(!_.isUndefined(global.pname[odd['home']])&&!_.isUndefined(global.pname[odd['away']])){
                             display.push(odd)
                         }
 
                     })
 
                     global.display= _.orderBy(display,['starts','league','matchId','number'],['asc','asc','asc','asc'])
-                    global.update=true
+                    global.updateDisplay=true
                     console.log('update display')
                     // fs.writeFileSync(options['since']+'result.txt',JSON.stringify(result,null,2),{encoding:'utf-8'})
                     //

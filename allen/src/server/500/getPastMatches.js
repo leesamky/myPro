@@ -6,14 +6,14 @@ var async = require('async');
 var fs=require('fs')
 
 var matchInfoModel=require('server/db/model').matchInfo
-global.teamInfo=[]
-var file=JSON.parse(fs.readFileSync(__dirname+'/teamInfo',{encoding:'utf-8'}))
-_.forEach(file,function(match){
-    "use strict";
-    if(!_.isEmpty(match)){
-        global.teamInfo[match['teamId']]=match
-    }
-})
+// global.teamInfo=[]
+// var file=JSON.parse(fs.readFileSync(__dirname+'/teamInfo',{encoding:'utf-8'}))
+// _.forEach(file,function(match){
+//     "use strict";
+//     if(!_.isEmpty(match)){
+//         global.teamInfo[match['teamId']]=match
+//     }
+// })
 
 function objToSave(obj){
     "use strict";

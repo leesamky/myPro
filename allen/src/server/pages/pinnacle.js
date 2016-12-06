@@ -12,6 +12,7 @@ var get_fixtures=require('../pinnacle/get_fixtures')
 var get_leaguesNow=require('../pinnacle/get_leaguesNow')
 var async=require('async')
 var _=require('lodash')
+var updateTeamInfo=require('server/500/updateTeamInfo')
 
 
 

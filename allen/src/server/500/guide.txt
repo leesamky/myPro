@@ -1,0 +1,12 @@
+getPastMatches
+    when visit app.get('/matchIds') first will get the list of matches. Then it will call this file to get the data from 500.com
+    Save the data to the mongodb
+
+updateTeamInfo
+    when start up will call this file. it will check if the teamInfo file was modified within 24 hours, if not, will check
+    the team list from 500.com and save to file and server no matter there is any update
+    The file has two global variable:
+        teamInfo use for getPastMatches
+        updatedTeamList use to indicate if teamInfo is being updated
+
+

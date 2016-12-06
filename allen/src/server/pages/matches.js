@@ -9,34 +9,39 @@ var _=require('lodash')
 //
 var fs=require('fs')
 let name_league=JSON.parse(fs.readFileSync(__dirname+'/pNames.txt',{encoding:'utf-8'}))
-let pname={}
+global.pname={}
 _.forEach(name_league,function(league){
     "use strict";
     _.forEach(league['teams'],function(team){
-        pname[team['pname']]=team
+        global.pname[team['pname']]=team
     })
 })
-app.get('/matchIds',function(req,res){
+app.get('/matchIds',function(req,res){//get data from 500
     "use strict";
-        var teamIds=[]
-        _.forEach(global.display,function(match){
-            "use strict";
+        if(!global.updatedTeamList){
+            res.send('updating team list')
+        }else{
+            var teamIds=[]
+            _.forEach(global.display,function(match){
+                "use strict";
 
-            teamIds.push(pname[match['home']]['teamId'],pname[match['away']]['teamId'])
-        })
-        teamIds=_.uniq(teamIds)
-        async.eachLimit(teamIds,5,getPastMatches,function(err){
-            mongoose.connection.close()
-            console.log('done updating past matches')
-        })
-        res.send(teamIds)
+                teamIds.push(pname[match['home']]['teamId'],pname[match['away']]['teamId'])
+            })
+            teamIds=_.uniq(teamIds)
+            async.eachLimit(teamIds,5,getPastMatches,function(err){
+                // mongoose.connection.close()
+                console.log('done updating past matches')
+            })
+            res.send(teamIds)
+        }
+
 
 
 })
 
 app.get('/display',function(req,res){
     "use strict";
-    if(global.update){
+    if(global.updateDisplay){
         let data=[]
         _.forEach(global.display,function(match){
             if(match.number===0){
@@ -46,7 +51,7 @@ app.get('/display',function(req,res){
             }
         })
         res.send(_.orderBy(data,['starts','league','matchId','number'],['asc','asc','asc','asc']))
-        global.update=false
+        global.updateDisplay=false
         // console.log('send to client')
     }else{
         res.send(null)
@@ -93,7 +98,7 @@ app.get('/missingMatches',function(req,res){
 
         })
         missingMatch=_.groupBy(missingMatch,'league')
-        fs.writeFileSync(__dirname+'/missingMatch.txt',JSON.stringify(missingMatch,null,2),{encoding:'utf-8'})
+        fs.writeFileSync(__dirname+'/missingMatches.txt',JSON.stringify(missingMatch,null,2),{encoding:'utf-8'})
         res.send(missingMatch)
     }
 })

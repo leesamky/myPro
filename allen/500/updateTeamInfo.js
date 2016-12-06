@@ -3,14 +3,14 @@ var teamModel=require('./model').teamInfo
 var _=require('lodash')
 var request=require('request')
 var fs=require('fs')
-var getTeaminfo=require('./getTeamInfo')//init the global variable
+// var getTeaminfo=require('./getTeamInfo')//init the global variable
 var cheerio=require('cheerio')
 var iconv=require('iconv-lite')
 var async=require('async')
 var file=JSON.parse(fs.readFileSync('teamInfo',{encoding:'utf-8'}))
 var mongoose=require('mongoose')
 global.teamInfo=[]
-global.teamMissing=[]
+var teamMissing=[]
 var teamIds=[]
 var completeIds=[]
 for(let i=1;i<=9999;i++){
@@ -24,8 +24,14 @@ _.forEach(file,function(obj,index,arr){
         teamInfo[obj.teamId] = obj
     }
 })
-
-teamMissing=_.difference(completeIds,teamIds)
+var temp=_.difference(completeIds,teamIds)
+_.forEach(temp,function(v){
+    "use strict";
+    if(v>9300){
+        teamMissing.push(v)
+    }
+})
+// console.log(teamMissing)
 
 var update=false
 
@@ -92,8 +98,9 @@ async.eachLimit(teamMissing,8,updateTeamInfo,function(err){
             "use strict";
             if(error){console.log(error)}
             else{
-                console.log(result)
+                // console.log(result)
                 console.log('end of the app')
+                mongoose.connection.close()
             }
         })
     }else{

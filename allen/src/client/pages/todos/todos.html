@@ -13,7 +13,7 @@
             <th>away</th>
             <th>moneyLine</th>
         </tr>
-        <tr ng-repeat="todo in todos">
+        <tr ng-repeat-start="todo in todos">
             <td>
                 {{todo['league']}}
             </td>
@@ -29,6 +29,14 @@
             <td>
                 <span>{{todo.moneyline}}</span>
             </td>
+        </tr>
+        <tr ng-repeat-end>
+            <td>Full Time Money Line</td>
+            <td>
+                <span>{{todo.home}}  {{todo.moneyline.home}}  Draw  {{todo.moneyline.draw}}  {{todo.away}}  {{todo.moneyline.away}}</span>
+            </td>
+            <td>First Half Money Line</td>
+            <td></td>
         </tr>
     </table>
 
